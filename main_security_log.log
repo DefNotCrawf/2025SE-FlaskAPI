@@ -19815,3 +19815,786 @@
 2024-11-06 10:12:28,946 127.0.0.1 - - [06/Nov/2024 10:12:28] "GET /static/images/favicon.png HTTP/1.1" 200 -
 2024-11-06 10:12:29,836 {"csp-report":{"document-uri":"https://psychic-space-computing-machine-v9rwv999rpr2wq69-5000.app.github.dev/","referrer":"https://psychic-space-computing-machine-v9rwv999rpr2wq69.github.dev/","violated-directive":"manifest-src","effective-directive":"manifest-src","original-policy":"script-src 'self'; img-src 'self' https://medo64.gallerycdn.vsassets.io; child-src 'self'; default-src 'self'; style-src 'self'; media-src 'self'; object-src 'self'; connect-src 'self'; report-uri /csp_report; frame-ancestors none","disposition":"enforce","blocked-uri":"https://psychic-space-computing-machine-v9rwv999rpr2wq69-5000.app.github.dev/static/manifest.json","status-code":200,"script-sample":""}}
 2024-11-06 10:12:29,836 127.0.0.1 - - [06/Nov/2024 10:12:29] "POST /csp_report HTTP/1.1" 200 -
+2024-11-06 22:10:32,152 [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.0.0.14:5000
+2024-11-06 22:10:32,152 [33mPress CTRL+C to quit[0m
+2024-11-06 22:10:32,152  * Restarting with stat
+2024-11-06 22:10:32,377  * Debugger is active!
+2024-11-06 22:10:32,377  * Debugger PIN: 316-145-997
+2024-11-06 22:10:33,585 Starting new HTTP connection (1): 127.0.0.1:3000
+2024-11-06 22:10:33,592 127.0.0.1 - - [06/Nov/2024 22:10:33] "GET /?vscodeBrowserReqId=1730931033509 HTTP/1.1" 200 -
+2024-11-06 22:10:36,788 Starting new HTTP connection (1): 127.0.0.1:3000
+2024-11-06 22:10:36,789 127.0.0.1 - - [06/Nov/2024 22:10:36] "GET / HTTP/1.1" 200 -
+2024-11-06 22:10:36,832 127.0.0.1 - - [06/Nov/2024 22:10:36] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2024-11-06 22:10:36,973 127.0.0.1 - - [06/Nov/2024 22:10:36] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2024-11-06 22:10:36,985 127.0.0.1 - - [06/Nov/2024 22:10:36] "[36mGET /static/images/logo.png HTTP/1.1[0m" 304 -
+2024-11-06 22:10:36,992 127.0.0.1 - - [06/Nov/2024 22:10:36] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2024-11-06 22:10:37,157 127.0.0.1 - - [06/Nov/2024 22:10:37] "[36mGET /static/js/serviceWorker.js HTTP/1.1[0m" 304 -
+2024-11-06 22:10:37,181 127.0.0.1 - - [06/Nov/2024 22:10:37] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2024-11-06 22:10:37,256 {"csp-report":{"document-uri":"https://psychic-space-computing-machine-v9rwv999rpr2wq69-5000.app.github.dev/","referrer":"https://psychic-space-computing-machine-v9rwv999rpr2wq69.github.dev/","violated-directive":"manifest-src","effective-directive":"manifest-src","original-policy":"script-src 'self'; img-src 'self' https://medo64.gallerycdn.vsassets.io; child-src 'self'; default-src 'self'; style-src 'self'; media-src 'self'; object-src 'self'; connect-src 'self'; report-uri /csp_report; frame-ancestors none","disposition":"enforce","blocked-uri":"https://psychic-space-computing-machine-v9rwv999rpr2wq69-5000.app.github.dev/static/manifest.json","status-code":200,"script-sample":""}}
+2024-11-06 22:10:37,256 127.0.0.1 - - [06/Nov/2024 22:10:37] "POST /csp_report HTTP/1.1" 200 -
+2024-11-06 22:10:38,959 Starting new HTTP connection (1): 127.0.0.1:3000
+2024-11-06 22:10:38,960 127.0.0.1 - - [06/Nov/2024 22:10:38] "GET / HTTP/1.1" 200 -
+2024-11-06 22:10:38,997 127.0.0.1 - - [06/Nov/2024 22:10:38] "GET /static/css/style.css HTTP/1.1" 200 -
+2024-11-06 22:10:38,997 127.0.0.1 - - [06/Nov/2024 22:10:38] "GET /static/css/bootstrap.min.css HTTP/1.1" 200 -
+2024-11-06 22:10:38,997 127.0.0.1 - - [06/Nov/2024 22:10:38] "GET /static/images/logo.png HTTP/1.1" 200 -
+2024-11-06 22:10:38,998 127.0.0.1 - - [06/Nov/2024 22:10:38] "GET /static/js/bootstrap.bundle.min.js HTTP/1.1" 200 -
+2024-11-06 22:10:39,040 127.0.0.1 - - [06/Nov/2024 22:10:39] "GET /static/js/serviceWorker.js HTTP/1.1" 200 -
+2024-11-06 22:10:39,064 127.0.0.1 - - [06/Nov/2024 22:10:39] "GET /static/js/app.js HTTP/1.1" 200 -
+2024-11-06 22:10:39,092 127.0.0.1 - - [06/Nov/2024 22:10:39] "GET /static/images/favicon.png HTTP/1.1" 200 -
+2024-11-06 22:10:39,118 {"csp-report":{"document-uri":"https://psychic-space-computing-machine-v9rwv999rpr2wq69-5000.app.github.dev/","referrer":"https://psychic-space-computing-machine-v9rwv999rpr2wq69.github.dev/","violated-directive":"manifest-src","effective-directive":"manifest-src","original-policy":"script-src 'self'; img-src 'self' https://medo64.gallerycdn.vsassets.io; child-src 'self'; default-src 'self'; style-src 'self'; media-src 'self'; object-src 'self'; connect-src 'self'; report-uri /csp_report; frame-ancestors none","disposition":"enforce","blocked-uri":"https://psychic-space-computing-machine-v9rwv999rpr2wq69-5000.app.github.dev/static/manifest.json","status-code":200,"script-sample":""}}
+2024-11-06 22:10:39,119 127.0.0.1 - - [06/Nov/2024 22:10:39] "POST /csp_report HTTP/1.1" 200 -
+2024-11-06 22:10:57,907 Starting new HTTP connection (1): 127.0.0.1:3000
+2024-11-06 22:10:57,911 http://127.0.0.1:3000 "GET / HTTP/11" 200 1521
+2024-11-06 22:10:57,912 127.0.0.1 - - [06/Nov/2024 22:10:57] "GET / HTTP/1.1" 200 -
+2024-11-06 22:10:57,948 127.0.0.1 - - [06/Nov/2024 22:10:57] "GET /static/css/bootstrap.min.css HTTP/1.1" 200 -
+2024-11-06 22:10:57,951 127.0.0.1 - - [06/Nov/2024 22:10:57] "GET /static/js/bootstrap.bundle.min.js HTTP/1.1" 200 -
+2024-11-06 22:10:57,953 {"csp-report":{"document-uri":"https://psychic-space-computing-machine-v9rwv999rpr2wq69-5000.app.github.dev/","referrer":"https://psychic-space-computing-machine-v9rwv999rpr2wq69.github.dev/","violated-directive":"img-src","effective-directive":"img-src","original-policy":"script-src 'self'; img-src 'self' https://medo64.gallerycdn.vsassets.io; child-src 'self'; default-src 'self'; style-src 'self'; media-src 'self'; object-src 'self'; connect-src 'self'; report-uri /csp_report; frame-ancestors none","disposition":"enforce","blocked-uri":"https://yy0931.gallerycdn.vsassets.io/extensions/yy0931/vscode-sqlite3-editor/1.0.85/1690893830873/Microsoft.VisualStudio.Services.Icons.Default","line-number":142,"source-file":"https://psychic-space-computing-machine-v9rwv999rpr2wq69-5000.app.github.dev/","status-code":200,"script-sample":""}}
+2024-11-06 22:10:57,953 127.0.0.1 - - [06/Nov/2024 22:10:57] "GET /static/images/logo.png HTTP/1.1" 200 -
+2024-11-06 22:10:57,953 127.0.0.1 - - [06/Nov/2024 22:10:57] "POST /csp_report HTTP/1.1" 200 -
+2024-11-06 22:10:57,954 127.0.0.1 - - [06/Nov/2024 22:10:57] "GET /static/css/style.css HTTP/1.1" 200 -
+2024-11-06 22:10:57,956 {"csp-report":{"document-uri":"https://psychic-space-computing-machine-v9rwv999rpr2wq69-5000.app.github.dev/","referrer":"https://psychic-space-computing-machine-v9rwv999rpr2wq69.github.dev/","violated-directive":"img-src","effective-directive":"img-src","original-policy":"script-src 'self'; img-src 'self' https://medo64.gallerycdn.vsassets.io; child-src 'self'; default-src 'self'; style-src 'self'; media-src 'self'; object-src 'self'; connect-src 'self'; report-uri /csp_report; frame-ancestors none","disposition":"enforce","blocked-uri":"https://mccarter.gallerycdn.vsassets.io/extensions/mccarter/start-git-bash/1.2.1/1499505567572/Microsoft.VisualStudio.Services.Icons.Default","line-number":142,"source-file":"https://psychic-space-computing-machine-v9rwv999rpr2wq69-5000.app.github.dev/","status-code":200,"script-sample":""}}
+2024-11-06 22:10:57,957 {"csp-report":{"document-uri":"https://psychic-space-computing-machine-v9rwv999rpr2wq69-5000.app.github.dev/","referrer":"https://psychic-space-computing-machine-v9rwv999rpr2wq69.github.dev/","violated-directive":"img-src","effective-directive":"img-src","original-policy":"script-src 'self'; img-src 'self' https://medo64.gallerycdn.vsassets.io; child-src 'self'; default-src 'self'; style-src 'self'; media-src 'self'; object-src 'self'; connect-src 'self'; report-uri /csp_report; frame-ancestors none","disposition":"enforce","blocked-uri":"https://test.jpg/","line-number":142,"source-file":"https://psychic-space-computing-machine-v9rwv999rpr2wq69-5000.app.github.dev/","status-code":200,"script-sample":""}}
+2024-11-06 22:10:57,958 127.0.0.1 - - [06/Nov/2024 22:10:57] "POST /csp_report HTTP/1.1" 200 -
+2024-11-06 22:10:57,958 127.0.0.1 - - [06/Nov/2024 22:10:57] "POST /csp_report HTTP/1.1" 200 -
+2024-11-06 22:10:57,996 127.0.0.1 - - [06/Nov/2024 22:10:57] "GET /static/js/serviceWorker.js HTTP/1.1" 200 -
+2024-11-06 22:10:58,039 127.0.0.1 - - [06/Nov/2024 22:10:58] "GET /static/js/app.js HTTP/1.1" 200 -
+2024-11-06 22:10:58,071 127.0.0.1 - - [06/Nov/2024 22:10:58] "GET /static/images/favicon.png HTTP/1.1" 200 -
+2024-11-06 22:10:58,090 {"csp-report":{"document-uri":"https://psychic-space-computing-machine-v9rwv999rpr2wq69-5000.app.github.dev/","referrer":"https://psychic-space-computing-machine-v9rwv999rpr2wq69.github.dev/","violated-directive":"manifest-src","effective-directive":"manifest-src","original-policy":"script-src 'self'; img-src 'self' https://medo64.gallerycdn.vsassets.io; child-src 'self'; default-src 'self'; style-src 'self'; media-src 'self'; object-src 'self'; connect-src 'self'; report-uri /csp_report; frame-ancestors none","disposition":"enforce","blocked-uri":"https://psychic-space-computing-machine-v9rwv999rpr2wq69-5000.app.github.dev/static/manifest.json","status-code":200,"script-sample":""}}
+2024-11-06 22:10:58,090 127.0.0.1 - - [06/Nov/2024 22:10:58] "POST /csp_report HTTP/1.1" 200 -
+2024-11-06 22:11:01,301 127.0.0.1 - - [06/Nov/2024 22:11:01] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2024-11-06 22:11:01,301 127.0.0.1 - - [06/Nov/2024 22:11:01] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2024-11-06 22:11:01,344 127.0.0.1 - - [06/Nov/2024 22:11:01] "[33mGET /static/js/bootstrap.bundle.min.js.map HTTP/1.1[0m" 404 -
+2024-11-06 22:11:01,357 127.0.0.1 - - [06/Nov/2024 22:11:01] "[33mGET /static/css/bootstrap.min.css.map HTTP/1.1[0m" 404 -
+2024-11-06 22:12:32,833  * Detected change in '/workspaces/2025SE-FlaskAPI/main.py', reloading
+2024-11-06 22:12:32,866  * Restarting with stat
+2024-11-06 22:12:33,097  * Debugger is active!
+2024-11-06 22:12:33,097  * Debugger PIN: 316-145-997
+2024-11-06 22:12:33,914  * Detected change in '/workspaces/2025SE-FlaskAPI/main.py', reloading
+2024-11-06 22:12:33,950  * Restarting with stat
+2024-11-06 22:12:34,175  * Debugger is active!
+2024-11-06 22:12:34,176  * Debugger PIN: 316-145-997
+2024-11-06 22:12:39,929 [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.0.0.14:5000
+2024-11-06 22:12:39,930 [33mPress CTRL+C to quit[0m
+2024-11-06 22:12:39,930  * Restarting with stat
+2024-11-06 22:12:40,154  * Debugger is active!
+2024-11-06 22:12:40,154  * Debugger PIN: 316-145-997
+2024-11-06 22:12:42,225 Starting new HTTP connection (1): 127.0.0.1:3000
+2024-11-06 22:12:42,228 http://127.0.0.1:3000 "GET / HTTP/11" 200 1521
+2024-11-06 22:12:42,235 127.0.0.1 - - [06/Nov/2024 22:12:42] "GET /?vscodeBrowserReqId=1730931162126 HTTP/1.1" 200 -
+2024-11-06 22:12:46,065 Starting new HTTP connection (1): 127.0.0.1:3000
+2024-11-06 22:12:46,067 http://127.0.0.1:3000 "GET / HTTP/11" 200 1521
+2024-11-06 22:12:46,068 127.0.0.1 - - [06/Nov/2024 22:12:46] "GET / HTTP/1.1" 200 -
+2024-11-06 22:12:46,113 {"csp-report":{"document-uri":"https://psychic-space-computing-machine-v9rwv999rpr2wq69-5000.app.github.dev/","referrer":"https://psychic-space-computing-machine-v9rwv999rpr2wq69.github.dev/","violated-directive":"img-src","effective-directive":"img-src","original-policy":"script-src 'self'; img-src 'self'; child-src 'self'; default-src 'self'; style-src 'self'; media-src 'self'; object-src 'self'; connect-src 'self'; report-uri /csp_report; frame-ancestors none","disposition":"enforce","blocked-uri":"https://test.jpg/","line-number":142,"source-file":"https://psychic-space-computing-machine-v9rwv999rpr2wq69-5000.app.github.dev/","status-code":200,"script-sample":""}}
+2024-11-06 22:12:46,114 127.0.0.1 - - [06/Nov/2024 22:12:46] "POST /csp_report HTTP/1.1" 200 -
+2024-11-06 22:12:46,114 127.0.0.1 - - [06/Nov/2024 22:12:46] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2024-11-06 22:12:46,121 {"csp-report":{"document-uri":"https://psychic-space-computing-machine-v9rwv999rpr2wq69-5000.app.github.dev/","referrer":"https://psychic-space-computing-machine-v9rwv999rpr2wq69.github.dev/","violated-directive":"img-src","effective-directive":"img-src","original-policy":"script-src 'self'; img-src 'self'; child-src 'self'; default-src 'self'; style-src 'self'; media-src 'self'; object-src 'self'; connect-src 'self'; report-uri /csp_report; frame-ancestors none","disposition":"enforce","blocked-uri":"https://mccarter.gallerycdn.vsassets.io/extensions/mccarter/start-git-bash/1.2.1/1499505567572/Microsoft.VisualStudio.Services.Icons.Default","line-number":142,"source-file":"https://psychic-space-computing-machine-v9rwv999rpr2wq69-5000.app.github.dev/","status-code":200,"script-sample":""}}
+2024-11-06 22:12:46,121 127.0.0.1 - - [06/Nov/2024 22:12:46] "POST /csp_report HTTP/1.1" 200 -
+2024-11-06 22:12:46,128 127.0.0.1 - - [06/Nov/2024 22:12:46] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2024-11-06 22:12:46,129 127.0.0.1 - - [06/Nov/2024 22:12:46] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2024-11-06 22:12:46,173 127.0.0.1 - - [06/Nov/2024 22:12:46] "[36mGET /static/js/serviceWorker.js HTTP/1.1[0m" 304 -
+2024-11-06 22:12:46,276 {"csp-report":{"document-uri":"https://psychic-space-computing-machine-v9rwv999rpr2wq69-5000.app.github.dev/","referrer":"https://psychic-space-computing-machine-v9rwv999rpr2wq69.github.dev/","violated-directive":"img-src","effective-directive":"img-src","original-policy":"script-src 'self'; img-src 'self'; child-src 'self'; default-src 'self'; style-src 'self'; media-src 'self'; object-src 'self'; connect-src 'self'; report-uri /csp_report; frame-ancestors none","disposition":"enforce","blocked-uri":"https://medo64.gallerycdn.vsassets.io/extensions/medo64/render-crlf/1.7.1/1689315206970/Microsoft.VisualStudio.Services.Icons.Default","line-number":142,"source-file":"https://psychic-space-computing-machine-v9rwv999rpr2wq69-5000.app.github.dev/","status-code":200,"script-sample":""}}
+2024-11-06 22:12:46,276 127.0.0.1 - - [06/Nov/2024 22:12:46] "[36mGET /static/images/logo.png HTTP/1.1[0m" 304 -
+2024-11-06 22:12:46,276 127.0.0.1 - - [06/Nov/2024 22:12:46] "POST /csp_report HTTP/1.1" 200 -
+2024-11-06 22:12:46,280 {"csp-report":{"document-uri":"https://psychic-space-computing-machine-v9rwv999rpr2wq69-5000.app.github.dev/","referrer":"https://psychic-space-computing-machine-v9rwv999rpr2wq69.github.dev/","violated-directive":"img-src","effective-directive":"img-src","original-policy":"script-src 'self'; img-src 'self'; child-src 'self'; default-src 'self'; style-src 'self'; media-src 'self'; object-src 'self'; connect-src 'self'; report-uri /csp_report; frame-ancestors none","disposition":"enforce","blocked-uri":"https://yy0931.gallerycdn.vsassets.io/extensions/yy0931/vscode-sqlite3-editor/1.0.85/1690893830873/Microsoft.VisualStudio.Services.Icons.Default","line-number":142,"source-file":"https://psychic-space-computing-machine-v9rwv999rpr2wq69-5000.app.github.dev/","status-code":200,"script-sample":""}}
+2024-11-06 22:12:46,280 127.0.0.1 - - [06/Nov/2024 22:12:46] "POST /csp_report HTTP/1.1" 200 -
+2024-11-06 22:12:46,281 127.0.0.1 - - [06/Nov/2024 22:12:46] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2024-11-06 22:12:46,361 {"csp-report":{"document-uri":"https://psychic-space-computing-machine-v9rwv999rpr2wq69-5000.app.github.dev/","referrer":"https://psychic-space-computing-machine-v9rwv999rpr2wq69.github.dev/","violated-directive":"manifest-src","effective-directive":"manifest-src","original-policy":"script-src 'self'; img-src 'self'; child-src 'self'; default-src 'self'; style-src 'self'; media-src 'self'; object-src 'self'; connect-src 'self'; report-uri /csp_report; frame-ancestors none","disposition":"enforce","blocked-uri":"https://psychic-space-computing-machine-v9rwv999rpr2wq69-5000.app.github.dev/static/manifest.json","status-code":200,"script-sample":""}}
+2024-11-06 22:12:46,361 127.0.0.1 - - [06/Nov/2024 22:12:46] "POST /csp_report HTTP/1.1" 200 -
+2024-11-06 22:12:47,217 Starting new HTTP connection (1): 127.0.0.1:3000
+2024-11-06 22:12:47,219 http://127.0.0.1:3000 "GET / HTTP/11" 200 1521
+2024-11-06 22:12:47,220 127.0.0.1 - - [06/Nov/2024 22:12:47] "GET / HTTP/1.1" 200 -
+2024-11-06 22:12:47,258 127.0.0.1 - - [06/Nov/2024 22:12:47] "GET /static/css/bootstrap.min.css HTTP/1.1" 200 -
+2024-11-06 22:12:47,259 {"csp-report":{"document-uri":"https://psychic-space-computing-machine-v9rwv999rpr2wq69-5000.app.github.dev/","referrer":"https://psychic-space-computing-machine-v9rwv999rpr2wq69.github.dev/","violated-directive":"img-src","effective-directive":"img-src","original-policy":"script-src 'self'; img-src 'self'; child-src 'self'; default-src 'self'; style-src 'self'; media-src 'self'; object-src 'self'; connect-src 'self'; report-uri /csp_report; frame-ancestors none","disposition":"enforce","blocked-uri":"https://yy0931.gallerycdn.vsassets.io/extensions/yy0931/vscode-sqlite3-editor/1.0.85/1690893830873/Microsoft.VisualStudio.Services.Icons.Default","line-number":142,"source-file":"https://psychic-space-computing-machine-v9rwv999rpr2wq69-5000.app.github.dev/","status-code":200,"script-sample":""}}
+2024-11-06 22:12:47,260 127.0.0.1 - - [06/Nov/2024 22:12:47] "POST /csp_report HTTP/1.1" 200 -
+2024-11-06 22:12:47,261 127.0.0.1 - - [06/Nov/2024 22:12:47] "GET /static/images/logo.png HTTP/1.1" 200 -
+2024-11-06 22:12:47,266 {"csp-report":{"document-uri":"https://psychic-space-computing-machine-v9rwv999rpr2wq69-5000.app.github.dev/","referrer":"https://psychic-space-computing-machine-v9rwv999rpr2wq69.github.dev/","violated-directive":"img-src","effective-directive":"img-src","original-policy":"script-src 'self'; img-src 'self'; child-src 'self'; default-src 'self'; style-src 'self'; media-src 'self'; object-src 'self'; connect-src 'self'; report-uri /csp_report; frame-ancestors none","disposition":"enforce","blocked-uri":"https://mccarter.gallerycdn.vsassets.io/extensions/mccarter/start-git-bash/1.2.1/1499505567572/Microsoft.VisualStudio.Services.Icons.Default","line-number":142,"source-file":"https://psychic-space-computing-machine-v9rwv999rpr2wq69-5000.app.github.dev/","status-code":200,"script-sample":""}}
+2024-11-06 22:12:47,266 127.0.0.1 - - [06/Nov/2024 22:12:47] "POST /csp_report HTTP/1.1" 200 -
+2024-11-06 22:12:47,267 {"csp-report":{"document-uri":"https://psychic-space-computing-machine-v9rwv999rpr2wq69-5000.app.github.dev/","referrer":"https://psychic-space-computing-machine-v9rwv999rpr2wq69.github.dev/","violated-directive":"img-src","effective-directive":"img-src","original-policy":"script-src 'self'; img-src 'self'; child-src 'self'; default-src 'self'; style-src 'self'; media-src 'self'; object-src 'self'; connect-src 'self'; report-uri /csp_report; frame-ancestors none","disposition":"enforce","blocked-uri":"https://test.jpg/","line-number":142,"source-file":"https://psychic-space-computing-machine-v9rwv999rpr2wq69-5000.app.github.dev/","status-code":200,"script-sample":""}}
+2024-11-06 22:12:47,268 {"csp-report":{"document-uri":"https://psychic-space-computing-machine-v9rwv999rpr2wq69-5000.app.github.dev/","referrer":"https://psychic-space-computing-machine-v9rwv999rpr2wq69.github.dev/","violated-directive":"img-src","effective-directive":"img-src","original-policy":"script-src 'self'; img-src 'self'; child-src 'self'; default-src 'self'; style-src 'self'; media-src 'self'; object-src 'self'; connect-src 'self'; report-uri /csp_report; frame-ancestors none","disposition":"enforce","blocked-uri":"https://medo64.gallerycdn.vsassets.io/extensions/medo64/render-crlf/1.7.1/1689315206970/Microsoft.VisualStudio.Services.Icons.Default","line-number":142,"source-file":"https://psychic-space-computing-machine-v9rwv999rpr2wq69-5000.app.github.dev/","status-code":200,"script-sample":""}}
+2024-11-06 22:12:47,269 127.0.0.1 - - [06/Nov/2024 22:12:47] "POST /csp_report HTTP/1.1" 200 -
+2024-11-06 22:12:47,269 127.0.0.1 - - [06/Nov/2024 22:12:47] "GET /static/css/style.css HTTP/1.1" 200 -
+2024-11-06 22:12:47,269 127.0.0.1 - - [06/Nov/2024 22:12:47] "POST /csp_report HTTP/1.1" 200 -
+2024-11-06 22:12:47,270 127.0.0.1 - - [06/Nov/2024 22:12:47] "GET /static/js/bootstrap.bundle.min.js HTTP/1.1" 200 -
+2024-11-06 22:12:47,299 127.0.0.1 - - [06/Nov/2024 22:12:47] "GET /static/js/serviceWorker.js HTTP/1.1" 200 -
+2024-11-06 22:12:47,321 127.0.0.1 - - [06/Nov/2024 22:12:47] "GET /static/js/app.js HTTP/1.1" 200 -
+2024-11-06 22:12:47,350 127.0.0.1 - - [06/Nov/2024 22:12:47] "GET /static/images/favicon.png HTTP/1.1" 200 -
+2024-11-06 22:12:47,378 {"csp-report":{"document-uri":"https://psychic-space-computing-machine-v9rwv999rpr2wq69-5000.app.github.dev/","referrer":"https://psychic-space-computing-machine-v9rwv999rpr2wq69.github.dev/","violated-directive":"manifest-src","effective-directive":"manifest-src","original-policy":"script-src 'self'; img-src 'self'; child-src 'self'; default-src 'self'; style-src 'self'; media-src 'self'; object-src 'self'; connect-src 'self'; report-uri /csp_report; frame-ancestors none","disposition":"enforce","blocked-uri":"https://psychic-space-computing-machine-v9rwv999rpr2wq69-5000.app.github.dev/static/manifest.json","status-code":200,"script-sample":""}}
+2024-11-06 22:12:47,378 127.0.0.1 - - [06/Nov/2024 22:12:47] "POST /csp_report HTTP/1.1" 200 -
+2024-11-06 22:12:47,889 Starting new HTTP connection (1): 127.0.0.1:3000
+2024-11-06 22:12:47,892 http://127.0.0.1:3000 "GET / HTTP/11" 200 1521
+2024-11-06 22:12:47,893 127.0.0.1 - - [06/Nov/2024 22:12:47] "GET / HTTP/1.1" 200 -
+2024-11-06 22:12:47,932 127.0.0.1 - - [06/Nov/2024 22:12:47] "GET /static/css/style.css HTTP/1.1" 200 -
+2024-11-06 22:12:47,933 {"csp-report":{"document-uri":"https://psychic-space-computing-machine-v9rwv999rpr2wq69-5000.app.github.dev/","referrer":"https://psychic-space-computing-machine-v9rwv999rpr2wq69.github.dev/","violated-directive":"img-src","effective-directive":"img-src","original-policy":"script-src 'self'; img-src 'self'; child-src 'self'; default-src 'self'; style-src 'self'; media-src 'self'; object-src 'self'; connect-src 'self'; report-uri /csp_report; frame-ancestors none","disposition":"enforce","blocked-uri":"https://mccarter.gallerycdn.vsassets.io/extensions/mccarter/start-git-bash/1.2.1/1499505567572/Microsoft.VisualStudio.Services.Icons.Default","line-number":142,"source-file":"https://psychic-space-computing-machine-v9rwv999rpr2wq69-5000.app.github.dev/","status-code":200,"script-sample":""}}
+2024-11-06 22:12:47,933 127.0.0.1 - - [06/Nov/2024 22:12:47] "POST /csp_report HTTP/1.1" 200 -
+2024-11-06 22:12:47,935 127.0.0.1 - - [06/Nov/2024 22:12:47] "GET /static/css/bootstrap.min.css HTTP/1.1" 200 -
+2024-11-06 22:12:47,935 127.0.0.1 - - [06/Nov/2024 22:12:47] "GET /static/images/logo.png HTTP/1.1" 200 -
+2024-11-06 22:12:47,936 {"csp-report":{"document-uri":"https://psychic-space-computing-machine-v9rwv999rpr2wq69-5000.app.github.dev/","referrer":"https://psychic-space-computing-machine-v9rwv999rpr2wq69.github.dev/","violated-directive":"img-src","effective-directive":"img-src","original-policy":"script-src 'self'; img-src 'self'; child-src 'self'; default-src 'self'; style-src 'self'; media-src 'self'; object-src 'self'; connect-src 'self'; report-uri /csp_report; frame-ancestors none","disposition":"enforce","blocked-uri":"https://yy0931.gallerycdn.vsassets.io/extensions/yy0931/vscode-sqlite3-editor/1.0.85/1690893830873/Microsoft.VisualStudio.Services.Icons.Default","line-number":142,"source-file":"https://psychic-space-computing-machine-v9rwv999rpr2wq69-5000.app.github.dev/","status-code":200,"script-sample":""}}
+2024-11-06 22:12:47,936 127.0.0.1 - - [06/Nov/2024 22:12:47] "POST /csp_report HTTP/1.1" 200 -
+2024-11-06 22:12:47,940 127.0.0.1 - - [06/Nov/2024 22:12:47] "GET /static/js/bootstrap.bundle.min.js HTTP/1.1" 200 -
+2024-11-06 22:12:47,947 {"csp-report":{"document-uri":"https://psychic-space-computing-machine-v9rwv999rpr2wq69-5000.app.github.dev/","referrer":"https://psychic-space-computing-machine-v9rwv999rpr2wq69.github.dev/","violated-directive":"img-src","effective-directive":"img-src","original-policy":"script-src 'self'; img-src 'self'; child-src 'self'; default-src 'self'; style-src 'self'; media-src 'self'; object-src 'self'; connect-src 'self'; report-uri /csp_report; frame-ancestors none","disposition":"enforce","blocked-uri":"https://medo64.gallerycdn.vsassets.io/extensions/medo64/render-crlf/1.7.1/1689315206970/Microsoft.VisualStudio.Services.Icons.Default","line-number":142,"source-file":"https://psychic-space-computing-machine-v9rwv999rpr2wq69-5000.app.github.dev/","status-code":200,"script-sample":""}}
+2024-11-06 22:12:47,948 {"csp-report":{"document-uri":"https://psychic-space-computing-machine-v9rwv999rpr2wq69-5000.app.github.dev/","referrer":"https://psychic-space-computing-machine-v9rwv999rpr2wq69.github.dev/","violated-directive":"img-src","effective-directive":"img-src","original-policy":"script-src 'self'; img-src 'self'; child-src 'self'; default-src 'self'; style-src 'self'; media-src 'self'; object-src 'self'; connect-src 'self'; report-uri /csp_report; frame-ancestors none","disposition":"enforce","blocked-uri":"https://test.jpg/","line-number":142,"source-file":"https://psychic-space-computing-machine-v9rwv999rpr2wq69-5000.app.github.dev/","status-code":200,"script-sample":""}}
+2024-11-06 22:12:47,948 127.0.0.1 - - [06/Nov/2024 22:12:47] "POST /csp_report HTTP/1.1" 200 -
+2024-11-06 22:12:47,948 127.0.0.1 - - [06/Nov/2024 22:12:47] "POST /csp_report HTTP/1.1" 200 -
+2024-11-06 22:12:47,972 127.0.0.1 - - [06/Nov/2024 22:12:47] "GET /static/js/serviceWorker.js HTTP/1.1" 200 -
+2024-11-06 22:12:47,991 127.0.0.1 - - [06/Nov/2024 22:12:47] "GET /static/js/app.js HTTP/1.1" 200 -
+2024-11-06 22:12:48,017 127.0.0.1 - - [06/Nov/2024 22:12:48] "GET /static/images/favicon.png HTTP/1.1" 200 -
+2024-11-06 22:12:48,043 {"csp-report":{"document-uri":"https://psychic-space-computing-machine-v9rwv999rpr2wq69-5000.app.github.dev/","referrer":"https://psychic-space-computing-machine-v9rwv999rpr2wq69.github.dev/","violated-directive":"manifest-src","effective-directive":"manifest-src","original-policy":"script-src 'self'; img-src 'self'; child-src 'self'; default-src 'self'; style-src 'self'; media-src 'self'; object-src 'self'; connect-src 'self'; report-uri /csp_report; frame-ancestors none","disposition":"enforce","blocked-uri":"https://psychic-space-computing-machine-v9rwv999rpr2wq69-5000.app.github.dev/static/manifest.json","status-code":200,"script-sample":""}}
+2024-11-06 22:12:48,043 127.0.0.1 - - [06/Nov/2024 22:12:48] "POST /csp_report HTTP/1.1" 200 -
+2024-11-06 22:12:48,061 Starting new HTTP connection (1): 127.0.0.1:3000
+2024-11-06 22:12:48,064 http://127.0.0.1:3000 "GET / HTTP/11" 200 1521
+2024-11-06 22:12:48,064 127.0.0.1 - - [06/Nov/2024 22:12:48] "GET / HTTP/1.1" 200 -
+2024-11-06 22:12:48,102 {"csp-report":{"document-uri":"https://psychic-space-computing-machine-v9rwv999rpr2wq69-5000.app.github.dev/","referrer":"https://psychic-space-computing-machine-v9rwv999rpr2wq69.github.dev/","violated-directive":"img-src","effective-directive":"img-src","original-policy":"script-src 'self'; img-src 'self'; child-src 'self'; default-src 'self'; style-src 'self'; media-src 'self'; object-src 'self'; connect-src 'self'; report-uri /csp_report; frame-ancestors none","disposition":"enforce","blocked-uri":"https://yy0931.gallerycdn.vsassets.io/extensions/yy0931/vscode-sqlite3-editor/1.0.85/1690893830873/Microsoft.VisualStudio.Services.Icons.Default","line-number":142,"source-file":"https://psychic-space-computing-machine-v9rwv999rpr2wq69-5000.app.github.dev/","status-code":200,"script-sample":""}}
+2024-11-06 22:12:48,102 127.0.0.1 - - [06/Nov/2024 22:12:48] "POST /csp_report HTTP/1.1" 200 -
+2024-11-06 22:12:48,104 {"csp-report":{"document-uri":"https://psychic-space-computing-machine-v9rwv999rpr2wq69-5000.app.github.dev/","referrer":"https://psychic-space-computing-machine-v9rwv999rpr2wq69.github.dev/","violated-directive":"img-src","effective-directive":"img-src","original-policy":"script-src 'self'; img-src 'self'; child-src 'self'; default-src 'self'; style-src 'self'; media-src 'self'; object-src 'self'; connect-src 'self'; report-uri /csp_report; frame-ancestors none","disposition":"enforce","blocked-uri":"https://mccarter.gallerycdn.vsassets.io/extensions/mccarter/start-git-bash/1.2.1/1499505567572/Microsoft.VisualStudio.Services.Icons.Default","line-number":142,"source-file":"https://psychic-space-computing-machine-v9rwv999rpr2wq69-5000.app.github.dev/","status-code":200,"script-sample":""}}
+2024-11-06 22:12:48,104 127.0.0.1 - - [06/Nov/2024 22:12:48] "POST /csp_report HTTP/1.1" 200 -
+2024-11-06 22:12:48,105 127.0.0.1 - - [06/Nov/2024 22:12:48] "GET /static/css/bootstrap.min.css HTTP/1.1" 200 -
+2024-11-06 22:12:48,106 127.0.0.1 - - [06/Nov/2024 22:12:48] "GET /static/images/logo.png HTTP/1.1" 200 -
+2024-11-06 22:12:48,107 {"csp-report":{"document-uri":"https://psychic-space-computing-machine-v9rwv999rpr2wq69-5000.app.github.dev/","referrer":"https://psychic-space-computing-machine-v9rwv999rpr2wq69.github.dev/","violated-directive":"img-src","effective-directive":"img-src","original-policy":"script-src 'self'; img-src 'self'; child-src 'self'; default-src 'self'; style-src 'self'; media-src 'self'; object-src 'self'; connect-src 'self'; report-uri /csp_report; frame-ancestors none","disposition":"enforce","blocked-uri":"https://test.jpg/","line-number":142,"source-file":"https://psychic-space-computing-machine-v9rwv999rpr2wq69-5000.app.github.dev/","status-code":200,"script-sample":""}}
+2024-11-06 22:12:48,107 127.0.0.1 - - [06/Nov/2024 22:12:48] "POST /csp_report HTTP/1.1" 200 -
+2024-11-06 22:12:48,109 {"csp-report":{"document-uri":"https://psychic-space-computing-machine-v9rwv999rpr2wq69-5000.app.github.dev/","referrer":"https://psychic-space-computing-machine-v9rwv999rpr2wq69.github.dev/","violated-directive":"img-src","effective-directive":"img-src","original-policy":"script-src 'self'; img-src 'self'; child-src 'self'; default-src 'self'; style-src 'self'; media-src 'self'; object-src 'self'; connect-src 'self'; report-uri /csp_report; frame-ancestors none","disposition":"enforce","blocked-uri":"https://medo64.gallerycdn.vsassets.io/extensions/medo64/render-crlf/1.7.1/1689315206970/Microsoft.VisualStudio.Services.Icons.Default","line-number":142,"source-file":"https://psychic-space-computing-machine-v9rwv999rpr2wq69-5000.app.github.dev/","status-code":200,"script-sample":""}}
+2024-11-06 22:12:48,110 127.0.0.1 - - [06/Nov/2024 22:12:48] "POST /csp_report HTTP/1.1" 200 -
+2024-11-06 22:12:48,110 127.0.0.1 - - [06/Nov/2024 22:12:48] "GET /static/css/style.css HTTP/1.1" 200 -
+2024-11-06 22:12:48,111 127.0.0.1 - - [06/Nov/2024 22:12:48] "GET /static/js/bootstrap.bundle.min.js HTTP/1.1" 200 -
+2024-11-06 22:12:48,136 127.0.0.1 - - [06/Nov/2024 22:12:48] "GET /static/js/serviceWorker.js HTTP/1.1" 200 -
+2024-11-06 22:12:48,155 127.0.0.1 - - [06/Nov/2024 22:12:48] "GET /static/js/app.js HTTP/1.1" 200 -
+2024-11-06 22:12:48,183 127.0.0.1 - - [06/Nov/2024 22:12:48] "GET /static/images/favicon.png HTTP/1.1" 200 -
+2024-11-06 22:12:48,218 Starting new HTTP connection (1): 127.0.0.1:3000
+2024-11-06 22:12:48,221 http://127.0.0.1:3000 "GET / HTTP/11" 200 1521
+2024-11-06 22:12:48,221 127.0.0.1 - - [06/Nov/2024 22:12:48] "GET / HTTP/1.1" 200 -
+2024-11-06 22:12:48,263 {"csp-report":{"document-uri":"https://psychic-space-computing-machine-v9rwv999rpr2wq69-5000.app.github.dev/","referrer":"https://psychic-space-computing-machine-v9rwv999rpr2wq69.github.dev/","violated-directive":"img-src","effective-directive":"img-src","original-policy":"script-src 'self'; img-src 'self'; child-src 'self'; default-src 'self'; style-src 'self'; media-src 'self'; object-src 'self'; connect-src 'self'; report-uri /csp_report; frame-ancestors none","disposition":"enforce","blocked-uri":"https://yy0931.gallerycdn.vsassets.io/extensions/yy0931/vscode-sqlite3-editor/1.0.85/1690893830873/Microsoft.VisualStudio.Services.Icons.Default","line-number":142,"source-file":"https://psychic-space-computing-machine-v9rwv999rpr2wq69-5000.app.github.dev/","status-code":200,"script-sample":""}}
+2024-11-06 22:12:48,264 {"csp-report":{"document-uri":"https://psychic-space-computing-machine-v9rwv999rpr2wq69-5000.app.github.dev/","referrer":"https://psychic-space-computing-machine-v9rwv999rpr2wq69.github.dev/","violated-directive":"img-src","effective-directive":"img-src","original-policy":"script-src 'self'; img-src 'self'; child-src 'self'; default-src 'self'; style-src 'self'; media-src 'self'; object-src 'self'; connect-src 'self'; report-uri /csp_report; frame-ancestors none","disposition":"enforce","blocked-uri":"https://medo64.gallerycdn.vsassets.io/extensions/medo64/render-crlf/1.7.1/1689315206970/Microsoft.VisualStudio.Services.Icons.Default","line-number":142,"source-file":"https://psychic-space-computing-machine-v9rwv999rpr2wq69-5000.app.github.dev/","status-code":200,"script-sample":""}}
+2024-11-06 22:12:48,264 127.0.0.1 - - [06/Nov/2024 22:12:48] "GET /static/css/bootstrap.min.css HTTP/1.1" 200 -
+2024-11-06 22:12:48,264 127.0.0.1 - - [06/Nov/2024 22:12:48] "POST /csp_report HTTP/1.1" 200 -
+2024-11-06 22:12:48,265 {"csp-report":{"document-uri":"https://psychic-space-computing-machine-v9rwv999rpr2wq69-5000.app.github.dev/","referrer":"https://psychic-space-computing-machine-v9rwv999rpr2wq69.github.dev/","violated-directive":"img-src","effective-directive":"img-src","original-policy":"script-src 'self'; img-src 'self'; child-src 'self'; default-src 'self'; style-src 'self'; media-src 'self'; object-src 'self'; connect-src 'self'; report-uri /csp_report; frame-ancestors none","disposition":"enforce","blocked-uri":"https://mccarter.gallerycdn.vsassets.io/extensions/mccarter/start-git-bash/1.2.1/1499505567572/Microsoft.VisualStudio.Services.Icons.Default","line-number":142,"source-file":"https://psychic-space-computing-machine-v9rwv999rpr2wq69-5000.app.github.dev/","status-code":200,"script-sample":""}}
+2024-11-06 22:12:48,265 127.0.0.1 - - [06/Nov/2024 22:12:48] "POST /csp_report HTTP/1.1" 200 -
+2024-11-06 22:12:48,266 127.0.0.1 - - [06/Nov/2024 22:12:48] "GET /static/css/style.css HTTP/1.1" 200 -
+2024-11-06 22:12:48,267 {"csp-report":{"document-uri":"https://psychic-space-computing-machine-v9rwv999rpr2wq69-5000.app.github.dev/","referrer":"https://psychic-space-computing-machine-v9rwv999rpr2wq69.github.dev/","violated-directive":"img-src","effective-directive":"img-src","original-policy":"script-src 'self'; img-src 'self'; child-src 'self'; default-src 'self'; style-src 'self'; media-src 'self'; object-src 'self'; connect-src 'self'; report-uri /csp_report; frame-ancestors none","disposition":"enforce","blocked-uri":"https://test.jpg/","line-number":142,"source-file":"https://psychic-space-computing-machine-v9rwv999rpr2wq69-5000.app.github.dev/","status-code":200,"script-sample":""}}
+2024-11-06 22:12:48,267 127.0.0.1 - - [06/Nov/2024 22:12:48] "GET /static/images/logo.png HTTP/1.1" 200 -
+2024-11-06 22:12:48,268 127.0.0.1 - - [06/Nov/2024 22:12:48] "GET /static/js/bootstrap.bundle.min.js HTTP/1.1" 200 -
+2024-11-06 22:12:48,268 127.0.0.1 - - [06/Nov/2024 22:12:48] "POST /csp_report HTTP/1.1" 200 -
+2024-11-06 22:12:48,269 127.0.0.1 - - [06/Nov/2024 22:12:48] "POST /csp_report HTTP/1.1" 200 -
+2024-11-06 22:12:48,301 127.0.0.1 - - [06/Nov/2024 22:12:48] "GET /static/js/serviceWorker.js HTTP/1.1" 200 -
+2024-11-06 22:12:48,318 127.0.0.1 - - [06/Nov/2024 22:12:48] "GET /static/js/app.js HTTP/1.1" 200 -
+2024-11-06 22:12:48,347 Starting new HTTP connection (1): 127.0.0.1:3000
+2024-11-06 22:12:48,348 127.0.0.1 - - [06/Nov/2024 22:12:48] "GET /static/images/favicon.png HTTP/1.1" 200 -
+2024-11-06 22:12:48,350 http://127.0.0.1:3000 "GET / HTTP/11" 200 1521
+2024-11-06 22:12:48,351 127.0.0.1 - - [06/Nov/2024 22:12:48] "GET / HTTP/1.1" 200 -
+2024-11-06 22:12:48,387 127.0.0.1 - - [06/Nov/2024 22:12:48] "GET /static/css/bootstrap.min.css HTTP/1.1" 200 -
+2024-11-06 22:12:48,388 127.0.0.1 - - [06/Nov/2024 22:12:48] "GET /static/js/bootstrap.bundle.min.js HTTP/1.1" 200 -
+2024-11-06 22:12:48,392 {"csp-report":{"document-uri":"https://psychic-space-computing-machine-v9rwv999rpr2wq69-5000.app.github.dev/","referrer":"https://psychic-space-computing-machine-v9rwv999rpr2wq69.github.dev/","violated-directive":"img-src","effective-directive":"img-src","original-policy":"script-src 'self'; img-src 'self'; child-src 'self'; default-src 'self'; style-src 'self'; media-src 'self'; object-src 'self'; connect-src 'self'; report-uri /csp_report; frame-ancestors none","disposition":"enforce","blocked-uri":"https://medo64.gallerycdn.vsassets.io/extensions/medo64/render-crlf/1.7.1/1689315206970/Microsoft.VisualStudio.Services.Icons.Default","line-number":142,"source-file":"https://psychic-space-computing-machine-v9rwv999rpr2wq69-5000.app.github.dev/","status-code":200,"script-sample":""}}
+2024-11-06 22:12:48,392 {"csp-report":{"document-uri":"https://psychic-space-computing-machine-v9rwv999rpr2wq69-5000.app.github.dev/","referrer":"https://psychic-space-computing-machine-v9rwv999rpr2wq69.github.dev/","violated-directive":"img-src","effective-directive":"img-src","original-policy":"script-src 'self'; img-src 'self'; child-src 'self'; default-src 'self'; style-src 'self'; media-src 'self'; object-src 'self'; connect-src 'self'; report-uri /csp_report; frame-ancestors none","disposition":"enforce","blocked-uri":"https://mccarter.gallerycdn.vsassets.io/extensions/mccarter/start-git-bash/1.2.1/1499505567572/Microsoft.VisualStudio.Services.Icons.Default","line-number":142,"source-file":"https://psychic-space-computing-machine-v9rwv999rpr2wq69-5000.app.github.dev/","status-code":200,"script-sample":""}}
+2024-11-06 22:12:48,392 127.0.0.1 - - [06/Nov/2024 22:12:48] "POST /csp_report HTTP/1.1" 200 -
+2024-11-06 22:12:48,393 127.0.0.1 - - [06/Nov/2024 22:12:48] "POST /csp_report HTTP/1.1" 200 -
+2024-11-06 22:12:48,397 127.0.0.1 - - [06/Nov/2024 22:12:48] "GET /static/images/logo.png HTTP/1.1" 200 -
+2024-11-06 22:12:48,399 {"csp-report":{"document-uri":"https://psychic-space-computing-machine-v9rwv999rpr2wq69-5000.app.github.dev/","referrer":"https://psychic-space-computing-machine-v9rwv999rpr2wq69.github.dev/","violated-directive":"img-src","effective-directive":"img-src","original-policy":"script-src 'self'; img-src 'self'; child-src 'self'; default-src 'self'; style-src 'self'; media-src 'self'; object-src 'self'; connect-src 'self'; report-uri /csp_report; frame-ancestors none","disposition":"enforce","blocked-uri":"https://test.jpg/","line-number":142,"source-file":"https://psychic-space-computing-machine-v9rwv999rpr2wq69-5000.app.github.dev/","status-code":200,"script-sample":""}}
+2024-11-06 22:12:48,399 127.0.0.1 - - [06/Nov/2024 22:12:48] "GET /static/css/style.css HTTP/1.1" 200 -
+2024-11-06 22:12:48,400 {"csp-report":{"document-uri":"https://psychic-space-computing-machine-v9rwv999rpr2wq69-5000.app.github.dev/","referrer":"https://psychic-space-computing-machine-v9rwv999rpr2wq69.github.dev/","violated-directive":"img-src","effective-directive":"img-src","original-policy":"script-src 'self'; img-src 'self'; child-src 'self'; default-src 'self'; style-src 'self'; media-src 'self'; object-src 'self'; connect-src 'self'; report-uri /csp_report; frame-ancestors none","disposition":"enforce","blocked-uri":"https://yy0931.gallerycdn.vsassets.io/extensions/yy0931/vscode-sqlite3-editor/1.0.85/1690893830873/Microsoft.VisualStudio.Services.Icons.Default","line-number":142,"source-file":"https://psychic-space-computing-machine-v9rwv999rpr2wq69-5000.app.github.dev/","status-code":200,"script-sample":""}}
+2024-11-06 22:12:48,400 127.0.0.1 - - [06/Nov/2024 22:12:48] "POST /csp_report HTTP/1.1" 200 -
+2024-11-06 22:12:48,400 127.0.0.1 - - [06/Nov/2024 22:12:48] "POST /csp_report HTTP/1.1" 200 -
+2024-11-06 22:12:48,422 127.0.0.1 - - [06/Nov/2024 22:12:48] "GET /static/js/serviceWorker.js HTTP/1.1" 200 -
+2024-11-06 22:12:48,443 127.0.0.1 - - [06/Nov/2024 22:12:48] "GET /static/js/app.js HTTP/1.1" 200 -
+2024-11-06 22:12:48,488 {"csp-report":{"document-uri":"https://psychic-space-computing-machine-v9rwv999rpr2wq69-5000.app.github.dev/","referrer":"https://psychic-space-computing-machine-v9rwv999rpr2wq69.github.dev/","violated-directive":"manifest-src","effective-directive":"manifest-src","original-policy":"script-src 'self'; img-src 'self'; child-src 'self'; default-src 'self'; style-src 'self'; media-src 'self'; object-src 'self'; connect-src 'self'; report-uri /csp_report; frame-ancestors none","disposition":"enforce","blocked-uri":"https://psychic-space-computing-machine-v9rwv999rpr2wq69-5000.app.github.dev/static/manifest.json","status-code":200,"script-sample":""}}
+2024-11-06 22:12:48,488 127.0.0.1 - - [06/Nov/2024 22:12:48] "POST /csp_report HTTP/1.1" 200 -
+2024-11-06 22:12:49,537 Starting new HTTP connection (1): 127.0.0.1:3000
+2024-11-06 22:12:49,539 http://127.0.0.1:3000 "GET / HTTP/11" 200 1521
+2024-11-06 22:12:49,540 127.0.0.1 - - [06/Nov/2024 22:12:49] "GET / HTTP/1.1" 200 -
+2024-11-06 22:12:49,582 {"csp-report":{"document-uri":"https://psychic-space-computing-machine-v9rwv999rpr2wq69-5000.app.github.dev/","referrer":"https://psychic-space-computing-machine-v9rwv999rpr2wq69.github.dev/","violated-directive":"img-src","effective-directive":"img-src","original-policy":"script-src 'self'; img-src 'self'; child-src 'self'; default-src 'self'; style-src 'self'; media-src 'self'; object-src 'self'; connect-src 'self'; report-uri /csp_report; frame-ancestors none","disposition":"enforce","blocked-uri":"https://yy0931.gallerycdn.vsassets.io/extensions/yy0931/vscode-sqlite3-editor/1.0.85/1690893830873/Microsoft.VisualStudio.Services.Icons.Default","line-number":142,"source-file":"https://psychic-space-computing-machine-v9rwv999rpr2wq69-5000.app.github.dev/","status-code":200,"script-sample":""}}
+2024-11-06 22:12:49,582 127.0.0.1 - - [06/Nov/2024 22:12:49] "POST /csp_report HTTP/1.1" 200 -
+2024-11-06 22:12:49,583 {"csp-report":{"document-uri":"https://psychic-space-computing-machine-v9rwv999rpr2wq69-5000.app.github.dev/","referrer":"https://psychic-space-computing-machine-v9rwv999rpr2wq69.github.dev/","violated-directive":"img-src","effective-directive":"img-src","original-policy":"script-src 'self'; img-src 'self'; child-src 'self'; default-src 'self'; style-src 'self'; media-src 'self'; object-src 'self'; connect-src 'self'; report-uri /csp_report; frame-ancestors none","disposition":"enforce","blocked-uri":"https://medo64.gallerycdn.vsassets.io/extensions/medo64/render-crlf/1.7.1/1689315206970/Microsoft.VisualStudio.Services.Icons.Default","line-number":142,"source-file":"https://psychic-space-computing-machine-v9rwv999rpr2wq69-5000.app.github.dev/","status-code":200,"script-sample":""}}
+2024-11-06 22:12:49,583 127.0.0.1 - - [06/Nov/2024 22:12:49] "POST /csp_report HTTP/1.1" 200 -
+2024-11-06 22:12:49,584 {"csp-report":{"document-uri":"https://psychic-space-computing-machine-v9rwv999rpr2wq69-5000.app.github.dev/","referrer":"https://psychic-space-computing-machine-v9rwv999rpr2wq69.github.dev/","violated-directive":"img-src","effective-directive":"img-src","original-policy":"script-src 'self'; img-src 'self'; child-src 'self'; default-src 'self'; style-src 'self'; media-src 'self'; object-src 'self'; connect-src 'self'; report-uri /csp_report; frame-ancestors none","disposition":"enforce","blocked-uri":"https://mccarter.gallerycdn.vsassets.io/extensions/mccarter/start-git-bash/1.2.1/1499505567572/Microsoft.VisualStudio.Services.Icons.Default","line-number":142,"source-file":"https://psychic-space-computing-machine-v9rwv999rpr2wq69-5000.app.github.dev/","status-code":200,"script-sample":""}}
+2024-11-06 22:12:49,586 127.0.0.1 - - [06/Nov/2024 22:12:49] "GET /static/js/bootstrap.bundle.min.js HTTP/1.1" 200 -
+2024-11-06 22:12:49,587 127.0.0.1 - - [06/Nov/2024 22:12:49] "POST /csp_report HTTP/1.1" 200 -
+2024-11-06 22:12:49,587 127.0.0.1 - - [06/Nov/2024 22:12:49] "GET /static/images/logo.png HTTP/1.1" 200 -
+2024-11-06 22:12:49,587 127.0.0.1 - - [06/Nov/2024 22:12:49] "GET /static/css/bootstrap.min.css HTTP/1.1" 200 -
+2024-11-06 22:12:49,590 127.0.0.1 - - [06/Nov/2024 22:12:49] "GET /static/css/style.css HTTP/1.1" 200 -
+2024-11-06 22:12:49,595 {"csp-report":{"document-uri":"https://psychic-space-computing-machine-v9rwv999rpr2wq69-5000.app.github.dev/","referrer":"https://psychic-space-computing-machine-v9rwv999rpr2wq69.github.dev/","violated-directive":"img-src","effective-directive":"img-src","original-policy":"script-src 'self'; img-src 'self'; child-src 'self'; default-src 'self'; style-src 'self'; media-src 'self'; object-src 'self'; connect-src 'self'; report-uri /csp_report; frame-ancestors none","disposition":"enforce","blocked-uri":"https://test.jpg/","line-number":142,"source-file":"https://psychic-space-computing-machine-v9rwv999rpr2wq69-5000.app.github.dev/","status-code":200,"script-sample":""}}
+2024-11-06 22:12:49,595 127.0.0.1 - - [06/Nov/2024 22:12:49] "POST /csp_report HTTP/1.1" 200 -
+2024-11-06 22:12:49,629 127.0.0.1 - - [06/Nov/2024 22:12:49] "GET /static/js/serviceWorker.js HTTP/1.1" 200 -
+2024-11-06 22:12:49,648 127.0.0.1 - - [06/Nov/2024 22:12:49] "GET /static/js/app.js HTTP/1.1" 200 -
+2024-11-06 22:12:49,678 127.0.0.1 - - [06/Nov/2024 22:12:49] "GET /static/images/favicon.png HTTP/1.1" 200 -
+2024-11-06 22:12:49,695 {"csp-report":{"document-uri":"https://psychic-space-computing-machine-v9rwv999rpr2wq69-5000.app.github.dev/","referrer":"https://psychic-space-computing-machine-v9rwv999rpr2wq69.github.dev/","violated-directive":"manifest-src","effective-directive":"manifest-src","original-policy":"script-src 'self'; img-src 'self'; child-src 'self'; default-src 'self'; style-src 'self'; media-src 'self'; object-src 'self'; connect-src 'self'; report-uri /csp_report; frame-ancestors none","disposition":"enforce","blocked-uri":"https://psychic-space-computing-machine-v9rwv999rpr2wq69-5000.app.github.dev/static/manifest.json","status-code":200,"script-sample":""}}
+2024-11-06 22:12:49,695 127.0.0.1 - - [06/Nov/2024 22:12:49] "POST /csp_report HTTP/1.1" 200 -
+2024-11-06 22:12:51,662 127.0.0.1 - - [06/Nov/2024 22:12:51] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2024-11-06 22:12:51,663 127.0.0.1 - - [06/Nov/2024 22:12:51] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2024-11-06 22:12:51,701 127.0.0.1 - - [06/Nov/2024 22:12:51] "[33mGET /static/js/bootstrap.bundle.min.js.map HTTP/1.1[0m" 404 -
+2024-11-06 22:12:51,715 127.0.0.1 - - [06/Nov/2024 22:12:51] "[33mGET /static/css/bootstrap.min.css.map HTTP/1.1[0m" 404 -
+2024-11-06 22:12:54,650 Starting new HTTP connection (1): 127.0.0.1:3000
+2024-11-06 22:12:54,652 http://127.0.0.1:3000 "GET / HTTP/11" 200 1521
+2024-11-06 22:12:54,653 127.0.0.1 - - [06/Nov/2024 22:12:54] "GET / HTTP/1.1" 200 -
+2024-11-06 22:12:54,698 127.0.0.1 - - [06/Nov/2024 22:12:54] "GET /static/images/logo.png HTTP/1.1" 200 -
+2024-11-06 22:12:54,700 {"csp-report":{"document-uri":"https://psychic-space-computing-machine-v9rwv999rpr2wq69-5000.app.github.dev/","referrer":"https://psychic-space-computing-machine-v9rwv999rpr2wq69.github.dev/","violated-directive":"img-src","effective-directive":"img-src","original-policy":"script-src 'self'; img-src 'self'; child-src 'self'; default-src 'self'; style-src 'self'; media-src 'self'; object-src 'self'; connect-src 'self'; report-uri /csp_report; frame-ancestors none","disposition":"enforce","blocked-uri":"https://medo64.gallerycdn.vsassets.io/extensions/medo64/render-crlf/1.7.1/1689315206970/Microsoft.VisualStudio.Services.Icons.Default","line-number":142,"source-file":"https://psychic-space-computing-machine-v9rwv999rpr2wq69-5000.app.github.dev/","status-code":200,"script-sample":""}}
+2024-11-06 22:12:54,700 127.0.0.1 - - [06/Nov/2024 22:12:54] "GET /static/js/bootstrap.bundle.min.js HTTP/1.1" 200 -
+2024-11-06 22:12:54,700 127.0.0.1 - - [06/Nov/2024 22:12:54] "POST /csp_report HTTP/1.1" 200 -
+2024-11-06 22:12:54,701 {"csp-report":{"document-uri":"https://psychic-space-computing-machine-v9rwv999rpr2wq69-5000.app.github.dev/","referrer":"https://psychic-space-computing-machine-v9rwv999rpr2wq69.github.dev/","violated-directive":"img-src","effective-directive":"img-src","original-policy":"script-src 'self'; img-src 'self'; child-src 'self'; default-src 'self'; style-src 'self'; media-src 'self'; object-src 'self'; connect-src 'self'; report-uri /csp_report; frame-ancestors none","disposition":"enforce","blocked-uri":"https://mccarter.gallerycdn.vsassets.io/extensions/mccarter/start-git-bash/1.2.1/1499505567572/Microsoft.VisualStudio.Services.Icons.Default","line-number":142,"source-file":"https://psychic-space-computing-machine-v9rwv999rpr2wq69-5000.app.github.dev/","status-code":200,"script-sample":""}}
+2024-11-06 22:12:54,701 127.0.0.1 - - [06/Nov/2024 22:12:54] "GET /static/css/style.css HTTP/1.1" 200 -
+2024-11-06 22:12:54,702 {"csp-report":{"document-uri":"https://psychic-space-computing-machine-v9rwv999rpr2wq69-5000.app.github.dev/","referrer":"https://psychic-space-computing-machine-v9rwv999rpr2wq69.github.dev/","violated-directive":"img-src","effective-directive":"img-src","original-policy":"script-src 'self'; img-src 'self'; child-src 'self'; default-src 'self'; style-src 'self'; media-src 'self'; object-src 'self'; connect-src 'self'; report-uri /csp_report; frame-ancestors none","disposition":"enforce","blocked-uri":"https://yy0931.gallerycdn.vsassets.io/extensions/yy0931/vscode-sqlite3-editor/1.0.85/1690893830873/Microsoft.VisualStudio.Services.Icons.Default","line-number":142,"source-file":"https://psychic-space-computing-machine-v9rwv999rpr2wq69-5000.app.github.dev/","status-code":200,"script-sample":""}}
+2024-11-06 22:12:54,703 127.0.0.1 - - [06/Nov/2024 22:12:54] "GET /static/css/bootstrap.min.css HTTP/1.1" 200 -
+2024-11-06 22:12:54,703 127.0.0.1 - - [06/Nov/2024 22:12:54] "POST /csp_report HTTP/1.1" 200 -
+2024-11-06 22:12:54,703 127.0.0.1 - - [06/Nov/2024 22:12:54] "POST /csp_report HTTP/1.1" 200 -
+2024-11-06 22:12:54,704 {"csp-report":{"document-uri":"https://psychic-space-computing-machine-v9rwv999rpr2wq69-5000.app.github.dev/","referrer":"https://psychic-space-computing-machine-v9rwv999rpr2wq69.github.dev/","violated-directive":"img-src","effective-directive":"img-src","original-policy":"script-src 'self'; img-src 'self'; child-src 'self'; default-src 'self'; style-src 'self'; media-src 'self'; object-src 'self'; connect-src 'self'; report-uri /csp_report; frame-ancestors none","disposition":"enforce","blocked-uri":"https://test.jpg/","line-number":142,"source-file":"https://psychic-space-computing-machine-v9rwv999rpr2wq69-5000.app.github.dev/","status-code":200,"script-sample":""}}
+2024-11-06 22:12:54,705 127.0.0.1 - - [06/Nov/2024 22:12:54] "POST /csp_report HTTP/1.1" 200 -
+2024-11-06 22:12:54,756 127.0.0.1 - - [06/Nov/2024 22:12:54] "[33mGET /static/css/bootstrap.min.css.map HTTP/1.1[0m" 404 -
+2024-11-06 22:12:54,758 127.0.0.1 - - [06/Nov/2024 22:12:54] "GET /static/js/serviceWorker.js HTTP/1.1" 200 -
+2024-11-06 22:12:54,767 127.0.0.1 - - [06/Nov/2024 22:12:54] "[33mGET /static/js/bootstrap.bundle.min.js.map HTTP/1.1[0m" 404 -
+2024-11-06 22:12:54,783 127.0.0.1 - - [06/Nov/2024 22:12:54] "GET /static/js/app.js HTTP/1.1" 200 -
+2024-11-06 22:12:54,838 127.0.0.1 - - [06/Nov/2024 22:12:54] "GET /static/images/favicon.png HTTP/1.1" 200 -
+2024-11-06 22:12:54,860 {"csp-report":{"document-uri":"https://psychic-space-computing-machine-v9rwv999rpr2wq69-5000.app.github.dev/","referrer":"https://psychic-space-computing-machine-v9rwv999rpr2wq69.github.dev/","violated-directive":"manifest-src","effective-directive":"manifest-src","original-policy":"script-src 'self'; img-src 'self'; child-src 'self'; default-src 'self'; style-src 'self'; media-src 'self'; object-src 'self'; connect-src 'self'; report-uri /csp_report; frame-ancestors none","disposition":"enforce","blocked-uri":"https://psychic-space-computing-machine-v9rwv999rpr2wq69-5000.app.github.dev/static/manifest.json","status-code":200,"script-sample":""}}
+2024-11-06 22:12:54,860 127.0.0.1 - - [06/Nov/2024 22:12:54] "POST /csp_report HTTP/1.1" 200 -
+2024-11-06 22:12:57,654 Starting new HTTP connection (1): 127.0.0.1:3000
+2024-11-06 22:12:57,656 http://127.0.0.1:3000 "GET / HTTP/11" 200 1521
+2024-11-06 22:12:57,657 127.0.0.1 - - [06/Nov/2024 22:12:57] "GET / HTTP/1.1" 200 -
+2024-11-06 22:12:57,706 {"csp-report":{"document-uri":"https://psychic-space-computing-machine-v9rwv999rpr2wq69-5000.app.github.dev/","referrer":"https://psychic-space-computing-machine-v9rwv999rpr2wq69.github.dev/","violated-directive":"img-src","effective-directive":"img-src","original-policy":"script-src 'self'; img-src 'self'; child-src 'self'; default-src 'self'; style-src 'self'; media-src 'self'; object-src 'self'; connect-src 'self'; report-uri /csp_report; frame-ancestors none","disposition":"enforce","blocked-uri":"https://medo64.gallerycdn.vsassets.io/extensions/medo64/render-crlf/1.7.1/1689315206970/Microsoft.VisualStudio.Services.Icons.Default","line-number":142,"source-file":"https://psychic-space-computing-machine-v9rwv999rpr2wq69-5000.app.github.dev/","status-code":200,"script-sample":""}}
+2024-11-06 22:12:57,706 {"csp-report":{"document-uri":"https://psychic-space-computing-machine-v9rwv999rpr2wq69-5000.app.github.dev/","referrer":"https://psychic-space-computing-machine-v9rwv999rpr2wq69.github.dev/","violated-directive":"img-src","effective-directive":"img-src","original-policy":"script-src 'self'; img-src 'self'; child-src 'self'; default-src 'self'; style-src 'self'; media-src 'self'; object-src 'self'; connect-src 'self'; report-uri /csp_report; frame-ancestors none","disposition":"enforce","blocked-uri":"https://mccarter.gallerycdn.vsassets.io/extensions/mccarter/start-git-bash/1.2.1/1499505567572/Microsoft.VisualStudio.Services.Icons.Default","line-number":142,"source-file":"https://psychic-space-computing-machine-v9rwv999rpr2wq69-5000.app.github.dev/","status-code":200,"script-sample":""}}
+2024-11-06 22:12:57,707 127.0.0.1 - - [06/Nov/2024 22:12:57] "POST /csp_report HTTP/1.1" 200 -
+2024-11-06 22:12:57,707 127.0.0.1 - - [06/Nov/2024 22:12:57] "GET /static/images/logo.png HTTP/1.1" 200 -
+2024-11-06 22:12:57,707 127.0.0.1 - - [06/Nov/2024 22:12:57] "POST /csp_report HTTP/1.1" 200 -
+2024-11-06 22:12:57,711 127.0.0.1 - - [06/Nov/2024 22:12:57] "GET /static/css/bootstrap.min.css HTTP/1.1" 200 -
+2024-11-06 22:12:57,711 127.0.0.1 - - [06/Nov/2024 22:12:57] "GET /static/js/bootstrap.bundle.min.js HTTP/1.1" 200 -
+2024-11-06 22:12:57,713 {"csp-report":{"document-uri":"https://psychic-space-computing-machine-v9rwv999rpr2wq69-5000.app.github.dev/","referrer":"https://psychic-space-computing-machine-v9rwv999rpr2wq69.github.dev/","violated-directive":"img-src","effective-directive":"img-src","original-policy":"script-src 'self'; img-src 'self'; child-src 'self'; default-src 'self'; style-src 'self'; media-src 'self'; object-src 'self'; connect-src 'self'; report-uri /csp_report; frame-ancestors none","disposition":"enforce","blocked-uri":"https://test.jpg/","line-number":142,"source-file":"https://psychic-space-computing-machine-v9rwv999rpr2wq69-5000.app.github.dev/","status-code":200,"script-sample":""}}
+2024-11-06 22:12:57,713 127.0.0.1 - - [06/Nov/2024 22:12:57] "POST /csp_report HTTP/1.1" 200 -
+2024-11-06 22:12:57,715 127.0.0.1 - - [06/Nov/2024 22:12:57] "GET /static/css/style.css HTTP/1.1" 200 -
+2024-11-06 22:12:57,717 {"csp-report":{"document-uri":"https://psychic-space-computing-machine-v9rwv999rpr2wq69-5000.app.github.dev/","referrer":"https://psychic-space-computing-machine-v9rwv999rpr2wq69.github.dev/","violated-directive":"img-src","effective-directive":"img-src","original-policy":"script-src 'self'; img-src 'self'; child-src 'self'; default-src 'self'; style-src 'self'; media-src 'self'; object-src 'self'; connect-src 'self'; report-uri /csp_report; frame-ancestors none","disposition":"enforce","blocked-uri":"https://yy0931.gallerycdn.vsassets.io/extensions/yy0931/vscode-sqlite3-editor/1.0.85/1690893830873/Microsoft.VisualStudio.Services.Icons.Default","line-number":142,"source-file":"https://psychic-space-computing-machine-v9rwv999rpr2wq69-5000.app.github.dev/","status-code":200,"script-sample":""}}
+2024-11-06 22:12:57,717 127.0.0.1 - - [06/Nov/2024 22:12:57] "POST /csp_report HTTP/1.1" 200 -
+2024-11-06 22:12:57,773 127.0.0.1 - - [06/Nov/2024 22:12:57] "[33mGET /static/css/bootstrap.min.css.map HTTP/1.1[0m" 404 -
+2024-11-06 22:12:57,778 127.0.0.1 - - [06/Nov/2024 22:12:57] "GET /static/js/serviceWorker.js HTTP/1.1" 200 -
+2024-11-06 22:12:57,784 127.0.0.1 - - [06/Nov/2024 22:12:57] "[33mGET /static/js/bootstrap.bundle.min.js.map HTTP/1.1[0m" 404 -
+2024-11-06 22:12:57,803 127.0.0.1 - - [06/Nov/2024 22:12:57] "GET /static/js/app.js HTTP/1.1" 200 -
+2024-11-06 22:12:57,846 127.0.0.1 - - [06/Nov/2024 22:12:57] "GET /static/images/favicon.png HTTP/1.1" 200 -
+2024-11-06 22:12:57,872 {"csp-report":{"document-uri":"https://psychic-space-computing-machine-v9rwv999rpr2wq69-5000.app.github.dev/","referrer":"https://psychic-space-computing-machine-v9rwv999rpr2wq69.github.dev/","violated-directive":"manifest-src","effective-directive":"manifest-src","original-policy":"script-src 'self'; img-src 'self'; child-src 'self'; default-src 'self'; style-src 'self'; media-src 'self'; object-src 'self'; connect-src 'self'; report-uri /csp_report; frame-ancestors none","disposition":"enforce","blocked-uri":"https://psychic-space-computing-machine-v9rwv999rpr2wq69-5000.app.github.dev/static/manifest.json","status-code":200,"script-sample":""}}
+2024-11-06 22:12:57,872 127.0.0.1 - - [06/Nov/2024 22:12:57] "POST /csp_report HTTP/1.1" 200 -
+2024-11-06 22:12:58,824 Starting new HTTP connection (1): 127.0.0.1:3000
+2024-11-06 22:12:58,826 http://127.0.0.1:3000 "GET / HTTP/11" 200 1521
+2024-11-06 22:12:58,827 127.0.0.1 - - [06/Nov/2024 22:12:58] "GET / HTTP/1.1" 200 -
+2024-11-06 22:12:58,867 127.0.0.1 - - [06/Nov/2024 22:12:58] "GET /static/css/style.css HTTP/1.1" 200 -
+2024-11-06 22:12:58,869 {"csp-report":{"document-uri":"https://psychic-space-computing-machine-v9rwv999rpr2wq69-5000.app.github.dev/","referrer":"https://psychic-space-computing-machine-v9rwv999rpr2wq69.github.dev/","violated-directive":"img-src","effective-directive":"img-src","original-policy":"script-src 'self'; img-src 'self'; child-src 'self'; default-src 'self'; style-src 'self'; media-src 'self'; object-src 'self'; connect-src 'self'; report-uri /csp_report; frame-ancestors none","disposition":"enforce","blocked-uri":"https://medo64.gallerycdn.vsassets.io/extensions/medo64/render-crlf/1.7.1/1689315206970/Microsoft.VisualStudio.Services.Icons.Default","line-number":142,"source-file":"https://psychic-space-computing-machine-v9rwv999rpr2wq69-5000.app.github.dev/","status-code":200,"script-sample":""}}
+2024-11-06 22:12:58,869 127.0.0.1 - - [06/Nov/2024 22:12:58] "POST /csp_report HTTP/1.1" 200 -
+2024-11-06 22:12:58,870 {"csp-report":{"document-uri":"https://psychic-space-computing-machine-v9rwv999rpr2wq69-5000.app.github.dev/","referrer":"https://psychic-space-computing-machine-v9rwv999rpr2wq69.github.dev/","violated-directive":"img-src","effective-directive":"img-src","original-policy":"script-src 'self'; img-src 'self'; child-src 'self'; default-src 'self'; style-src 'self'; media-src 'self'; object-src 'self'; connect-src 'self'; report-uri /csp_report; frame-ancestors none","disposition":"enforce","blocked-uri":"https://test.jpg/","line-number":142,"source-file":"https://psychic-space-computing-machine-v9rwv999rpr2wq69-5000.app.github.dev/","status-code":200,"script-sample":""}}
+2024-11-06 22:12:58,871 127.0.0.1 - - [06/Nov/2024 22:12:58] "GET /static/css/bootstrap.min.css HTTP/1.1" 200 -
+2024-11-06 22:12:58,871 127.0.0.1 - - [06/Nov/2024 22:12:58] "POST /csp_report HTTP/1.1" 200 -
+2024-11-06 22:12:58,874 127.0.0.1 - - [06/Nov/2024 22:12:58] "GET /static/js/bootstrap.bundle.min.js HTTP/1.1" 200 -
+2024-11-06 22:12:58,876 {"csp-report":{"document-uri":"https://psychic-space-computing-machine-v9rwv999rpr2wq69-5000.app.github.dev/","referrer":"https://psychic-space-computing-machine-v9rwv999rpr2wq69.github.dev/","violated-directive":"img-src","effective-directive":"img-src","original-policy":"script-src 'self'; img-src 'self'; child-src 'self'; default-src 'self'; style-src 'self'; media-src 'self'; object-src 'self'; connect-src 'self'; report-uri /csp_report; frame-ancestors none","disposition":"enforce","blocked-uri":"https://yy0931.gallerycdn.vsassets.io/extensions/yy0931/vscode-sqlite3-editor/1.0.85/1690893830873/Microsoft.VisualStudio.Services.Icons.Default","line-number":142,"source-file":"https://psychic-space-computing-machine-v9rwv999rpr2wq69-5000.app.github.dev/","status-code":200,"script-sample":""}}
+2024-11-06 22:12:58,876 127.0.0.1 - - [06/Nov/2024 22:12:58] "POST /csp_report HTTP/1.1" 200 -
+2024-11-06 22:12:58,878 127.0.0.1 - - [06/Nov/2024 22:12:58] "GET /static/images/logo.png HTTP/1.1" 200 -
+2024-11-06 22:12:58,880 {"csp-report":{"document-uri":"https://psychic-space-computing-machine-v9rwv999rpr2wq69-5000.app.github.dev/","referrer":"https://psychic-space-computing-machine-v9rwv999rpr2wq69.github.dev/","violated-directive":"img-src","effective-directive":"img-src","original-policy":"script-src 'self'; img-src 'self'; child-src 'self'; default-src 'self'; style-src 'self'; media-src 'self'; object-src 'self'; connect-src 'self'; report-uri /csp_report; frame-ancestors none","disposition":"enforce","blocked-uri":"https://mccarter.gallerycdn.vsassets.io/extensions/mccarter/start-git-bash/1.2.1/1499505567572/Microsoft.VisualStudio.Services.Icons.Default","line-number":142,"source-file":"https://psychic-space-computing-machine-v9rwv999rpr2wq69-5000.app.github.dev/","status-code":200,"script-sample":""}}
+2024-11-06 22:12:58,880 127.0.0.1 - - [06/Nov/2024 22:12:58] "POST /csp_report HTTP/1.1" 200 -
+2024-11-06 22:12:58,913 127.0.0.1 - - [06/Nov/2024 22:12:58] "[33mGET /static/css/bootstrap.min.css.map HTTP/1.1[0m" 404 -
+2024-11-06 22:12:58,921 127.0.0.1 - - [06/Nov/2024 22:12:58] "GET /static/js/serviceWorker.js HTTP/1.1" 200 -
+2024-11-06 22:12:58,922 127.0.0.1 - - [06/Nov/2024 22:12:58] "[33mGET /static/js/bootstrap.bundle.min.js.map HTTP/1.1[0m" 404 -
+2024-11-06 22:12:58,940 127.0.0.1 - - [06/Nov/2024 22:12:58] "GET /static/js/app.js HTTP/1.1" 200 -
+2024-11-06 22:12:58,985 127.0.0.1 - - [06/Nov/2024 22:12:58] "GET /static/images/favicon.png HTTP/1.1" 200 -
+2024-11-06 22:12:59,014 {"csp-report":{"document-uri":"https://psychic-space-computing-machine-v9rwv999rpr2wq69-5000.app.github.dev/","referrer":"https://psychic-space-computing-machine-v9rwv999rpr2wq69.github.dev/","violated-directive":"manifest-src","effective-directive":"manifest-src","original-policy":"script-src 'self'; img-src 'self'; child-src 'self'; default-src 'self'; style-src 'self'; media-src 'self'; object-src 'self'; connect-src 'self'; report-uri /csp_report; frame-ancestors none","disposition":"enforce","blocked-uri":"https://psychic-space-computing-machine-v9rwv999rpr2wq69-5000.app.github.dev/static/manifest.json","status-code":200,"script-sample":""}}
+2024-11-06 22:12:59,014 127.0.0.1 - - [06/Nov/2024 22:12:59] "POST /csp_report HTTP/1.1" 200 -
+2024-11-06 22:12:59,282 Starting new HTTP connection (1): 127.0.0.1:3000
+2024-11-06 22:12:59,284 http://127.0.0.1:3000 "GET / HTTP/11" 200 1521
+2024-11-06 22:12:59,285 127.0.0.1 - - [06/Nov/2024 22:12:59] "GET / HTTP/1.1" 200 -
+2024-11-06 22:12:59,326 {"csp-report":{"document-uri":"https://psychic-space-computing-machine-v9rwv999rpr2wq69-5000.app.github.dev/","referrer":"https://psychic-space-computing-machine-v9rwv999rpr2wq69.github.dev/","violated-directive":"img-src","effective-directive":"img-src","original-policy":"script-src 'self'; img-src 'self'; child-src 'self'; default-src 'self'; style-src 'self'; media-src 'self'; object-src 'self'; connect-src 'self'; report-uri /csp_report; frame-ancestors none","disposition":"enforce","blocked-uri":"https://yy0931.gallerycdn.vsassets.io/extensions/yy0931/vscode-sqlite3-editor/1.0.85/1690893830873/Microsoft.VisualStudio.Services.Icons.Default","line-number":142,"source-file":"https://psychic-space-computing-machine-v9rwv999rpr2wq69-5000.app.github.dev/","status-code":200,"script-sample":""}}
+2024-11-06 22:12:59,327 127.0.0.1 - - [06/Nov/2024 22:12:59] "POST /csp_report HTTP/1.1" 200 -
+2024-11-06 22:12:59,328 127.0.0.1 - - [06/Nov/2024 22:12:59] "GET /static/css/bootstrap.min.css HTTP/1.1" 200 -
+2024-11-06 22:12:59,330 127.0.0.1 - - [06/Nov/2024 22:12:59] "GET /static/css/style.css HTTP/1.1" 200 -
+2024-11-06 22:12:59,331 {"csp-report":{"document-uri":"https://psychic-space-computing-machine-v9rwv999rpr2wq69-5000.app.github.dev/","referrer":"https://psychic-space-computing-machine-v9rwv999rpr2wq69.github.dev/","violated-directive":"img-src","effective-directive":"img-src","original-policy":"script-src 'self'; img-src 'self'; child-src 'self'; default-src 'self'; style-src 'self'; media-src 'self'; object-src 'self'; connect-src 'self'; report-uri /csp_report; frame-ancestors none","disposition":"enforce","blocked-uri":"https://test.jpg/","line-number":142,"source-file":"https://psychic-space-computing-machine-v9rwv999rpr2wq69-5000.app.github.dev/","status-code":200,"script-sample":""}}
+2024-11-06 22:12:59,332 127.0.0.1 - - [06/Nov/2024 22:12:59] "POST /csp_report HTTP/1.1" 200 -
+2024-11-06 22:12:59,337 {"csp-report":{"document-uri":"https://psychic-space-computing-machine-v9rwv999rpr2wq69-5000.app.github.dev/","referrer":"https://psychic-space-computing-machine-v9rwv999rpr2wq69.github.dev/","violated-directive":"img-src","effective-directive":"img-src","original-policy":"script-src 'self'; img-src 'self'; child-src 'self'; default-src 'self'; style-src 'self'; media-src 'self'; object-src 'self'; connect-src 'self'; report-uri /csp_report; frame-ancestors none","disposition":"enforce","blocked-uri":"https://medo64.gallerycdn.vsassets.io/extensions/medo64/render-crlf/1.7.1/1689315206970/Microsoft.VisualStudio.Services.Icons.Default","line-number":142,"source-file":"https://psychic-space-computing-machine-v9rwv999rpr2wq69-5000.app.github.dev/","status-code":200,"script-sample":""}}
+2024-11-06 22:12:59,338 127.0.0.1 - - [06/Nov/2024 22:12:59] "POST /csp_report HTTP/1.1" 200 -
+2024-11-06 22:12:59,339 {"csp-report":{"document-uri":"https://psychic-space-computing-machine-v9rwv999rpr2wq69-5000.app.github.dev/","referrer":"https://psychic-space-computing-machine-v9rwv999rpr2wq69.github.dev/","violated-directive":"img-src","effective-directive":"img-src","original-policy":"script-src 'self'; img-src 'self'; child-src 'self'; default-src 'self'; style-src 'self'; media-src 'self'; object-src 'self'; connect-src 'self'; report-uri /csp_report; frame-ancestors none","disposition":"enforce","blocked-uri":"https://mccarter.gallerycdn.vsassets.io/extensions/mccarter/start-git-bash/1.2.1/1499505567572/Microsoft.VisualStudio.Services.Icons.Default","line-number":142,"source-file":"https://psychic-space-computing-machine-v9rwv999rpr2wq69-5000.app.github.dev/","status-code":200,"script-sample":""}}
+2024-11-06 22:12:59,340 127.0.0.1 - - [06/Nov/2024 22:12:59] "POST /csp_report HTTP/1.1" 200 -
+2024-11-06 22:12:59,340 127.0.0.1 - - [06/Nov/2024 22:12:59] "GET /static/js/bootstrap.bundle.min.js HTTP/1.1" 200 -
+2024-11-06 22:12:59,340 127.0.0.1 - - [06/Nov/2024 22:12:59] "GET /static/images/logo.png HTTP/1.1" 200 -
+2024-11-06 22:12:59,378 127.0.0.1 - - [06/Nov/2024 22:12:59] "[33mGET /static/css/bootstrap.min.css.map HTTP/1.1[0m" 404 -
+2024-11-06 22:12:59,384 127.0.0.1 - - [06/Nov/2024 22:12:59] "GET /static/js/serviceWorker.js HTTP/1.1" 200 -
+2024-11-06 22:12:59,384 127.0.0.1 - - [06/Nov/2024 22:12:59] "[33mGET /static/js/bootstrap.bundle.min.js.map HTTP/1.1[0m" 404 -
+2024-11-06 22:12:59,408 127.0.0.1 - - [06/Nov/2024 22:12:59] "GET /static/js/app.js HTTP/1.1" 200 -
+2024-11-06 22:12:59,460 127.0.0.1 - - [06/Nov/2024 22:12:59] "GET /static/images/favicon.png HTTP/1.1" 200 -
+2024-11-06 22:12:59,487 {"csp-report":{"document-uri":"https://psychic-space-computing-machine-v9rwv999rpr2wq69-5000.app.github.dev/","referrer":"https://psychic-space-computing-machine-v9rwv999rpr2wq69.github.dev/","violated-directive":"manifest-src","effective-directive":"manifest-src","original-policy":"script-src 'self'; img-src 'self'; child-src 'self'; default-src 'self'; style-src 'self'; media-src 'self'; object-src 'self'; connect-src 'self'; report-uri /csp_report; frame-ancestors none","disposition":"enforce","blocked-uri":"https://psychic-space-computing-machine-v9rwv999rpr2wq69-5000.app.github.dev/static/manifest.json","status-code":200,"script-sample":""}}
+2024-11-06 22:12:59,488 127.0.0.1 - - [06/Nov/2024 22:12:59] "POST /csp_report HTTP/1.1" 200 -
+2024-11-06 22:12:59,794 Starting new HTTP connection (1): 127.0.0.1:3000
+2024-11-06 22:12:59,796 http://127.0.0.1:3000 "GET / HTTP/11" 200 1521
+2024-11-06 22:12:59,797 127.0.0.1 - - [06/Nov/2024 22:12:59] "GET / HTTP/1.1" 200 -
+2024-11-06 22:12:59,838 127.0.0.1 - - [06/Nov/2024 22:12:59] "GET /static/css/bootstrap.min.css HTTP/1.1" 200 -
+2024-11-06 22:12:59,839 {"csp-report":{"document-uri":"https://psychic-space-computing-machine-v9rwv999rpr2wq69-5000.app.github.dev/","referrer":"https://psychic-space-computing-machine-v9rwv999rpr2wq69.github.dev/","violated-directive":"img-src","effective-directive":"img-src","original-policy":"script-src 'self'; img-src 'self'; child-src 'self'; default-src 'self'; style-src 'self'; media-src 'self'; object-src 'self'; connect-src 'self'; report-uri /csp_report; frame-ancestors none","disposition":"enforce","blocked-uri":"https://medo64.gallerycdn.vsassets.io/extensions/medo64/render-crlf/1.7.1/1689315206970/Microsoft.VisualStudio.Services.Icons.Default","line-number":142,"source-file":"https://psychic-space-computing-machine-v9rwv999rpr2wq69-5000.app.github.dev/","status-code":200,"script-sample":""}}
+2024-11-06 22:12:59,839 127.0.0.1 - - [06/Nov/2024 22:12:59] "POST /csp_report HTTP/1.1" 200 -
+2024-11-06 22:12:59,840 127.0.0.1 - - [06/Nov/2024 22:12:59] "GET /static/images/logo.png HTTP/1.1" 200 -
+2024-11-06 22:12:59,842 {"csp-report":{"document-uri":"https://psychic-space-computing-machine-v9rwv999rpr2wq69-5000.app.github.dev/","referrer":"https://psychic-space-computing-machine-v9rwv999rpr2wq69.github.dev/","violated-directive":"img-src","effective-directive":"img-src","original-policy":"script-src 'self'; img-src 'self'; child-src 'self'; default-src 'self'; style-src 'self'; media-src 'self'; object-src 'self'; connect-src 'self'; report-uri /csp_report; frame-ancestors none","disposition":"enforce","blocked-uri":"https://mccarter.gallerycdn.vsassets.io/extensions/mccarter/start-git-bash/1.2.1/1499505567572/Microsoft.VisualStudio.Services.Icons.Default","line-number":142,"source-file":"https://psychic-space-computing-machine-v9rwv999rpr2wq69-5000.app.github.dev/","status-code":200,"script-sample":""}}
+2024-11-06 22:12:59,843 127.0.0.1 - - [06/Nov/2024 22:12:59] "POST /csp_report HTTP/1.1" 200 -
+2024-11-06 22:12:59,846 127.0.0.1 - - [06/Nov/2024 22:12:59] "GET /static/js/bootstrap.bundle.min.js HTTP/1.1" 200 -
+2024-11-06 22:12:59,849 {"csp-report":{"document-uri":"https://psychic-space-computing-machine-v9rwv999rpr2wq69-5000.app.github.dev/","referrer":"https://psychic-space-computing-machine-v9rwv999rpr2wq69.github.dev/","violated-directive":"img-src","effective-directive":"img-src","original-policy":"script-src 'self'; img-src 'self'; child-src 'self'; default-src 'self'; style-src 'self'; media-src 'self'; object-src 'self'; connect-src 'self'; report-uri /csp_report; frame-ancestors none","disposition":"enforce","blocked-uri":"https://yy0931.gallerycdn.vsassets.io/extensions/yy0931/vscode-sqlite3-editor/1.0.85/1690893830873/Microsoft.VisualStudio.Services.Icons.Default","line-number":142,"source-file":"https://psychic-space-computing-machine-v9rwv999rpr2wq69-5000.app.github.dev/","status-code":200,"script-sample":""}}
+2024-11-06 22:12:59,849 127.0.0.1 - - [06/Nov/2024 22:12:59] "POST /csp_report HTTP/1.1" 200 -
+2024-11-06 22:12:59,851 127.0.0.1 - - [06/Nov/2024 22:12:59] "GET /static/css/style.css HTTP/1.1" 200 -
+2024-11-06 22:12:59,852 {"csp-report":{"document-uri":"https://psychic-space-computing-machine-v9rwv999rpr2wq69-5000.app.github.dev/","referrer":"https://psychic-space-computing-machine-v9rwv999rpr2wq69.github.dev/","violated-directive":"img-src","effective-directive":"img-src","original-policy":"script-src 'self'; img-src 'self'; child-src 'self'; default-src 'self'; style-src 'self'; media-src 'self'; object-src 'self'; connect-src 'self'; report-uri /csp_report; frame-ancestors none","disposition":"enforce","blocked-uri":"https://test.jpg/","line-number":142,"source-file":"https://psychic-space-computing-machine-v9rwv999rpr2wq69-5000.app.github.dev/","status-code":200,"script-sample":""}}
+2024-11-06 22:12:59,852 127.0.0.1 - - [06/Nov/2024 22:12:59] "POST /csp_report HTTP/1.1" 200 -
+2024-11-06 22:12:59,900 127.0.0.1 - - [06/Nov/2024 22:12:59] "[33mGET /static/js/bootstrap.bundle.min.js.map HTTP/1.1[0m" 404 -
+2024-11-06 22:12:59,901 127.0.0.1 - - [06/Nov/2024 22:12:59] "[33mGET /static/css/bootstrap.min.css.map HTTP/1.1[0m" 404 -
+2024-11-06 22:12:59,901 127.0.0.1 - - [06/Nov/2024 22:12:59] "GET /static/js/serviceWorker.js HTTP/1.1" 200 -
+2024-11-06 22:12:59,923 127.0.0.1 - - [06/Nov/2024 22:12:59] "GET /static/js/app.js HTTP/1.1" 200 -
+2024-11-06 22:12:59,966 127.0.0.1 - - [06/Nov/2024 22:12:59] "GET /static/images/favicon.png HTTP/1.1" 200 -
+2024-11-06 22:12:59,993 {"csp-report":{"document-uri":"https://psychic-space-computing-machine-v9rwv999rpr2wq69-5000.app.github.dev/","referrer":"https://psychic-space-computing-machine-v9rwv999rpr2wq69.github.dev/","violated-directive":"manifest-src","effective-directive":"manifest-src","original-policy":"script-src 'self'; img-src 'self'; child-src 'self'; default-src 'self'; style-src 'self'; media-src 'self'; object-src 'self'; connect-src 'self'; report-uri /csp_report; frame-ancestors none","disposition":"enforce","blocked-uri":"https://psychic-space-computing-machine-v9rwv999rpr2wq69-5000.app.github.dev/static/manifest.json","status-code":200,"script-sample":""}}
+2024-11-06 22:12:59,993 127.0.0.1 - - [06/Nov/2024 22:12:59] "POST /csp_report HTTP/1.1" 200 -
+2024-11-06 22:13:01,124 Starting new HTTP connection (1): 127.0.0.1:3000
+2024-11-06 22:13:01,126 http://127.0.0.1:3000 "GET / HTTP/11" 200 1521
+2024-11-06 22:13:01,127 127.0.0.1 - - [06/Nov/2024 22:13:01] "GET / HTTP/1.1" 200 -
+2024-11-06 22:13:01,172 127.0.0.1 - - [06/Nov/2024 22:13:01] "GET /static/images/logo.png HTTP/1.1" 200 -
+2024-11-06 22:13:01,173 127.0.0.1 - - [06/Nov/2024 22:13:01] "GET /static/css/bootstrap.min.css HTTP/1.1" 200 -
+2024-11-06 22:13:01,175 {"csp-report":{"document-uri":"https://psychic-space-computing-machine-v9rwv999rpr2wq69-5000.app.github.dev/","referrer":"https://psychic-space-computing-machine-v9rwv999rpr2wq69.github.dev/","violated-directive":"img-src","effective-directive":"img-src","original-policy":"script-src 'self'; img-src 'self'; child-src 'self'; default-src 'self'; style-src 'self'; media-src 'self'; object-src 'self'; connect-src 'self'; report-uri /csp_report; frame-ancestors none","disposition":"enforce","blocked-uri":"https://medo64.gallerycdn.vsassets.io/extensions/medo64/render-crlf/1.7.1/1689315206970/Microsoft.VisualStudio.Services.Icons.Default","line-number":142,"source-file":"https://psychic-space-computing-machine-v9rwv999rpr2wq69-5000.app.github.dev/","status-code":200,"script-sample":""}}
+2024-11-06 22:13:01,176 {"csp-report":{"document-uri":"https://psychic-space-computing-machine-v9rwv999rpr2wq69-5000.app.github.dev/","referrer":"https://psychic-space-computing-machine-v9rwv999rpr2wq69.github.dev/","violated-directive":"img-src","effective-directive":"img-src","original-policy":"script-src 'self'; img-src 'self'; child-src 'self'; default-src 'self'; style-src 'self'; media-src 'self'; object-src 'self'; connect-src 'self'; report-uri /csp_report; frame-ancestors none","disposition":"enforce","blocked-uri":"https://yy0931.gallerycdn.vsassets.io/extensions/yy0931/vscode-sqlite3-editor/1.0.85/1690893830873/Microsoft.VisualStudio.Services.Icons.Default","line-number":142,"source-file":"https://psychic-space-computing-machine-v9rwv999rpr2wq69-5000.app.github.dev/","status-code":200,"script-sample":""}}
+2024-11-06 22:13:01,176 127.0.0.1 - - [06/Nov/2024 22:13:01] "POST /csp_report HTTP/1.1" 200 -
+2024-11-06 22:13:01,176 127.0.0.1 - - [06/Nov/2024 22:13:01] "POST /csp_report HTTP/1.1" 200 -
+2024-11-06 22:13:01,177 {"csp-report":{"document-uri":"https://psychic-space-computing-machine-v9rwv999rpr2wq69-5000.app.github.dev/","referrer":"https://psychic-space-computing-machine-v9rwv999rpr2wq69.github.dev/","violated-directive":"img-src","effective-directive":"img-src","original-policy":"script-src 'self'; img-src 'self'; child-src 'self'; default-src 'self'; style-src 'self'; media-src 'self'; object-src 'self'; connect-src 'self'; report-uri /csp_report; frame-ancestors none","disposition":"enforce","blocked-uri":"https://mccarter.gallerycdn.vsassets.io/extensions/mccarter/start-git-bash/1.2.1/1499505567572/Microsoft.VisualStudio.Services.Icons.Default","line-number":142,"source-file":"https://psychic-space-computing-machine-v9rwv999rpr2wq69-5000.app.github.dev/","status-code":200,"script-sample":""}}
+2024-11-06 22:13:01,177 127.0.0.1 - - [06/Nov/2024 22:13:01] "POST /csp_report HTTP/1.1" 200 -
+2024-11-06 22:13:01,179 127.0.0.1 - - [06/Nov/2024 22:13:01] "GET /static/js/bootstrap.bundle.min.js HTTP/1.1" 200 -
+2024-11-06 22:13:01,180 127.0.0.1 - - [06/Nov/2024 22:13:01] "GET /static/css/style.css HTTP/1.1" 200 -
+2024-11-06 22:13:01,182 {"csp-report":{"document-uri":"https://psychic-space-computing-machine-v9rwv999rpr2wq69-5000.app.github.dev/","referrer":"https://psychic-space-computing-machine-v9rwv999rpr2wq69.github.dev/","violated-directive":"img-src","effective-directive":"img-src","original-policy":"script-src 'self'; img-src 'self'; child-src 'self'; default-src 'self'; style-src 'self'; media-src 'self'; object-src 'self'; connect-src 'self'; report-uri /csp_report; frame-ancestors none","disposition":"enforce","blocked-uri":"https://test.jpg/","line-number":142,"source-file":"https://psychic-space-computing-machine-v9rwv999rpr2wq69-5000.app.github.dev/","status-code":200,"script-sample":""}}
+2024-11-06 22:13:01,183 127.0.0.1 - - [06/Nov/2024 22:13:01] "POST /csp_report HTTP/1.1" 200 -
+2024-11-06 22:13:01,218 127.0.0.1 - - [06/Nov/2024 22:13:01] "[33mGET /static/css/bootstrap.min.css.map HTTP/1.1[0m" 404 -
+2024-11-06 22:13:01,224 127.0.0.1 - - [06/Nov/2024 22:13:01] "[33mGET /static/js/bootstrap.bundle.min.js.map HTTP/1.1[0m" 404 -
+2024-11-06 22:13:01,225 127.0.0.1 - - [06/Nov/2024 22:13:01] "GET /static/js/serviceWorker.js HTTP/1.1" 200 -
+2024-11-06 22:13:01,250 127.0.0.1 - - [06/Nov/2024 22:13:01] "GET /static/js/app.js HTTP/1.1" 200 -
+2024-11-06 22:13:01,292 127.0.0.1 - - [06/Nov/2024 22:13:01] "GET /static/images/favicon.png HTTP/1.1" 200 -
+2024-11-06 22:13:01,317 {"csp-report":{"document-uri":"https://psychic-space-computing-machine-v9rwv999rpr2wq69-5000.app.github.dev/","referrer":"https://psychic-space-computing-machine-v9rwv999rpr2wq69.github.dev/","violated-directive":"manifest-src","effective-directive":"manifest-src","original-policy":"script-src 'self'; img-src 'self'; child-src 'self'; default-src 'self'; style-src 'self'; media-src 'self'; object-src 'self'; connect-src 'self'; report-uri /csp_report; frame-ancestors none","disposition":"enforce","blocked-uri":"https://psychic-space-computing-machine-v9rwv999rpr2wq69-5000.app.github.dev/static/manifest.json","status-code":200,"script-sample":""}}
+2024-11-06 22:13:01,317 127.0.0.1 - - [06/Nov/2024 22:13:01] "POST /csp_report HTTP/1.1" 200 -
+2024-11-06 22:13:05,831 Starting new HTTP connection (1): 127.0.0.1:3000
+2024-11-06 22:13:05,834 http://127.0.0.1:3000 "GET / HTTP/11" 200 1521
+2024-11-06 22:13:05,834 127.0.0.1 - - [06/Nov/2024 22:13:05] "GET / HTTP/1.1" 200 -
+2024-11-06 22:13:05,882 {"csp-report":{"document-uri":"https://psychic-space-computing-machine-v9rwv999rpr2wq69-5000.app.github.dev/","referrer":"https://psychic-space-computing-machine-v9rwv999rpr2wq69.github.dev/","violated-directive":"img-src","effective-directive":"img-src","original-policy":"script-src 'self'; img-src 'self'; child-src 'self'; default-src 'self'; style-src 'self'; media-src 'self'; object-src 'self'; connect-src 'self'; report-uri /csp_report; frame-ancestors none","disposition":"enforce","blocked-uri":"https://medo64.gallerycdn.vsassets.io/extensions/medo64/render-crlf/1.7.1/1689315206970/Microsoft.VisualStudio.Services.Icons.Default","line-number":142,"source-file":"https://psychic-space-computing-machine-v9rwv999rpr2wq69-5000.app.github.dev/","status-code":200,"script-sample":""}}
+2024-11-06 22:13:05,882 127.0.0.1 - - [06/Nov/2024 22:13:05] "POST /csp_report HTTP/1.1" 200 -
+2024-11-06 22:13:05,885 {"csp-report":{"document-uri":"https://psychic-space-computing-machine-v9rwv999rpr2wq69-5000.app.github.dev/","referrer":"https://psychic-space-computing-machine-v9rwv999rpr2wq69.github.dev/","violated-directive":"img-src","effective-directive":"img-src","original-policy":"script-src 'self'; img-src 'self'; child-src 'self'; default-src 'self'; style-src 'self'; media-src 'self'; object-src 'self'; connect-src 'self'; report-uri /csp_report; frame-ancestors none","disposition":"enforce","blocked-uri":"https://test.jpg/","line-number":142,"source-file":"https://psychic-space-computing-machine-v9rwv999rpr2wq69-5000.app.github.dev/","status-code":200,"script-sample":""}}
+2024-11-06 22:13:05,886 {"csp-report":{"document-uri":"https://psychic-space-computing-machine-v9rwv999rpr2wq69-5000.app.github.dev/","referrer":"https://psychic-space-computing-machine-v9rwv999rpr2wq69.github.dev/","violated-directive":"img-src","effective-directive":"img-src","original-policy":"script-src 'self'; img-src 'self'; child-src 'self'; default-src 'self'; style-src 'self'; media-src 'self'; object-src 'self'; connect-src 'self'; report-uri /csp_report; frame-ancestors none","disposition":"enforce","blocked-uri":"https://yy0931.gallerycdn.vsassets.io/extensions/yy0931/vscode-sqlite3-editor/1.0.85/1690893830873/Microsoft.VisualStudio.Services.Icons.Default","line-number":142,"source-file":"https://psychic-space-computing-machine-v9rwv999rpr2wq69-5000.app.github.dev/","status-code":200,"script-sample":""}}
+2024-11-06 22:13:05,886 {"csp-report":{"document-uri":"https://psychic-space-computing-machine-v9rwv999rpr2wq69-5000.app.github.dev/","referrer":"https://psychic-space-computing-machine-v9rwv999rpr2wq69.github.dev/","violated-directive":"img-src","effective-directive":"img-src","original-policy":"script-src 'self'; img-src 'self'; child-src 'self'; default-src 'self'; style-src 'self'; media-src 'self'; object-src 'self'; connect-src 'self'; report-uri /csp_report; frame-ancestors none","disposition":"enforce","blocked-uri":"https://mccarter.gallerycdn.vsassets.io/extensions/mccarter/start-git-bash/1.2.1/1499505567572/Microsoft.VisualStudio.Services.Icons.Default","line-number":142,"source-file":"https://psychic-space-computing-machine-v9rwv999rpr2wq69-5000.app.github.dev/","status-code":200,"script-sample":""}}
+2024-11-06 22:13:05,887 127.0.0.1 - - [06/Nov/2024 22:13:05] "POST /csp_report HTTP/1.1" 200 -
+2024-11-06 22:13:05,887 127.0.0.1 - - [06/Nov/2024 22:13:05] "GET /static/css/bootstrap.min.css HTTP/1.1" 200 -
+2024-11-06 22:13:05,887 127.0.0.1 - - [06/Nov/2024 22:13:05] "POST /csp_report HTTP/1.1" 200 -
+2024-11-06 22:13:05,888 127.0.0.1 - - [06/Nov/2024 22:13:05] "POST /csp_report HTTP/1.1" 200 -
+2024-11-06 22:13:05,890 127.0.0.1 - - [06/Nov/2024 22:13:05] "GET /static/css/style.css HTTP/1.1" 200 -
+2024-11-06 22:13:05,892 127.0.0.1 - - [06/Nov/2024 22:13:05] "GET /static/js/bootstrap.bundle.min.js HTTP/1.1" 200 -
+2024-11-06 22:13:05,895 127.0.0.1 - - [06/Nov/2024 22:13:05] "GET /static/images/logo.png HTTP/1.1" 200 -
+2024-11-06 22:13:05,948 127.0.0.1 - - [06/Nov/2024 22:13:05] "[33mGET /static/js/bootstrap.bundle.min.js.map HTTP/1.1[0m" 404 -
+2024-11-06 22:13:05,948 127.0.0.1 - - [06/Nov/2024 22:13:05] "[33mGET /static/css/bootstrap.min.css.map HTTP/1.1[0m" 404 -
+2024-11-06 22:13:05,949 127.0.0.1 - - [06/Nov/2024 22:13:05] "GET /static/js/serviceWorker.js HTTP/1.1" 200 -
+2024-11-06 22:13:05,968 127.0.0.1 - - [06/Nov/2024 22:13:05] "GET /static/js/app.js HTTP/1.1" 200 -
+2024-11-06 22:13:06,012 127.0.0.1 - - [06/Nov/2024 22:13:06] "GET /static/images/favicon.png HTTP/1.1" 200 -
+2024-11-06 22:13:06,041 {"csp-report":{"document-uri":"https://psychic-space-computing-machine-v9rwv999rpr2wq69-5000.app.github.dev/","referrer":"https://psychic-space-computing-machine-v9rwv999rpr2wq69.github.dev/","violated-directive":"manifest-src","effective-directive":"manifest-src","original-policy":"script-src 'self'; img-src 'self'; child-src 'self'; default-src 'self'; style-src 'self'; media-src 'self'; object-src 'self'; connect-src 'self'; report-uri /csp_report; frame-ancestors none","disposition":"enforce","blocked-uri":"https://psychic-space-computing-machine-v9rwv999rpr2wq69-5000.app.github.dev/static/manifest.json","status-code":200,"script-sample":""}}
+2024-11-06 22:13:06,041 127.0.0.1 - - [06/Nov/2024 22:13:06] "POST /csp_report HTTP/1.1" 200 -
+2024-11-06 22:14:32,117  * Detected change in '/workspaces/2025SE-FlaskAPI/main.py', reloading
+2024-11-06 22:14:32,151  * Restarting with stat
+2024-11-06 22:14:32,377  * Debugger is active!
+2024-11-06 22:14:32,377  * Debugger PIN: 316-145-997
+2024-11-06 22:14:38,329 [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.0.0.14:5000
+2024-11-06 22:14:38,329 [33mPress CTRL+C to quit[0m
+2024-11-06 22:14:38,330  * Restarting with stat
+2024-11-06 22:14:38,554  * Debugger is active!
+2024-11-06 22:14:38,554  * Debugger PIN: 316-145-997
+2024-11-06 22:14:40,667 Starting new HTTP connection (1): 127.0.0.1:3000
+2024-11-06 22:14:40,671 http://127.0.0.1:3000 "GET / HTTP/11" 200 1521
+2024-11-06 22:14:40,678 127.0.0.1 - - [06/Nov/2024 22:14:40] "GET /?vscodeBrowserReqId=1730931280570 HTTP/1.1" 200 -
+2024-11-06 22:14:45,929 [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.0.0.14:5000
+2024-11-06 22:14:45,929 [33mPress CTRL+C to quit[0m
+2024-11-06 22:14:45,930  * Restarting with stat
+2024-11-06 22:14:46,158  * Debugger is active!
+2024-11-06 22:14:46,158  * Debugger PIN: 316-145-997
+2024-11-06 22:14:54,823 Starting new HTTP connection (1): 127.0.0.1:3000
+2024-11-06 22:14:54,826 http://127.0.0.1:3000 "GET / HTTP/11" 200 1521
+2024-11-06 22:14:54,832 127.0.0.1 - - [06/Nov/2024 22:14:54] "GET / HTTP/1.1" 200 -
+2024-11-06 22:14:55,027 127.0.0.1 - - [06/Nov/2024 22:14:55] "GET /static/images/logo.png HTTP/1.1" 200 -
+2024-11-06 22:14:55,034 127.0.0.1 - - [06/Nov/2024 22:14:55] "GET /static/css/style.css HTTP/1.1" 200 -
+2024-11-06 22:14:55,038 127.0.0.1 - - [06/Nov/2024 22:14:55] "GET /static/js/bootstrap.bundle.min.js HTTP/1.1" 200 -
+2024-11-06 22:14:55,055 127.0.0.1 - - [06/Nov/2024 22:14:55] "GET /static/css/bootstrap.min.css HTTP/1.1" 200 -
+2024-11-06 22:14:55,082 127.0.0.1 - - [06/Nov/2024 22:14:55] "[33mGET /static/js/bootstrap.bundle.min.js.map HTTP/1.1[0m" 404 -
+2024-11-06 22:14:55,098 127.0.0.1 - - [06/Nov/2024 22:14:55] "[33mGET /static/css/bootstrap.min.css.map HTTP/1.1[0m" 404 -
+2024-11-06 22:14:55,098 127.0.0.1 - - [06/Nov/2024 22:14:55] "GET /static/js/serviceWorker.js HTTP/1.1" 200 -
+2024-11-06 22:14:55,118 127.0.0.1 - - [06/Nov/2024 22:14:55] "GET /static/js/app.js HTTP/1.1" 200 -
+2024-11-06 22:14:55,173 127.0.0.1 - - [06/Nov/2024 22:14:55] "GET /static/images/favicon.png HTTP/1.1" 200 -
+2024-11-06 22:14:55,211 {"csp-report":{"document-uri":"https://psychic-space-computing-machine-v9rwv999rpr2wq69-5000.app.github.dev/","referrer":"https://psychic-space-computing-machine-v9rwv999rpr2wq69.github.dev/","violated-directive":"manifest-src","effective-directive":"manifest-src","original-policy":"script-src 'self'; img-src 'self' https:; child-src 'self'; default-src 'self'; style-src 'self'; media-src 'self'; object-src 'self'; connect-src 'self'; report-uri /csp_report; frame-ancestors none","disposition":"enforce","blocked-uri":"https://psychic-space-computing-machine-v9rwv999rpr2wq69-5000.app.github.dev/static/manifest.json","status-code":200,"script-sample":""}}
+2024-11-06 22:14:55,211 127.0.0.1 - - [06/Nov/2024 22:14:55] "POST /csp_report HTTP/1.1" 200 -
+2024-11-06 22:14:56,373 Starting new HTTP connection (1): 127.0.0.1:3000
+2024-11-06 22:14:56,376 http://127.0.0.1:3000 "GET / HTTP/11" 200 1521
+2024-11-06 22:14:56,376 127.0.0.1 - - [06/Nov/2024 22:14:56] "GET / HTTP/1.1" 200 -
+2024-11-06 22:14:56,415 127.0.0.1 - - [06/Nov/2024 22:14:56] "GET /static/images/logo.png HTTP/1.1" 200 -
+2024-11-06 22:14:56,416 127.0.0.1 - - [06/Nov/2024 22:14:56] "GET /static/css/style.css HTTP/1.1" 200 -
+2024-11-06 22:14:56,417 127.0.0.1 - - [06/Nov/2024 22:14:56] "GET /static/css/bootstrap.min.css HTTP/1.1" 200 -
+2024-11-06 22:14:56,418 127.0.0.1 - - [06/Nov/2024 22:14:56] "GET /static/js/bootstrap.bundle.min.js HTTP/1.1" 200 -
+2024-11-06 22:14:56,466 127.0.0.1 - - [06/Nov/2024 22:14:56] "[33mGET /static/css/bootstrap.min.css.map HTTP/1.1[0m" 404 -
+2024-11-06 22:14:56,469 127.0.0.1 - - [06/Nov/2024 22:14:56] "[33mGET /static/js/bootstrap.bundle.min.js.map HTTP/1.1[0m" 404 -
+2024-11-06 22:14:56,470 127.0.0.1 - - [06/Nov/2024 22:14:56] "GET /static/js/serviceWorker.js HTTP/1.1" 200 -
+2024-11-06 22:14:56,491 127.0.0.1 - - [06/Nov/2024 22:14:56] "GET /static/js/app.js HTTP/1.1" 200 -
+2024-11-06 22:14:56,544 127.0.0.1 - - [06/Nov/2024 22:14:56] "GET /static/images/favicon.png HTTP/1.1" 200 -
+2024-11-06 22:14:56,570 {"csp-report":{"document-uri":"https://psychic-space-computing-machine-v9rwv999rpr2wq69-5000.app.github.dev/","referrer":"https://psychic-space-computing-machine-v9rwv999rpr2wq69.github.dev/","violated-directive":"manifest-src","effective-directive":"manifest-src","original-policy":"script-src 'self'; img-src 'self' https:; child-src 'self'; default-src 'self'; style-src 'self'; media-src 'self'; object-src 'self'; connect-src 'self'; report-uri /csp_report; frame-ancestors none","disposition":"enforce","blocked-uri":"https://psychic-space-computing-machine-v9rwv999rpr2wq69-5000.app.github.dev/static/manifest.json","status-code":200,"script-sample":""}}
+2024-11-06 22:14:56,571 127.0.0.1 - - [06/Nov/2024 22:14:56] "POST /csp_report HTTP/1.1" 200 -
+2024-11-06 22:14:56,918 Starting new HTTP connection (1): 127.0.0.1:3000
+2024-11-06 22:14:56,920 http://127.0.0.1:3000 "GET / HTTP/11" 200 1521
+2024-11-06 22:14:56,921 127.0.0.1 - - [06/Nov/2024 22:14:56] "GET / HTTP/1.1" 200 -
+2024-11-06 22:14:56,967 127.0.0.1 - - [06/Nov/2024 22:14:56] "GET /static/images/logo.png HTTP/1.1" 200 -
+2024-11-06 22:14:56,968 127.0.0.1 - - [06/Nov/2024 22:14:56] "GET /static/js/bootstrap.bundle.min.js HTTP/1.1" 200 -
+2024-11-06 22:14:56,969 127.0.0.1 - - [06/Nov/2024 22:14:56] "GET /static/css/style.css HTTP/1.1" 200 -
+2024-11-06 22:14:56,969 127.0.0.1 - - [06/Nov/2024 22:14:56] "GET /static/css/bootstrap.min.css HTTP/1.1" 200 -
+2024-11-06 22:14:57,001 127.0.0.1 - - [06/Nov/2024 22:14:57] "[33mGET /static/js/bootstrap.bundle.min.js.map HTTP/1.1[0m" 404 -
+2024-11-06 22:14:57,016 127.0.0.1 - - [06/Nov/2024 22:14:57] "[33mGET /static/css/bootstrap.min.css.map HTTP/1.1[0m" 404 -
+2024-11-06 22:14:57,017 127.0.0.1 - - [06/Nov/2024 22:14:57] "GET /static/js/serviceWorker.js HTTP/1.1" 200 -
+2024-11-06 22:14:57,038 127.0.0.1 - - [06/Nov/2024 22:14:57] "GET /static/js/app.js HTTP/1.1" 200 -
+2024-11-06 22:14:57,086 127.0.0.1 - - [06/Nov/2024 22:14:57] "GET /static/images/favicon.png HTTP/1.1" 200 -
+2024-11-06 22:14:57,116 {"csp-report":{"document-uri":"https://psychic-space-computing-machine-v9rwv999rpr2wq69-5000.app.github.dev/","referrer":"https://psychic-space-computing-machine-v9rwv999rpr2wq69.github.dev/","violated-directive":"manifest-src","effective-directive":"manifest-src","original-policy":"script-src 'self'; img-src 'self' https:; child-src 'self'; default-src 'self'; style-src 'self'; media-src 'self'; object-src 'self'; connect-src 'self'; report-uri /csp_report; frame-ancestors none","disposition":"enforce","blocked-uri":"https://psychic-space-computing-machine-v9rwv999rpr2wq69-5000.app.github.dev/static/manifest.json","status-code":200,"script-sample":""}}
+2024-11-06 22:14:57,116 127.0.0.1 - - [06/Nov/2024 22:14:57] "POST /csp_report HTTP/1.1" 200 -
+2024-11-06 22:14:57,301 Starting new HTTP connection (1): 127.0.0.1:3000
+2024-11-06 22:14:57,304 http://127.0.0.1:3000 "GET / HTTP/11" 200 1521
+2024-11-06 22:14:57,304 127.0.0.1 - - [06/Nov/2024 22:14:57] "GET / HTTP/1.1" 200 -
+2024-11-06 22:14:57,345 127.0.0.1 - - [06/Nov/2024 22:14:57] "GET /static/images/logo.png HTTP/1.1" 200 -
+2024-11-06 22:14:57,346 127.0.0.1 - - [06/Nov/2024 22:14:57] "GET /static/css/style.css HTTP/1.1" 200 -
+2024-11-06 22:14:57,349 127.0.0.1 - - [06/Nov/2024 22:14:57] "GET /static/js/bootstrap.bundle.min.js HTTP/1.1" 200 -
+2024-11-06 22:14:57,349 127.0.0.1 - - [06/Nov/2024 22:14:57] "GET /static/css/bootstrap.min.css HTTP/1.1" 200 -
+2024-11-06 22:14:57,374 127.0.0.1 - - [06/Nov/2024 22:14:57] "[33mGET /static/js/bootstrap.bundle.min.js.map HTTP/1.1[0m" 404 -
+2024-11-06 22:14:57,388 127.0.0.1 - - [06/Nov/2024 22:14:57] "GET /static/js/serviceWorker.js HTTP/1.1" 200 -
+2024-11-06 22:14:57,389 127.0.0.1 - - [06/Nov/2024 22:14:57] "[33mGET /static/css/bootstrap.min.css.map HTTP/1.1[0m" 404 -
+2024-11-06 22:14:57,408 127.0.0.1 - - [06/Nov/2024 22:14:57] "GET /static/js/app.js HTTP/1.1" 200 -
+2024-11-06 22:14:57,450 127.0.0.1 - - [06/Nov/2024 22:14:57] "GET /static/images/favicon.png HTTP/1.1" 200 -
+2024-11-06 22:14:57,477 {"csp-report":{"document-uri":"https://psychic-space-computing-machine-v9rwv999rpr2wq69-5000.app.github.dev/","referrer":"https://psychic-space-computing-machine-v9rwv999rpr2wq69.github.dev/","violated-directive":"manifest-src","effective-directive":"manifest-src","original-policy":"script-src 'self'; img-src 'self' https:; child-src 'self'; default-src 'self'; style-src 'self'; media-src 'self'; object-src 'self'; connect-src 'self'; report-uri /csp_report; frame-ancestors none","disposition":"enforce","blocked-uri":"https://psychic-space-computing-machine-v9rwv999rpr2wq69-5000.app.github.dev/static/manifest.json","status-code":200,"script-sample":""}}
+2024-11-06 22:14:57,478 127.0.0.1 - - [06/Nov/2024 22:14:57] "POST /csp_report HTTP/1.1" 200 -
+2024-11-06 22:14:57,652 Starting new HTTP connection (1): 127.0.0.1:3000
+2024-11-06 22:14:57,654 http://127.0.0.1:3000 "GET / HTTP/11" 200 1521
+2024-11-06 22:14:57,655 127.0.0.1 - - [06/Nov/2024 22:14:57] "GET / HTTP/1.1" 200 -
+2024-11-06 22:14:57,691 127.0.0.1 - - [06/Nov/2024 22:14:57] "GET /static/css/style.css HTTP/1.1" 200 -
+2024-11-06 22:14:57,693 127.0.0.1 - - [06/Nov/2024 22:14:57] "GET /static/images/logo.png HTTP/1.1" 200 -
+2024-11-06 22:14:57,695 127.0.0.1 - - [06/Nov/2024 22:14:57] "GET /static/css/bootstrap.min.css HTTP/1.1" 200 -
+2024-11-06 22:14:57,695 127.0.0.1 - - [06/Nov/2024 22:14:57] "GET /static/js/bootstrap.bundle.min.js HTTP/1.1" 200 -
+2024-11-06 22:14:57,721 127.0.0.1 - - [06/Nov/2024 22:14:57] "[33mGET /static/js/bootstrap.bundle.min.js.map HTTP/1.1[0m" 404 -
+2024-11-06 22:14:57,736 127.0.0.1 - - [06/Nov/2024 22:14:57] "[33mGET /static/css/bootstrap.min.css.map HTTP/1.1[0m" 404 -
+2024-11-06 22:14:57,736 127.0.0.1 - - [06/Nov/2024 22:14:57] "GET /static/js/serviceWorker.js HTTP/1.1" 200 -
+2024-11-06 22:14:57,760 127.0.0.1 - - [06/Nov/2024 22:14:57] "GET /static/js/app.js HTTP/1.1" 200 -
+2024-11-06 22:14:57,810 127.0.0.1 - - [06/Nov/2024 22:14:57] "GET /static/images/favicon.png HTTP/1.1" 200 -
+2024-11-06 22:14:57,835 {"csp-report":{"document-uri":"https://psychic-space-computing-machine-v9rwv999rpr2wq69-5000.app.github.dev/","referrer":"https://psychic-space-computing-machine-v9rwv999rpr2wq69.github.dev/","violated-directive":"manifest-src","effective-directive":"manifest-src","original-policy":"script-src 'self'; img-src 'self' https:; child-src 'self'; default-src 'self'; style-src 'self'; media-src 'self'; object-src 'self'; connect-src 'self'; report-uri /csp_report; frame-ancestors none","disposition":"enforce","blocked-uri":"https://psychic-space-computing-machine-v9rwv999rpr2wq69-5000.app.github.dev/static/manifest.json","status-code":200,"script-sample":""}}
+2024-11-06 22:14:57,836 127.0.0.1 - - [06/Nov/2024 22:14:57] "POST /csp_report HTTP/1.1" 200 -
+2024-11-06 22:14:58,065 Starting new HTTP connection (1): 127.0.0.1:3000
+2024-11-06 22:14:58,068 http://127.0.0.1:3000 "GET / HTTP/11" 200 1521
+2024-11-06 22:14:58,068 127.0.0.1 - - [06/Nov/2024 22:14:58] "GET / HTTP/1.1" 200 -
+2024-11-06 22:14:58,103 127.0.0.1 - - [06/Nov/2024 22:14:58] "GET /static/css/style.css HTTP/1.1" 200 -
+2024-11-06 22:14:58,106 127.0.0.1 - - [06/Nov/2024 22:14:58] "GET /static/css/bootstrap.min.css HTTP/1.1" 200 -
+2024-11-06 22:14:58,107 127.0.0.1 - - [06/Nov/2024 22:14:58] "GET /static/js/bootstrap.bundle.min.js HTTP/1.1" 200 -
+2024-11-06 22:14:58,110 127.0.0.1 - - [06/Nov/2024 22:14:58] "GET /static/images/logo.png HTTP/1.1" 200 -
+2024-11-06 22:14:58,150 127.0.0.1 - - [06/Nov/2024 22:14:58] "[33mGET /static/css/bootstrap.min.css.map HTTP/1.1[0m" 404 -
+2024-11-06 22:14:58,152 127.0.0.1 - - [06/Nov/2024 22:14:58] "GET /static/js/serviceWorker.js HTTP/1.1" 200 -
+2024-11-06 22:14:58,157 127.0.0.1 - - [06/Nov/2024 22:14:58] "[33mGET /static/js/bootstrap.bundle.min.js.map HTTP/1.1[0m" 404 -
+2024-11-06 22:14:58,170 127.0.0.1 - - [06/Nov/2024 22:14:58] "GET /static/js/app.js HTTP/1.1" 200 -
+2024-11-06 22:14:58,223 127.0.0.1 - - [06/Nov/2024 22:14:58] "GET /static/images/favicon.png HTTP/1.1" 200 -
+2024-11-06 22:14:58,253 {"csp-report":{"document-uri":"https://psychic-space-computing-machine-v9rwv999rpr2wq69-5000.app.github.dev/","referrer":"https://psychic-space-computing-machine-v9rwv999rpr2wq69.github.dev/","violated-directive":"manifest-src","effective-directive":"manifest-src","original-policy":"script-src 'self'; img-src 'self' https:; child-src 'self'; default-src 'self'; style-src 'self'; media-src 'self'; object-src 'self'; connect-src 'self'; report-uri /csp_report; frame-ancestors none","disposition":"enforce","blocked-uri":"https://psychic-space-computing-machine-v9rwv999rpr2wq69-5000.app.github.dev/static/manifest.json","status-code":200,"script-sample":""}}
+2024-11-06 22:14:58,253 127.0.0.1 - - [06/Nov/2024 22:14:58] "POST /csp_report HTTP/1.1" 200 -
+2024-11-06 22:14:58,438 Starting new HTTP connection (1): 127.0.0.1:3000
+2024-11-06 22:14:58,440 http://127.0.0.1:3000 "GET / HTTP/11" 200 1521
+2024-11-06 22:14:58,441 127.0.0.1 - - [06/Nov/2024 22:14:58] "GET / HTTP/1.1" 200 -
+2024-11-06 22:14:58,480 127.0.0.1 - - [06/Nov/2024 22:14:58] "GET /static/css/bootstrap.min.css HTTP/1.1" 200 -
+2024-11-06 22:14:58,480 127.0.0.1 - - [06/Nov/2024 22:14:58] "GET /static/js/bootstrap.bundle.min.js HTTP/1.1" 200 -
+2024-11-06 22:14:58,480 127.0.0.1 - - [06/Nov/2024 22:14:58] "GET /static/css/style.css HTTP/1.1" 200 -
+2024-11-06 22:14:58,483 127.0.0.1 - - [06/Nov/2024 22:14:58] "GET /static/images/logo.png HTTP/1.1" 200 -
+2024-11-06 22:14:58,506 127.0.0.1 - - [06/Nov/2024 22:14:58] "[33mGET /static/js/bootstrap.bundle.min.js.map HTTP/1.1[0m" 404 -
+2024-11-06 22:14:58,516 127.0.0.1 - - [06/Nov/2024 22:14:58] "[33mGET /static/css/bootstrap.min.css.map HTTP/1.1[0m" 404 -
+2024-11-06 22:14:58,519 127.0.0.1 - - [06/Nov/2024 22:14:58] "GET /static/js/serviceWorker.js HTTP/1.1" 200 -
+2024-11-06 22:14:58,538 127.0.0.1 - - [06/Nov/2024 22:14:58] "GET /static/js/app.js HTTP/1.1" 200 -
+2024-11-06 22:14:58,580 127.0.0.1 - - [06/Nov/2024 22:14:58] "GET /static/images/favicon.png HTTP/1.1" 200 -
+2024-11-06 22:14:58,604 {"csp-report":{"document-uri":"https://psychic-space-computing-machine-v9rwv999rpr2wq69-5000.app.github.dev/","referrer":"https://psychic-space-computing-machine-v9rwv999rpr2wq69.github.dev/","violated-directive":"manifest-src","effective-directive":"manifest-src","original-policy":"script-src 'self'; img-src 'self' https:; child-src 'self'; default-src 'self'; style-src 'self'; media-src 'self'; object-src 'self'; connect-src 'self'; report-uri /csp_report; frame-ancestors none","disposition":"enforce","blocked-uri":"https://psychic-space-computing-machine-v9rwv999rpr2wq69-5000.app.github.dev/static/manifest.json","status-code":200,"script-sample":""}}
+2024-11-06 22:14:58,605 127.0.0.1 - - [06/Nov/2024 22:14:58] "POST /csp_report HTTP/1.1" 200 -
+2024-11-06 22:14:58,768 Starting new HTTP connection (1): 127.0.0.1:3000
+2024-11-06 22:14:58,772 http://127.0.0.1:3000 "GET / HTTP/11" 200 1521
+2024-11-06 22:14:58,773 127.0.0.1 - - [06/Nov/2024 22:14:58] "GET / HTTP/1.1" 200 -
+2024-11-06 22:14:58,810 127.0.0.1 - - [06/Nov/2024 22:14:58] "GET /static/images/logo.png HTTP/1.1" 200 -
+2024-11-06 22:14:58,810 127.0.0.1 - - [06/Nov/2024 22:14:58] "GET /static/js/bootstrap.bundle.min.js HTTP/1.1" 200 -
+2024-11-06 22:14:58,814 127.0.0.1 - - [06/Nov/2024 22:14:58] "GET /static/css/bootstrap.min.css HTTP/1.1" 200 -
+2024-11-06 22:14:58,815 127.0.0.1 - - [06/Nov/2024 22:14:58] "GET /static/css/style.css HTTP/1.1" 200 -
+2024-11-06 22:14:58,840 127.0.0.1 - - [06/Nov/2024 22:14:58] "[33mGET /static/js/bootstrap.bundle.min.js.map HTTP/1.1[0m" 404 -
+2024-11-06 22:14:58,855 127.0.0.1 - - [06/Nov/2024 22:14:58] "[33mGET /static/css/bootstrap.min.css.map HTTP/1.1[0m" 404 -
+2024-11-06 22:14:58,856 127.0.0.1 - - [06/Nov/2024 22:14:58] "GET /static/js/serviceWorker.js HTTP/1.1" 200 -
+2024-11-06 22:14:58,877 127.0.0.1 - - [06/Nov/2024 22:14:58] "GET /static/js/app.js HTTP/1.1" 200 -
+2024-11-06 22:14:58,931 127.0.0.1 - - [06/Nov/2024 22:14:58] "GET /static/images/favicon.png HTTP/1.1" 200 -
+2024-11-06 22:14:58,959 {"csp-report":{"document-uri":"https://psychic-space-computing-machine-v9rwv999rpr2wq69-5000.app.github.dev/","referrer":"https://psychic-space-computing-machine-v9rwv999rpr2wq69.github.dev/","violated-directive":"manifest-src","effective-directive":"manifest-src","original-policy":"script-src 'self'; img-src 'self' https:; child-src 'self'; default-src 'self'; style-src 'self'; media-src 'self'; object-src 'self'; connect-src 'self'; report-uri /csp_report; frame-ancestors none","disposition":"enforce","blocked-uri":"https://psychic-space-computing-machine-v9rwv999rpr2wq69-5000.app.github.dev/static/manifest.json","status-code":200,"script-sample":""}}
+2024-11-06 22:14:58,959 127.0.0.1 - - [06/Nov/2024 22:14:58] "POST /csp_report HTTP/1.1" 200 -
+2024-11-06 22:14:59,172 Starting new HTTP connection (1): 127.0.0.1:3000
+2024-11-06 22:14:59,174 http://127.0.0.1:3000 "GET / HTTP/11" 200 1521
+2024-11-06 22:14:59,175 127.0.0.1 - - [06/Nov/2024 22:14:59] "GET / HTTP/1.1" 200 -
+2024-11-06 22:14:59,217 127.0.0.1 - - [06/Nov/2024 22:14:59] "GET /static/css/bootstrap.min.css HTTP/1.1" 200 -
+2024-11-06 22:14:59,219 127.0.0.1 - - [06/Nov/2024 22:14:59] "GET /static/css/style.css HTTP/1.1" 200 -
+2024-11-06 22:14:59,219 127.0.0.1 - - [06/Nov/2024 22:14:59] "GET /static/images/logo.png HTTP/1.1" 200 -
+2024-11-06 22:14:59,221 127.0.0.1 - - [06/Nov/2024 22:14:59] "GET /static/js/bootstrap.bundle.min.js HTTP/1.1" 200 -
+2024-11-06 22:14:59,259 127.0.0.1 - - [06/Nov/2024 22:14:59] "[33mGET /static/css/bootstrap.min.css.map HTTP/1.1[0m" 404 -
+2024-11-06 22:14:59,267 127.0.0.1 - - [06/Nov/2024 22:14:59] "GET /static/js/serviceWorker.js HTTP/1.1" 200 -
+2024-11-06 22:14:59,277 127.0.0.1 - - [06/Nov/2024 22:14:59] "[33mGET /static/js/bootstrap.bundle.min.js.map HTTP/1.1[0m" 404 -
+2024-11-06 22:14:59,287 127.0.0.1 - - [06/Nov/2024 22:14:59] "GET /static/js/app.js HTTP/1.1" 200 -
+2024-11-06 22:14:59,341 127.0.0.1 - - [06/Nov/2024 22:14:59] "GET /static/images/favicon.png HTTP/1.1" 200 -
+2024-11-06 22:14:59,368 {"csp-report":{"document-uri":"https://psychic-space-computing-machine-v9rwv999rpr2wq69-5000.app.github.dev/","referrer":"https://psychic-space-computing-machine-v9rwv999rpr2wq69.github.dev/","violated-directive":"manifest-src","effective-directive":"manifest-src","original-policy":"script-src 'self'; img-src 'self' https:; child-src 'self'; default-src 'self'; style-src 'self'; media-src 'self'; object-src 'self'; connect-src 'self'; report-uri /csp_report; frame-ancestors none","disposition":"enforce","blocked-uri":"https://psychic-space-computing-machine-v9rwv999rpr2wq69-5000.app.github.dev/static/manifest.json","status-code":200,"script-sample":""}}
+2024-11-06 22:14:59,368 127.0.0.1 - - [06/Nov/2024 22:14:59] "POST /csp_report HTTP/1.1" 200 -
+2024-11-06 22:14:59,606 Starting new HTTP connection (1): 127.0.0.1:3000
+2024-11-06 22:14:59,608 http://127.0.0.1:3000 "GET / HTTP/11" 200 1521
+2024-11-06 22:14:59,609 127.0.0.1 - - [06/Nov/2024 22:14:59] "GET / HTTP/1.1" 200 -
+2024-11-06 22:14:59,653 127.0.0.1 - - [06/Nov/2024 22:14:59] "GET /static/js/bootstrap.bundle.min.js HTTP/1.1" 200 -
+2024-11-06 22:14:59,654 127.0.0.1 - - [06/Nov/2024 22:14:59] "GET /static/css/style.css HTTP/1.1" 200 -
+2024-11-06 22:14:59,655 127.0.0.1 - - [06/Nov/2024 22:14:59] "GET /static/images/logo.png HTTP/1.1" 200 -
+2024-11-06 22:14:59,657 127.0.0.1 - - [06/Nov/2024 22:14:59] "GET /static/css/bootstrap.min.css HTTP/1.1" 200 -
+2024-11-06 22:14:59,686 127.0.0.1 - - [06/Nov/2024 22:14:59] "[33mGET /static/js/bootstrap.bundle.min.js.map HTTP/1.1[0m" 404 -
+2024-11-06 22:14:59,699 127.0.0.1 - - [06/Nov/2024 22:14:59] "[33mGET /static/css/bootstrap.min.css.map HTTP/1.1[0m" 404 -
+2024-11-06 22:14:59,699 127.0.0.1 - - [06/Nov/2024 22:14:59] "GET /static/js/serviceWorker.js HTTP/1.1" 200 -
+2024-11-06 22:14:59,725 127.0.0.1 - - [06/Nov/2024 22:14:59] "GET /static/js/app.js HTTP/1.1" 200 -
+2024-11-06 22:14:59,764 127.0.0.1 - - [06/Nov/2024 22:14:59] "GET /static/images/favicon.png HTTP/1.1" 200 -
+2024-11-06 22:14:59,791 {"csp-report":{"document-uri":"https://psychic-space-computing-machine-v9rwv999rpr2wq69-5000.app.github.dev/","referrer":"https://psychic-space-computing-machine-v9rwv999rpr2wq69.github.dev/","violated-directive":"manifest-src","effective-directive":"manifest-src","original-policy":"script-src 'self'; img-src 'self' https:; child-src 'self'; default-src 'self'; style-src 'self'; media-src 'self'; object-src 'self'; connect-src 'self'; report-uri /csp_report; frame-ancestors none","disposition":"enforce","blocked-uri":"https://psychic-space-computing-machine-v9rwv999rpr2wq69-5000.app.github.dev/static/manifest.json","status-code":200,"script-sample":""}}
+2024-11-06 22:14:59,791 127.0.0.1 - - [06/Nov/2024 22:14:59] "POST /csp_report HTTP/1.1" 200 -
+2024-11-06 22:15:00,001 Starting new HTTP connection (1): 127.0.0.1:3000
+2024-11-06 22:15:00,003 http://127.0.0.1:3000 "GET / HTTP/11" 200 1521
+2024-11-06 22:15:00,004 127.0.0.1 - - [06/Nov/2024 22:15:00] "GET / HTTP/1.1" 200 -
+2024-11-06 22:15:00,041 127.0.0.1 - - [06/Nov/2024 22:15:00] "GET /static/css/style.css HTTP/1.1" 200 -
+2024-11-06 22:15:00,042 127.0.0.1 - - [06/Nov/2024 22:15:00] "GET /static/images/logo.png HTTP/1.1" 200 -
+2024-11-06 22:15:00,044 127.0.0.1 - - [06/Nov/2024 22:15:00] "GET /static/js/bootstrap.bundle.min.js HTTP/1.1" 200 -
+2024-11-06 22:15:00,044 127.0.0.1 - - [06/Nov/2024 22:15:00] "GET /static/css/bootstrap.min.css HTTP/1.1" 200 -
+2024-11-06 22:15:00,078 127.0.0.1 - - [06/Nov/2024 22:15:00] "[33mGET /static/css/bootstrap.min.css.map HTTP/1.1[0m" 404 -
+2024-11-06 22:15:00,083 127.0.0.1 - - [06/Nov/2024 22:15:00] "GET /static/js/serviceWorker.js HTTP/1.1" 200 -
+2024-11-06 22:15:00,084 127.0.0.1 - - [06/Nov/2024 22:15:00] "[33mGET /static/js/bootstrap.bundle.min.js.map HTTP/1.1[0m" 404 -
+2024-11-06 22:15:00,108 127.0.0.1 - - [06/Nov/2024 22:15:00] "GET /static/js/app.js HTTP/1.1" 200 -
+2024-11-06 22:15:00,151 127.0.0.1 - - [06/Nov/2024 22:15:00] "GET /static/images/favicon.png HTTP/1.1" 200 -
+2024-11-06 22:15:00,172 {"csp-report":{"document-uri":"https://psychic-space-computing-machine-v9rwv999rpr2wq69-5000.app.github.dev/","referrer":"https://psychic-space-computing-machine-v9rwv999rpr2wq69.github.dev/","violated-directive":"manifest-src","effective-directive":"manifest-src","original-policy":"script-src 'self'; img-src 'self' https:; child-src 'self'; default-src 'self'; style-src 'self'; media-src 'self'; object-src 'self'; connect-src 'self'; report-uri /csp_report; frame-ancestors none","disposition":"enforce","blocked-uri":"https://psychic-space-computing-machine-v9rwv999rpr2wq69-5000.app.github.dev/static/manifest.json","status-code":200,"script-sample":""}}
+2024-11-06 22:15:00,172 127.0.0.1 - - [06/Nov/2024 22:15:00] "POST /csp_report HTTP/1.1" 200 -
+2024-11-06 22:15:01,203 Starting new HTTP connection (1): 127.0.0.1:3000
+2024-11-06 22:15:01,205 http://127.0.0.1:3000 "GET / HTTP/11" 200 1521
+2024-11-06 22:15:01,206 127.0.0.1 - - [06/Nov/2024 22:15:01] "GET / HTTP/1.1" 200 -
+2024-11-06 22:15:01,248 127.0.0.1 - - [06/Nov/2024 22:15:01] "GET /static/css/style.css HTTP/1.1" 200 -
+2024-11-06 22:15:01,248 127.0.0.1 - - [06/Nov/2024 22:15:01] "GET /static/js/bootstrap.bundle.min.js HTTP/1.1" 200 -
+2024-11-06 22:15:01,252 127.0.0.1 - - [06/Nov/2024 22:15:01] "GET /static/css/bootstrap.min.css HTTP/1.1" 200 -
+2024-11-06 22:15:01,253 127.0.0.1 - - [06/Nov/2024 22:15:01] "GET /static/images/logo.png HTTP/1.1" 200 -
+2024-11-06 22:15:01,293 127.0.0.1 - - [06/Nov/2024 22:15:01] "[33mGET /static/css/bootstrap.min.css.map HTTP/1.1[0m" 404 -
+2024-11-06 22:15:01,296 127.0.0.1 - - [06/Nov/2024 22:15:01] "[33mGET /static/js/bootstrap.bundle.min.js.map HTTP/1.1[0m" 404 -
+2024-11-06 22:15:01,297 127.0.0.1 - - [06/Nov/2024 22:15:01] "GET /static/js/serviceWorker.js HTTP/1.1" 200 -
+2024-11-06 22:15:01,315 127.0.0.1 - - [06/Nov/2024 22:15:01] "GET /static/js/app.js HTTP/1.1" 200 -
+2024-11-06 22:15:01,360 127.0.0.1 - - [06/Nov/2024 22:15:01] "GET /static/images/favicon.png HTTP/1.1" 200 -
+2024-11-06 22:15:01,388 {"csp-report":{"document-uri":"https://psychic-space-computing-machine-v9rwv999rpr2wq69-5000.app.github.dev/","referrer":"https://psychic-space-computing-machine-v9rwv999rpr2wq69.github.dev/","violated-directive":"manifest-src","effective-directive":"manifest-src","original-policy":"script-src 'self'; img-src 'self' https:; child-src 'self'; default-src 'self'; style-src 'self'; media-src 'self'; object-src 'self'; connect-src 'self'; report-uri /csp_report; frame-ancestors none","disposition":"enforce","blocked-uri":"https://psychic-space-computing-machine-v9rwv999rpr2wq69-5000.app.github.dev/static/manifest.json","status-code":200,"script-sample":""}}
+2024-11-06 22:15:01,388 127.0.0.1 - - [06/Nov/2024 22:15:01] "POST /csp_report HTTP/1.1" 200 -
+2024-11-06 22:15:01,760 Starting new HTTP connection (1): 127.0.0.1:3000
+2024-11-06 22:15:01,763 http://127.0.0.1:3000 "GET / HTTP/11" 200 1521
+2024-11-06 22:15:01,763 127.0.0.1 - - [06/Nov/2024 22:15:01] "GET / HTTP/1.1" 200 -
+2024-11-06 22:15:01,801 127.0.0.1 - - [06/Nov/2024 22:15:01] "GET /static/css/style.css HTTP/1.1" 200 -
+2024-11-06 22:15:01,804 127.0.0.1 - - [06/Nov/2024 22:15:01] "GET /static/images/logo.png HTTP/1.1" 200 -
+2024-11-06 22:15:01,804 127.0.0.1 - - [06/Nov/2024 22:15:01] "GET /static/css/bootstrap.min.css HTTP/1.1" 200 -
+2024-11-06 22:15:01,806 127.0.0.1 - - [06/Nov/2024 22:15:01] "GET /static/js/bootstrap.bundle.min.js HTTP/1.1" 200 -
+2024-11-06 22:15:01,834 127.0.0.1 - - [06/Nov/2024 22:15:01] "[33mGET /static/js/bootstrap.bundle.min.js.map HTTP/1.1[0m" 404 -
+2024-11-06 22:15:01,845 127.0.0.1 - - [06/Nov/2024 22:15:01] "[33mGET /static/css/bootstrap.min.css.map HTTP/1.1[0m" 404 -
+2024-11-06 22:15:01,846 127.0.0.1 - - [06/Nov/2024 22:15:01] "GET /static/js/serviceWorker.js HTTP/1.1" 200 -
+2024-11-06 22:15:01,865 127.0.0.1 - - [06/Nov/2024 22:15:01] "GET /static/js/app.js HTTP/1.1" 200 -
+2024-11-06 22:15:01,909 127.0.0.1 - - [06/Nov/2024 22:15:01] "GET /static/images/favicon.png HTTP/1.1" 200 -
+2024-11-06 22:15:01,930 {"csp-report":{"document-uri":"https://psychic-space-computing-machine-v9rwv999rpr2wq69-5000.app.github.dev/","referrer":"https://psychic-space-computing-machine-v9rwv999rpr2wq69.github.dev/","violated-directive":"manifest-src","effective-directive":"manifest-src","original-policy":"script-src 'self'; img-src 'self' https:; child-src 'self'; default-src 'self'; style-src 'self'; media-src 'self'; object-src 'self'; connect-src 'self'; report-uri /csp_report; frame-ancestors none","disposition":"enforce","blocked-uri":"https://psychic-space-computing-machine-v9rwv999rpr2wq69-5000.app.github.dev/static/manifest.json","status-code":200,"script-sample":""}}
+2024-11-06 22:15:01,930 127.0.0.1 - - [06/Nov/2024 22:15:01] "POST /csp_report HTTP/1.1" 200 -
+2024-11-06 22:15:02,663 Starting new HTTP connection (1): 127.0.0.1:3000
+2024-11-06 22:15:02,666 http://127.0.0.1:3000 "GET / HTTP/11" 200 1521
+2024-11-06 22:15:02,667 127.0.0.1 - - [06/Nov/2024 22:15:02] "GET / HTTP/1.1" 200 -
+2024-11-06 22:15:02,712 127.0.0.1 - - [06/Nov/2024 22:15:02] "GET /static/images/logo.png HTTP/1.1" 200 -
+2024-11-06 22:15:02,712 127.0.0.1 - - [06/Nov/2024 22:15:02] "GET /static/js/bootstrap.bundle.min.js HTTP/1.1" 200 -
+2024-11-06 22:15:02,712 127.0.0.1 - - [06/Nov/2024 22:15:02] "GET /static/css/bootstrap.min.css HTTP/1.1" 200 -
+2024-11-06 22:15:02,713 127.0.0.1 - - [06/Nov/2024 22:15:02] "GET /static/css/style.css HTTP/1.1" 200 -
+2024-11-06 22:15:02,762 127.0.0.1 - - [06/Nov/2024 22:15:02] "[33mGET /static/css/bootstrap.min.css.map HTTP/1.1[0m" 404 -
+2024-11-06 22:15:02,768 127.0.0.1 - - [06/Nov/2024 22:15:02] "[33mGET /static/js/bootstrap.bundle.min.js.map HTTP/1.1[0m" 404 -
+2024-11-06 22:15:02,769 127.0.0.1 - - [06/Nov/2024 22:15:02] "GET /static/js/serviceWorker.js HTTP/1.1" 200 -
+2024-11-06 22:15:02,787 127.0.0.1 - - [06/Nov/2024 22:15:02] "GET /static/js/app.js HTTP/1.1" 200 -
+2024-11-06 22:15:02,829 127.0.0.1 - - [06/Nov/2024 22:15:02] "GET /static/images/favicon.png HTTP/1.1" 200 -
+2024-11-06 22:15:02,855 {"csp-report":{"document-uri":"https://psychic-space-computing-machine-v9rwv999rpr2wq69-5000.app.github.dev/","referrer":"https://psychic-space-computing-machine-v9rwv999rpr2wq69.github.dev/","violated-directive":"manifest-src","effective-directive":"manifest-src","original-policy":"script-src 'self'; img-src 'self' https:; child-src 'self'; default-src 'self'; style-src 'self'; media-src 'self'; object-src 'self'; connect-src 'self'; report-uri /csp_report; frame-ancestors none","disposition":"enforce","blocked-uri":"https://psychic-space-computing-machine-v9rwv999rpr2wq69-5000.app.github.dev/static/manifest.json","status-code":200,"script-sample":""}}
+2024-11-06 22:15:02,855 127.0.0.1 - - [06/Nov/2024 22:15:02] "POST /csp_report HTTP/1.1" 200 -
+2024-11-06 22:15:03,054 Starting new HTTP connection (1): 127.0.0.1:3000
+2024-11-06 22:15:03,056 http://127.0.0.1:3000 "GET / HTTP/11" 200 1521
+2024-11-06 22:15:03,057 127.0.0.1 - - [06/Nov/2024 22:15:03] "GET / HTTP/1.1" 200 -
+2024-11-06 22:15:03,095 127.0.0.1 - - [06/Nov/2024 22:15:03] "GET /static/js/bootstrap.bundle.min.js HTTP/1.1" 200 -
+2024-11-06 22:15:03,095 127.0.0.1 - - [06/Nov/2024 22:15:03] "GET /static/images/logo.png HTTP/1.1" 200 -
+2024-11-06 22:15:03,097 127.0.0.1 - - [06/Nov/2024 22:15:03] "GET /static/css/bootstrap.min.css HTTP/1.1" 200 -
+2024-11-06 22:15:03,099 127.0.0.1 - - [06/Nov/2024 22:15:03] "GET /static/css/style.css HTTP/1.1" 200 -
+2024-11-06 22:15:03,120 127.0.0.1 - - [06/Nov/2024 22:15:03] "[33mGET /static/js/bootstrap.bundle.min.js.map HTTP/1.1[0m" 404 -
+2024-11-06 22:15:03,139 127.0.0.1 - - [06/Nov/2024 22:15:03] "[33mGET /static/css/bootstrap.min.css.map HTTP/1.1[0m" 404 -
+2024-11-06 22:15:03,140 127.0.0.1 - - [06/Nov/2024 22:15:03] "GET /static/js/serviceWorker.js HTTP/1.1" 200 -
+2024-11-06 22:15:03,160 127.0.0.1 - - [06/Nov/2024 22:15:03] "GET /static/js/app.js HTTP/1.1" 200 -
+2024-11-06 22:15:03,199 127.0.0.1 - - [06/Nov/2024 22:15:03] "GET /static/images/favicon.png HTTP/1.1" 200 -
+2024-11-06 22:15:03,233 {"csp-report":{"document-uri":"https://psychic-space-computing-machine-v9rwv999rpr2wq69-5000.app.github.dev/","referrer":"https://psychic-space-computing-machine-v9rwv999rpr2wq69.github.dev/","violated-directive":"manifest-src","effective-directive":"manifest-src","original-policy":"script-src 'self'; img-src 'self' https:; child-src 'self'; default-src 'self'; style-src 'self'; media-src 'self'; object-src 'self'; connect-src 'self'; report-uri /csp_report; frame-ancestors none","disposition":"enforce","blocked-uri":"https://psychic-space-computing-machine-v9rwv999rpr2wq69-5000.app.github.dev/static/manifest.json","status-code":200,"script-sample":""}}
+2024-11-06 22:15:03,234 127.0.0.1 - - [06/Nov/2024 22:15:03] "POST /csp_report HTTP/1.1" 200 -
+2024-11-06 22:15:03,452 Starting new HTTP connection (1): 127.0.0.1:3000
+2024-11-06 22:15:03,455 http://127.0.0.1:3000 "GET / HTTP/11" 200 1521
+2024-11-06 22:15:03,455 127.0.0.1 - - [06/Nov/2024 22:15:03] "GET / HTTP/1.1" 200 -
+2024-11-06 22:15:03,497 127.0.0.1 - - [06/Nov/2024 22:15:03] "GET /static/images/logo.png HTTP/1.1" 200 -
+2024-11-06 22:15:03,497 127.0.0.1 - - [06/Nov/2024 22:15:03] "GET /static/css/style.css HTTP/1.1" 200 -
+2024-11-06 22:15:03,501 127.0.0.1 - - [06/Nov/2024 22:15:03] "GET /static/js/bootstrap.bundle.min.js HTTP/1.1" 200 -
+2024-11-06 22:15:03,502 127.0.0.1 - - [06/Nov/2024 22:15:03] "GET /static/css/bootstrap.min.css HTTP/1.1" 200 -
+2024-11-06 22:15:03,526 127.0.0.1 - - [06/Nov/2024 22:15:03] "[33mGET /static/js/bootstrap.bundle.min.js.map HTTP/1.1[0m" 404 -
+2024-11-06 22:15:03,538 127.0.0.1 - - [06/Nov/2024 22:15:03] "GET /static/js/serviceWorker.js HTTP/1.1" 200 -
+2024-11-06 22:15:03,539 127.0.0.1 - - [06/Nov/2024 22:15:03] "[33mGET /static/css/bootstrap.min.css.map HTTP/1.1[0m" 404 -
+2024-11-06 22:15:03,558 127.0.0.1 - - [06/Nov/2024 22:15:03] "GET /static/js/app.js HTTP/1.1" 200 -
+2024-11-06 22:15:03,600 127.0.0.1 - - [06/Nov/2024 22:15:03] "GET /static/images/favicon.png HTTP/1.1" 200 -
+2024-11-06 22:15:03,625 {"csp-report":{"document-uri":"https://psychic-space-computing-machine-v9rwv999rpr2wq69-5000.app.github.dev/","referrer":"https://psychic-space-computing-machine-v9rwv999rpr2wq69.github.dev/","violated-directive":"manifest-src","effective-directive":"manifest-src","original-policy":"script-src 'self'; img-src 'self' https:; child-src 'self'; default-src 'self'; style-src 'self'; media-src 'self'; object-src 'self'; connect-src 'self'; report-uri /csp_report; frame-ancestors none","disposition":"enforce","blocked-uri":"https://psychic-space-computing-machine-v9rwv999rpr2wq69-5000.app.github.dev/static/manifest.json","status-code":200,"script-sample":""}}
+2024-11-06 22:15:03,625 127.0.0.1 - - [06/Nov/2024 22:15:03] "POST /csp_report HTTP/1.1" 200 -
+2024-11-06 22:17:37,846 Starting new HTTP connection (1): 127.0.0.1:3000
+2024-11-06 22:17:37,849 http://127.0.0.1:3000 "GET / HTTP/11" 200 1521
+2024-11-06 22:17:37,851 127.0.0.1 - - [06/Nov/2024 22:17:37] "GET /?vscodeBrowserReqId=1730931457747 HTTP/1.1" 200 -
+2024-11-06 22:17:43,924 Starting new HTTP connection (1): 127.0.0.1:3000
+2024-11-06 22:17:43,924 127.0.0.1 - - [06/Nov/2024 22:17:43] "GET /?vscodeBrowserReqId=1730931463885 HTTP/1.1" 200 -
+2024-11-06 22:17:47,322 [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.0.0.14:5000
+2024-11-06 22:17:47,322 [33mPress CTRL+C to quit[0m
+2024-11-06 22:17:47,323  * Restarting with stat
+2024-11-06 22:17:47,550  * Debugger is active!
+2024-11-06 22:17:47,551  * Debugger PIN: 316-145-997
+2024-11-06 22:17:52,556 Starting new HTTP connection (1): 127.0.0.1:3000
+2024-11-06 22:17:52,559 http://127.0.0.1:3000 "GET / HTTP/11" 200 1521
+2024-11-06 22:17:52,566 127.0.0.1 - - [06/Nov/2024 22:17:52] "GET / HTTP/1.1" 200 -
+2024-11-06 22:17:52,611 127.0.0.1 - - [06/Nov/2024 22:17:52] "GET /static/images/logo.png HTTP/1.1" 200 -
+2024-11-06 22:17:52,766 127.0.0.1 - - [06/Nov/2024 22:17:52] "GET /static/css/bootstrap.min.css HTTP/1.1" 200 -
+2024-11-06 22:17:52,790 127.0.0.1 - - [06/Nov/2024 22:17:52] "GET /static/css/style.css HTTP/1.1" 200 -
+2024-11-06 22:17:52,796 {"csp-report":{"document-uri":"https://psychic-space-computing-machine-v9rwv999rpr2wq69-5000.app.github.dev/","referrer":"https://psychic-space-computing-machine-v9rwv999rpr2wq69.github.dev/","violated-directive":"script-src-elem","effective-directive":"script-src-elem","original-policy":"script-src 'self'; img-src 'self' https:; child-src 'self'; default-src 'self'; style-src 'self'; media-src 'self'; object-src 'self'; connect-src 'self'; report-uri /csp_report; frame-ancestors none","disposition":"enforce","blocked-uri":"https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js","status-code":200,"script-sample":""}}
+2024-11-06 22:17:52,796 127.0.0.1 - - [06/Nov/2024 22:17:52] "POST /csp_report HTTP/1.1" 200 -
+2024-11-06 22:17:52,824 127.0.0.1 - - [06/Nov/2024 22:17:52] "[33mGET /static/css/bootstrap.min.css.map HTTP/1.1[0m" 404 -
+2024-11-06 22:17:52,829 127.0.0.1 - - [06/Nov/2024 22:17:52] "GET /static/js/serviceWorker.js HTTP/1.1" 200 -
+2024-11-06 22:17:52,849 127.0.0.1 - - [06/Nov/2024 22:17:52] "GET /static/js/app.js HTTP/1.1" 200 -
+2024-11-06 22:17:52,900 127.0.0.1 - - [06/Nov/2024 22:17:52] "GET /static/images/favicon.png HTTP/1.1" 200 -
+2024-11-06 22:17:52,928 {"csp-report":{"document-uri":"https://psychic-space-computing-machine-v9rwv999rpr2wq69-5000.app.github.dev/","referrer":"https://psychic-space-computing-machine-v9rwv999rpr2wq69.github.dev/","violated-directive":"manifest-src","effective-directive":"manifest-src","original-policy":"script-src 'self'; img-src 'self' https:; child-src 'self'; default-src 'self'; style-src 'self'; media-src 'self'; object-src 'self'; connect-src 'self'; report-uri /csp_report; frame-ancestors none","disposition":"enforce","blocked-uri":"https://psychic-space-computing-machine-v9rwv999rpr2wq69-5000.app.github.dev/static/manifest.json","status-code":200,"script-sample":""}}
+2024-11-06 22:17:52,929 127.0.0.1 - - [06/Nov/2024 22:17:52] "POST /csp_report HTTP/1.1" 200 -
+2024-11-06 22:17:54,783 Starting new HTTP connection (1): 127.0.0.1:3000
+2024-11-06 22:17:54,785 http://127.0.0.1:3000 "GET / HTTP/11" 200 1521
+2024-11-06 22:17:54,786 127.0.0.1 - - [06/Nov/2024 22:17:54] "GET / HTTP/1.1" 200 -
+2024-11-06 22:17:54,828 {"csp-report":{"document-uri":"https://psychic-space-computing-machine-v9rwv999rpr2wq69-5000.app.github.dev/","referrer":"https://psychic-space-computing-machine-v9rwv999rpr2wq69.github.dev/","violated-directive":"script-src-elem","effective-directive":"script-src-elem","original-policy":"script-src 'self'; img-src 'self' https:; child-src 'self'; default-src 'self'; style-src 'self'; media-src 'self'; object-src 'self'; connect-src 'self'; report-uri /csp_report; frame-ancestors none","disposition":"enforce","blocked-uri":"https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js","status-code":200,"script-sample":""}}
+2024-11-06 22:17:54,828 127.0.0.1 - - [06/Nov/2024 22:17:54] "POST /csp_report HTTP/1.1" 200 -
+2024-11-06 22:17:54,829 127.0.0.1 - - [06/Nov/2024 22:17:54] "GET /static/css/bootstrap.min.css HTTP/1.1" 200 -
+2024-11-06 22:17:54,830 127.0.0.1 - - [06/Nov/2024 22:17:54] "GET /static/css/style.css HTTP/1.1" 200 -
+2024-11-06 22:17:54,832 127.0.0.1 - - [06/Nov/2024 22:17:54] "GET /static/images/logo.png HTTP/1.1" 200 -
+2024-11-06 22:17:54,869 127.0.0.1 - - [06/Nov/2024 22:17:54] "GET /static/js/serviceWorker.js HTTP/1.1" 200 -
+2024-11-06 22:17:54,886 127.0.0.1 - - [06/Nov/2024 22:17:54] "[33mGET /static/css/bootstrap.min.css.map HTTP/1.1[0m" 404 -
+2024-11-06 22:17:54,889 127.0.0.1 - - [06/Nov/2024 22:17:54] "GET /static/js/app.js HTTP/1.1" 200 -
+2024-11-06 22:17:54,937 127.0.0.1 - - [06/Nov/2024 22:17:54] "GET /static/images/favicon.png HTTP/1.1" 200 -
+2024-11-06 22:17:54,965 {"csp-report":{"document-uri":"https://psychic-space-computing-machine-v9rwv999rpr2wq69-5000.app.github.dev/","referrer":"https://psychic-space-computing-machine-v9rwv999rpr2wq69.github.dev/","violated-directive":"manifest-src","effective-directive":"manifest-src","original-policy":"script-src 'self'; img-src 'self' https:; child-src 'self'; default-src 'self'; style-src 'self'; media-src 'self'; object-src 'self'; connect-src 'self'; report-uri /csp_report; frame-ancestors none","disposition":"enforce","blocked-uri":"https://psychic-space-computing-machine-v9rwv999rpr2wq69-5000.app.github.dev/static/manifest.json","status-code":200,"script-sample":""}}
+2024-11-06 22:17:54,965 127.0.0.1 - - [06/Nov/2024 22:17:54] "POST /csp_report HTTP/1.1" 200 -
+2024-11-06 22:19:05,398  * Detected change in '/workspaces/2025SE-FlaskAPI/main.py', reloading
+2024-11-06 22:19:05,433  * Restarting with stat
+2024-11-06 22:19:05,659  * Debugger is active!
+2024-11-06 22:19:05,659  * Debugger PIN: 316-145-997
+2024-11-06 22:19:13,610  * Detected change in '/workspaces/2025SE-FlaskAPI/main.py', reloading
+2024-11-06 22:19:13,642  * Restarting with stat
+2024-11-06 22:19:13,868  * Debugger is active!
+2024-11-06 22:19:13,869  * Debugger PIN: 316-145-997
+2024-11-06 22:19:31,064 [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.0.0.14:5000
+2024-11-06 22:19:31,064 [33mPress CTRL+C to quit[0m
+2024-11-06 22:19:31,065  * Restarting with stat
+2024-11-06 22:19:31,289  * Debugger is active!
+2024-11-06 22:19:31,290  * Debugger PIN: 316-145-997
+2024-11-06 22:19:32,534 Starting new HTTP connection (1): 127.0.0.1:3000
+2024-11-06 22:19:32,537 http://127.0.0.1:3000 "GET / HTTP/11" 200 1521
+2024-11-06 22:19:32,544 127.0.0.1 - - [06/Nov/2024 22:19:32] "GET /?vscodeBrowserReqId=1730931572589 HTTP/1.1" 200 -
+2024-11-06 22:19:36,329 Starting new HTTP connection (1): 127.0.0.1:3000
+2024-11-06 22:19:36,331 http://127.0.0.1:3000 "GET / HTTP/11" 200 1521
+2024-11-06 22:19:36,332 127.0.0.1 - - [06/Nov/2024 22:19:36] "GET / HTTP/1.1" 200 -
+2024-11-06 22:19:36,534 127.0.0.1 - - [06/Nov/2024 22:19:36] "GET /static/images/logo.png HTTP/1.1" 200 -
+2024-11-06 22:19:36,534 127.0.0.1 - - [06/Nov/2024 22:19:36] "GET /static/css/bootstrap.min.css HTTP/1.1" 200 -
+2024-11-06 22:19:36,554 127.0.0.1 - - [06/Nov/2024 22:19:36] "GET /static/css/style.css HTTP/1.1" 200 -
+2024-11-06 22:19:36,583 127.0.0.1 - - [06/Nov/2024 22:19:36] "[33mGET /static/css/bootstrap.min.css.map HTTP/1.1[0m" 404 -
+2024-11-06 22:19:36,712 127.0.0.1 - - [06/Nov/2024 22:19:36] "GET /static/js/serviceWorker.js HTTP/1.1" 200 -
+2024-11-06 22:19:36,734 127.0.0.1 - - [06/Nov/2024 22:19:36] "GET /static/js/app.js HTTP/1.1" 200 -
+2024-11-06 22:19:36,795 127.0.0.1 - - [06/Nov/2024 22:19:36] "GET /static/images/favicon.png HTTP/1.1" 200 -
+2024-11-06 22:19:36,825 {"csp-report":{"document-uri":"https://psychic-space-computing-machine-v9rwv999rpr2wq69-5000.app.github.dev/","referrer":"https://psychic-space-computing-machine-v9rwv999rpr2wq69.github.dev/","violated-directive":"manifest-src","effective-directive":"manifest-src","original-policy":"script-src 'self' https:; img-src 'self' https: http:; child-src 'self'; default-src 'self'; style-src 'self'; media-src 'self'; object-src 'self'; connect-src 'self'; report-uri /csp_report; frame-ancestors none","disposition":"enforce","blocked-uri":"https://psychic-space-computing-machine-v9rwv999rpr2wq69-5000.app.github.dev/static/manifest.json","status-code":200,"script-sample":""}}
+2024-11-06 22:19:36,825 127.0.0.1 - - [06/Nov/2024 22:19:36] "POST /csp_report HTTP/1.1" 200 -
+2024-11-06 22:20:14,936  * Detected change in '/workspaces/2025SE-FlaskAPI/main.py', reloading
+2024-11-06 22:20:14,969  * Restarting with stat
+2024-11-06 22:20:15,195  * Debugger is active!
+2024-11-06 22:20:15,195  * Debugger PIN: 316-145-997
+2024-11-06 22:20:48,717  * Detected change in '/workspaces/2025SE-FlaskAPI/main.py', reloading
+2024-11-06 22:20:48,753  * Restarting with stat
+2024-11-06 22:20:48,983  * Debugger is active!
+2024-11-06 22:20:48,983  * Debugger PIN: 316-145-997
+2024-11-06 22:41:07,402 {"csp-report":{"document-uri":"https://psychic-space-computing-machine-v9rwv999rpr2wq69-5000.app.github.dev/","referrer":"https://psychic-space-computing-machine-v9rwv999rpr2wq69.github.dev/","violated-directive":"img-src","effective-directive":"img-src","original-policy":"script-src 'self' https:; img-src 'self' https: http:; child-src 'self'; default-src 'self'; style-src 'self'; media-src 'self'; object-src 'self'; connect-src 'self'; report-uri /csp_report; frame-ancestors none","disposition":"enforce","blocked-uri":"data","status-code":200,"script-sample":""}}
+2024-11-06 22:41:07,403 127.0.0.1 - - [06/Nov/2024 22:41:07] "POST /csp_report HTTP/1.1" 200 -
+2024-11-06 22:41:18,014  * Detected change in '/workspaces/2025SE-FlaskAPI/main.py', reloading
+2024-11-06 22:41:18,048  * Restarting with stat
+2024-11-06 22:41:18,277  * Debugger is active!
+2024-11-06 22:41:18,278  * Debugger PIN: 316-145-997
+2024-11-06 22:41:19,682 [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.0.0.14:5000
+2024-11-06 22:41:19,682 [33mPress CTRL+C to quit[0m
+2024-11-06 22:41:19,683  * Restarting with stat
+2024-11-06 22:41:19,905  * Debugger is active!
+2024-11-06 22:41:19,906  * Debugger PIN: 316-145-997
+2024-11-06 22:41:21,335 Starting new HTTP connection (1): 127.0.0.1:3000
+2024-11-06 22:41:21,341 127.0.0.1 - - [06/Nov/2024 22:41:21] "GET /?vscodeBrowserReqId=1730932881316 HTTP/1.1" 200 -
+2024-11-06 22:41:25,202 Starting new HTTP connection (1): 127.0.0.1:3000
+2024-11-06 22:41:25,205 http://127.0.0.1:3000 "GET / HTTP/11" 200 1521
+2024-11-06 22:41:25,205 127.0.0.1 - - [06/Nov/2024 22:41:25] "GET / HTTP/1.1" 200 -
+2024-11-06 22:41:25,268 {"csp-report":{"document-uri":"https://psychic-space-computing-machine-v9rwv999rpr2wq69-5000.app.github.dev/","referrer":"https://psychic-space-computing-machine-v9rwv999rpr2wq69.github.dev/","violated-directive":"img-src","effective-directive":"img-src","original-policy":"script-src 'self' ; img-src 'self' ; child-src 'self'; default-src 'self'; style-src 'self'; media-src 'self'; object-src 'self'; connect-src 'self'; report-uri /csp_report; frame-ancestors none","disposition":"enforce","blocked-uri":"https://mccarter.gallerycdn.vsassets.io/extensions/mccarter/start-git-bash/1.2.1/1499505567572/Microsoft.VisualStudio.Services.Icons.Default","line-number":144,"source-file":"https://psychic-space-computing-machine-v9rwv999rpr2wq69-5000.app.github.dev/","status-code":200,"script-sample":""}}
+2024-11-06 22:41:25,268 {"csp-report":{"document-uri":"https://psychic-space-computing-machine-v9rwv999rpr2wq69-5000.app.github.dev/","referrer":"https://psychic-space-computing-machine-v9rwv999rpr2wq69.github.dev/","violated-directive":"img-src","effective-directive":"img-src","original-policy":"script-src 'self' ; img-src 'self' ; child-src 'self'; default-src 'self'; style-src 'self'; media-src 'self'; object-src 'self'; connect-src 'self'; report-uri /csp_report; frame-ancestors none","disposition":"enforce","blocked-uri":"https://yy0931.gallerycdn.vsassets.io/extensions/yy0931/vscode-sqlite3-editor/1.0.85/1690893830873/Microsoft.VisualStudio.Services.Icons.Default","line-number":144,"source-file":"https://psychic-space-computing-machine-v9rwv999rpr2wq69-5000.app.github.dev/","status-code":200,"script-sample":""}}
+2024-11-06 22:41:25,269 127.0.0.1 - - [06/Nov/2024 22:41:25] "POST /csp_report HTTP/1.1" 200 -
+2024-11-06 22:41:25,269 127.0.0.1 - - [06/Nov/2024 22:41:25] "GET /static/css/bootstrap.min.css HTTP/1.1" 200 -
+2024-11-06 22:41:25,269 127.0.0.1 - - [06/Nov/2024 22:41:25] "POST /csp_report HTTP/1.1" 200 -
+2024-11-06 22:41:25,316 {"csp-report":{"document-uri":"https://psychic-space-computing-machine-v9rwv999rpr2wq69-5000.app.github.dev/","referrer":"https://psychic-space-computing-machine-v9rwv999rpr2wq69.github.dev/","violated-directive":"img-src","effective-directive":"img-src","original-policy":"script-src 'self' ; img-src 'self' ; child-src 'self'; default-src 'self'; style-src 'self'; media-src 'self'; object-src 'self'; connect-src 'self'; report-uri /csp_report; frame-ancestors none","disposition":"enforce","blocked-uri":"data","status-code":200,"script-sample":""}}
+2024-11-06 22:41:25,317 127.0.0.1 - - [06/Nov/2024 22:41:25] "POST /csp_report HTTP/1.1" 200 -
+2024-11-06 22:41:25,429 {"csp-report":{"document-uri":"https://psychic-space-computing-machine-v9rwv999rpr2wq69-5000.app.github.dev/","referrer":"https://psychic-space-computing-machine-v9rwv999rpr2wq69.github.dev/","violated-directive":"script-src-elem","effective-directive":"script-src-elem","original-policy":"script-src 'self' ; img-src 'self' ; child-src 'self'; default-src 'self'; style-src 'self'; media-src 'self'; object-src 'self'; connect-src 'self'; report-uri /csp_report; frame-ancestors none","disposition":"enforce","blocked-uri":"https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js","status-code":200,"script-sample":""}}
+2024-11-06 22:41:25,430 {"csp-report":{"document-uri":"https://psychic-space-computing-machine-v9rwv999rpr2wq69-5000.app.github.dev/","referrer":"https://psychic-space-computing-machine-v9rwv999rpr2wq69.github.dev/","violated-directive":"img-src","effective-directive":"img-src","original-policy":"script-src 'self' ; img-src 'self' ; child-src 'self'; default-src 'self'; style-src 'self'; media-src 'self'; object-src 'self'; connect-src 'self'; report-uri /csp_report; frame-ancestors none","disposition":"enforce","blocked-uri":"https://medo64.gallerycdn.vsassets.io/extensions/medo64/render-crlf/1.7.1/1689315206970/Microsoft.VisualStudio.Services.Icons.Default","line-number":144,"source-file":"https://psychic-space-computing-machine-v9rwv999rpr2wq69-5000.app.github.dev/","status-code":200,"script-sample":""}}
+2024-11-06 22:41:25,430 127.0.0.1 - - [06/Nov/2024 22:41:25] "POST /csp_report HTTP/1.1" 200 -
+2024-11-06 22:41:25,430 127.0.0.1 - - [06/Nov/2024 22:41:25] "POST /csp_report HTTP/1.1" 200 -
+2024-11-06 22:41:25,441 127.0.0.1 - - [06/Nov/2024 22:41:25] "[33mGET /static/css/bootstrap.min.css.map HTTP/1.1[0m" 404 -
+2024-11-06 22:41:25,442 127.0.0.1 - - [06/Nov/2024 22:41:25] "GET /static/images/logo.png HTTP/1.1" 200 -
+2024-11-06 22:41:25,446 {"csp-report":{"document-uri":"https://psychic-space-computing-machine-v9rwv999rpr2wq69-5000.app.github.dev/","referrer":"https://psychic-space-computing-machine-v9rwv999rpr2wq69.github.dev/","violated-directive":"img-src","effective-directive":"img-src","original-policy":"script-src 'self' ; img-src 'self' ; child-src 'self'; default-src 'self'; style-src 'self'; media-src 'self'; object-src 'self'; connect-src 'self'; report-uri /csp_report; frame-ancestors none","disposition":"enforce","blocked-uri":"https://test.jpg/","line-number":144,"source-file":"https://psychic-space-computing-machine-v9rwv999rpr2wq69-5000.app.github.dev/","status-code":200,"script-sample":""}}
+2024-11-06 22:41:25,446 127.0.0.1 - - [06/Nov/2024 22:41:25] "POST /csp_report HTTP/1.1" 200 -
+2024-11-06 22:41:25,447 127.0.0.1 - - [06/Nov/2024 22:41:25] "GET /static/css/style.css HTTP/1.1" 200 -
+2024-11-06 22:41:25,465 {"csp-report":{"document-uri":"https://psychic-space-computing-machine-v9rwv999rpr2wq69-5000.app.github.dev/","referrer":"https://psychic-space-computing-machine-v9rwv999rpr2wq69.github.dev/","violated-directive":"img-src","effective-directive":"img-src","original-policy":"script-src 'self' ; img-src 'self' ; child-src 'self'; default-src 'self'; style-src 'self'; media-src 'self'; object-src 'self'; connect-src 'self'; report-uri /csp_report; frame-ancestors none","disposition":"enforce","blocked-uri":"data","line-number":144,"source-file":"https://psychic-space-computing-machine-v9rwv999rpr2wq69-5000.app.github.dev/","status-code":200,"script-sample":""}}
+2024-11-06 22:41:25,465 127.0.0.1 - - [06/Nov/2024 22:41:25] "POST /csp_report HTTP/1.1" 200 -
+2024-11-06 22:41:25,467 127.0.0.1 - - [06/Nov/2024 22:41:25] "GET /static/js/serviceWorker.js HTTP/1.1" 200 -
+2024-11-06 22:41:25,489 127.0.0.1 - - [06/Nov/2024 22:41:25] "GET /static/js/app.js HTTP/1.1" 200 -
+2024-11-06 22:41:25,542 127.0.0.1 - - [06/Nov/2024 22:41:25] "GET /static/images/favicon.png HTTP/1.1" 200 -
+2024-11-06 22:41:25,570 {"csp-report":{"document-uri":"https://psychic-space-computing-machine-v9rwv999rpr2wq69-5000.app.github.dev/","referrer":"https://psychic-space-computing-machine-v9rwv999rpr2wq69.github.dev/","violated-directive":"manifest-src","effective-directive":"manifest-src","original-policy":"script-src 'self' ; img-src 'self' ; child-src 'self'; default-src 'self'; style-src 'self'; media-src 'self'; object-src 'self'; connect-src 'self'; report-uri /csp_report; frame-ancestors none","disposition":"enforce","blocked-uri":"https://psychic-space-computing-machine-v9rwv999rpr2wq69-5000.app.github.dev/static/manifest.json","status-code":200,"script-sample":""}}
+2024-11-06 22:41:25,570 127.0.0.1 - - [06/Nov/2024 22:41:25] "POST /csp_report HTTP/1.1" 200 -
+2024-11-06 22:43:29,588 Starting new HTTP connection (1): 127.0.0.1:3000
+2024-11-06 22:43:29,590 http://127.0.0.1:3000 "GET / HTTP/11" 200 1521
+2024-11-06 22:43:29,592 127.0.0.1 - - [06/Nov/2024 22:43:29] "GET / HTTP/1.1" 200 -
+2024-11-06 22:43:29,649 {"csp-report":{"document-uri":"https://psychic-space-computing-machine-v9rwv999rpr2wq69-5000.app.github.dev/","referrer":"https://psychic-space-computing-machine-v9rwv999rpr2wq69.github.dev/","violated-directive":"img-src","effective-directive":"img-src","original-policy":"script-src 'self' ; img-src 'self' ; child-src 'self'; default-src 'self'; style-src 'self'; media-src 'self'; object-src 'self'; connect-src 'self'; report-uri /csp_report; frame-ancestors none","disposition":"enforce","blocked-uri":"https://mccarter.gallerycdn.vsassets.io/extensions/mccarter/start-git-bash/1.2.1/1499505567572/Microsoft.VisualStudio.Services.Icons.Default","line-number":142,"source-file":"https://psychic-space-computing-machine-v9rwv999rpr2wq69-5000.app.github.dev/","status-code":200,"script-sample":""}}
+2024-11-06 22:43:29,649 127.0.0.1 - - [06/Nov/2024 22:43:29] "POST /csp_report HTTP/1.1" 200 -
+2024-11-06 22:43:29,651 127.0.0.1 - - [06/Nov/2024 22:43:29] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2024-11-06 22:43:29,658 {"csp-report":{"document-uri":"https://psychic-space-computing-machine-v9rwv999rpr2wq69-5000.app.github.dev/","referrer":"https://psychic-space-computing-machine-v9rwv999rpr2wq69.github.dev/","violated-directive":"img-src","effective-directive":"img-src","original-policy":"script-src 'self' ; img-src 'self' ; child-src 'self'; default-src 'self'; style-src 'self'; media-src 'self'; object-src 'self'; connect-src 'self'; report-uri /csp_report; frame-ancestors none","disposition":"enforce","blocked-uri":"https://yy0931.gallerycdn.vsassets.io/extensions/yy0931/vscode-sqlite3-editor/1.0.85/1690893830873/Microsoft.VisualStudio.Services.Icons.Default","line-number":142,"source-file":"https://psychic-space-computing-machine-v9rwv999rpr2wq69-5000.app.github.dev/","status-code":200,"script-sample":""}}
+2024-11-06 22:43:29,658 127.0.0.1 - - [06/Nov/2024 22:43:29] "POST /csp_report HTTP/1.1" 200 -
+2024-11-06 22:43:29,659 127.0.0.1 - - [06/Nov/2024 22:43:29] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2024-11-06 22:43:29,780 127.0.0.1 - - [06/Nov/2024 22:43:29] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2024-11-06 22:43:29,810 {"csp-report":{"document-uri":"https://psychic-space-computing-machine-v9rwv999rpr2wq69-5000.app.github.dev/","referrer":"https://psychic-space-computing-machine-v9rwv999rpr2wq69.github.dev/","violated-directive":"img-src","effective-directive":"img-src","original-policy":"script-src 'self' ; img-src 'self' ; child-src 'self'; default-src 'self'; style-src 'self'; media-src 'self'; object-src 'self'; connect-src 'self'; report-uri /csp_report; frame-ancestors none","disposition":"enforce","blocked-uri":"https://medo64.gallerycdn.vsassets.io/extensions/medo64/render-crlf/1.7.1/1689315206970/Microsoft.VisualStudio.Services.Icons.Default","line-number":142,"source-file":"https://psychic-space-computing-machine-v9rwv999rpr2wq69-5000.app.github.dev/","status-code":200,"script-sample":""}}
+2024-11-06 22:43:29,811 127.0.0.1 - - [06/Nov/2024 22:43:29] "[36mGET /static/js/serviceWorker.js HTTP/1.1[0m" 304 -
+2024-11-06 22:43:29,811 127.0.0.1 - - [06/Nov/2024 22:43:29] "POST /csp_report HTTP/1.1" 200 -
+2024-11-06 22:43:29,811 {"csp-report":{"document-uri":"https://psychic-space-computing-machine-v9rwv999rpr2wq69-5000.app.github.dev/","referrer":"https://psychic-space-computing-machine-v9rwv999rpr2wq69.github.dev/","violated-directive":"img-src","effective-directive":"img-src","original-policy":"script-src 'self' ; img-src 'self' ; child-src 'self'; default-src 'self'; style-src 'self'; media-src 'self'; object-src 'self'; connect-src 'self'; report-uri /csp_report; frame-ancestors none","disposition":"enforce","blocked-uri":"https://test.jpg/","line-number":142,"source-file":"https://psychic-space-computing-machine-v9rwv999rpr2wq69-5000.app.github.dev/","status-code":200,"script-sample":""}}
+2024-11-06 22:43:29,812 127.0.0.1 - - [06/Nov/2024 22:43:29] "[36mGET /static/images/logo.png HTTP/1.1[0m" 304 -
+2024-11-06 22:43:29,813 127.0.0.1 - - [06/Nov/2024 22:43:29] "POST /csp_report HTTP/1.1" 200 -
+2024-11-06 22:43:29,832 127.0.0.1 - - [06/Nov/2024 22:43:29] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2024-11-06 22:43:29,884 127.0.0.1 - - [06/Nov/2024 22:43:29] "[36mGET /static/images/favicon.png HTTP/1.1[0m" 304 -
+2024-11-06 22:43:29,923 {"csp-report":{"document-uri":"https://psychic-space-computing-machine-v9rwv999rpr2wq69-5000.app.github.dev/","referrer":"https://psychic-space-computing-machine-v9rwv999rpr2wq69.github.dev/","violated-directive":"manifest-src","effective-directive":"manifest-src","original-policy":"script-src 'self' ; img-src 'self' ; child-src 'self'; default-src 'self'; style-src 'self'; media-src 'self'; object-src 'self'; connect-src 'self'; report-uri /csp_report; frame-ancestors none","disposition":"enforce","blocked-uri":"https://psychic-space-computing-machine-v9rwv999rpr2wq69-5000.app.github.dev/static/manifest.json","status-code":200,"script-sample":""}}
+2024-11-06 22:43:29,924 127.0.0.1 - - [06/Nov/2024 22:43:29] "POST /csp_report HTTP/1.1" 200 -
+2024-11-06 22:43:32,496 {"csp-report":{"document-uri":"https://psychic-space-computing-machine-v9rwv999rpr2wq69-5000.app.github.dev/","referrer":"https://psychic-space-computing-machine-v9rwv999rpr2wq69.github.dev/","violated-directive":"img-src","effective-directive":"img-src","original-policy":"script-src 'self' ; img-src 'self' ; child-src 'self'; default-src 'self'; style-src 'self'; media-src 'self'; object-src 'self'; connect-src 'self'; report-uri /csp_report; frame-ancestors none","disposition":"enforce","blocked-uri":"data","status-code":200,"script-sample":""}}
+2024-11-06 22:43:32,497 127.0.0.1 - - [06/Nov/2024 22:43:32] "POST /csp_report HTTP/1.1" 200 -
+2024-11-06 22:43:32,610 127.0.0.1 - - [06/Nov/2024 22:43:32] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2024-11-06 22:43:32,613 127.0.0.1 - - [06/Nov/2024 22:43:32] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2024-11-06 22:43:32,689 127.0.0.1 - - [06/Nov/2024 22:43:32] "[33mGET /static/js/bootstrap.bundle.min.js.map HTTP/1.1[0m" 404 -
+2024-11-06 22:43:32,693 127.0.0.1 - - [06/Nov/2024 22:43:32] "[33mGET /static/css/bootstrap.min.css.map HTTP/1.1[0m" 404 -
+2024-11-06 22:43:39,361 Starting new HTTP connection (1): 127.0.0.1:3000
+2024-11-06 22:43:39,363 http://127.0.0.1:3000 "GET / HTTP/11" 200 1521
+2024-11-06 22:43:39,364 127.0.0.1 - - [06/Nov/2024 22:43:39] "GET / HTTP/1.1" 200 -
+2024-11-06 22:43:39,412 127.0.0.1 - - [06/Nov/2024 22:43:39] "GET /static/css/bootstrap.min.css HTTP/1.1" 200 -
+2024-11-06 22:43:39,413 127.0.0.1 - - [06/Nov/2024 22:43:39] "GET /static/css/style.css HTTP/1.1" 200 -
+2024-11-06 22:43:39,414 {"csp-report":{"document-uri":"https://psychic-space-computing-machine-v9rwv999rpr2wq69-5000.app.github.dev/","referrer":"https://psychic-space-computing-machine-v9rwv999rpr2wq69.github.dev/","violated-directive":"img-src","effective-directive":"img-src","original-policy":"script-src 'self' ; img-src 'self' ; child-src 'self'; default-src 'self'; style-src 'self'; media-src 'self'; object-src 'self'; connect-src 'self'; report-uri /csp_report; frame-ancestors none","disposition":"enforce","blocked-uri":"https://yy0931.gallerycdn.vsassets.io/extensions/yy0931/vscode-sqlite3-editor/1.0.85/1690893830873/Microsoft.VisualStudio.Services.Icons.Default","line-number":142,"source-file":"https://psychic-space-computing-machine-v9rwv999rpr2wq69-5000.app.github.dev/","status-code":200,"script-sample":""}}
+2024-11-06 22:43:39,415 {"csp-report":{"document-uri":"https://psychic-space-computing-machine-v9rwv999rpr2wq69-5000.app.github.dev/","referrer":"https://psychic-space-computing-machine-v9rwv999rpr2wq69.github.dev/","violated-directive":"img-src","effective-directive":"img-src","original-policy":"script-src 'self' ; img-src 'self' ; child-src 'self'; default-src 'self'; style-src 'self'; media-src 'self'; object-src 'self'; connect-src 'self'; report-uri /csp_report; frame-ancestors none","disposition":"enforce","blocked-uri":"https://mccarter.gallerycdn.vsassets.io/extensions/mccarter/start-git-bash/1.2.1/1499505567572/Microsoft.VisualStudio.Services.Icons.Default","line-number":142,"source-file":"https://psychic-space-computing-machine-v9rwv999rpr2wq69-5000.app.github.dev/","status-code":200,"script-sample":""}}
+2024-11-06 22:43:39,415 127.0.0.1 - - [06/Nov/2024 22:43:39] "POST /csp_report HTTP/1.1" 200 -
+2024-11-06 22:43:39,415 127.0.0.1 - - [06/Nov/2024 22:43:39] "POST /csp_report HTTP/1.1" 200 -
+2024-11-06 22:43:39,420 {"csp-report":{"document-uri":"https://psychic-space-computing-machine-v9rwv999rpr2wq69-5000.app.github.dev/","referrer":"https://psychic-space-computing-machine-v9rwv999rpr2wq69.github.dev/","violated-directive":"img-src","effective-directive":"img-src","original-policy":"script-src 'self' ; img-src 'self' ; child-src 'self'; default-src 'self'; style-src 'self'; media-src 'self'; object-src 'self'; connect-src 'self'; report-uri /csp_report; frame-ancestors none","disposition":"enforce","blocked-uri":"https://medo64.gallerycdn.vsassets.io/extensions/medo64/render-crlf/1.7.1/1689315206970/Microsoft.VisualStudio.Services.Icons.Default","line-number":142,"source-file":"https://psychic-space-computing-machine-v9rwv999rpr2wq69-5000.app.github.dev/","status-code":200,"script-sample":""}}
+2024-11-06 22:43:39,421 127.0.0.1 - - [06/Nov/2024 22:43:39] "POST /csp_report HTTP/1.1" 200 -
+2024-11-06 22:43:39,422 127.0.0.1 - - [06/Nov/2024 22:43:39] "GET /static/js/bootstrap.bundle.min.js HTTP/1.1" 200 -
+2024-11-06 22:43:39,423 {"csp-report":{"document-uri":"https://psychic-space-computing-machine-v9rwv999rpr2wq69-5000.app.github.dev/","referrer":"https://psychic-space-computing-machine-v9rwv999rpr2wq69.github.dev/","violated-directive":"img-src","effective-directive":"img-src","original-policy":"script-src 'self' ; img-src 'self' ; child-src 'self'; default-src 'self'; style-src 'self'; media-src 'self'; object-src 'self'; connect-src 'self'; report-uri /csp_report; frame-ancestors none","disposition":"enforce","blocked-uri":"https://test.jpg/","line-number":142,"source-file":"https://psychic-space-computing-machine-v9rwv999rpr2wq69-5000.app.github.dev/","status-code":200,"script-sample":""}}
+2024-11-06 22:43:39,423 127.0.0.1 - - [06/Nov/2024 22:43:39] "POST /csp_report HTTP/1.1" 200 -
+2024-11-06 22:43:39,424 127.0.0.1 - - [06/Nov/2024 22:43:39] "GET /static/images/logo.png HTTP/1.1" 200 -
+2024-11-06 22:43:39,462 {"csp-report":{"document-uri":"https://psychic-space-computing-machine-v9rwv999rpr2wq69-5000.app.github.dev/","referrer":"https://psychic-space-computing-machine-v9rwv999rpr2wq69.github.dev/","violated-directive":"img-src","effective-directive":"img-src","original-policy":"script-src 'self' ; img-src 'self' ; child-src 'self'; default-src 'self'; style-src 'self'; media-src 'self'; object-src 'self'; connect-src 'self'; report-uri /csp_report; frame-ancestors none","disposition":"enforce","blocked-uri":"data","status-code":200,"script-sample":""}}
+2024-11-06 22:43:39,462 127.0.0.1 - - [06/Nov/2024 22:43:39] "POST /csp_report HTTP/1.1" 200 -
+2024-11-06 22:43:39,464 127.0.0.1 - - [06/Nov/2024 22:43:39] "[33mGET /static/css/bootstrap.min.css.map HTTP/1.1[0m" 404 -
+2024-11-06 22:43:39,470 127.0.0.1 - - [06/Nov/2024 22:43:39] "GET /static/js/serviceWorker.js HTTP/1.1" 200 -
+2024-11-06 22:43:39,479 127.0.0.1 - - [06/Nov/2024 22:43:39] "[33mGET /static/js/bootstrap.bundle.min.js.map HTTP/1.1[0m" 404 -
+2024-11-06 22:43:39,497 127.0.0.1 - - [06/Nov/2024 22:43:39] "GET /static/js/app.js HTTP/1.1" 200 -
+2024-11-06 22:43:39,570 127.0.0.1 - - [06/Nov/2024 22:43:39] "GET /static/images/favicon.png HTTP/1.1" 200 -
+2024-11-06 22:43:39,598 {"csp-report":{"document-uri":"https://psychic-space-computing-machine-v9rwv999rpr2wq69-5000.app.github.dev/","referrer":"https://psychic-space-computing-machine-v9rwv999rpr2wq69.github.dev/","violated-directive":"manifest-src","effective-directive":"manifest-src","original-policy":"script-src 'self' ; img-src 'self' ; child-src 'self'; default-src 'self'; style-src 'self'; media-src 'self'; object-src 'self'; connect-src 'self'; report-uri /csp_report; frame-ancestors none","disposition":"enforce","blocked-uri":"https://psychic-space-computing-machine-v9rwv999rpr2wq69-5000.app.github.dev/static/manifest.json","status-code":200,"script-sample":""}}
+2024-11-06 22:43:39,598 127.0.0.1 - - [06/Nov/2024 22:43:39] "POST /csp_report HTTP/1.1" 200 -
