@@ -1,0 +1,33 @@
+2024-11-06 02:49:21,497  * Debugger is active!
+2024-11-06 02:49:21,498  * Debugger PIN: 107-044-380
+2024-11-06 02:49:59,490 127.0.0.1 - - [06/Nov/2024 02:49:59] "GET /?lang=SQL HTTP/1.1" 200 -
+2024-11-06 02:50:23,174 127.0.0.1 - - [06/Nov/2024 02:50:23] "GET /?lang=bash HTTP/1.1" 200 -
+2024-11-06 02:50:38,764 127.0.0.1 - - [06/Nov/2024 02:50:38] "GET / HTTP/1.1" 200 -
+2024-11-06 02:50:39,345 127.0.0.1 - - [06/Nov/2024 02:50:39] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2024-11-06 02:50:56,769 127.0.0.1 - - [06/Nov/2024 02:50:56] "GET / HTTP/1.1" 200 -
+2024-11-06 02:51:18,874 127.0.0.1 - - [06/Nov/2024 02:51:18] "GET /?lang=bash HTTP/1.1" 200 -
+2024-11-06 02:51:27,297 127.0.0.1 - - [06/Nov/2024 02:51:27] "GET /?lang=bash HTTP/1.1" 200 -
+2024-11-06 02:51:33,990 127.0.0.1 - - [06/Nov/2024 02:51:33] "GET /?lang=python HTTP/1.1" 200 -
+2024-11-06 02:53:18,067 127.0.0.1 - - [06/Nov/2024 02:53:18] "GET /?lang=bash HTTP/1.1" 200 -
+2024-11-06 02:55:35,620 127.0.0.1 - - [06/Nov/2024 02:55:35] "GET /?vscodeBrowserReqId=1730861734977 HTTP/1.1" 200 -
+2024-11-06 03:03:14,330  * Detected change in '/workspaces/2025SE-FlaskAPI/main.py', reloading
+2024-11-06 03:03:15,094  * Debugger is active!
+2024-11-06 03:03:15,095  * Debugger PIN: 107-044-380
+2024-11-06 03:03:44,075  * Detected change in '/workspaces/2025SE-FlaskAPI/main.py', reloading
+2024-11-06 03:03:44,858  * Debugger is active!
+2024-11-06 03:03:44,859  * Debugger PIN: 107-044-380
+2024-11-06 03:03:52,466  * Detected change in '/workspaces/2025SE-FlaskAPI/main.py', reloading
+2024-11-06 03:03:53,142  * Debugger is active!
+2024-11-06 03:03:53,143  * Debugger PIN: 107-044-380
+2024-11-06 03:03:55,943  * Detected change in '/workspaces/2025SE-FlaskAPI/api.py', reloading
+2024-11-06 03:03:56,634  * Debugger is active!
+2024-11-06 03:03:56,635  * Debugger PIN: 107-044-380
+2024-11-06 03:05:06,468  * Detected change in '/workspaces/2025SE-FlaskAPI/main.py', reloading
+2024-11-06 03:05:07,162  * Debugger is active!
+2024-11-06 03:05:07,163  * Debugger PIN: 107-044-380
+2024-11-06 03:05:18,112 [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:3000
+ * Running on http://172.17.0.4:3000
+2024-11-06 03:05:18,112 [33mPress CTRL+C to quit[0m
+2024-11-06 03:05:18,113  * Restarting with stat

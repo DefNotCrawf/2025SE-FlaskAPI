@@ -4,6 +4,10 @@ from jsonschema import validate
 from flask import current_app
 
 
+# Code snippet for logging a message
+# current_app.logger.critical("message")
+
+
 def extension_get(lang):
     con = sql.connect(".database/data_source.db")
     cur = con.cursor()
@@ -38,9 +42,9 @@ def extension_add(data):
         )
         con.commit()
         con.close()
-        return {"message": "Extension added successfully"}, 201
+        return jsonify({"message": "Extension added successfully"}), 201
     else:
-        return {"error": "Invalid JSON"}, 400
+        return jsonify({"error": "Invalid JSON"}), 400
 
 
 schema = {

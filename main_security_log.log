@@ -1,0 +1,231 @@
+2024-11-06 09:31:37,622  * Debugger is active!
+2024-11-06 09:31:37,623  * Debugger PIN: 111-177-818
+2024-11-06 09:31:45,820 [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://172.17.0.3:5000
+2024-11-06 09:31:45,820 [33mPress CTRL+C to quit[0m
+2024-11-06 09:31:45,822  * Restarting with stat
+2024-11-06 09:31:46,283  * Debugger is active!
+2024-11-06 09:31:46,284  * Debugger PIN: 111-177-818
+2024-11-06 09:31:47,547 Starting new HTTP connection (1): 127.0.0.1:3000
+2024-11-06 09:31:47,562 127.0.0.1 - - [06/Nov/2024 09:31:47] "GET /?vscodeBrowserReqId=1730885506937 HTTP/1.1" 200 -
+2024-11-06 09:31:52,596 Starting new HTTP connection (1): 127.0.0.1:3000
+2024-11-06 09:31:52,598 127.0.0.1 - - [06/Nov/2024 09:31:52] "GET /?lang=bash HTTP/1.1" 200 -
+2024-11-06 09:31:53,647 127.0.0.1 - - [06/Nov/2024 09:31:53] "GET /static/css/style.css HTTP/1.1" 200 -
+2024-11-06 09:31:53,652 127.0.0.1 - - [06/Nov/2024 09:31:53] "GET /static/css/bootstrap.min.css HTTP/1.1" 200 -
+2024-11-06 09:31:54,285 127.0.0.1 - - [06/Nov/2024 09:31:54] "GET /static/js/bootstrap.bundle.min.js HTTP/1.1" 200 -
+2024-11-06 09:31:54,299 127.0.0.1 - - [06/Nov/2024 09:31:54] "GET /static/images/logo.png HTTP/1.1" 200 -
+2024-11-06 09:31:54,376 {"csp-report":{"document-uri":"http://localhost:5000/?lang=bash","referrer":"http://localhost:5000/?lang=sql","violated-directive":"font-src","effective-directive":"font-src","original-policy":"script-src 'self'; img-src http: https: data:; child-src 'self'; default-src 'self'; style-src 'self'; media-src 'self'; object-src 'self'; connect-src 'self'; report-uri /csp_report; frame-ancestors none","disposition":"enforce","blocked-uri":"data","status-code":200,"script-sample":""}}
+2024-11-06 09:31:54,377 127.0.0.1 - - [06/Nov/2024 09:31:54] "POST /csp_report HTTP/1.1" 200 -
+2024-11-06 09:31:54,451 127.0.0.1 - - [06/Nov/2024 09:31:54] "[33mGET /static/css/bootstrap.min.css.map HTTP/1.1[0m" 404 -
+2024-11-06 09:31:54,925 127.0.0.1 - - [06/Nov/2024 09:31:54] "[33mGET /static/js/bootstrap.bundle.min.js.map HTTP/1.1[0m" 404 -
+2024-11-06 09:31:54,955 127.0.0.1 - - [06/Nov/2024 09:31:54] "GET /static/js/serviceWorker.js HTTP/1.1" 200 -
+2024-11-06 09:31:55,502 127.0.0.1 - - [06/Nov/2024 09:31:55] "GET /static/js/app.js HTTP/1.1" 200 -
+2024-11-06 09:31:56,314 127.0.0.1 - - [06/Nov/2024 09:31:56] "GET /static/images/favicon.png HTTP/1.1" 200 -
+2024-11-06 09:31:56,865 127.0.0.1 - - [06/Nov/2024 09:31:56] "GET /static/manifest.json HTTP/1.1" 200 -
+2024-11-06 09:32:03,377 Starting new HTTP connection (1): 127.0.0.1:3000
+2024-11-06 09:32:03,379 127.0.0.1 - - [06/Nov/2024 09:32:03] "GET /?lang=python HTTP/1.1" 200 -
+2024-11-06 09:32:03,935 127.0.0.1 - - [06/Nov/2024 09:32:03] "GET /static/css/bootstrap.min.css HTTP/1.1" 200 -
+2024-11-06 09:32:03,936 127.0.0.1 - - [06/Nov/2024 09:32:03] "GET /static/css/style.css HTTP/1.1" 200 -
+2024-11-06 09:32:04,555 127.0.0.1 - - [06/Nov/2024 09:32:04] "GET /static/images/logo.png HTTP/1.1" 200 -
+2024-11-06 09:32:04,565 127.0.0.1 - - [06/Nov/2024 09:32:04] "GET /static/js/bootstrap.bundle.min.js HTTP/1.1" 200 -
+2024-11-06 09:32:04,645 {"csp-report":{"document-uri":"http://localhost:5000/?lang=python","referrer":"http://localhost:5000/?lang=bash","violated-directive":"font-src","effective-directive":"font-src","original-policy":"script-src 'self'; img-src http: https: data:; child-src 'self'; default-src 'self'; style-src 'self'; media-src 'self'; object-src 'self'; connect-src 'self'; report-uri /csp_report; frame-ancestors none","disposition":"enforce","blocked-uri":"data","status-code":200,"script-sample":""}}
+2024-11-06 09:32:04,646 127.0.0.1 - - [06/Nov/2024 09:32:04] "POST /csp_report HTTP/1.1" 200 -
+2024-11-06 09:32:04,805 127.0.0.1 - - [06/Nov/2024 09:32:04] "[33mGET /static/css/bootstrap.min.css.map HTTP/1.1[0m" 404 -
+2024-11-06 09:32:05,229 127.0.0.1 - - [06/Nov/2024 09:32:05] "[33mGET /static/js/bootstrap.bundle.min.js.map HTTP/1.1[0m" 404 -
+2024-11-06 09:32:05,275 127.0.0.1 - - [06/Nov/2024 09:32:05] "GET /static/js/serviceWorker.js HTTP/1.1" 200 -
+2024-11-06 09:32:05,834 127.0.0.1 - - [06/Nov/2024 09:32:05] "GET /static/js/app.js HTTP/1.1" 200 -
+2024-11-06 09:32:06,705 127.0.0.1 - - [06/Nov/2024 09:32:06] "GET /static/manifest.json HTTP/1.1" 200 -
+2024-11-06 09:32:08,235 Starting new HTTP connection (1): 127.0.0.1:3000
+2024-11-06 09:32:08,239 127.0.0.1 - - [06/Nov/2024 09:32:08] "GET / HTTP/1.1" 200 -
+2024-11-06 09:32:08,790 127.0.0.1 - - [06/Nov/2024 09:32:08] "GET /static/css/style.css HTTP/1.1" 200 -
+2024-11-06 09:32:09,414 127.0.0.1 - - [06/Nov/2024 09:32:09] "GET /static/css/bootstrap.min.css HTTP/1.1" 200 -
+2024-11-06 09:32:09,426 127.0.0.1 - - [06/Nov/2024 09:32:09] "GET /static/js/bootstrap.bundle.min.js HTTP/1.1" 200 -
+2024-11-06 09:32:09,427 127.0.0.1 - - [06/Nov/2024 09:32:09] "GET /static/images/logo.png HTTP/1.1" 200 -
+2024-11-06 09:32:10,105 127.0.0.1 - - [06/Nov/2024 09:32:10] "GET /static/js/serviceWorker.js HTTP/1.1" 200 -
+2024-11-06 09:32:10,204 {"csp-report":{"document-uri":"http://localhost:5000/","referrer":"http://localhost:5000/?lang=python","violated-directive":"font-src","effective-directive":"font-src","original-policy":"script-src 'self'; img-src http: https: data:; child-src 'self'; default-src 'self'; style-src 'self'; media-src 'self'; object-src 'self'; connect-src 'self'; report-uri /csp_report; frame-ancestors none","disposition":"enforce","blocked-uri":"data","status-code":200,"script-sample":""}}
+2024-11-06 09:32:10,204 127.0.0.1 - - [06/Nov/2024 09:32:10] "POST /csp_report HTTP/1.1" 200 -
+2024-11-06 09:32:10,236 127.0.0.1 - - [06/Nov/2024 09:32:10] "[33mGET /static/js/bootstrap.bundle.min.js.map HTTP/1.1[0m" 404 -
+2024-11-06 09:32:10,303 127.0.0.1 - - [06/Nov/2024 09:32:10] "[33mGET /static/css/bootstrap.min.css.map HTTP/1.1[0m" 404 -
+2024-11-06 09:32:10,414 127.0.0.1 - - [06/Nov/2024 09:32:10] "GET /static/js/app.js HTTP/1.1" 200 -
+2024-11-06 09:32:11,767 127.0.0.1 - - [06/Nov/2024 09:32:11] "GET /static/manifest.json HTTP/1.1" 200 -
+2024-11-06 09:33:03,784 [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://172.17.0.3:5000
+2024-11-06 09:33:03,784 [33mPress CTRL+C to quit[0m
+2024-11-06 09:33:03,786  * Restarting with stat
+2024-11-06 09:33:04,243  * Debugger is active!
+2024-11-06 09:33:04,246  * Debugger PIN: 111-177-818
+2024-11-06 09:33:06,686 Starting new HTTP connection (1): 127.0.0.1:3000
+2024-11-06 09:33:06,703 127.0.0.1 - - [06/Nov/2024 09:33:06] "GET /?vscodeBrowserReqId=1730885586082 HTTP/1.1" 200 -
+2024-11-06 09:33:08,133 Starting new HTTP connection (1): 127.0.0.1:3000
+2024-11-06 09:33:08,135 127.0.0.1 - - [06/Nov/2024 09:33:08] "GET / HTTP/1.1" 200 -
+2024-11-06 09:33:09,286 127.0.0.1 - - [06/Nov/2024 09:33:09] "GET /static/css/style.css HTTP/1.1" 200 -
+2024-11-06 09:33:09,288 127.0.0.1 - - [06/Nov/2024 09:33:09] "GET /static/css/bootstrap.min.css HTTP/1.1" 200 -
+2024-11-06 09:33:09,920 127.0.0.1 - - [06/Nov/2024 09:33:09] "GET /static/js/bootstrap.bundle.min.js HTTP/1.1" 200 -
+2024-11-06 09:33:09,930 127.0.0.1 - - [06/Nov/2024 09:33:09] "GET /static/images/logo.png HTTP/1.1" 200 -
+2024-11-06 09:33:10,059 {"csp-report":{"document-uri":"http://localhost:5000/","referrer":"http://localhost:5000/?lang=python","violated-directive":"font-src","effective-directive":"font-src","original-policy":"script-src 'self'; img-src http: https: data:; child-src 'self'; default-src 'self'; style-src 'self'; media-src 'self'; object-src 'self'; connect-src 'self'; report-uri /csp_report; frame-ancestors none","disposition":"enforce","blocked-uri":"data","status-code":200,"script-sample":""}}
+2024-11-06 09:33:10,060 127.0.0.1 - - [06/Nov/2024 09:33:10] "POST /csp_report HTTP/1.1" 200 -
+2024-11-06 09:33:10,331 127.0.0.1 - - [06/Nov/2024 09:33:10] "GET /static/js/serviceWorker.js HTTP/1.1" 200 -
+2024-11-06 09:33:10,572 127.0.0.1 - - [06/Nov/2024 09:33:10] "[33mGET /static/js/bootstrap.bundle.min.js.map HTTP/1.1[0m" 404 -
+2024-11-06 09:33:10,620 127.0.0.1 - - [06/Nov/2024 09:33:10] "[33mGET /static/css/bootstrap.min.css.map HTTP/1.1[0m" 404 -
+2024-11-06 09:33:11,111 127.0.0.1 - - [06/Nov/2024 09:33:11] "GET /static/js/app.js HTTP/1.1" 200 -
+2024-11-06 09:33:12,527 127.0.0.1 - - [06/Nov/2024 09:33:12] "GET /static/images/favicon.png HTTP/1.1" 200 -
+2024-11-06 09:33:12,533 127.0.0.1 - - [06/Nov/2024 09:33:12] "GET /static/manifest.json HTTP/1.1" 200 -
+2024-11-06 09:34:46,314 Starting new HTTP connection (1): 127.0.0.1:3000
+2024-11-06 09:34:46,315 127.0.0.1 - - [06/Nov/2024 09:34:46] "GET /?lang=SQL HTTP/1.1" 200 -
+2024-11-06 09:34:46,912 Starting new HTTP connection (1): 127.0.0.1:3000
+2024-11-06 09:34:46,914 127.0.0.1 - - [06/Nov/2024 09:34:46] "GET /?lang=SQL HTTP/1.1" 200 -
+2024-11-06 09:34:47,190 Starting new HTTP connection (1): 127.0.0.1:3000
+2024-11-06 09:34:47,192 127.0.0.1 - - [06/Nov/2024 09:34:47] "GET /?lang=SQL HTTP/1.1" 200 -
+2024-11-06 09:34:47,401 Starting new HTTP connection (1): 127.0.0.1:3000
+2024-11-06 09:34:47,403 127.0.0.1 - - [06/Nov/2024 09:34:47] "GET /?lang=SQL HTTP/1.1" 200 -
+2024-11-06 09:34:47,475 Starting new HTTP connection (1): 127.0.0.1:3000
+2024-11-06 09:34:47,476 127.0.0.1 - - [06/Nov/2024 09:34:47] "GET /?lang=SQL HTTP/1.1" 200 -
+2024-11-06 09:34:47,637 Starting new HTTP connection (1): 127.0.0.1:3000
+2024-11-06 09:34:47,639 127.0.0.1 - - [06/Nov/2024 09:34:47] "GET /?lang=SQL HTTP/1.1" 200 -
+2024-11-06 09:34:47,844 Starting new HTTP connection (1): 127.0.0.1:3000
+2024-11-06 09:34:47,846 127.0.0.1 - - [06/Nov/2024 09:34:47] "GET /?lang=SQL HTTP/1.1" 200 -
+2024-11-06 09:34:47,997 Starting new HTTP connection (1): 127.0.0.1:3000
+2024-11-06 09:34:47,999 127.0.0.1 - - [06/Nov/2024 09:34:47] "GET /?lang=SQL HTTP/1.1" 200 -
+2024-11-06 09:34:49,020 Starting new HTTP connection (1): 127.0.0.1:3000
+2024-11-06 09:34:49,021 127.0.0.1 - - [06/Nov/2024 09:34:49] "GET /?lang=SQL HTTP/1.1" 200 -
+2024-11-06 09:34:49,161 Starting new HTTP connection (1): 127.0.0.1:3000
+2024-11-06 09:34:49,163 127.0.0.1 - - [06/Nov/2024 09:34:49] "GET /?lang=SQL HTTP/1.1" 200 -
+2024-11-06 09:34:49,364 Starting new HTTP connection (1): 127.0.0.1:3000
+2024-11-06 09:34:49,366 127.0.0.1 - - [06/Nov/2024 09:34:49] "GET /?lang=SQL HTTP/1.1" 200 -
+2024-11-06 09:34:49,653 Starting new HTTP connection (1): 127.0.0.1:3000
+2024-11-06 09:34:49,654 127.0.0.1 - - [06/Nov/2024 09:34:49] "GET /?lang=SQL HTTP/1.1" 200 -
+2024-11-06 09:34:49,961 Starting new HTTP connection (1): 127.0.0.1:3000
+2024-11-06 09:34:49,963 127.0.0.1 - - [06/Nov/2024 09:34:49] "GET /?lang=SQL HTTP/1.1" 200 -
+2024-11-06 09:34:50,055 Starting new HTTP connection (1): 127.0.0.1:3000
+2024-11-06 09:34:50,057 127.0.0.1 - - [06/Nov/2024 09:34:50] "GET /?lang=SQL HTTP/1.1" 200 -
+2024-11-06 09:34:50,139 Starting new HTTP connection (1): 127.0.0.1:3000
+2024-11-06 09:34:50,140 127.0.0.1 - - [06/Nov/2024 09:34:50] "GET /?lang=SQL HTTP/1.1" 200 -
+2024-11-06 09:34:50,273 Starting new HTTP connection (1): 127.0.0.1:3000
+2024-11-06 09:34:50,274 127.0.0.1 - - [06/Nov/2024 09:34:50] "GET /?lang=SQL HTTP/1.1" 200 -
+2024-11-06 09:34:50,343 Starting new HTTP connection (1): 127.0.0.1:3000
+2024-11-06 09:34:50,344 127.0.0.1 - - [06/Nov/2024 09:34:50] "GET /?lang=SQL HTTP/1.1" 200 -
+2024-11-06 09:34:50,421 Starting new HTTP connection (1): 127.0.0.1:3000
+2024-11-06 09:34:50,423 127.0.0.1 - - [06/Nov/2024 09:34:50] "GET /?lang=SQL HTTP/1.1" 200 -
+2024-11-06 09:35:51,544 Starting new HTTP connection (1): 127.0.0.1:3000
+2024-11-06 09:35:51,545 127.0.0.1 - - [06/Nov/2024 09:35:51] "GET /?lang=SQL HTTP/1.1" 200 -
+2024-11-06 09:35:54,301 Starting new HTTP connection (1): 127.0.0.1:3000
+2024-11-06 09:35:54,302 127.0.0.1 - - [06/Nov/2024 09:35:54] "GET /?lang=SQL HTTP/1.1" 200 -
+2024-11-06 09:35:54,979 Starting new HTTP connection (1): 127.0.0.1:3000
+2024-11-06 09:35:54,983 127.0.0.1 - - [06/Nov/2024 09:35:54] "GET /?lang=SQL HTTP/1.1" 200 -
+2024-11-06 09:35:55,392 Starting new HTTP connection (1): 127.0.0.1:3000
+2024-11-06 09:35:55,393 127.0.0.1 - - [06/Nov/2024 09:35:55] "GET /?lang=SQL HTTP/1.1" 200 -
+2024-11-06 09:35:55,850 Starting new HTTP connection (1): 127.0.0.1:3000
+2024-11-06 09:35:55,852 127.0.0.1 - - [06/Nov/2024 09:35:55] "GET /?lang=SQL HTTP/1.1" 200 -
+2024-11-06 09:36:10,148 Starting new HTTP connection (1): 127.0.0.1:3000
+2024-11-06 09:36:10,149 127.0.0.1 - - [06/Nov/2024 09:36:10] "GET /?lang=SQL HTTP/1.1" 200 -
+2024-11-06 09:36:12,291 Starting new HTTP connection (1): 127.0.0.1:3000
+2024-11-06 09:36:12,292 127.0.0.1 - - [06/Nov/2024 09:36:12] "GET /?lang=SQL HTTP/1.1" 200 -
+2024-11-06 09:37:10,040 [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://172.17.0.3:5000
+2024-11-06 09:37:10,040 [33mPress CTRL+C to quit[0m
+2024-11-06 09:37:10,042  * Restarting with stat
+2024-11-06 09:37:10,492  * Debugger is active!
+2024-11-06 09:37:10,493  * Debugger PIN: 111-177-818
+2024-11-06 09:37:12,555 Starting new HTTP connection (1): 127.0.0.1:3000
+2024-11-06 09:37:12,569 127.0.0.1 - - [06/Nov/2024 09:37:12] "GET /?vscodeBrowserReqId=1730885831997 HTTP/1.1" 200 -
+2024-11-06 09:37:16,513 127.0.0.1 - - [06/Nov/2024 09:37:16] "GET /privacy.html HTTP/1.1" 200 -
+2024-11-06 09:37:17,574 127.0.0.1 - - [06/Nov/2024 09:37:17] "GET /static/css/style.css HTTP/1.1" 200 -
+2024-11-06 09:37:17,575 127.0.0.1 - - [06/Nov/2024 09:37:17] "GET /static/css/bootstrap.min.css HTTP/1.1" 200 -
+2024-11-06 09:37:18,179 127.0.0.1 - - [06/Nov/2024 09:37:18] "GET /static/images/logo.png HTTP/1.1" 200 -
+2024-11-06 09:37:18,199 127.0.0.1 - - [06/Nov/2024 09:37:18] "GET /static/js/bootstrap.bundle.min.js HTTP/1.1" 200 -
+2024-11-06 09:37:18,314 127.0.0.1 - - [06/Nov/2024 09:37:18] "[33mGET /static/css/bootstrap.min.css.map HTTP/1.1[0m" 404 -
+2024-11-06 09:37:19,568 127.0.0.1 - - [06/Nov/2024 09:37:19] "GET /static/js/serviceWorker.js HTTP/1.1" 200 -
+2024-11-06 09:37:19,588 127.0.0.1 - - [06/Nov/2024 09:37:19] "[33mGET /static/js/bootstrap.bundle.min.js.map HTTP/1.1[0m" 404 -
+2024-11-06 09:37:19,868 127.0.0.1 - - [06/Nov/2024 09:37:19] "GET /static/js/app.js HTTP/1.1" 200 -
+2024-11-06 09:37:21,169 Starting new HTTP connection (1): 127.0.0.1:3000
+2024-11-06 09:37:21,172 127.0.0.1 - - [06/Nov/2024 09:37:21] "GET / HTTP/1.1" 200 -
+2024-11-06 09:37:21,410 127.0.0.1 - - [06/Nov/2024 09:37:21] "GET /static/manifest.json HTTP/1.1" 200 -
+2024-11-06 09:37:22,102 127.0.0.1 - - [06/Nov/2024 09:37:22] "GET /static/css/style.css HTTP/1.1" 200 -
+2024-11-06 09:37:22,106 127.0.0.1 - - [06/Nov/2024 09:37:22] "GET /static/css/bootstrap.min.css HTTP/1.1" 200 -
+2024-11-06 09:37:22,674 127.0.0.1 - - [06/Nov/2024 09:37:22] "GET /static/images/logo.png HTTP/1.1" 200 -
+2024-11-06 09:37:22,680 127.0.0.1 - - [06/Nov/2024 09:37:22] "GET /static/js/bootstrap.bundle.min.js HTTP/1.1" 200 -
+2024-11-06 09:37:22,767 {"csp-report":{"document-uri":"http://localhost:5000/","referrer":"http://localhost:5000/privacy.html","violated-directive":"font-src","effective-directive":"font-src","original-policy":"script-src 'self'; img-src http: https: data:; child-src 'self'; default-src 'self'; style-src 'self'; media-src 'self'; object-src 'self'; connect-src 'self'; report-uri /csp_report; frame-ancestors none","disposition":"enforce","blocked-uri":"data","status-code":200,"script-sample":""}}
+2024-11-06 09:37:22,767 127.0.0.1 - - [06/Nov/2024 09:37:22] "POST /csp_report HTTP/1.1" 200 -
+2024-11-06 09:37:22,927 127.0.0.1 - - [06/Nov/2024 09:37:22] "[33mGET /static/css/bootstrap.min.css.map HTTP/1.1[0m" 404 -
+2024-11-06 09:37:23,419 127.0.0.1 - - [06/Nov/2024 09:37:23] "[33mGET /static/js/bootstrap.bundle.min.js.map HTTP/1.1[0m" 404 -
+2024-11-06 09:37:23,458 127.0.0.1 - - [06/Nov/2024 09:37:23] "GET /static/js/serviceWorker.js HTTP/1.1" 200 -
+2024-11-06 09:37:24,013 127.0.0.1 - - [06/Nov/2024 09:37:24] "GET /static/js/app.js HTTP/1.1" 200 -
+2024-11-06 09:37:25,212 127.0.0.1 - - [06/Nov/2024 09:37:25] "GET /static/images/favicon.png HTTP/1.1" 200 -
+2024-11-06 09:37:25,214 127.0.0.1 - - [06/Nov/2024 09:37:25] "GET /static/manifest.json HTTP/1.1" 200 -
+2024-11-06 09:37:45,117 Starting new HTTP connection (1): 127.0.0.1:3000
+2024-11-06 09:37:45,119 127.0.0.1 - - [06/Nov/2024 09:37:45] "GET /?lang=python HTTP/1.1" 200 -
+2024-11-06 09:37:45,668 127.0.0.1 - - [06/Nov/2024 09:37:45] "GET /static/css/style.css HTTP/1.1" 200 -
+2024-11-06 09:37:45,670 127.0.0.1 - - [06/Nov/2024 09:37:45] "GET /static/css/bootstrap.min.css HTTP/1.1" 200 -
+2024-11-06 09:37:46,276 127.0.0.1 - - [06/Nov/2024 09:37:46] "GET /static/images/logo.png HTTP/1.1" 200 -
+2024-11-06 09:37:46,319 127.0.0.1 - - [06/Nov/2024 09:37:46] "GET /static/js/bootstrap.bundle.min.js HTTP/1.1" 200 -
+2024-11-06 09:37:46,343 {"csp-report":{"document-uri":"http://localhost:5000/?lang=python","referrer":"http://localhost:5000/","violated-directive":"font-src","effective-directive":"font-src","original-policy":"script-src 'self'; img-src http: https: data:; child-src 'self'; default-src 'self'; style-src 'self'; media-src 'self'; object-src 'self'; connect-src 'self'; report-uri /csp_report; frame-ancestors none","disposition":"enforce","blocked-uri":"data","status-code":200,"script-sample":""}}
+2024-11-06 09:37:46,344 127.0.0.1 - - [06/Nov/2024 09:37:46] "POST /csp_report HTTP/1.1" 200 -
+2024-11-06 09:37:46,518 127.0.0.1 - - [06/Nov/2024 09:37:46] "[33mGET /static/css/bootstrap.min.css.map HTTP/1.1[0m" 404 -
+2024-11-06 09:37:47,006 127.0.0.1 - - [06/Nov/2024 09:37:47] "[33mGET /static/js/bootstrap.bundle.min.js.map HTTP/1.1[0m" 404 -
+2024-11-06 09:37:47,007 127.0.0.1 - - [06/Nov/2024 09:37:47] "GET /static/js/serviceWorker.js HTTP/1.1" 200 -
+2024-11-06 09:37:47,606 127.0.0.1 - - [06/Nov/2024 09:37:47] "GET /static/js/app.js HTTP/1.1" 200 -
+2024-11-06 09:37:49,084 127.0.0.1 - - [06/Nov/2024 09:37:49] "GET /static/manifest.json HTTP/1.1" 200 -
+2024-11-06 09:39:23,442 Starting new HTTP connection (1): 127.0.0.1:3000
+2024-11-06 09:39:23,453 127.0.0.1 - - [06/Nov/2024 09:39:23] "GET /?lang=python HTTP/1.1" 200 -
+2024-11-06 09:39:24,328 127.0.0.1 - - [06/Nov/2024 09:39:24] "GET /static/css/style.css HTTP/1.1" 200 -
+2024-11-06 09:39:24,357 127.0.0.1 - - [06/Nov/2024 09:39:24] "GET /static/css/bootstrap.min.css HTTP/1.1" 200 -
+2024-11-06 09:39:24,980 {"csp-report":{"document-uri":"http://localhost:5000/?lang=python","referrer":"http://localhost:5000/","violated-directive":"font-src","effective-directive":"font-src","original-policy":"script-src 'self'; img-src http: https: data:; child-src 'self'; default-src 'self'; style-src 'self'; media-src 'self'; object-src 'self'; connect-src 'self'; report-uri /csp_report; frame-ancestors none","disposition":"enforce","blocked-uri":"data","status-code":200,"script-sample":""}}
+2024-11-06 09:39:24,982 127.0.0.1 - - [06/Nov/2024 09:39:24] "POST /csp_report HTTP/1.1" 200 -
+2024-11-06 09:39:24,983 127.0.0.1 - - [06/Nov/2024 09:39:24] "GET /static/js/bootstrap.bundle.min.js HTTP/1.1" 200 -
+2024-11-06 09:39:24,985 127.0.0.1 - - [06/Nov/2024 09:39:24] "GET /static/images/logo.png HTTP/1.1" 200 -
+2024-11-06 09:39:25,141 127.0.0.1 - - [06/Nov/2024 09:39:25] "[33mGET /static/css/bootstrap.min.css.map HTTP/1.1[0m" 404 -
+2024-11-06 09:39:25,775 127.0.0.1 - - [06/Nov/2024 09:39:25] "[33mGET /static/js/bootstrap.bundle.min.js.map HTTP/1.1[0m" 404 -
+2024-11-06 09:39:25,832 127.0.0.1 - - [06/Nov/2024 09:39:25] "GET /static/js/serviceWorker.js HTTP/1.1" 200 -
+2024-11-06 09:39:26,081 127.0.0.1 - - [06/Nov/2024 09:39:26] "GET /static/js/app.js HTTP/1.1" 200 -
+2024-11-06 09:39:29,565 [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://172.17.0.3:5000
+2024-11-06 09:39:29,566 [33mPress CTRL+C to quit[0m
+2024-11-06 09:39:29,567  * Restarting with stat
+2024-11-06 09:39:30,054  * Debugger is active!
+2024-11-06 09:39:30,055  * Debugger PIN: 111-177-818
+2024-11-06 09:39:32,297 Starting new HTTP connection (1): 127.0.0.1:3000
+2024-11-06 09:39:32,312 127.0.0.1 - - [06/Nov/2024 09:39:32] "GET /?vscodeBrowserReqId=1730885971730 HTTP/1.1" 200 -
+2024-11-06 09:39:46,014 Starting new HTTP connection (1): 127.0.0.1:3000
+2024-11-06 09:39:46,016 127.0.0.1 - - [06/Nov/2024 09:39:46] "GET /?lang=python HTTP/1.1" 200 -
+2024-11-06 09:39:46,716 127.0.0.1 - - [06/Nov/2024 09:39:46] "GET /static/css/style.css HTTP/1.1" 200 -
+2024-11-06 09:39:47,273 127.0.0.1 - - [06/Nov/2024 09:39:47] "GET /static/images/logo.png HTTP/1.1" 200 -
+2024-11-06 09:39:47,276 127.0.0.1 - - [06/Nov/2024 09:39:47] "GET /static/css/bootstrap.min.css HTTP/1.1" 200 -
+2024-11-06 09:39:47,340 127.0.0.1 - - [06/Nov/2024 09:39:47] "GET /static/js/bootstrap.bundle.min.js HTTP/1.1" 200 -
+2024-11-06 09:39:47,882 {"csp-report":{"document-uri":"http://localhost:5000/?lang=python","referrer":"http://localhost:5000/","violated-directive":"font-src","effective-directive":"font-src","original-policy":"script-src 'self'; img-src http: https: data:; child-src 'self'; default-src 'self'; style-src 'self'; media-src 'self'; object-src 'self'; connect-src 'self'; report-uri /csp_report; frame-ancestors none","disposition":"enforce","blocked-uri":"data","status-code":200,"script-sample":""}}
+2024-11-06 09:39:47,882 127.0.0.1 - - [06/Nov/2024 09:39:47] "POST /csp_report HTTP/1.1" 200 -
+2024-11-06 09:39:48,292 127.0.0.1 - - [06/Nov/2024 09:39:48] "[33mGET /static/css/bootstrap.min.css.map HTTP/1.1[0m" 404 -
+2024-11-06 09:39:48,340 127.0.0.1 - - [06/Nov/2024 09:39:48] "GET /static/js/serviceWorker.js HTTP/1.1" 200 -
+2024-11-06 09:39:48,359 127.0.0.1 - - [06/Nov/2024 09:39:48] "[33mGET /static/js/bootstrap.bundle.min.js.map HTTP/1.1[0m" 404 -
+2024-11-06 09:39:48,940 127.0.0.1 - - [06/Nov/2024 09:39:48] "GET /static/js/app.js HTTP/1.1" 200 -
+2024-11-06 09:39:50,280 127.0.0.1 - - [06/Nov/2024 09:39:50] "GET /static/images/favicon.png HTTP/1.1" 200 -
+2024-11-06 09:39:55,843 Starting new HTTP connection (1): 127.0.0.1:3000
+2024-11-06 09:39:55,844 127.0.0.1 - - [06/Nov/2024 09:39:55] "GET / HTTP/1.1" 200 -
+2024-11-06 09:39:56,404 127.0.0.1 - - [06/Nov/2024 09:39:56] "GET /static/css/style.css HTTP/1.1" 200 -
+2024-11-06 09:39:56,941 127.0.0.1 - - [06/Nov/2024 09:39:56] "GET /static/js/bootstrap.bundle.min.js HTTP/1.1" 200 -
+2024-11-06 09:39:56,990 127.0.0.1 - - [06/Nov/2024 09:39:56] "GET /static/css/bootstrap.min.css HTTP/1.1" 200 -
+2024-11-06 09:39:57,040 127.0.0.1 - - [06/Nov/2024 09:39:57] "GET /static/images/logo.png HTTP/1.1" 200 -
+2024-11-06 09:39:57,618 127.0.0.1 - - [06/Nov/2024 09:39:57] "GET /static/js/serviceWorker.js HTTP/1.1" 200 -
+2024-11-06 09:39:57,776 {"csp-report":{"document-uri":"http://localhost:5000/","referrer":"http://localhost:5000/?lang=python","violated-directive":"font-src","effective-directive":"font-src","original-policy":"script-src 'self'; img-src http: https: data:; child-src 'self'; default-src 'self'; style-src 'self'; media-src 'self'; object-src 'self'; connect-src 'self'; report-uri /csp_report; frame-ancestors none","disposition":"enforce","blocked-uri":"data","status-code":200,"script-sample":""}}
+2024-11-06 09:39:57,777 127.0.0.1 - - [06/Nov/2024 09:39:57] "POST /csp_report HTTP/1.1" 200 -
+2024-11-06 09:39:57,818 127.0.0.1 - - [06/Nov/2024 09:39:57] "[33mGET /static/css/bootstrap.min.css.map HTTP/1.1[0m" 404 -
+2024-11-06 09:39:57,879 127.0.0.1 - - [06/Nov/2024 09:39:57] "[33mGET /static/js/bootstrap.bundle.min.js.map HTTP/1.1[0m" 404 -
+2024-11-06 09:39:57,923 127.0.0.1 - - [06/Nov/2024 09:39:57] "GET /static/js/app.js HTTP/1.1" 200 -
+2024-11-06 09:39:59,330 127.0.0.1 - - [06/Nov/2024 09:39:59] "GET /static/manifest.json HTTP/1.1" 200 -
+2024-11-06 09:40:21,939 127.0.0.1 - - [06/Nov/2024 09:40:21] "GET /privacy.html HTTP/1.1" 200 -
+2024-11-06 09:40:22,538 127.0.0.1 - - [06/Nov/2024 09:40:22] "GET /static/css/style.css HTTP/1.1" 200 -
+2024-11-06 09:40:23,090 127.0.0.1 - - [06/Nov/2024 09:40:23] "GET /static/images/logo.png HTTP/1.1" 200 -
+2024-11-06 09:40:23,096 127.0.0.1 - - [06/Nov/2024 09:40:23] "GET /static/js/bootstrap.bundle.min.js HTTP/1.1" 200 -
+2024-11-06 09:40:23,148 127.0.0.1 - - [06/Nov/2024 09:40:23] "GET /static/css/bootstrap.min.css HTTP/1.1" 200 -
+2024-11-06 09:40:23,884 127.0.0.1 - - [06/Nov/2024 09:40:23] "[33mGET /static/js/bootstrap.bundle.min.js.map HTTP/1.1[0m" 404 -
+2024-11-06 09:40:23,899 127.0.0.1 - - [06/Nov/2024 09:40:23] "GET /static/js/serviceWorker.js HTTP/1.1" 200 -
+2024-11-06 09:40:24,028 127.0.0.1 - - [06/Nov/2024 09:40:24] "[33mGET /static/css/bootstrap.min.css.map HTTP/1.1[0m" 404 -
+2024-11-06 09:40:24,089 127.0.0.1 - - [06/Nov/2024 09:40:24] "GET /static/js/app.js HTTP/1.1" 200 -
+2024-11-06 09:40:25,599 127.0.0.1 - - [06/Nov/2024 09:40:25] "GET /static/manifest.json HTTP/1.1" 200 -
