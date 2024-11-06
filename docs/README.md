@@ -15,16 +15,12 @@ The API instructions focus on modelling how to build and test an API incremental
 2. [Python 3.x](https://www.python.org/downloads/)
 3. [GIT 2.x.x +](https://git-scm.com/downloads)
 4. [SQLite3 Editor](https://marketplace.visualstudio.com/items?itemName=yy0931.vscode-sqlite3-editor)
-5. [Start git-bash](https://marketplace.visualstudio.com/items?itemName=McCarter.start-git-bash) 6.[Thunder Client](https://marketplace.visualstudio.com/items?itemName=rangav.vscode-thunder-client)
-6. pip/pip3 installs
+5. [Start git-bash](https://marketplace.visualstudio.com/items?itemName=McCarter.start-git-bash)
+6. [Thunder Client](https://marketplace.visualstudio.com/items?itemName=rangav.vscode-thunder-client)
+7. pip/pip3 installs
 
 ```bash
-    pip install Flask
-    pip install SQLite3
-    pip install flask_wtf
-    pip install flask_csp
-    pip install jsonschema
-    pip install requests
+pip install -r "requirements.txt"
 ```
 
 > [!Important]
@@ -294,12 +290,12 @@ schema = {
         "name": {"type": "string"},
         "hyperlink": {
             "type": "string",
-            "pattern": "^https:\\/\\/marketplace\\.visualstudio\\.com\\/items\\?itemName=(?!.*[<>])[a-zA-Z0-9\\-._~:\/?#\\[\\]@!$&'()*+,;=]*$",
+            "pattern": "^https:\\/\\/marketplace\\.visualstudio\\.com\\/items\\?itemName=(?!.*[<>])[a-zA-Z0-9-._~:\/?#\\[\\]@!$&'()*\\+,;=]*$",
         },
         "about": {"type": "string"},
         "image": {
             "type": "string",
-            "pattern": "^https:\\/\\/(?!.*[<>])[a-zA-Z0-9\\-._~:\/?#\\[\\]@!$&'()*+,;=]*$",
+            "pattern": "^https:\\/\\/(?!.*[<>])[a-zA-Z0-9-._~:\/?#\\[\\]@!$&'()*\\+,;=]*$",
         },
         "language": {
             "type": "string",
@@ -329,7 +325,7 @@ Sample JSON data for you to test the API:
 
 ### Step 11: Insert the POST data into the database
 
-Update the `extension_add():` method in database_manager.py` to INSERT the JSON data into the database. The `extID` is not required as it has been configured to auto increment in the database table.
+Update the `extension_add():` method in database_manager.py`to INSERT the JSON data into the database. The`extID` is not required as it has been configured to auto increment in the database table.
 
 ```python
 def extension_add(data):
@@ -740,7 +736,7 @@ def index():
     return render_template("index.html", data=data)
 ```
 
-Extend the html in 'index.html` template that:
+Replace the test html in 'index.html` template that:
 
 1. Implements a [Bootstrap jumbotron heading](https://getbootstrap.com/docs/5.3/examples/jumbotron/).
 2. Implements a [Bootstrap button group](https://getbootstrap.com/docs/5.3/components/button-group/) that will later allow users to filter the extensions by language.
