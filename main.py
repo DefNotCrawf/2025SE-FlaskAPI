@@ -39,7 +39,7 @@ def root():
     {
         "default-src": "'self'",
         "script-src": "'self'",
-        "img-src": "http: https: data:",
+        "img-src": "'self' https://medo64.gallerycdn.vsassets.io",
         "object-src": "'self'",
         "style-src": "'self'",
         "media-src": "'self'",
@@ -58,7 +58,7 @@ def index():
     try:
         response = requests.get(url)
         response.raise_for_status()  # Raise an exception for HTTP errors
-        data = jsonify(response.json())
+        data = response.json()  # Convert JSON response to a Python dictionary
     except requests.exceptions.RequestException as e:
         data = {"error": "Failed to retrieve data from the API"}
     return render_template("index.html", data=data)
@@ -67,6 +67,36 @@ def index():
 @app.route("/privacy.html", methods=["GET"])
 def privacy():
     return render_template("/privacy.html")
+
+
+@app.route("/add.html", methods=["POST", "GET"])
+def form():
+    if request.method == "POST":
+        name = request.form["name"]
+        hyperlink = request.form["hyperlink"]
+        about = request.form["about"]
+        image = request.form["image"]
+        language = request.form["language"]
+        data = {
+            "name": name,
+            "hyperlink": hyperlink,
+            "about": about,
+            "image": image,
+            "language": language,
+        }
+        app.logger.critical(data)
+        try:
+            response = requests.post(
+                "http://127.0.0.1:3000/add_extension",
+                json=data,
+                headers=app_header,
+            )
+            data = response.json()
+        except requests.exceptions.RequestException as e:
+            data = {"error": "Failed to retrieve data from the API"}
+        return render_template("/add.html", data=data)
+    else:
+        return render_template("/add.html", data={})
 
 
 @app.route("/add.html", methods=["POST", "GET"])

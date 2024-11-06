@@ -1,110 +1,62 @@
 from flask import Flask
-from flask import redirect
-from flask import render_template
 from flask import request
 from flask import jsonify
-import requests
-from flask_wtf import CSRFProtect
-from flask_csp.csp import csp_header
+from flask_cors import CORS
+from flask_limiter import Limiter
+from flask_limiter.util import get_remote_address
 import logging
+
+import database_manager as dbHandler
 
 
 # Code snippet for logging a message
-# app.logger.critical("message")
+# api.logger.critical("message")
 
-app_log = logging.getLogger(__name__)
+
+api_log = logging.getLogger(__name__)
 logging.basicConfig(
-    filename="main_security_log.log",
+    filename="api_security_log.log",
     encoding="utf-8",
     level=logging.DEBUG,
     format="%(asctime)s %(message)s",
 )
 
 
-# Generate a unique basic 16 key: https://acte.ltd/utils/randomkeygen
-app = Flask(__name__)
-csrf = CSRFProtect(app)
-app.secret_key = b"6HlQfWhu03PttohW;apl"
+auth_key = "4L50v92nOgcDCYUM"
 
-app_header = {"Authorisation": "4L50v92nOgcDCYUM"}
-
-
-@app.route("/index.html", methods=["GET"])
-def root():
-    return redirect("/", 302)
-
-
-@app.route("/", methods=["GET"])
-@csp_header(
-    {
-        "default-src": "'self'",
-        "script-src": "'self'",
-        "img-src": "http: https: data:",
-        "object-src": "'self'",
-        "style-src": "'self'",
-        "media-src": "'self'",
-        "child-src": "'self'",
-        "connect-src": "'self'",
-        "base-uri": "",
-        "report-uri": "/csp_report",
-        "frame-ancestors": "none",
-    }
+api = Flask(__name__)
+cors = CORS(api)
+api.config["CORS_HEADERS"] = "Content-Type"
+limiter = Limiter(
+    get_remote_address,
+    app=api,
+    default_limits=["200 per day", "50 per hour"],
+    storage_uri="memory://",
 )
-def index():
-    url = "http://127.0.0.1:3000"
+
+
+@api.route("/", methods=["GET"])
+@limiter.limit("3/second", override_defaults=False)
+def get():
     if request.args.get("lang") and request.args.get("lang").isalpha():
         lang = request.args.get("lang")
-        url += f"?lang={lang}"
-    try:
-        response = requests.get(url)
-        response.raise_for_status()  # Raise an exception for HTTP errors
-        data = jsonify(response.json())
-    except requests.exceptions.RequestException as e:
-        data = {"error": "Failed to retrieve data from the API"}
-    return render_template("index.html", data=data)
-
-
-@app.route("/privacy.html", methods=["GET"])
-def privacy():
-    return render_template("/privacy.html")
-
-
-@app.route("/add.html", methods=["POST", "GET"])
-def form():
-    if request.method == "POST":
-        name = request.form["name"]
-        hyperlink = request.form["hyperlink"]
-        about = request.form["about"]
-        image = request.form["image"]
-        language = request.form["language"]
-        data = {
-            "name": name,
-            "hyperlink": hyperlink,
-            "about": about,
-            "image": image,
-            "language": language,
-        }
-        app.logger.critical(data)
-        try:
-            response = requests.post(
-                "http://127.0.0.1:3000/add_extension",
-                json=data,
-                headers=app_header,
-            )
-            data = response.json()
-        except requests.exceptions.RequestException as e:
-            data = {"error": "Failed to retrieve data from the API"}
-        return render_template("/add.html", data=data)
+        lang = lang.upper()
+        content = dbHandler.extension_get(lang)
     else:
-        return render_template("/add.html", data={})
+        content = dbHandler.extension_get("%")
+    return (content), 200
 
 
-@app.route("/csp_report", methods=["POST"])
-@csrf.exempt
-def csp_report():
-    app.logger.critical(request.data.decode())
-    return "done"
+@api.route("/add_extension", methods=["POST"])
+@limiter.limit("1/second", override_defaults=False)
+def post():
+    if request.headers.get("Authorisation") == auth_key:
+        data = request.get_json()
+        response = dbHandler.extension_add(data)
+        return response
+    else:
+        return jsonify({"error": "Unauthorised"}), 401
 
 
 if __name__ == "__main__":
-    app.run(debug=True, host="0.0.0.0", port=5000)
+    api.run(debug=True, host="0.0.0.0", port=3000)

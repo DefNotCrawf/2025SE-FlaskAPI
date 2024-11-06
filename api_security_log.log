@@ -31,3 +31,35 @@
  * Running on http://172.17.0.4:3000
 2024-11-06 03:05:18,112 [33mPress CTRL+C to quit[0m
 2024-11-06 03:05:18,113  * Restarting with stat
+2024-11-06 10:07:01,241 [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:3000
+ * Running on http://10.0.0.119:3000
+2024-11-06 10:07:01,241 [33mPress CTRL+C to quit[0m
+2024-11-06 10:07:01,241  * Restarting with stat
+2024-11-06 10:07:01,507  * Debugger is active!
+2024-11-06 10:07:01,507  * Debugger PIN: 703-237-772
+2024-11-06 10:07:15,001 127.0.0.1 - - [06/Nov/2024 10:07:15] "GET / HTTP/1.1" 200 -
+2024-11-06 10:07:52,082 [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:3000
+ * Running on http://10.0.0.119:3000
+2024-11-06 10:07:52,082 [33mPress CTRL+C to quit[0m
+2024-11-06 10:07:52,082  * Restarting with stat
+2024-11-06 10:07:52,344  * Debugger is active!
+2024-11-06 10:07:52,344  * Debugger PIN: 703-237-772
+2024-11-06 10:07:55,800 127.0.0.1 - - [06/Nov/2024 10:07:55] "GET / HTTP/1.1" 200 -
+2024-11-06 10:09:26,982  * Detected change in '/workspaces/2025SE-FlaskAPI/main.py', reloading
+2024-11-06 10:09:27,019  * Restarting with stat
+2024-11-06 10:09:27,284  * Debugger is active!
+2024-11-06 10:09:27,285  * Debugger PIN: 703-237-772
+2024-11-06 10:09:31,291 127.0.0.1 - - [06/Nov/2024 10:09:31] "GET / HTTP/1.1" 200 -
+2024-11-06 10:10:28,580 127.0.0.1 - - [06/Nov/2024 10:10:28] "GET / HTTP/1.1" 200 -
+2024-11-06 10:10:55,097 127.0.0.1 - - [06/Nov/2024 10:10:55] "GET / HTTP/1.1" 200 -
+2024-11-06 10:12:03,686  * Detected change in '/workspaces/2025SE-FlaskAPI/main.py', reloading
+2024-11-06 10:12:03,725  * Restarting with stat
+2024-11-06 10:12:03,992  * Debugger is active!
+2024-11-06 10:12:03,992  * Debugger PIN: 703-237-772
+2024-11-06 10:12:10,971 127.0.0.1 - - [06/Nov/2024 10:12:10] "GET / HTTP/1.1" 200 -
+2024-11-06 10:12:18,217 127.0.0.1 - - [06/Nov/2024 10:12:18] "GET / HTTP/1.1" 200 -
+2024-11-06 10:12:24,899 127.0.0.1 - - [06/Nov/2024 10:12:24] "GET / HTTP/1.1" 200 -
