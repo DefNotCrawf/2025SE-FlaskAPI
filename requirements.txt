@@ -2,6 +2,7 @@ Flask
 flask_wtf
 flask-csp
 jsonschema
+SQLite3
 requests
 flask_cors
 flask_limiter
