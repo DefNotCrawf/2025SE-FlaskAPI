@@ -208,3 +208,394 @@
 2024-11-07 00:56:40,064 127.0.0.1 - - [07/Nov/2024 00:56:40] "GET / HTTP/1.1" 200 -
 2024-11-07 00:57:26,022 127.0.0.1 - - [07/Nov/2024 00:57:26] "GET / HTTP/1.1" 200 -
 2024-11-07 00:59:11,118 127.0.0.1 - - [07/Nov/2024 00:59:11] "GET / HTTP/1.1" 200 -
+2024-11-07 02:11:16,914 [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:3000
+ * Running on http://10.0.2.125:3000
+2024-11-07 02:11:16,915 [33mPress CTRL+C to quit[0m
+2024-11-07 02:11:16,915  * Restarting with stat
+2024-11-07 02:11:17,181  * Debugger is active!
+2024-11-07 02:11:17,181  * Debugger PIN: 141-382-212
+2024-11-07 02:11:39,964 127.0.0.1 - - [07/Nov/2024 02:11:39] "GET / HTTP/1.1" 200 -
+2024-11-07 02:12:04,662 127.0.0.1 - - [07/Nov/2024 02:12:04] "GET / HTTP/1.1" 200 -
+2024-11-07 02:12:04,848 127.0.0.1 - - [07/Nov/2024 02:12:04] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2024-11-07 02:12:11,178 127.0.0.1 - - [07/Nov/2024 02:12:11] "GET /?lang=bash HTTP/1.1" 200 -
+2024-11-07 02:12:15,629 127.0.0.1 - - [07/Nov/2024 02:12:15] "GET /?lang=python HTTP/1.1" 200 -
+2024-11-07 02:12:42,128 127.0.0.1 - - [07/Nov/2024 02:12:42] "GET / HTTP/1.1" 200 -
+2024-11-07 02:13:25,730 127.0.0.1 - - [07/Nov/2024 02:13:25] code 400, message Bad request version ('\x00\x04\x03\x00\x01\x02\x00')
+2024-11-07 02:13:25,730 127.0.0.1 - - [07/Nov/2024 02:13:25] "[31m[1m\x16\x03\x01\x01%\x01\x00\x01!\x03\x03\x9e÷5.\x1aH\x83\x80\x82}È\x14f\x83sÙ±{\x9b¯\x1b\x8aK3G\x05Ê»\x9d-Wï J\x81Ò#@1]\x86Õ\x9aÜ\x9d\x7fc×\x84_y\x98ñ¿ Z\x0d¾\x00¦ë\x07Êä\x1b\x00\x16\x13\x02\x13\x01À,À+À0À/À$À#À(À'\x00ÿ\x01\x00\x00Â\x00\x00\x00\x0e\x00\x0c\x00\x00\x09localhost\x00\x0b\x00\x04\x03\x00\x01\x02\x00[0m" 400 -
+2024-11-07 02:13:32,250 127.0.0.1 - - [07/Nov/2024 02:13:32] code 400, message Bad request version ('\x00\x04\x03\x00\x01\x02\x00')
+2024-11-07 02:13:32,250 127.0.0.1 - - [07/Nov/2024 02:13:32] "[31m[1m\x16\x03\x01\x01%\x01\x00\x01!\x03\x03´\x1aª=A±y4\x85§\x95QA\x14\x83\x86\x1a\x061#¤xË½yòÉ¢Ù \x0fü \x9bI¤ò\x93&$\x1c¶\x95Õ¿;ÂíM\x05ò)5Àm¬Yït`ø'\x8f\x04ä\x00\x16\x13\x02\x13\x01À,À+À0À/À$À#À(À'\x00ÿ\x01\x00\x00Â\x00\x00\x00\x0e\x00\x0c\x00\x00\x09localhost\x00\x0b\x00\x04\x03\x00\x01\x02\x00[0m" 400 -
+2024-11-07 02:13:48,518 127.0.0.1 - - [07/Nov/2024 02:13:48] code 400, message Bad request version ('\x00\x04\x03\x00\x01\x02\x00')
+2024-11-07 02:13:48,519 127.0.0.1 - - [07/Nov/2024 02:13:48] "[31m[1m\x16\x03\x01\x02T\x01\x00\x02P\x03\x03ô*#\x85ÃÅ\x0b\x1f\x95\x17¿£x\x87ó\x8bOõ=þx\x95»¢¬»D\x02\x1dN\x1e\x0c >;\x86ýÈo£;\x94³*»\x83«ÍÏõ¤\x02·$\x85¸\x91Æ<\x9b¬c\x8a÷¡\x00\x16\x13\x02\x13\x01À,À+À0À/À$À#À(À'\x00ÿ\x01\x00\x01ñ\x00\x00\x00\x0e\x00\x0c\x00\x00\x09localhost\x00\x0b\x00\x04\x03\x00\x01\x02\x00[0m" 400 -
+2024-11-07 02:14:34,293 127.0.0.1 - - [07/Nov/2024 02:14:34] "GET / HTTP/1.1" 200 -
+2024-11-07 02:14:34,993 127.0.0.1 - - [07/Nov/2024 02:14:34] "GET / HTTP/1.1" 200 -
+2024-11-07 02:14:35,206 127.0.0.1 - - [07/Nov/2024 02:14:35] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2024-11-07 02:15:19,841 127.0.0.1 - - [07/Nov/2024 02:15:19] "GET /?lang=python HTTP/1.1" 200 -
+2024-11-07 02:15:20,805 127.0.0.1 - - [07/Nov/2024 02:15:20] "GET /?lang=cpp HTTP/1.1" 200 -
+2024-11-07 02:15:21,357 127.0.0.1 - - [07/Nov/2024 02:15:21] "GET /?lang=bash HTTP/1.1" 200 -
+2024-11-07 02:15:21,943 127.0.0.1 - - [07/Nov/2024 02:15:21] "GET /?lang=sql HTTP/1.1" 200 -
+2024-11-07 02:15:22,472 127.0.0.1 - - [07/Nov/2024 02:15:22] "GET /?lang=html HTTP/1.1" 200 -
+2024-11-07 02:15:22,934 127.0.0.1 - - [07/Nov/2024 02:15:22] "GET /?lang=css HTTP/1.1" 200 -
+2024-11-07 02:15:23,327 127.0.0.1 - - [07/Nov/2024 02:15:23] "GET /?lang=javascript HTTP/1.1" 200 -
+2024-11-07 02:17:04,069 127.0.0.1 - - [07/Nov/2024 02:17:04] "GET /?lang=javascript HTTP/1.1" 200 -
+2024-11-07 02:17:05,097 127.0.0.1 - - [07/Nov/2024 02:17:05] "GET / HTTP/1.1" 200 -
+2024-11-07 02:17:05,750 127.0.0.1 - - [07/Nov/2024 02:17:05] "GET /?lang=python HTTP/1.1" 200 -
+2024-11-07 02:17:10,432 127.0.0.1 - - [07/Nov/2024 02:17:10] "GET /?lang=cpp HTTP/1.1" 200 -
+2024-11-07 02:17:12,208 127.0.0.1 - - [07/Nov/2024 02:17:12] "GET /?lang=bash HTTP/1.1" 200 -
+2024-11-07 02:17:13,798 127.0.0.1 - - [07/Nov/2024 02:17:13] "GET /?lang=python HTTP/1.1" 200 -
+2024-11-07 02:17:18,295 127.0.0.1 - - [07/Nov/2024 02:17:18] "GET /?lang=python HTTP/1.1" 200 -
+2024-11-07 02:17:23,480 127.0.0.1 - - [07/Nov/2024 02:17:23] "GET / HTTP/1.1" 200 -
+2024-11-07 02:17:23,656 127.0.0.1 - - [07/Nov/2024 02:17:23] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2024-11-07 02:18:14,007  * Detected change in '/workspaces/2025SE-FlaskAPI/.database/datamanager.py', reloading
+2024-11-07 02:18:14,046  * Restarting with stat
+2024-11-07 02:18:14,312  * Debugger is active!
+2024-11-07 02:18:14,312  * Debugger PIN: 141-382-212
+2024-11-07 02:19:35,361 127.0.0.1 - - [07/Nov/2024 02:19:35] "GET /?lang=bash HTTP/1.1" 200 -
+2024-11-07 02:19:36,510 127.0.0.1 - - [07/Nov/2024 02:19:36] "GET /?lang=sql HTTP/1.1" 200 -
+2024-11-07 02:21:49,761  * Detected change in '/workspaces/2025SE-FlaskAPI/.database/datamanager.py', reloading
+2024-11-07 02:21:49,800  * Restarting with stat
+2024-11-07 02:21:50,067  * Debugger is active!
+2024-11-07 02:21:50,068  * Debugger PIN: 141-382-212
+2024-11-07 02:23:05,986  * Detected change in '/workspaces/2025SE-FlaskAPI/.database/datamanager.py', reloading
+2024-11-07 02:23:06,027  * Restarting with stat
+2024-11-07 02:23:06,295  * Debugger is active!
+2024-11-07 02:23:06,296  * Debugger PIN: 141-382-212
+2024-11-07 02:23:51,295  * Detected change in '/workspaces/2025SE-FlaskAPI/.database/datamanager.py', reloading
+2024-11-07 02:23:51,336  * Restarting with stat
+2024-11-07 02:23:51,605  * Debugger is active!
+2024-11-07 02:23:51,605  * Debugger PIN: 141-382-212
+2024-11-07 02:25:14,574  * Detected change in '/workspaces/2025SE-FlaskAPI/.database/datamanager.py', reloading
+2024-11-07 02:25:14,613  * Restarting with stat
+2024-11-07 02:25:14,885  * Debugger is active!
+2024-11-07 02:25:14,886  * Debugger PIN: 141-382-212
+2024-11-07 02:26:38,626  * Detected change in '/workspaces/2025SE-FlaskAPI/.database/datamanager.py', reloading
+2024-11-07 02:26:38,664  * Restarting with stat
+2024-11-07 02:26:38,930  * Debugger is active!
+2024-11-07 02:26:38,931  * Debugger PIN: 141-382-212
+2024-11-07 02:27:18,945  * Detected change in '/workspaces/2025SE-FlaskAPI/.database/datamanager.py', reloading
+2024-11-07 02:27:18,987  * Restarting with stat
+2024-11-07 02:27:19,256  * Debugger is active!
+2024-11-07 02:27:19,257  * Debugger PIN: 141-382-212
+2024-11-07 02:29:06,899  * Detected change in '/workspaces/2025SE-FlaskAPI/.database/datamanager.py', reloading
+2024-11-07 02:29:06,943  * Restarting with stat
+2024-11-07 02:29:07,212  * Debugger is active!
+2024-11-07 02:29:07,213  * Debugger PIN: 141-382-212
+2024-11-07 02:31:08,585  * Detected change in '/workspaces/2025SE-FlaskAPI/.database/datamanager.py', reloading
+2024-11-07 02:31:08,623  * Restarting with stat
+2024-11-07 02:31:08,893  * Debugger is active!
+2024-11-07 02:31:08,893  * Debugger PIN: 141-382-212
+2024-11-07 02:31:43,733 127.0.0.1 - - [07/Nov/2024 02:31:43] "GET /?lang=sql HTTP/1.1" 200 -
+2024-11-07 02:31:44,717 127.0.0.1 - - [07/Nov/2024 02:31:44] "GET / HTTP/1.1" 200 -
+2024-11-07 02:34:23,391  * Detected change in '/workspaces/2025SE-FlaskAPI/.database/datamanager.py', reloading
+2024-11-07 02:34:23,430  * Restarting with stat
+2024-11-07 02:34:23,700  * Debugger is active!
+2024-11-07 02:34:23,700  * Debugger PIN: 141-382-212
+2024-11-07 02:34:38,768  * Detected change in '/workspaces/2025SE-FlaskAPI/.database/datamanager.py', reloading
+2024-11-07 02:34:38,810  * Restarting with stat
+2024-11-07 02:34:39,074  * Debugger is active!
+2024-11-07 02:34:39,075  * Debugger PIN: 141-382-212
+2024-11-07 02:36:14,886 127.0.0.1 - - [07/Nov/2024 02:36:14] "GET / HTTP/1.1" 200 -
+2024-11-07 02:36:19,589 127.0.0.1 - - [07/Nov/2024 02:36:19] "GET / HTTP/1.1" 200 -
+2024-11-07 02:36:42,926 127.0.0.1 - - [07/Nov/2024 02:36:42] "GET /?lang=javascript HTTP/1.1" 200 -
+2024-11-07 02:36:43,438 127.0.0.1 - - [07/Nov/2024 02:36:43] "GET /?lang=css HTTP/1.1" 200 -
+2024-11-07 02:36:44,160 127.0.0.1 - - [07/Nov/2024 02:36:44] "GET /?lang=html HTTP/1.1" 200 -
+2024-11-07 02:36:45,068 127.0.0.1 - - [07/Nov/2024 02:36:45] "GET /?lang=sql HTTP/1.1" 200 -
+2024-11-07 02:36:45,796 127.0.0.1 - - [07/Nov/2024 02:36:45] "GET /?lang=bash HTTP/1.1" 200 -
+2024-11-07 02:36:46,455 127.0.0.1 - - [07/Nov/2024 02:36:46] "GET /?lang=cpp HTTP/1.1" 200 -
+2024-11-07 02:36:46,869 127.0.0.1 - - [07/Nov/2024 02:36:46] "GET /?lang=python HTTP/1.1" 200 -
+2024-11-07 02:36:48,097 127.0.0.1 - - [07/Nov/2024 02:36:48] "GET / HTTP/1.1" 200 -
+2024-11-07 02:36:49,181 127.0.0.1 - - [07/Nov/2024 02:36:49] "GET /?lang=bash HTTP/1.1" 200 -
+2024-11-07 02:36:50,078 127.0.0.1 - - [07/Nov/2024 02:36:50] "GET /?lang=sql HTTP/1.1" 200 -
+2024-11-07 02:36:51,100 127.0.0.1 - - [07/Nov/2024 02:36:51] "GET /?lang=html HTTP/1.1" 200 -
+2024-11-07 02:36:52,199 127.0.0.1 - - [07/Nov/2024 02:36:52] "GET /?lang=css HTTP/1.1" 200 -
+2024-11-07 02:36:52,742 127.0.0.1 - - [07/Nov/2024 02:36:52] "GET /?lang=javascript HTTP/1.1" 200 -
+2024-11-07 02:37:42,281 127.0.0.1 - - [07/Nov/2024 02:37:42] "GET /?lang=python HTTP/1.1" 200 -
+2024-11-07 02:37:43,052 127.0.0.1 - - [07/Nov/2024 02:37:43] "GET / HTTP/1.1" 200 -
+2024-11-07 02:42:33,859 127.0.0.1 - - [07/Nov/2024 02:42:33] "GET / HTTP/1.1" 200 -
+2024-11-07 02:42:34,061 127.0.0.1 - - [07/Nov/2024 02:42:34] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2024-11-07 02:47:43,023  * Detected change in '/workspaces/2025SE-FlaskAPI/.database/datamanager.py', reloading
+2024-11-07 02:47:43,062  * Restarting with stat
+2024-11-07 02:47:43,330  * Debugger is active!
+2024-11-07 02:47:43,330  * Debugger PIN: 141-382-212
+2024-11-07 02:49:04,847  * Detected change in '/workspaces/2025SE-FlaskAPI/.database/datamanager.py', reloading
+2024-11-07 02:49:04,885  * Restarting with stat
+2024-11-07 02:49:05,153  * Debugger is active!
+2024-11-07 02:49:05,153  * Debugger PIN: 141-382-212
+2024-11-07 02:50:37,025  * Detected change in '/workspaces/2025SE-FlaskAPI/.database/datamanager.py', reloading
+2024-11-07 02:50:37,069  * Restarting with stat
+2024-11-07 02:50:37,361  * Debugger is active!
+2024-11-07 02:50:37,361  * Debugger PIN: 141-382-212
+2024-11-07 02:51:30,227  * Detected change in '/workspaces/2025SE-FlaskAPI/.database/datamanager.py', reloading
+2024-11-07 02:51:30,268  * Restarting with stat
+2024-11-07 02:51:30,538  * Debugger is active!
+2024-11-07 02:51:30,539  * Debugger PIN: 141-382-212
+2024-11-07 02:51:38,471  * Detected change in '/workspaces/2025SE-FlaskAPI/.database/datamanager.py', reloading
+2024-11-07 02:51:38,510  * Restarting with stat
+2024-11-07 02:51:38,775  * Debugger is active!
+2024-11-07 02:51:38,775  * Debugger PIN: 141-382-212
+2024-11-07 02:52:49,414  * Detected change in '/workspaces/2025SE-FlaskAPI/.database/datamanager.py', reloading
+2024-11-07 02:52:49,453  * Restarting with stat
+2024-11-07 02:52:49,719  * Debugger is active!
+2024-11-07 02:52:49,720  * Debugger PIN: 141-382-212
+2024-11-07 02:52:54,890  * Detected change in '/workspaces/2025SE-FlaskAPI/.database/datamanager.py', reloading
+2024-11-07 02:52:54,932  * Restarting with stat
+2024-11-07 02:52:55,199  * Debugger is active!
+2024-11-07 02:52:55,199  * Debugger PIN: 141-382-212
+2024-11-07 02:53:00,292  * Detected change in '/workspaces/2025SE-FlaskAPI/.database/datamanager.py', reloading
+2024-11-07 02:53:00,334  * Restarting with stat
+2024-11-07 02:53:00,603  * Debugger is active!
+2024-11-07 02:53:00,604  * Debugger PIN: 141-382-212
+2024-11-07 02:55:57,705  * Detected change in '/workspaces/2025SE-FlaskAPI/.database/datamanager.py', reloading
+2024-11-07 02:55:57,749  * Restarting with stat
+2024-11-07 02:55:58,020  * Debugger is active!
+2024-11-07 02:55:58,020  * Debugger PIN: 141-382-212
+2024-11-07 02:56:24,412  * Detected change in '/workspaces/2025SE-FlaskAPI/.database/datamanager.py', reloading
+2024-11-07 02:56:24,455  * Restarting with stat
+2024-11-07 02:56:24,718  * Debugger is active!
+2024-11-07 02:56:24,718  * Debugger PIN: 141-382-212
+2024-11-07 02:57:08,788  * Detected change in '/workspaces/2025SE-FlaskAPI/.database/datamanager.py', reloading
+2024-11-07 02:57:08,828  * Restarting with stat
+2024-11-07 02:57:09,099  * Debugger is active!
+2024-11-07 02:57:09,100  * Debugger PIN: 141-382-212
+2024-11-07 02:57:24,339  * Detected change in '/workspaces/2025SE-FlaskAPI/.database/datamanager.py', reloading
+2024-11-07 02:57:24,383  * Restarting with stat
+2024-11-07 02:57:24,648  * Debugger is active!
+2024-11-07 02:57:24,648  * Debugger PIN: 141-382-212
+2024-11-07 02:57:42,605  * Detected change in '/workspaces/2025SE-FlaskAPI/.database/datamanager.py', reloading
+2024-11-07 02:57:42,647  * Restarting with stat
+2024-11-07 02:57:42,919  * Debugger is active!
+2024-11-07 02:57:42,920  * Debugger PIN: 141-382-212
+2024-11-07 02:57:53,791  * Detected change in '/workspaces/2025SE-FlaskAPI/.database/datamanager.py', reloading
+2024-11-07 02:57:53,829  * Restarting with stat
+2024-11-07 02:57:54,096  * Debugger is active!
+2024-11-07 02:57:54,096  * Debugger PIN: 141-382-212
+2024-11-07 02:58:02,129  * Detected change in '/workspaces/2025SE-FlaskAPI/.database/datamanager.py', reloading
+2024-11-07 02:58:02,170  * Restarting with stat
+2024-11-07 02:58:02,439  * Debugger is active!
+2024-11-07 02:58:02,439  * Debugger PIN: 141-382-212
+2024-11-07 02:58:23,352  * Detected change in '/workspaces/2025SE-FlaskAPI/.database/datamanager.py', reloading
+2024-11-07 02:58:23,392  * Restarting with stat
+2024-11-07 02:58:23,670  * Debugger is active!
+2024-11-07 02:58:23,670  * Debugger PIN: 141-382-212
+2024-11-07 02:58:28,718  * Detected change in '/workspaces/2025SE-FlaskAPI/.database/datamanager.py', reloading
+2024-11-07 02:58:28,764  * Restarting with stat
+2024-11-07 02:58:29,036  * Debugger is active!
+2024-11-07 02:58:29,036  * Debugger PIN: 141-382-212
+2024-11-07 03:00:17,064  * Detected change in '/workspaces/2025SE-FlaskAPI/.database/datamanager.py', reloading
+2024-11-07 03:00:17,104  * Restarting with stat
+2024-11-07 03:00:17,369  * Debugger is active!
+2024-11-07 03:00:17,370  * Debugger PIN: 141-382-212
+2024-11-07 03:01:01,228  * Detected change in '/workspaces/2025SE-FlaskAPI/.database/datamanager.py', reloading
+2024-11-07 03:01:01,272  * Restarting with stat
+2024-11-07 03:01:01,537  * Debugger is active!
+2024-11-07 03:01:01,537  * Debugger PIN: 141-382-212
+2024-11-07 03:03:02,449  * Detected change in '/workspaces/2025SE-FlaskAPI/.database/datamanager.py', reloading
+2024-11-07 03:03:02,495  * Restarting with stat
+2024-11-07 03:03:02,768  * Debugger is active!
+2024-11-07 03:03:02,769  * Debugger PIN: 141-382-212
+2024-11-07 03:03:09,228  * Detected change in '/workspaces/2025SE-FlaskAPI/.database/datamanager.py', reloading
+2024-11-07 03:03:09,271  * Restarting with stat
+2024-11-07 03:03:09,538  * Debugger is active!
+2024-11-07 03:03:09,538  * Debugger PIN: 141-382-212
+2024-11-07 03:03:17,450  * Detected change in '/workspaces/2025SE-FlaskAPI/.database/datamanager.py', reloading
+2024-11-07 03:03:17,492  * Restarting with stat
+2024-11-07 03:03:17,759  * Debugger is active!
+2024-11-07 03:03:17,760  * Debugger PIN: 141-382-212
+2024-11-07 03:03:27,136  * Detected change in '/workspaces/2025SE-FlaskAPI/.database/datamanager.py', reloading
+2024-11-07 03:03:27,180  * Restarting with stat
+2024-11-07 03:03:27,445  * Debugger is active!
+2024-11-07 03:03:27,445  * Debugger PIN: 141-382-212
+2024-11-07 03:03:32,526  * Detected change in '/workspaces/2025SE-FlaskAPI/.database/datamanager.py', reloading
+2024-11-07 03:03:32,567  * Restarting with stat
+2024-11-07 03:03:32,834  * Debugger is active!
+2024-11-07 03:03:32,834  * Debugger PIN: 141-382-212
+2024-11-07 03:03:53,700  * Detected change in '/workspaces/2025SE-FlaskAPI/.database/datamanager.py', reloading
+2024-11-07 03:03:53,737  * Restarting with stat
+2024-11-07 03:03:54,022  * Debugger is active!
+2024-11-07 03:03:54,023  * Debugger PIN: 141-382-212
+2024-11-07 03:04:19,175  * Detected change in '/workspaces/2025SE-FlaskAPI/.database/datamanager.py', reloading
+2024-11-07 03:04:19,213  * Restarting with stat
+2024-11-07 03:04:19,477  * Debugger is active!
+2024-11-07 03:04:19,477  * Debugger PIN: 141-382-212
+2024-11-07 03:05:11,456 127.0.0.1 - - [07/Nov/2024 03:05:11] "GET / HTTP/1.1" 200 -
+2024-11-07 03:05:51,503 127.0.0.1 - - [07/Nov/2024 03:05:51] "GET / HTTP/1.1" 200 -
+2024-11-07 03:06:42,228 127.0.0.1 - - [07/Nov/2024 03:06:42] "GET / HTTP/1.1" 200 -
+2024-11-07 03:06:43,644 127.0.0.1 - - [07/Nov/2024 03:06:43] "GET /?lang=javascript HTTP/1.1" 200 -
+2024-11-07 03:06:53,070 127.0.0.1 - - [07/Nov/2024 03:06:53] "GET /?lang=javascript HTTP/1.1" 200 -
+2024-11-07 03:06:54,245 127.0.0.1 - - [07/Nov/2024 03:06:54] "GET /?lang=css HTTP/1.1" 200 -
+2024-11-07 03:06:54,814 127.0.0.1 - - [07/Nov/2024 03:06:54] "GET /?lang=html HTTP/1.1" 200 -
+2024-11-07 03:06:55,574 127.0.0.1 - - [07/Nov/2024 03:06:55] "GET /?lang=sql HTTP/1.1" 200 -
+2024-11-07 03:06:56,246 127.0.0.1 - - [07/Nov/2024 03:06:56] "GET /?lang=bash HTTP/1.1" 200 -
+2024-11-07 03:06:56,832 127.0.0.1 - - [07/Nov/2024 03:06:56] "GET /?lang=cpp HTTP/1.1" 200 -
+2024-11-07 03:06:57,326 127.0.0.1 - - [07/Nov/2024 03:06:57] "GET /?lang=python HTTP/1.1" 200 -
+2024-11-07 03:06:57,934 127.0.0.1 - - [07/Nov/2024 03:06:57] "GET / HTTP/1.1" 200 -
+2024-11-07 03:06:58,496 127.0.0.1 - - [07/Nov/2024 03:06:58] "GET /?lang=python HTTP/1.1" 200 -
+2024-11-07 03:06:59,703 127.0.0.1 - - [07/Nov/2024 03:06:59] "GET / HTTP/1.1" 200 -
+2024-11-07 03:08:57,696 127.0.0.1 - - [07/Nov/2024 03:08:57] "GET / HTTP/1.1" 200 -
+2024-11-07 03:14:06,245 127.0.0.1 - - [07/Nov/2024 03:14:06] "GET / HTTP/1.1" 200 -
+2024-11-07 03:14:07,488 127.0.0.1 - - [07/Nov/2024 03:14:07] "GET /?lang=other HTTP/1.1" 200 -
+2024-11-07 03:14:08,804 127.0.0.1 - - [07/Nov/2024 03:14:08] "GET /?lang=javascript HTTP/1.1" 200 -
+2024-11-07 03:14:09,358 127.0.0.1 - - [07/Nov/2024 03:14:09] "GET /?lang=other HTTP/1.1" 200 -
+2024-11-07 03:14:09,987 127.0.0.1 - - [07/Nov/2024 03:14:09] "GET /?lang=javascript HTTP/1.1" 200 -
+2024-11-07 03:14:10,684 127.0.0.1 - - [07/Nov/2024 03:14:10] "GET /?lang=css HTTP/1.1" 200 -
+2024-11-07 03:14:11,339 127.0.0.1 - - [07/Nov/2024 03:14:11] "GET / HTTP/1.1" 200 -
+2024-11-07 03:14:13,531 127.0.0.1 - - [07/Nov/2024 03:14:13] "GET /?lang=other HTTP/1.1" 200 -
+2024-11-07 03:17:54,412 127.0.0.1 - - [07/Nov/2024 03:17:54] "GET /?lang=other HTTP/1.1" 200 -
+2024-11-07 03:17:55,817 127.0.0.1 - - [07/Nov/2024 03:17:55] "GET /?lang=other HTTP/1.1" 200 -
+2024-11-07 03:17:56,572 127.0.0.1 - - [07/Nov/2024 03:17:56] "GET /?lang=other HTTP/1.1" 200 -
+2024-11-07 03:17:57,005 127.0.0.1 - - [07/Nov/2024 03:17:57] "GET /?lang=javascript HTTP/1.1" 200 -
+2024-11-07 03:17:57,862 127.0.0.1 - - [07/Nov/2024 03:17:57] "GET /?lang=css HTTP/1.1" 200 -
+2024-11-07 03:17:58,749 127.0.0.1 - - [07/Nov/2024 03:17:58] "GET /?lang=html HTTP/1.1" 200 -
+2024-11-07 03:17:59,645 127.0.0.1 - - [07/Nov/2024 03:17:59] "GET /?lang=sql HTTP/1.1" 200 -
+2024-11-07 03:18:00,573 127.0.0.1 - - [07/Nov/2024 03:18:00] "GET /?lang=bash HTTP/1.1" 200 -
+2024-11-07 03:18:01,877 127.0.0.1 - - [07/Nov/2024 03:18:01] "GET /?lang=cpp HTTP/1.1" 200 -
+2024-11-07 03:18:03,325 127.0.0.1 - - [07/Nov/2024 03:18:03] "GET /?lang=python HTTP/1.1" 200 -
+2024-11-07 03:18:03,894 127.0.0.1 - - [07/Nov/2024 03:18:03] "GET /?lang=cpp HTTP/1.1" 200 -
+2024-11-07 03:18:04,645 127.0.0.1 - - [07/Nov/2024 03:18:04] "GET /?lang=cpp HTTP/1.1" 200 -
+2024-11-07 03:18:06,372 127.0.0.1 - - [07/Nov/2024 03:18:06] "GET /?lang=cpp HTTP/1.1" 200 -
+2024-11-07 03:18:06,957 127.0.0.1 - - [07/Nov/2024 03:18:06] "GET /?lang=bash HTTP/1.1" 200 -
+2024-11-07 03:18:07,813 127.0.0.1 - - [07/Nov/2024 03:18:07] "GET /?lang=cpp HTTP/1.1" 200 -
+2024-11-07 03:18:08,639 127.0.0.1 - - [07/Nov/2024 03:18:08] "GET /?lang=python HTTP/1.1" 200 -
+2024-11-07 03:18:10,437 127.0.0.1 - - [07/Nov/2024 03:18:10] "GET /?lang=bash HTTP/1.1" 200 -
+2024-11-07 03:18:11,017 127.0.0.1 - - [07/Nov/2024 03:18:11] "GET /?lang=sql HTTP/1.1" 200 -
+2024-11-07 03:18:11,623 127.0.0.1 - - [07/Nov/2024 03:18:11] "GET /?lang=html HTTP/1.1" 200 -
+2024-11-07 03:18:12,229 127.0.0.1 - - [07/Nov/2024 03:18:12] "GET /?lang=sql HTTP/1.1" 200 -
+2024-11-07 03:18:12,815 127.0.0.1 - - [07/Nov/2024 03:18:12] "GET /?lang=bash HTTP/1.1" 200 -
+2024-11-07 03:18:13,349 127.0.0.1 - - [07/Nov/2024 03:18:13] "GET /?lang=cpp HTTP/1.1" 200 -
+2024-11-07 03:18:13,786 127.0.0.1 - - [07/Nov/2024 03:18:13] "GET /?lang=python HTTP/1.1" 200 -
+2024-11-07 03:18:14,333 127.0.0.1 - - [07/Nov/2024 03:18:14] "GET /?lang=cpp HTTP/1.1" 200 -
+2024-11-07 03:18:14,822 127.0.0.1 - - [07/Nov/2024 03:18:14] "GET /?lang=bash HTTP/1.1" 200 -
+2024-11-07 03:18:15,236 127.0.0.1 - - [07/Nov/2024 03:18:15] "GET /?lang=sql HTTP/1.1" 200 -
+2024-11-07 03:18:15,738 127.0.0.1 - - [07/Nov/2024 03:18:15] "GET /?lang=sql HTTP/1.1" 200 -
+2024-11-07 03:18:16,148 ratelimit 50 per 1 hour (127.0.0.1) exceeded at endpoint: get
+2024-11-07 03:18:16,148 127.0.0.1 - - [07/Nov/2024 03:18:16] "[31m[1mGET /?lang=html HTTP/1.1[0m" 429 -
+2024-11-07 03:18:17,565 ratelimit 50 per 1 hour (127.0.0.1) exceeded at endpoint: get
+2024-11-07 03:18:17,565 127.0.0.1 - - [07/Nov/2024 03:18:17] "[31m[1mGET /?lang=css HTTP/1.1[0m" 429 -
+2024-11-07 03:18:18,357 ratelimit 50 per 1 hour (127.0.0.1) exceeded at endpoint: get
+2024-11-07 03:18:18,357 127.0.0.1 - - [07/Nov/2024 03:18:18] "[31m[1mGET /?lang=css HTTP/1.1[0m" 429 -
+2024-11-07 03:18:18,966 ratelimit 50 per 1 hour (127.0.0.1) exceeded at endpoint: get
+2024-11-07 03:18:18,966 127.0.0.1 - - [07/Nov/2024 03:18:18] "[31m[1mGET /?lang=html HTTP/1.1[0m" 429 -
+2024-11-07 03:18:20,676 ratelimit 50 per 1 hour (127.0.0.1) exceeded at endpoint: get
+2024-11-07 03:18:20,677 127.0.0.1 - - [07/Nov/2024 03:18:20] "[31m[1mGET /?lang=html HTTP/1.1[0m" 429 -
+2024-11-07 03:18:21,556 ratelimit 50 per 1 hour (127.0.0.1) exceeded at endpoint: get
+2024-11-07 03:18:21,557 127.0.0.1 - - [07/Nov/2024 03:18:21] "[31m[1mGET /?lang=html HTTP/1.1[0m" 429 -
+2024-11-07 03:18:22,185 ratelimit 50 per 1 hour (127.0.0.1) exceeded at endpoint: get
+2024-11-07 03:18:22,186 127.0.0.1 - - [07/Nov/2024 03:18:22] "[31m[1mGET /?lang=html HTTP/1.1[0m" 429 -
+2024-11-07 03:18:35,806 [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:3000
+ * Running on http://10.0.2.125:3000
+2024-11-07 03:18:35,806 [33mPress CTRL+C to quit[0m
+2024-11-07 03:18:35,807  * Restarting with stat
+2024-11-07 03:18:36,072  * Debugger is active!
+2024-11-07 03:18:36,072  * Debugger PIN: 141-382-212
+2024-11-07 03:18:39,730 127.0.0.1 - - [07/Nov/2024 03:18:39] "GET /?lang=html HTTP/1.1" 200 -
+2024-11-07 03:18:39,790 127.0.0.1 - - [07/Nov/2024 03:18:39] "GET / HTTP/1.1" 200 -
+2024-11-07 03:18:41,491 127.0.0.1 - - [07/Nov/2024 03:18:41] "GET / HTTP/1.1" 200 -
+2024-11-07 03:20:04,962 127.0.0.1 - - [07/Nov/2024 03:20:04] "GET / HTTP/1.1" 200 -
+2024-11-07 03:20:06,645 127.0.0.1 - - [07/Nov/2024 03:20:06] "GET /?lang=unknown HTTP/1.1" 200 -
+2024-11-07 03:20:07,570 127.0.0.1 - - [07/Nov/2024 03:20:07] "GET /?lang=other HTTP/1.1" 200 -
+2024-11-07 03:20:08,019 127.0.0.1 - - [07/Nov/2024 03:20:08] "GET /?lang=unknown HTTP/1.1" 200 -
+2024-11-07 03:20:13,595 127.0.0.1 - - [07/Nov/2024 03:20:13] "GET /?lang=other HTTP/1.1" 200 -
+2024-11-07 03:21:06,950 127.0.0.1 - - [07/Nov/2024 03:21:06] "GET /?lang=other HTTP/1.1" 200 -
+2024-11-07 03:21:07,804 127.0.0.1 - - [07/Nov/2024 03:21:07] "GET /?lang=other HTTP/1.1" 200 -
+2024-11-07 03:21:08,306 127.0.0.1 - - [07/Nov/2024 03:21:08] "GET /?lang=unknown HTTP/1.1" 200 -
+2024-11-07 03:21:09,016 127.0.0.1 - - [07/Nov/2024 03:21:09] "GET /?lang=other HTTP/1.1" 200 -
+2024-11-07 03:21:09,347 127.0.0.1 - - [07/Nov/2024 03:21:09] "GET /?lang=javascript HTTP/1.1" 200 -
+2024-11-07 03:21:09,813 127.0.0.1 - - [07/Nov/2024 03:21:09] "GET /?lang=other HTTP/1.1" 200 -
+2024-11-07 03:21:10,314 127.0.0.1 - - [07/Nov/2024 03:21:10] "GET /?lang=unknown HTTP/1.1" 200 -
+2024-11-07 03:21:10,958 127.0.0.1 - - [07/Nov/2024 03:21:10] "GET /?lang=other HTTP/1.1" 200 -
+2024-11-07 03:21:11,724 127.0.0.1 - - [07/Nov/2024 03:21:11] "GET /?lang=javascript HTTP/1.1" 200 -
+2024-11-07 03:21:14,245 127.0.0.1 - - [07/Nov/2024 03:21:14] "GET /?lang=css HTTP/1.1" 200 -
+2024-11-07 03:21:14,829 127.0.0.1 - - [07/Nov/2024 03:21:14] "GET /?lang=html HTTP/1.1" 200 -
+2024-11-07 03:21:15,572 127.0.0.1 - - [07/Nov/2024 03:21:15] "GET /?lang=sql HTTP/1.1" 200 -
+2024-11-07 03:21:16,828 127.0.0.1 - - [07/Nov/2024 03:21:16] "GET /?lang=python HTTP/1.1" 200 -
+2024-11-07 03:21:17,950 127.0.0.1 - - [07/Nov/2024 03:21:17] "GET /?lang=unknown HTTP/1.1" 200 -
+2024-11-07 03:21:21,252 127.0.0.1 - - [07/Nov/2024 03:21:21] "GET /?lang=unknown HTTP/1.1" 200 -
+2024-11-07 03:21:22,517 127.0.0.1 - - [07/Nov/2024 03:21:22] "GET /?lang=unknown HTTP/1.1" 200 -
+2024-11-07 03:21:24,035 127.0.0.1 - - [07/Nov/2024 03:21:24] "GET /?lang=unknown HTTP/1.1" 200 -
+2024-11-07 03:21:27,773 127.0.0.1 - - [07/Nov/2024 03:21:27] "GET /?lang=unknown HTTP/1.1" 200 -
+2024-11-07 03:21:30,134 127.0.0.1 - - [07/Nov/2024 03:21:30] "GET /?lang=unknown HTTP/1.1" 200 -
+2024-11-07 03:21:30,949 127.0.0.1 - - [07/Nov/2024 03:21:30] "GET /?lang=unknown HTTP/1.1" 200 -
+2024-11-07 03:21:31,412 127.0.0.1 - - [07/Nov/2024 03:21:31] "GET /?lang=unknown HTTP/1.1" 200 -
+2024-11-07 03:21:33,399 127.0.0.1 - - [07/Nov/2024 03:21:33] "GET /?lang=unknown HTTP/1.1" 200 -
+2024-11-07 03:21:34,293 127.0.0.1 - - [07/Nov/2024 03:21:34] "GET /?lang=unknown HTTP/1.1" 200 -
+2024-11-07 03:21:34,757 127.0.0.1 - - [07/Nov/2024 03:21:34] "GET /?lang=unknown HTTP/1.1" 200 -
+2024-11-07 03:21:35,877 127.0.0.1 - - [07/Nov/2024 03:21:35] "GET /?lang=css HTTP/1.1" 200 -
+2024-11-07 03:21:36,323 127.0.0.1 - - [07/Nov/2024 03:21:36] "GET /?lang=javascript HTTP/1.1" 200 -
+2024-11-07 03:21:36,958 127.0.0.1 - - [07/Nov/2024 03:21:36] "GET /?lang=css HTTP/1.1" 200 -
+2024-11-07 03:21:38,880 127.0.0.1 - - [07/Nov/2024 03:21:38] "GET /?lang=html HTTP/1.1" 200 -
+2024-11-07 03:21:39,251 127.0.0.1 - - [07/Nov/2024 03:21:39] "GET /?lang=sql HTTP/1.1" 200 -
+2024-11-07 03:21:39,850 127.0.0.1 - - [07/Nov/2024 03:21:39] "GET /?lang=html HTTP/1.1" 200 -
+2024-11-07 03:21:40,332 127.0.0.1 - - [07/Nov/2024 03:21:40] "GET /?lang=css HTTP/1.1" 200 -
+2024-11-07 03:21:41,023 127.0.0.1 - - [07/Nov/2024 03:21:41] "GET /?lang=javascript HTTP/1.1" 200 -
+2024-11-07 03:21:43,949 127.0.0.1 - - [07/Nov/2024 03:21:43] "GET /?lang=python HTTP/1.1" 200 -
+2024-11-07 03:21:44,415 127.0.0.1 - - [07/Nov/2024 03:21:44] "GET /?lang=cpp HTTP/1.1" 200 -
+2024-11-07 03:21:49,286 127.0.0.1 - - [07/Nov/2024 03:21:49] "GET /?lang=cpp HTTP/1.1" 200 -
+2024-11-07 03:21:51,704 127.0.0.1 - - [07/Nov/2024 03:21:51] "GET /?lang=cpp HTTP/1.1" 200 -
+2024-11-07 03:21:52,836 127.0.0.1 - - [07/Nov/2024 03:21:52] "GET /?lang=javascript HTTP/1.1" 200 -
+2024-11-07 03:21:53,371 127.0.0.1 - - [07/Nov/2024 03:21:53] "GET /?lang=other HTTP/1.1" 200 -
+2024-11-07 03:21:53,983 127.0.0.1 - - [07/Nov/2024 03:21:53] "GET /?lang=unknown HTTP/1.1" 200 -
+2024-11-07 03:21:57,159 127.0.0.1 - - [07/Nov/2024 03:21:57] "GET /?lang=other HTTP/1.1" 200 -
+2024-11-07 03:22:00,029 127.0.0.1 - - [07/Nov/2024 03:22:00] "GET /?lang=other HTTP/1.1" 200 -
+2024-11-07 03:22:36,613 127.0.0.1 - - [07/Nov/2024 03:22:36] "GET /?lang=other HTTP/1.1" 200 -
+2024-11-07 03:22:53,306 ratelimit 50 per 1 hour (127.0.0.1) exceeded at endpoint: get
+2024-11-07 03:22:53,307 127.0.0.1 - - [07/Nov/2024 03:22:53] "[31m[1mGET / HTTP/1.1[0m" 429 -
+2024-11-07 03:23:09,463 ratelimit 50 per 1 hour (127.0.0.1) exceeded at endpoint: get
+2024-11-07 03:23:09,464 127.0.0.1 - - [07/Nov/2024 03:23:09] "[31m[1mGET / HTTP/1.1[0m" 429 -
+2024-11-07 03:23:27,912 ratelimit 50 per 1 hour (127.0.0.1) exceeded at endpoint: get
+2024-11-07 03:23:27,913 127.0.0.1 - - [07/Nov/2024 03:23:27] "[31m[1mGET / HTTP/1.1[0m" 429 -
+2024-11-07 03:23:39,853 ratelimit 50 per 1 hour (127.0.0.1) exceeded at endpoint: get
+2024-11-07 03:23:39,853 127.0.0.1 - - [07/Nov/2024 03:23:39] "[31m[1mGET / HTTP/1.1[0m" 429 -
+2024-11-07 03:23:43,081 ratelimit 50 per 1 hour (127.0.0.1) exceeded at endpoint: get
+2024-11-07 03:23:43,082 127.0.0.1 - - [07/Nov/2024 03:23:43] "[31m[1mGET / HTTP/1.1[0m" 429 -
+2024-11-07 03:23:54,084 [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:3000
+ * Running on http://10.0.2.125:3000
+2024-11-07 03:23:54,084 [33mPress CTRL+C to quit[0m
+2024-11-07 03:23:54,085  * Restarting with stat
+2024-11-07 03:23:54,354  * Debugger is active!
+2024-11-07 03:23:54,354  * Debugger PIN: 141-382-212
+2024-11-07 03:23:58,577 [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:3000
+ * Running on http://10.0.2.125:3000
+2024-11-07 03:23:58,577 [33mPress CTRL+C to quit[0m
+2024-11-07 03:23:58,578  * Restarting with stat
+2024-11-07 03:23:58,841  * Debugger is active!
+2024-11-07 03:23:58,842  * Debugger PIN: 141-382-212
+2024-11-07 03:24:00,434 127.0.0.1 - - [07/Nov/2024 03:24:00] "GET / HTTP/1.1" 200 -
+2024-11-07 03:24:19,669 127.0.0.1 - - [07/Nov/2024 03:24:19] "GET / HTTP/1.1" 200 -
+2024-11-07 03:25:03,431 127.0.0.1 - - [07/Nov/2024 03:25:03] "GET / HTTP/1.1" 200 -
+2024-11-07 03:25:11,667 127.0.0.1 - - [07/Nov/2024 03:25:11] "GET /?lang=unknown HTTP/1.1" 200 -
+2024-11-07 03:25:20,960 127.0.0.1 - - [07/Nov/2024 03:25:20] "GET / HTTP/1.1" 200 -
+2024-11-07 03:26:28,608 127.0.0.1 - - [07/Nov/2024 03:26:28] "GET / HTTP/1.1" 200 -
+2024-11-07 03:26:37,867 127.0.0.1 - - [07/Nov/2024 03:26:37] "GET / HTTP/1.1" 200 -
+2024-11-07 03:26:42,214 127.0.0.1 - - [07/Nov/2024 03:26:42] "GET / HTTP/1.1" 200 -
+2024-11-07 03:26:43,308 127.0.0.1 - - [07/Nov/2024 03:26:43] "GET / HTTP/1.1" 200 -
+2024-11-07 03:26:44,008 127.0.0.1 - - [07/Nov/2024 03:26:44] "GET / HTTP/1.1" 200 -
+2024-11-07 03:26:45,123 127.0.0.1 - - [07/Nov/2024 03:26:45] "GET / HTTP/1.1" 200 -
+2024-11-07 03:27:48,763 127.0.0.1 - - [07/Nov/2024 03:27:48] "GET / HTTP/1.1" 200 -
+2024-11-07 03:27:51,318 127.0.0.1 - - [07/Nov/2024 03:27:51] "GET / HTTP/1.1" 200 -
+2024-11-07 03:27:55,461 127.0.0.1 - - [07/Nov/2024 03:27:55] "GET / HTTP/1.1" 200 -
+2024-11-07 03:28:11,495 127.0.0.1 - - [07/Nov/2024 03:28:11] "GET / HTTP/1.1" 200 -
+2024-11-07 03:28:45,918 127.0.0.1 - - [07/Nov/2024 03:28:45] "GET / HTTP/1.1" 200 -
+2024-11-07 03:28:50,409 127.0.0.1 - - [07/Nov/2024 03:28:50] "GET / HTTP/1.1" 200 -
+2024-11-07 03:29:13,836 127.0.0.1 - - [07/Nov/2024 03:29:13] "GET / HTTP/1.1" 200 -
+2024-11-07 03:29:17,901 127.0.0.1 - - [07/Nov/2024 03:29:17] "GET / HTTP/1.1" 200 -
+2024-11-07 03:29:28,936 127.0.0.1 - - [07/Nov/2024 03:29:28] "GET / HTTP/1.1" 200 -
+2024-11-07 03:29:43,240 127.0.0.1 - - [07/Nov/2024 03:29:43] "GET / HTTP/1.1" 200 -
+2024-11-07 03:29:46,474 127.0.0.1 - - [07/Nov/2024 03:29:46] "GET / HTTP/1.1" 200 -
+2024-11-07 03:29:50,313 127.0.0.1 - - [07/Nov/2024 03:29:50] "GET / HTTP/1.1" 200 -
+2024-11-07 03:30:02,758 127.0.0.1 - - [07/Nov/2024 03:30:02] "GET / HTTP/1.1" 200 -
+2024-11-07 03:30:22,089 127.0.0.1 - - [07/Nov/2024 03:30:22] "GET / HTTP/1.1" 200 -
+2024-11-07 03:30:48,504 127.0.0.1 - - [07/Nov/2024 03:30:48] "GET / HTTP/1.1" 200 -
+2024-11-07 03:30:52,143 127.0.0.1 - - [07/Nov/2024 03:30:52] "GET /?lang=unknown HTTP/1.1" 200 -
+2024-11-07 03:38:25,228 127.0.0.1 - - [07/Nov/2024 03:38:25] "GET / HTTP/1.1" 200 -
+2024-11-07 03:38:25,938 127.0.0.1 - - [07/Nov/2024 03:38:25] "GET / HTTP/1.1" 200 -
+2024-11-07 03:42:06,339  * Detected change in '/workspaces/2025SE-FlaskAPI/.database/data.py', reloading
+2024-11-07 03:42:06,380  * Restarting with stat
+2024-11-07 03:42:06,646  * Debugger is active!
+2024-11-07 03:42:06,646  * Debugger PIN: 141-382-212

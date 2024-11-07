@@ -93,30 +93,8 @@ document.addEventListener("DOMContentLoaded", function () {
       { id: "html", url: "?lang=html" },
       { id: "css", url: "?lang=css" },
       { id: "js", url: "?lang=javascript" },
-    ];
-
-    buttons.forEach((button) => {
-      const element = document.getElementById(button.id);
-      if (element) {
-        element.addEventListener("click", function () {
-          window.location.href = button.url;
-        });
-      }
-    });
-  }
-});
-
-document.addEventListener("DOMContentLoaded", function () {
-  if (window.location.pathname === "/") {
-    const buttons = [
-      { id: "all", url: "/" },
-      { id: "python", url: "?lang=python" },
-      { id: "cpp", url: "?lang=cpp" },
-      { id: "bash", url: "?lang=bash" },
-      { id: "sql", url: "?lang=sql" },
-      { id: "html", url: "?lang=html" },
-      { id: "css", url: "?lang=css" },
-      { id: "js", url: "?lang=javascript" },
+      { id: "other", url: "?lang=other" },
+      { id: "unknown", url: "?lang=unknown" }
     ];
 
     buttons.forEach((button) => {

@@ -18,24 +18,15 @@ The API instructions focus on modelling how to build and test an API incremental
 2. [Python 3.x](https://www.python.org/downloads/)
 3. [GIT 2.x.x +](https://git-scm.com/downloads)
 4. [SQLite3 Editor](https://marketplace.visualstudio.com/items?itemName=yy0931.vscode-sqlite3-editor)
-5. [Start git-bash](https://marketplace.visualstudio.com/items?itemName=McCarter.start-git-bash)
-6. [Thunder Client](https://marketplace.visualstudio.com/items?itemName=rangav.vscode-thunder-client)
-7. pip/pip3 installs
+5. [Start git-bash](https://marketplace.visualstudio.com/items?itemName=McCarter.start-git-bash) 6.[Thunder Client](https://marketplace.visualstudio.com/items?itemName=rangav.vscode-thunder-client)
+6. pip/pip3 installs
 
 ```bash
-pip install -r "requirements.txt"
-```
-
-OR
-
-```bash
-pip install Flask
-pip install flask_wtf
-pip install flask-csp
-pip install jsonschema
-pip install requests
-pip install flask_cors
-pip install flask_limiter
+    pip install Flask
+    pip install flask_wtf
+    pip install flask_csp
+    pip install jsonschema
+    pip install requests
 ```
 
 > [!Important]
@@ -435,9 +426,10 @@ This Jinga2/HTML implementation in layout.html:
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta http-equiv=”Content-Security-Policy” content=” default-src 'self' ;
-    style-src 'self' ; script-src 'self' ; media-src 'self' ; font-src *;
-    frame-src 'self' ; connect-src * ; img-src 'self' ; ”>
+    <meta
+      http-equiv="Content-Security-Policy"
+      content="base-uri 'self'; default-src 'self'; style-src 'self'; script-src 'self'; img-src 'self' *; media-src 'self'; font-src 'self'; connect-src 'self'; object-src 'self'; worker-src 'self'; frame-src 'none'; form-action 'self'; manifest-src 'self'"
+    />
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <link rel="stylesheet" type="text/css" href="static/css/style.css" />
@@ -665,19 +657,23 @@ def root():
 
 @app.route("/", methods=["GET"])
 @csp_header(
-    {
+        {
+        "base-uri": "self",
         "default-src": "'self'",
-        "script-src": "'self'",
-        "img-src": "http: https: data:",
-        "object-src": "'self'",
         "style-src": "'self'",
+        "script-src": "'self'",
+        "img-src": "*",
         "media-src": "'self'",
+        "font-src": "self",
+        "object-src": "'self'",
         "child-src": "'self'",
         "connect-src": "'self'",
-        "base-uri": "",
+        "worker-src": "'self'",
         "report-uri": "/csp_report",
-        "frame-ancestors": "none",
-    }
+        "frame-ancestors": "'none'",
+        "form-action": "'self'",
+        "frame-src": "'none'",
+        }
 )
 def index():
     return render_template("/index.html")
