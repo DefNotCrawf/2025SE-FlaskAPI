@@ -38,8 +38,8 @@ def root():
 @csp_header(
     {
         "default-src": "'self'",
-        "script-src": "'self' ",
-        "img-src": "'self' ",
+        "script-src": "'self'",
+        "img-src": "http: https: data:",
         "object-src": "'self'",
         "style-src": "'self'",
         "media-src": "'self'",

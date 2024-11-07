@@ -8,18 +8,26 @@ def remove_duplicates():
     # Find and delete duplicates
     cur.execute(
         """
-    DELETE FROM extension
-    WHERE rowid NOT IN (
-        SELECT MIN(rowid)
-        FROM extension
-        GROUP BY name, hyperlink, about, image, language
-    );
-    """
+        DELETE FROM extension
+        WHERE rowid NOT IN (
+            SELECT MIN(rowid)
+            FROM extension
+            GROUP BY name, hyperlink, about, image, language
+        );
+        """
+    )
+
+    # Remove the test row based on a unique condition
+    cur.execute(
+        """
+        DELETE FROM extension
+        WHERE name = 'test'
+        """
     )
 
     con.commit()
     con.close()
 
 
-# Call the function to remove duplicates
+# Call the function to remove duplicates and the test row
 remove_duplicates()

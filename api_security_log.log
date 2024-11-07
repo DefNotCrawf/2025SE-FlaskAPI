@@ -1,178 +1,210 @@
-2024-11-06 02:49:21,497  * Debugger is active!
-2024-11-06 02:49:21,498  * Debugger PIN: 107-044-380
-2024-11-06 02:49:59,490 127.0.0.1 - - [06/Nov/2024 02:49:59] "GET /?lang=SQL HTTP/1.1" 200 -
-2024-11-06 02:50:23,174 127.0.0.1 - - [06/Nov/2024 02:50:23] "GET /?lang=bash HTTP/1.1" 200 -
-2024-11-06 02:50:38,764 127.0.0.1 - - [06/Nov/2024 02:50:38] "GET / HTTP/1.1" 200 -
-2024-11-06 02:50:39,345 127.0.0.1 - - [06/Nov/2024 02:50:39] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
-2024-11-06 02:50:56,769 127.0.0.1 - - [06/Nov/2024 02:50:56] "GET / HTTP/1.1" 200 -
-2024-11-06 02:51:18,874 127.0.0.1 - - [06/Nov/2024 02:51:18] "GET /?lang=bash HTTP/1.1" 200 -
-2024-11-06 02:51:27,297 127.0.0.1 - - [06/Nov/2024 02:51:27] "GET /?lang=bash HTTP/1.1" 200 -
-2024-11-06 02:51:33,990 127.0.0.1 - - [06/Nov/2024 02:51:33] "GET /?lang=python HTTP/1.1" 200 -
-2024-11-06 02:53:18,067 127.0.0.1 - - [06/Nov/2024 02:53:18] "GET /?lang=bash HTTP/1.1" 200 -
-2024-11-06 02:55:35,620 127.0.0.1 - - [06/Nov/2024 02:55:35] "GET /?vscodeBrowserReqId=1730861734977 HTTP/1.1" 200 -
-2024-11-06 03:03:14,330  * Detected change in '/workspaces/2025SE-FlaskAPI/main.py', reloading
-2024-11-06 03:03:15,094  * Debugger is active!
-2024-11-06 03:03:15,095  * Debugger PIN: 107-044-380
-2024-11-06 03:03:44,075  * Detected change in '/workspaces/2025SE-FlaskAPI/main.py', reloading
-2024-11-06 03:03:44,858  * Debugger is active!
-2024-11-06 03:03:44,859  * Debugger PIN: 107-044-380
-2024-11-06 03:03:52,466  * Detected change in '/workspaces/2025SE-FlaskAPI/main.py', reloading
-2024-11-06 03:03:53,142  * Debugger is active!
-2024-11-06 03:03:53,143  * Debugger PIN: 107-044-380
-2024-11-06 03:03:55,943  * Detected change in '/workspaces/2025SE-FlaskAPI/api.py', reloading
-2024-11-06 03:03:56,634  * Debugger is active!
-2024-11-06 03:03:56,635  * Debugger PIN: 107-044-380
-2024-11-06 03:05:06,468  * Detected change in '/workspaces/2025SE-FlaskAPI/main.py', reloading
-2024-11-06 03:05:07,162  * Debugger is active!
-2024-11-06 03:05:07,163  * Debugger PIN: 107-044-380
-2024-11-06 03:05:18,112 [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+2024-11-06 23:51:11,332 [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
  * Running on all addresses (0.0.0.0)
  * Running on http://127.0.0.1:3000
- * Running on http://172.17.0.4:3000
-2024-11-06 03:05:18,112 [33mPress CTRL+C to quit[0m
-2024-11-06 03:05:18,113  * Restarting with stat
-2024-11-06 10:07:01,241 [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://10.0.0.49:3000
+2024-11-06 23:51:11,332 [33mPress CTRL+C to quit[0m
+2024-11-06 23:51:11,333  * Restarting with stat
+2024-11-06 23:51:11,610  * Debugger is active!
+2024-11-06 23:51:11,610  * Debugger PIN: 627-145-217
+2024-11-06 23:51:15,214 127.0.0.1 - - [06/Nov/2024 23:51:15] "GET / HTTP/1.1" 200 -
+2024-11-06 23:57:31,922 [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
  * Running on all addresses (0.0.0.0)
  * Running on http://127.0.0.1:3000
- * Running on http://10.0.0.119:3000
-2024-11-06 10:07:01,241 [33mPress CTRL+C to quit[0m
-2024-11-06 10:07:01,241  * Restarting with stat
-2024-11-06 10:07:01,507  * Debugger is active!
-2024-11-06 10:07:01,507  * Debugger PIN: 703-237-772
-2024-11-06 10:07:15,001 127.0.0.1 - - [06/Nov/2024 10:07:15] "GET / HTTP/1.1" 200 -
-2024-11-06 10:07:52,082 [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://10.0.0.49:3000
+2024-11-06 23:57:31,922 [33mPress CTRL+C to quit[0m
+2024-11-06 23:57:31,923  * Restarting with stat
+2024-11-06 23:57:32,189  * Debugger is active!
+2024-11-06 23:57:32,189  * Debugger PIN: 627-145-217
+2024-11-06 23:57:37,889 127.0.0.1 - - [06/Nov/2024 23:57:37] "GET / HTTP/1.1" 200 -
+2024-11-06 23:57:56,322 127.0.0.1 - - [06/Nov/2024 23:57:56] "GET / HTTP/1.1" 200 -
+2024-11-06 23:58:03,944 127.0.0.1 - - [06/Nov/2024 23:58:03] "GET / HTTP/1.1" 200 -
+2024-11-06 23:58:11,123 127.0.0.1 - - [06/Nov/2024 23:58:11] "GET / HTTP/1.1" 200 -
+2024-11-07 00:03:34,001  * Detected change in '/workspaces/2025SE-FlaskAPI/main.py', reloading
+2024-11-07 00:03:34,046  * Restarting with stat
+2024-11-07 00:03:34,313  * Debugger is active!
+2024-11-07 00:03:34,313  * Debugger PIN: 627-145-217
+2024-11-07 00:03:38,043 [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
  * Running on all addresses (0.0.0.0)
  * Running on http://127.0.0.1:3000
- * Running on http://10.0.0.119:3000
-2024-11-06 10:07:52,082 [33mPress CTRL+C to quit[0m
-2024-11-06 10:07:52,082  * Restarting with stat
-2024-11-06 10:07:52,344  * Debugger is active!
-2024-11-06 10:07:52,344  * Debugger PIN: 703-237-772
-2024-11-06 10:07:55,800 127.0.0.1 - - [06/Nov/2024 10:07:55] "GET / HTTP/1.1" 200 -
-2024-11-06 10:09:26,982  * Detected change in '/workspaces/2025SE-FlaskAPI/main.py', reloading
-2024-11-06 10:09:27,019  * Restarting with stat
-2024-11-06 10:09:27,284  * Debugger is active!
-2024-11-06 10:09:27,285  * Debugger PIN: 703-237-772
-2024-11-06 10:09:31,291 127.0.0.1 - - [06/Nov/2024 10:09:31] "GET / HTTP/1.1" 200 -
-2024-11-06 10:10:28,580 127.0.0.1 - - [06/Nov/2024 10:10:28] "GET / HTTP/1.1" 200 -
-2024-11-06 10:10:55,097 127.0.0.1 - - [06/Nov/2024 10:10:55] "GET / HTTP/1.1" 200 -
-2024-11-06 10:12:03,686  * Detected change in '/workspaces/2025SE-FlaskAPI/main.py', reloading
-2024-11-06 10:12:03,725  * Restarting with stat
-2024-11-06 10:12:03,992  * Debugger is active!
-2024-11-06 10:12:03,992  * Debugger PIN: 703-237-772
-2024-11-06 10:12:10,971 127.0.0.1 - - [06/Nov/2024 10:12:10] "GET / HTTP/1.1" 200 -
-2024-11-06 10:12:18,217 127.0.0.1 - - [06/Nov/2024 10:12:18] "GET / HTTP/1.1" 200 -
-2024-11-06 10:12:24,899 127.0.0.1 - - [06/Nov/2024 10:12:24] "GET / HTTP/1.1" 200 -
-2024-11-06 22:10:54,081 [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://10.0.0.49:3000
+2024-11-07 00:03:38,043 [33mPress CTRL+C to quit[0m
+2024-11-07 00:03:38,043  * Restarting with stat
+2024-11-07 00:03:38,309  * Debugger is active!
+2024-11-07 00:03:38,310  * Debugger PIN: 627-145-217
+2024-11-07 00:03:41,699 127.0.0.1 - - [07/Nov/2024 00:03:41] "GET / HTTP/1.1" 200 -
+2024-11-07 00:03:43,111 127.0.0.1 - - [07/Nov/2024 00:03:43] "GET / HTTP/1.1" 200 -
+2024-11-07 00:04:56,394  * Detected change in '/workspaces/2025SE-FlaskAPI/.database/datamanager.py', reloading
+2024-11-07 00:04:56,443  * Restarting with stat
+2024-11-07 00:04:56,709  * Debugger is active!
+2024-11-07 00:04:56,710  * Debugger PIN: 627-145-217
+2024-11-07 00:05:07,511  * Detected change in '/workspaces/2025SE-FlaskAPI/.database/datamanager.py', reloading
+2024-11-07 00:05:07,555  * Restarting with stat
+2024-11-07 00:05:07,830  * Debugger is active!
+2024-11-07 00:05:07,830  * Debugger PIN: 627-145-217
+2024-11-07 00:05:46,157 [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
  * Running on all addresses (0.0.0.0)
  * Running on http://127.0.0.1:3000
- * Running on http://10.0.0.14:3000
-2024-11-06 22:10:54,082 [33mPress CTRL+C to quit[0m
-2024-11-06 22:10:54,082  * Restarting with stat
-2024-11-06 22:10:54,345  * Debugger is active!
-2024-11-06 22:10:54,346  * Debugger PIN: 316-145-997
-2024-11-06 22:10:57,911 127.0.0.1 - - [06/Nov/2024 22:10:57] "GET / HTTP/1.1" 200 -
-2024-11-06 22:12:32,102  * Detected change in '/workspaces/2025SE-FlaskAPI/main.py', reloading
-2024-11-06 22:12:32,140  * Restarting with stat
-2024-11-06 22:12:32,407  * Debugger is active!
-2024-11-06 22:12:32,407  * Debugger PIN: 316-145-997
-2024-11-06 22:12:33,246  * Detected change in '/workspaces/2025SE-FlaskAPI/main.py', reloading
-2024-11-06 22:12:33,289  * Restarting with stat
-2024-11-06 22:12:33,584  * Debugger is active!
-2024-11-06 22:12:33,584  * Debugger PIN: 316-145-997
-2024-11-06 22:12:42,228 127.0.0.1 - - [06/Nov/2024 22:12:42] "GET / HTTP/1.1" 200 -
-2024-11-06 22:12:46,067 127.0.0.1 - - [06/Nov/2024 22:12:46] "GET / HTTP/1.1" 200 -
-2024-11-06 22:12:47,219 127.0.0.1 - - [06/Nov/2024 22:12:47] "GET / HTTP/1.1" 200 -
-2024-11-06 22:12:47,892 127.0.0.1 - - [06/Nov/2024 22:12:47] "GET / HTTP/1.1" 200 -
-2024-11-06 22:12:48,063 127.0.0.1 - - [06/Nov/2024 22:12:48] "GET / HTTP/1.1" 200 -
-2024-11-06 22:12:48,220 127.0.0.1 - - [06/Nov/2024 22:12:48] "GET / HTTP/1.1" 200 -
-2024-11-06 22:12:48,350 127.0.0.1 - - [06/Nov/2024 22:12:48] "GET / HTTP/1.1" 200 -
-2024-11-06 22:12:49,539 127.0.0.1 - - [06/Nov/2024 22:12:49] "GET / HTTP/1.1" 200 -
-2024-11-06 22:12:54,652 127.0.0.1 - - [06/Nov/2024 22:12:54] "GET / HTTP/1.1" 200 -
-2024-11-06 22:12:57,656 127.0.0.1 - - [06/Nov/2024 22:12:57] "GET / HTTP/1.1" 200 -
-2024-11-06 22:12:58,826 127.0.0.1 - - [06/Nov/2024 22:12:58] "GET / HTTP/1.1" 200 -
-2024-11-06 22:12:59,284 127.0.0.1 - - [06/Nov/2024 22:12:59] "GET / HTTP/1.1" 200 -
-2024-11-06 22:12:59,796 127.0.0.1 - - [06/Nov/2024 22:12:59] "GET / HTTP/1.1" 200 -
-2024-11-06 22:13:01,126 127.0.0.1 - - [06/Nov/2024 22:13:01] "GET / HTTP/1.1" 200 -
-2024-11-06 22:13:05,833 127.0.0.1 - - [06/Nov/2024 22:13:05] "GET / HTTP/1.1" 200 -
-2024-11-06 22:14:31,465  * Detected change in '/workspaces/2025SE-FlaskAPI/main.py', reloading
-2024-11-06 22:14:31,504  * Restarting with stat
-2024-11-06 22:14:31,768  * Debugger is active!
-2024-11-06 22:14:31,769  * Debugger PIN: 316-145-997
-2024-11-06 22:14:40,670 127.0.0.1 - - [06/Nov/2024 22:14:40] "GET / HTTP/1.1" 200 -
-2024-11-06 22:14:50,707 [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://10.0.0.49:3000
+2024-11-07 00:05:46,157 [33mPress CTRL+C to quit[0m
+2024-11-07 00:05:46,158  * Restarting with stat
+2024-11-07 00:05:46,428  * Debugger is active!
+2024-11-07 00:05:46,428  * Debugger PIN: 627-145-217
+2024-11-07 00:05:47,959 127.0.0.1 - - [07/Nov/2024 00:05:47] "GET / HTTP/1.1" 200 -
+2024-11-07 00:06:30,795 127.0.0.1 - - [07/Nov/2024 00:06:30] "GET / HTTP/1.1" 200 -
+2024-11-07 00:06:31,930 127.0.0.1 - - [07/Nov/2024 00:06:31] "GET / HTTP/1.1" 200 -
+2024-11-07 00:06:32,376 127.0.0.1 - - [07/Nov/2024 00:06:32] "GET / HTTP/1.1" 200 -
+2024-11-07 00:06:32,575 127.0.0.1 - - [07/Nov/2024 00:06:32] "GET / HTTP/1.1" 200 -
+2024-11-07 00:06:33,048 127.0.0.1 - - [07/Nov/2024 00:06:33] "GET / HTTP/1.1" 200 -
+2024-11-07 00:06:33,461 127.0.0.1 - - [07/Nov/2024 00:06:33] "GET / HTTP/1.1" 200 -
+2024-11-07 00:06:34,153 127.0.0.1 - - [07/Nov/2024 00:06:34] "GET / HTTP/1.1" 200 -
+2024-11-07 00:06:34,716 127.0.0.1 - - [07/Nov/2024 00:06:34] "GET / HTTP/1.1" 200 -
+2024-11-07 00:06:35,145 127.0.0.1 - - [07/Nov/2024 00:06:35] "GET / HTTP/1.1" 200 -
+2024-11-07 00:06:35,629 127.0.0.1 - - [07/Nov/2024 00:06:35] "GET / HTTP/1.1" 200 -
+2024-11-07 00:06:36,199 127.0.0.1 - - [07/Nov/2024 00:06:36] "GET / HTTP/1.1" 200 -
+2024-11-07 00:06:36,660 127.0.0.1 - - [07/Nov/2024 00:06:36] "GET / HTTP/1.1" 200 -
+2024-11-07 00:06:37,148 127.0.0.1 - - [07/Nov/2024 00:06:37] "GET / HTTP/1.1" 200 -
+2024-11-07 00:06:37,578 127.0.0.1 - - [07/Nov/2024 00:06:37] "GET / HTTP/1.1" 200 -
+2024-11-07 00:07:19,298 127.0.0.1 - - [07/Nov/2024 00:07:19] "GET / HTTP/1.1" 200 -
+2024-11-07 00:07:22,196 127.0.0.1 - - [07/Nov/2024 00:07:22] "GET / HTTP/1.1" 200 -
+2024-11-07 00:07:31,897 127.0.0.1 - - [07/Nov/2024 00:07:31] "GET / HTTP/1.1" 200 -
+2024-11-07 00:07:32,670 127.0.0.1 - - [07/Nov/2024 00:07:32] "GET / HTTP/1.1" 200 -
+2024-11-07 00:07:34,723 127.0.0.1 - - [07/Nov/2024 00:07:34] "GET / HTTP/1.1" 200 -
+2024-11-07 00:07:36,752 127.0.0.1 - - [07/Nov/2024 00:07:36] "GET / HTTP/1.1" 200 -
+2024-11-07 00:07:38,407 127.0.0.1 - - [07/Nov/2024 00:07:38] "GET / HTTP/1.1" 200 -
+2024-11-07 00:07:55,153 127.0.0.1 - - [07/Nov/2024 00:07:55] "GET / HTTP/1.1" 200 -
+2024-11-07 00:07:56,542 127.0.0.1 - - [07/Nov/2024 00:07:56] "GET / HTTP/1.1" 200 -
+2024-11-07 00:09:36,010  * Detected change in '/workspaces/2025SE-FlaskAPI/main.py', reloading
+2024-11-07 00:09:36,053  * Restarting with stat
+2024-11-07 00:09:36,322  * Debugger is active!
+2024-11-07 00:09:36,322  * Debugger PIN: 627-145-217
+2024-11-07 00:09:56,695 127.0.0.1 - - [07/Nov/2024 00:09:56] "GET / HTTP/1.1" 200 -
+2024-11-07 00:09:59,445 127.0.0.1 - - [07/Nov/2024 00:09:59] "GET / HTTP/1.1" 200 -
+2024-11-07 00:10:03,949 [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
  * Running on all addresses (0.0.0.0)
  * Running on http://127.0.0.1:3000
- * Running on http://10.0.0.14:3000
-2024-11-06 22:14:50,708 [33mPress CTRL+C to quit[0m
-2024-11-06 22:14:50,708  * Restarting with stat
-2024-11-06 22:14:50,972  * Debugger is active!
-2024-11-06 22:14:50,972  * Debugger PIN: 316-145-997
-2024-11-06 22:14:54,825 127.0.0.1 - - [06/Nov/2024 22:14:54] "GET / HTTP/1.1" 200 -
-2024-11-06 22:14:56,375 127.0.0.1 - - [06/Nov/2024 22:14:56] "GET / HTTP/1.1" 200 -
-2024-11-06 22:14:56,920 127.0.0.1 - - [06/Nov/2024 22:14:56] "GET / HTTP/1.1" 200 -
-2024-11-06 22:14:57,303 127.0.0.1 - - [06/Nov/2024 22:14:57] "GET / HTTP/1.1" 200 -
-2024-11-06 22:14:57,654 127.0.0.1 - - [06/Nov/2024 22:14:57] "GET / HTTP/1.1" 200 -
-2024-11-06 22:14:58,067 127.0.0.1 - - [06/Nov/2024 22:14:58] "GET / HTTP/1.1" 200 -
-2024-11-06 22:14:58,440 127.0.0.1 - - [06/Nov/2024 22:14:58] "GET / HTTP/1.1" 200 -
-2024-11-06 22:14:58,771 127.0.0.1 - - [06/Nov/2024 22:14:58] "GET / HTTP/1.1" 200 -
-2024-11-06 22:14:59,174 127.0.0.1 - - [06/Nov/2024 22:14:59] "GET / HTTP/1.1" 200 -
-2024-11-06 22:14:59,607 127.0.0.1 - - [06/Nov/2024 22:14:59] "GET / HTTP/1.1" 200 -
-2024-11-06 22:15:00,003 127.0.0.1 - - [06/Nov/2024 22:15:00] "GET / HTTP/1.1" 200 -
-2024-11-06 22:15:01,205 127.0.0.1 - - [06/Nov/2024 22:15:01] "GET / HTTP/1.1" 200 -
-2024-11-06 22:15:01,762 127.0.0.1 - - [06/Nov/2024 22:15:01] "GET / HTTP/1.1" 200 -
-2024-11-06 22:15:02,665 127.0.0.1 - - [06/Nov/2024 22:15:02] "GET / HTTP/1.1" 200 -
-2024-11-06 22:15:03,056 127.0.0.1 - - [06/Nov/2024 22:15:03] "GET / HTTP/1.1" 200 -
-2024-11-06 22:15:03,454 127.0.0.1 - - [06/Nov/2024 22:15:03] "GET / HTTP/1.1" 200 -
-2024-11-06 22:17:37,848 127.0.0.1 - - [06/Nov/2024 22:17:37] "GET / HTTP/1.1" 200 -
-2024-11-06 22:17:50,477 [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://10.0.0.49:3000
+2024-11-07 00:10:03,949 [33mPress CTRL+C to quit[0m
+2024-11-07 00:10:03,950  * Restarting with stat
+2024-11-07 00:10:04,222  * Debugger is active!
+2024-11-07 00:10:04,222  * Debugger PIN: 627-145-217
+2024-11-07 00:10:06,862 127.0.0.1 - - [07/Nov/2024 00:10:06] "GET / HTTP/1.1" 200 -
+2024-11-07 00:10:07,257 127.0.0.1 - - [07/Nov/2024 00:10:07] "GET / HTTP/1.1" 200 -
+2024-11-07 00:10:10,352 127.0.0.1 - - [07/Nov/2024 00:10:10] "GET / HTTP/1.1" 200 -
+2024-11-07 00:10:40,476 127.0.0.1 - - [07/Nov/2024 00:10:40] "GET / HTTP/1.1" 200 -
+2024-11-07 00:11:14,290 127.0.0.1 - - [07/Nov/2024 00:11:14] "GET / HTTP/1.1" 200 -
+2024-11-07 00:11:15,540 127.0.0.1 - - [07/Nov/2024 00:11:15] "GET / HTTP/1.1" 200 -
+2024-11-07 00:12:01,713 127.0.0.1 - - [07/Nov/2024 00:12:01] "GET / HTTP/1.1" 200 -
+2024-11-07 00:13:17,223 127.0.0.1 - - [07/Nov/2024 00:13:17] "GET /?lang=bash HTTP/1.1" 200 -
+2024-11-07 00:13:23,154 127.0.0.1 - - [07/Nov/2024 00:13:23] "GET / HTTP/1.1" 200 -
+2024-11-07 00:17:08,921  * Detected change in '/workspaces/2025SE-FlaskAPI/main.py', reloading
+2024-11-07 00:17:08,966  * Restarting with stat
+2024-11-07 00:17:09,234  * Debugger is active!
+2024-11-07 00:17:09,235  * Debugger PIN: 627-145-217
+2024-11-07 00:17:25,221 [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
  * Running on all addresses (0.0.0.0)
  * Running on http://127.0.0.1:3000
- * Running on http://10.0.0.14:3000
-2024-11-06 22:17:50,477 [33mPress CTRL+C to quit[0m
-2024-11-06 22:17:50,478  * Restarting with stat
-2024-11-06 22:17:50,740  * Debugger is active!
-2024-11-06 22:17:50,740  * Debugger PIN: 316-145-997
-2024-11-06 22:17:52,559 127.0.0.1 - - [06/Nov/2024 22:17:52] "GET / HTTP/1.1" 200 -
-2024-11-06 22:17:54,785 127.0.0.1 - - [06/Nov/2024 22:17:54] "GET / HTTP/1.1" 200 -
-2024-11-06 22:19:04,459  * Detected change in '/workspaces/2025SE-FlaskAPI/main.py', reloading
-2024-11-06 22:19:04,495  * Restarting with stat
-2024-11-06 22:19:04,762  * Debugger is active!
-2024-11-06 22:19:04,762  * Debugger PIN: 316-145-997
-2024-11-06 22:19:12,713  * Detected change in '/workspaces/2025SE-FlaskAPI/main.py', reloading
-2024-11-06 22:19:12,750  * Restarting with stat
-2024-11-06 22:19:13,012  * Debugger is active!
-2024-11-06 22:19:13,012  * Debugger PIN: 316-145-997
-2024-11-06 22:19:27,591 [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://10.0.0.49:3000
+2024-11-07 00:17:25,221 [33mPress CTRL+C to quit[0m
+2024-11-07 00:17:25,222  * Restarting with stat
+2024-11-07 00:17:25,487  * Debugger is active!
+2024-11-07 00:17:25,487  * Debugger PIN: 627-145-217
+2024-11-07 00:17:31,028 127.0.0.1 - - [07/Nov/2024 00:17:31] "GET / HTTP/1.1" 200 -
+2024-11-07 00:17:34,978 127.0.0.1 - - [07/Nov/2024 00:17:34] "GET / HTTP/1.1" 200 -
+2024-11-07 00:17:35,699 127.0.0.1 - - [07/Nov/2024 00:17:35] "GET / HTTP/1.1" 200 -
+2024-11-07 00:17:36,179 127.0.0.1 - - [07/Nov/2024 00:17:36] "GET / HTTP/1.1" 200 -
+2024-11-07 00:17:36,677 127.0.0.1 - - [07/Nov/2024 00:17:36] "GET / HTTP/1.1" 200 -
+2024-11-07 00:17:39,009 127.0.0.1 - - [07/Nov/2024 00:17:39] "GET / HTTP/1.1" 200 -
+2024-11-07 00:17:43,969 127.0.0.1 - - [07/Nov/2024 00:17:43] "GET / HTTP/1.1" 200 -
+2024-11-07 00:17:44,784 127.0.0.1 - - [07/Nov/2024 00:17:44] "GET / HTTP/1.1" 200 -
+2024-11-07 00:17:45,344 127.0.0.1 - - [07/Nov/2024 00:17:45] "GET / HTTP/1.1" 200 -
+2024-11-07 00:17:50,623 127.0.0.1 - - [07/Nov/2024 00:17:50] "GET / HTTP/1.1" 200 -
+2024-11-07 00:17:50,891 127.0.0.1 - - [07/Nov/2024 00:17:50] "GET / HTTP/1.1" 200 -
+2024-11-07 00:17:51,070 127.0.0.1 - - [07/Nov/2024 00:17:51] "GET / HTTP/1.1" 200 -
+2024-11-07 00:17:54,413 127.0.0.1 - - [07/Nov/2024 00:17:54] "GET / HTTP/1.1" 200 -
+2024-11-07 00:17:54,651 127.0.0.1 - - [07/Nov/2024 00:17:54] "GET / HTTP/1.1" 200 -
+2024-11-07 00:17:59,992 127.0.0.1 - - [07/Nov/2024 00:17:59] "GET / HTTP/1.1" 200 -
+2024-11-07 00:21:03,872  * Detected change in '/workspaces/2025SE-FlaskAPI/main.py', reloading
+2024-11-07 00:21:03,913  * Restarting with stat
+2024-11-07 00:21:04,181  * Debugger is active!
+2024-11-07 00:21:04,182  * Debugger PIN: 627-145-217
+2024-11-07 00:21:04,770 127.0.0.1 - - [07/Nov/2024 00:21:04] "GET / HTTP/1.1" 200 -
+2024-11-07 00:21:18,998 [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
  * Running on all addresses (0.0.0.0)
  * Running on http://127.0.0.1:3000
- * Running on http://10.0.0.14:3000
-2024-11-06 22:19:27,591 [33mPress CTRL+C to quit[0m
-2024-11-06 22:19:27,592  * Restarting with stat
-2024-11-06 22:19:27,854  * Debugger is active!
-2024-11-06 22:19:27,854  * Debugger PIN: 316-145-997
-2024-11-06 22:19:32,537 127.0.0.1 - - [06/Nov/2024 22:19:32] "GET / HTTP/1.1" 200 -
-2024-11-06 22:19:36,331 127.0.0.1 - - [06/Nov/2024 22:19:36] "GET / HTTP/1.1" 200 -
-2024-11-06 22:20:14,475  * Detected change in '/workspaces/2025SE-FlaskAPI/main.py', reloading
-2024-11-06 22:20:14,513  * Restarting with stat
-2024-11-06 22:20:14,786  * Debugger is active!
-2024-11-06 22:20:14,786  * Debugger PIN: 316-145-997
-2024-11-06 22:20:48,487  * Detected change in '/workspaces/2025SE-FlaskAPI/main.py', reloading
-2024-11-06 22:20:48,536  * Restarting with stat
-2024-11-06 22:20:48,808  * Debugger is active!
-2024-11-06 22:20:48,809  * Debugger PIN: 316-145-997
-2024-11-06 22:41:18,097  * Detected change in '/workspaces/2025SE-FlaskAPI/main.py', reloading
-2024-11-06 22:41:18,136  * Restarting with stat
-2024-11-06 22:41:18,404  * Debugger is active!
-2024-11-06 22:41:18,404  * Debugger PIN: 316-145-997
-2024-11-06 22:41:23,835 [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://10.0.0.49:3000
+2024-11-07 00:21:18,999 [33mPress CTRL+C to quit[0m
+2024-11-07 00:21:18,999  * Restarting with stat
+2024-11-07 00:21:19,264  * Debugger is active!
+2024-11-07 00:21:19,265  * Debugger PIN: 627-145-217
+2024-11-07 00:21:20,249 127.0.0.1 - - [07/Nov/2024 00:21:20] "GET / HTTP/1.1" 200 -
+2024-11-07 00:21:31,317 127.0.0.1 - - [07/Nov/2024 00:21:31] "GET / HTTP/1.1" 200 -
+2024-11-07 00:21:33,655 127.0.0.1 - - [07/Nov/2024 00:21:33] "GET / HTTP/1.1" 200 -
+2024-11-07 00:21:39,610 127.0.0.1 - - [07/Nov/2024 00:21:39] "GET / HTTP/1.1" 200 -
+2024-11-07 00:21:42,423 127.0.0.1 - - [07/Nov/2024 00:21:42] "GET / HTTP/1.1" 200 -
+2024-11-07 00:23:30,596 127.0.0.1 - - [07/Nov/2024 00:23:30] "GET /?lang=javascript HTTP/1.1" 200 -
+2024-11-07 00:23:33,628 127.0.0.1 - - [07/Nov/2024 00:23:33] "GET /?lang=python HTTP/1.1" 200 -
+2024-11-07 00:23:35,389 127.0.0.1 - - [07/Nov/2024 00:23:35] "GET / HTTP/1.1" 200 -
+2024-11-07 00:23:36,331 127.0.0.1 - - [07/Nov/2024 00:23:36] "GET / HTTP/1.1" 200 -
+2024-11-07 00:24:07,800 127.0.0.1 - - [07/Nov/2024 00:24:07] "GET / HTTP/1.1" 200 -
+2024-11-07 00:27:13,903  * Detected change in '/workspaces/2025SE-FlaskAPI/main.py', reloading
+2024-11-07 00:27:13,948  * Restarting with stat
+2024-11-07 00:27:14,225  * Debugger is active!
+2024-11-07 00:27:14,226  * Debugger PIN: 627-145-217
+2024-11-07 00:27:17,459 [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
  * Running on all addresses (0.0.0.0)
  * Running on http://127.0.0.1:3000
- * Running on http://10.0.0.14:3000
-2024-11-06 22:41:23,835 [33mPress CTRL+C to quit[0m
-2024-11-06 22:41:23,836  * Restarting with stat
-2024-11-06 22:41:24,100  * Debugger is active!
-2024-11-06 22:41:24,100  * Debugger PIN: 316-145-997
-2024-11-06 22:41:25,204 127.0.0.1 - - [06/Nov/2024 22:41:25] "GET / HTTP/1.1" 200 -
-2024-11-06 22:43:29,590 127.0.0.1 - - [06/Nov/2024 22:43:29] "GET / HTTP/1.1" 200 -
-2024-11-06 22:43:39,363 127.0.0.1 - - [06/Nov/2024 22:43:39] "GET / HTTP/1.1" 200 -
+ * Running on http://10.0.0.49:3000
+2024-11-07 00:27:17,460 [33mPress CTRL+C to quit[0m
+2024-11-07 00:27:17,460  * Restarting with stat
+2024-11-07 00:27:17,731  * Debugger is active!
+2024-11-07 00:27:17,731  * Debugger PIN: 627-145-217
+2024-11-07 00:27:20,562 127.0.0.1 - - [07/Nov/2024 00:27:20] "GET / HTTP/1.1" 200 -
+2024-11-07 00:27:20,966 127.0.0.1 - - [07/Nov/2024 00:27:20] "GET / HTTP/1.1" 200 -
+2024-11-07 00:27:22,004 127.0.0.1 - - [07/Nov/2024 00:27:22] "GET / HTTP/1.1" 200 -
+2024-11-07 00:27:22,356 127.0.0.1 - - [07/Nov/2024 00:27:22] "GET / HTTP/1.1" 200 -
+2024-11-07 00:27:22,518 127.0.0.1 - - [07/Nov/2024 00:27:22] "GET / HTTP/1.1" 200 -
+2024-11-07 00:27:22,655 ratelimit 3 per 1 second (127.0.0.1) exceeded at endpoint: get
+2024-11-07 00:27:22,655 127.0.0.1 - - [07/Nov/2024 00:27:22] "[31m[1mGET / HTTP/1.1[0m" 429 -
+2024-11-07 00:27:24,240 127.0.0.1 - - [07/Nov/2024 00:27:24] "GET / HTTP/1.1" 200 -
+2024-11-07 00:27:27,606 127.0.0.1 - - [07/Nov/2024 00:27:27] "GET / HTTP/1.1" 200 -
+2024-11-07 00:27:28,583 127.0.0.1 - - [07/Nov/2024 00:27:28] "GET / HTTP/1.1" 200 -
+2024-11-07 00:27:30,753 127.0.0.1 - - [07/Nov/2024 00:27:30] "GET / HTTP/1.1" 200 -
+2024-11-07 00:27:31,942 127.0.0.1 - - [07/Nov/2024 00:27:31] "GET / HTTP/1.1" 200 -
+2024-11-07 00:27:52,968  * Detected change in '/workspaces/2025SE-FlaskAPI/main.py', reloading
+2024-11-07 00:27:53,012  * Restarting with stat
+2024-11-07 00:27:53,289  * Debugger is active!
+2024-11-07 00:27:53,289  * Debugger PIN: 627-145-217
+2024-11-07 00:30:48,222 [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:3000
+ * Running on http://10.0.0.49:3000
+2024-11-07 00:30:48,222 [33mPress CTRL+C to quit[0m
+2024-11-07 00:30:48,223  * Restarting with stat
+2024-11-07 00:30:48,486  * Debugger is active!
+2024-11-07 00:30:48,486  * Debugger PIN: 627-145-217
+2024-11-07 00:30:50,277 127.0.0.1 - - [07/Nov/2024 00:30:50] "GET / HTTP/1.1" 200 -
+2024-11-07 00:34:45,267 127.0.0.1 - - [07/Nov/2024 00:34:45] "GET / HTTP/1.1" 200 -
+2024-11-07 00:37:33,337 127.0.0.1 - - [07/Nov/2024 00:37:33] "GET / HTTP/1.1" 200 -
+2024-11-07 00:39:36,641 127.0.0.1 - - [07/Nov/2024 00:39:36] "GET / HTTP/1.1" 200 -
+2024-11-07 00:40:15,597 127.0.0.1 - - [07/Nov/2024 00:40:15] "GET / HTTP/1.1" 200 -
+2024-11-07 00:47:05,663 127.0.0.1 - - [07/Nov/2024 00:47:05] "GET / HTTP/1.1" 200 -
+2024-11-07 00:48:18,726 127.0.0.1 - - [07/Nov/2024 00:48:18] "GET / HTTP/1.1" 200 -
+2024-11-07 00:49:29,273 127.0.0.1 - - [07/Nov/2024 00:49:29] "GET / HTTP/1.1" 200 -
+2024-11-07 00:51:19,999 127.0.0.1 - - [07/Nov/2024 00:51:19] "GET / HTTP/1.1" 200 -
+2024-11-07 00:51:38,875 127.0.0.1 - - [07/Nov/2024 00:51:38] "GET / HTTP/1.1" 200 -
+2024-11-07 00:51:47,706 127.0.0.1 - - [07/Nov/2024 00:51:47] "GET / HTTP/1.1" 200 -
+2024-11-07 00:51:57,191 127.0.0.1 - - [07/Nov/2024 00:51:57] "GET / HTTP/1.1" 200 -
+2024-11-07 00:52:25,103 127.0.0.1 - - [07/Nov/2024 00:52:25] "GET / HTTP/1.1" 200 -
+2024-11-07 00:52:43,851 127.0.0.1 - - [07/Nov/2024 00:52:43] "GET / HTTP/1.1" 200 -
+2024-11-07 00:53:33,802 127.0.0.1 - - [07/Nov/2024 00:53:33] "GET / HTTP/1.1" 200 -
+2024-11-07 00:53:43,734 127.0.0.1 - - [07/Nov/2024 00:53:43] "GET / HTTP/1.1" 200 -
+2024-11-07 00:53:54,709 127.0.0.1 - - [07/Nov/2024 00:53:54] "GET / HTTP/1.1" 200 -
+2024-11-07 00:54:44,431 127.0.0.1 - - [07/Nov/2024 00:54:44] "GET / HTTP/1.1" 200 -
+2024-11-07 00:54:55,852 127.0.0.1 - - [07/Nov/2024 00:54:55] "GET / HTTP/1.1" 200 -
+2024-11-07 00:55:08,098 127.0.0.1 - - [07/Nov/2024 00:55:08] "GET / HTTP/1.1" 200 -
+2024-11-07 00:55:25,343 127.0.0.1 - - [07/Nov/2024 00:55:25] "GET / HTTP/1.1" 200 -
+2024-11-07 00:55:39,355 127.0.0.1 - - [07/Nov/2024 00:55:39] "GET / HTTP/1.1" 200 -
+2024-11-07 00:55:57,329 127.0.0.1 - - [07/Nov/2024 00:55:57] "GET / HTTP/1.1" 200 -
+2024-11-07 00:56:40,064 127.0.0.1 - - [07/Nov/2024 00:56:40] "GET / HTTP/1.1" 200 -
+2024-11-07 00:57:26,022 127.0.0.1 - - [07/Nov/2024 00:57:26] "GET / HTTP/1.1" 200 -
+2024-11-07 00:59:11,118 127.0.0.1 - - [07/Nov/2024 00:59:11] "GET / HTTP/1.1" 200 -

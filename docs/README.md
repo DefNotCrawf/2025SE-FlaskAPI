@@ -7,6 +7,9 @@ The API instructions focus on modelling how to build and test an API incremental
 > [!note]
 > The template for this project has been pre-populated with assets from the Flask PWA task, including the logo, icons and .database. Students can migrate their own assets if they wish.
 
+> [!Important]
+> Some aspects of the code _require_ certain extensions to be installed so it is highly advised to run and edit code inside of a container so that extensions don't conflict and proper requirements are installed.
+
 ## Dependencies
 
 ## Requirements
@@ -21,6 +24,18 @@ The API instructions focus on modelling how to build and test an API incremental
 
 ```bash
 pip install -r "requirements.txt"
+```
+
+OR
+
+```bash
+pip install Flask
+pip install flask_wtf
+pip install flask-csp
+pip install jsonschema
+pip install requests
+pip install flask_cors
+pip install flask_limiter
 ```
 
 > [!Important]
