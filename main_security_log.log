@@ -2842,3 +2842,700 @@
 2024-11-07 03:42:06,362  * Restarting with stat
 2024-11-07 03:42:06,589  * Debugger is active!
 2024-11-07 03:42:06,589  * Debugger PIN: 141-382-212
+2024-11-08 02:27:29,526 [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.0.0.137:5000
+2024-11-08 02:27:29,526 [33mPress CTRL+C to quit[0m
+2024-11-08 02:27:29,527  * Restarting with stat
+2024-11-08 02:27:29,752  * Debugger is active!
+2024-11-08 02:27:29,753  * Debugger PIN: 218-689-403
+2024-11-08 02:27:34,735 Starting new HTTP connection (1): 127.0.0.1:3000
+2024-11-08 02:27:34,743 127.0.0.1 - - [08/Nov/2024 02:27:34] "GET /?vscodeBrowserReqId=1731032851256 HTTP/1.1" 200 -
+2024-11-08 02:28:03,536 Starting new HTTP connection (1): 127.0.0.1:3000
+2024-11-08 02:28:03,540 http://127.0.0.1:3000 "GET / HTTP/11" 200 5177
+2024-11-08 02:28:03,541 127.0.0.1 - - [08/Nov/2024 02:28:03] "GET / HTTP/1.1" 200 -
+2024-11-08 02:28:03,583 127.0.0.1 - - [08/Nov/2024 02:28:03] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2024-11-08 02:28:03,730 127.0.0.1 - - [08/Nov/2024 02:28:03] "[36mGET /static/images/logo.png HTTP/1.1[0m" 304 -
+2024-11-08 02:28:03,730 127.0.0.1 - - [08/Nov/2024 02:28:03] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2024-11-08 02:28:03,763 127.0.0.1 - - [08/Nov/2024 02:28:03] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2024-11-08 02:28:03,928 127.0.0.1 - - [08/Nov/2024 02:28:03] "[36mGET /static/js/serviceWorker.js HTTP/1.1[0m" 304 -
+2024-11-08 02:28:03,947 127.0.0.1 - - [08/Nov/2024 02:28:03] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2024-11-08 02:28:04,066 {"csp-report":{"document-uri":"https://psychic-space-computing-machine-v9rwv999rpr2wq69-5000.app.github.dev/","referrer":"https://psychic-space-computing-machine-v9rwv999rpr2wq69.github.dev/","violated-directive":"manifest-src","effective-directive":"manifest-src","original-policy":"script-src 'self'; img-src *; child-src 'self'; default-src 'self'; style-src 'self'; media-src 'self'; object-src 'self'; connect-src 'self'; base-uri self; report-uri /csp_report; font-src self; worker-src 'self'; frame-ancestors 'none'; form-action 'self'; frame-src 'none'","disposition":"enforce","blocked-uri":"https://psychic-space-computing-machine-v9rwv999rpr2wq69-5000.app.github.dev/static/manifest.json","status-code":200,"script-sample":""}}
+2024-11-08 02:28:04,066 127.0.0.1 - - [08/Nov/2024 02:28:04] "POST /csp_report HTTP/1.1" 200 -
+2024-11-08 02:28:05,208 Starting new HTTP connection (1): 127.0.0.1:3000
+2024-11-08 02:28:05,211 http://127.0.0.1:3000 "GET / HTTP/11" 200 5177
+2024-11-08 02:28:05,212 127.0.0.1 - - [08/Nov/2024 02:28:05] "GET / HTTP/1.1" 200 -
+2024-11-08 02:28:05,242 127.0.0.1 - - [08/Nov/2024 02:28:05] "GET /static/css/style.css HTTP/1.1" 200 -
+2024-11-08 02:28:05,251 127.0.0.1 - - [08/Nov/2024 02:28:05] "GET /static/images/logo.png HTTP/1.1" 200 -
+2024-11-08 02:28:05,253 127.0.0.1 - - [08/Nov/2024 02:28:05] "GET /static/css/bootstrap.min.css HTTP/1.1" 200 -
+2024-11-08 02:28:05,253 127.0.0.1 - - [08/Nov/2024 02:28:05] "GET /static/js/bootstrap.bundle.min.js HTTP/1.1" 200 -
+2024-11-08 02:28:05,290 127.0.0.1 - - [08/Nov/2024 02:28:05] "GET /static/js/serviceWorker.js HTTP/1.1" 200 -
+2024-11-08 02:28:05,310 127.0.0.1 - - [08/Nov/2024 02:28:05] "GET /static/js/app.js HTTP/1.1" 200 -
+2024-11-08 02:28:05,924 127.0.0.1 - - [08/Nov/2024 02:28:05] "GET /static/images/favicon.png HTTP/1.1" 200 -
+2024-11-08 02:28:05,954 {"csp-report":{"document-uri":"https://psychic-space-computing-machine-v9rwv999rpr2wq69-5000.app.github.dev/","referrer":"https://psychic-space-computing-machine-v9rwv999rpr2wq69.github.dev/","violated-directive":"manifest-src","effective-directive":"manifest-src","original-policy":"script-src 'self'; img-src *; child-src 'self'; default-src 'self'; style-src 'self'; media-src 'self'; object-src 'self'; connect-src 'self'; base-uri self; report-uri /csp_report; font-src self; worker-src 'self'; frame-ancestors 'none'; form-action 'self'; frame-src 'none'","disposition":"enforce","blocked-uri":"https://psychic-space-computing-machine-v9rwv999rpr2wq69-5000.app.github.dev/static/manifest.json","status-code":200,"script-sample":""}}
+2024-11-08 02:28:05,955 127.0.0.1 - - [08/Nov/2024 02:28:05] "POST /csp_report HTTP/1.1" 200 -
+2024-11-08 02:28:26,078 Starting new HTTP connection (1): 127.0.0.1:3000
+2024-11-08 02:28:26,080 http://127.0.0.1:3000 "GET / HTTP/11" 200 5177
+2024-11-08 02:28:26,081 127.0.0.1 - - [08/Nov/2024 02:28:26] "GET / HTTP/1.1" 200 -
+2024-11-08 02:28:26,134 127.0.0.1 - - [08/Nov/2024 02:28:26] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2024-11-08 02:28:26,138 127.0.0.1 - - [08/Nov/2024 02:28:26] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2024-11-08 02:28:26,139 127.0.0.1 - - [08/Nov/2024 02:28:26] "[36mGET /static/images/logo.png HTTP/1.1[0m" 304 -
+2024-11-08 02:28:26,140 127.0.0.1 - - [08/Nov/2024 02:28:26] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2024-11-08 02:28:26,202 127.0.0.1 - - [08/Nov/2024 02:28:26] "[36mGET /static/js/serviceWorker.js HTTP/1.1[0m" 304 -
+2024-11-08 02:28:26,229 127.0.0.1 - - [08/Nov/2024 02:28:26] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2024-11-08 02:28:26,307 {"csp-report":{"document-uri":"https://psychic-space-computing-machine-v9rwv999rpr2wq69-5000.app.github.dev/","referrer":"","violated-directive":"manifest-src","effective-directive":"manifest-src","original-policy":"script-src 'self'; img-src *; child-src 'self'; default-src 'self'; style-src 'self'; media-src 'self'; object-src 'self'; connect-src 'self'; base-uri self; report-uri /csp_report; font-src self; worker-src 'self'; frame-ancestors 'none'; form-action 'self'; frame-src 'none'","disposition":"enforce","blocked-uri":"https://psychic-space-computing-machine-v9rwv999rpr2wq69-5000.app.github.dev/static/manifest.json","status-code":200,"script-sample":""}}
+2024-11-08 02:28:26,307 127.0.0.1 - - [08/Nov/2024 02:28:26] "POST /csp_report HTTP/1.1" 200 -
+2024-11-08 02:28:45,842 127.0.0.1 - - [08/Nov/2024 02:28:45] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2024-11-08 02:28:52,070 Starting new HTTP connection (1): 127.0.0.1:3000
+2024-11-08 02:28:52,072 http://127.0.0.1:3000 "GET / HTTP/11" 200 5177
+2024-11-08 02:28:52,073 127.0.0.1 - - [08/Nov/2024 02:28:52] "GET / HTTP/1.1" 200 -
+2024-11-08 02:28:52,120 127.0.0.1 - - [08/Nov/2024 02:28:52] "GET /static/js/app.js HTTP/1.1" 200 -
+2024-11-08 02:28:52,122 127.0.0.1 - - [08/Nov/2024 02:28:52] "GET /static/js/serviceWorker.js HTTP/1.1" 200 -
+2024-11-08 02:28:52,122 127.0.0.1 - - [08/Nov/2024 02:28:52] "GET /static/js/bootstrap.bundle.min.js HTTP/1.1" 200 -
+2024-11-08 02:28:52,256 127.0.0.1 - - [08/Nov/2024 02:28:52] "GET /static/css/bootstrap.min.css HTTP/1.1" 200 -
+2024-11-08 02:28:52,263 127.0.0.1 - - [08/Nov/2024 02:28:52] "GET /static/images/logo.png HTTP/1.1" 200 -
+2024-11-08 02:28:52,278 127.0.0.1 - - [08/Nov/2024 02:28:52] "GET /static/css/style.css HTTP/1.1" 200 -
+2024-11-08 02:28:52,318 127.0.0.1 - - [08/Nov/2024 02:28:52] "GET /static/images/favicon.png HTTP/1.1" 200 -
+2024-11-08 02:28:52,318 127.0.0.1 - - [08/Nov/2024 02:28:52] "[36mGET /static/js/serviceWorker.js HTTP/1.1[0m" 304 -
+2024-11-08 02:28:52,373 127.0.0.1 - - [08/Nov/2024 02:28:52] "[33mGET /static/js/static/icons/icon-512x512.png HTTP/1.1[0m" 404 -
+2024-11-08 02:28:52,374 127.0.0.1 - - [08/Nov/2024 02:28:52] "[33mGET /static/js/static/images/logo.png HTTP/1.1[0m" 404 -
+2024-11-08 02:28:52,375 127.0.0.1 - - [08/Nov/2024 02:28:52] "[33mGET /static/js/static/icons/desktop_screenshot.png HTTP/1.1[0m" 404 -
+2024-11-08 02:28:52,375 127.0.0.1 - - [08/Nov/2024 02:28:52] "[33mGET /static/js/static/js/app.js HTTP/1.1[0m" 404 -
+2024-11-08 02:28:52,376 127.0.0.1 - - [08/Nov/2024 02:28:52] "[33mGET /static/js/static/css/style.css/bootstrap.min.css HTTP/1.1[0m" 404 -
+2024-11-08 02:28:52,377 127.0.0.1 - - [08/Nov/2024 02:28:52] "[33mGET /static/js/static/icons/icon-192x192.png HTTP/1.1[0m" 404 -
+2024-11-08 02:28:52,377 127.0.0.1 - - [08/Nov/2024 02:28:52] "[33mGET /static/js/static/icons/icon-384x384.png HTTP/1.1[0m" 404 -
+2024-11-08 02:28:52,379 127.0.0.1 - - [08/Nov/2024 02:28:52] "[33mGET /static/js/static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 404 -
+2024-11-08 02:28:52,380 127.0.0.1 - - [08/Nov/2024 02:28:52] "[33mGET /static/js/static/icons/mobile_screenshot.png HTTP/1.1[0m" 404 -
+2024-11-08 02:28:52,381 127.0.0.1 - - [08/Nov/2024 02:28:52] "[33mGET /static/js/static/images/favicon.jpg HTTP/1.1[0m" 404 -
+2024-11-08 02:28:52,381 127.0.0.1 - - [08/Nov/2024 02:28:52] "[33mGET /static/js/static/css/style.css HTTP/1.1[0m" 404 -
+2024-11-08 02:28:52,382 127.0.0.1 - - [08/Nov/2024 02:28:52] "[33mGET /static/js/static/icons/icon-128x128.png HTTP/1.1[0m" 404 -
+2024-11-08 02:28:52,383 Starting new HTTP connection (1): 127.0.0.1:3000
+2024-11-08 02:28:52,388 http://127.0.0.1:3000 "GET / HTTP/11" 200 5177
+2024-11-08 02:28:52,390 127.0.0.1 - - [08/Nov/2024 02:28:52] "GET / HTTP/1.1" 200 -
+2024-11-08 02:28:54,589 127.0.0.1 - - [08/Nov/2024 02:28:54] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2024-11-08 02:28:54,589 127.0.0.1 - - [08/Nov/2024 02:28:54] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2024-11-08 02:28:54,608 127.0.0.1 - - [08/Nov/2024 02:28:54] "[33mGET /static/js/bootstrap.bundle.min.js.map HTTP/1.1[0m" 404 -
+2024-11-08 02:28:54,619 127.0.0.1 - - [08/Nov/2024 02:28:54] "GET /static/manifest.json HTTP/1.1" 200 -
+2024-11-08 02:28:54,671 127.0.0.1 - - [08/Nov/2024 02:28:54] "[33mGET /static/css/bootstrap.min.css.map HTTP/1.1[0m" 404 -
+2024-11-08 02:29:06,266 Starting new HTTP connection (1): 127.0.0.1:3000
+2024-11-08 02:29:06,269 http://127.0.0.1:3000 "GET / HTTP/11" 200 5177
+2024-11-08 02:29:06,269 127.0.0.1 - - [08/Nov/2024 02:29:06] "GET / HTTP/1.1" 200 -
+2024-11-08 02:29:06,313 127.0.0.1 - - [08/Nov/2024 02:29:06] "GET /static/css/bootstrap.min.css HTTP/1.1" 200 -
+2024-11-08 02:29:06,318 127.0.0.1 - - [08/Nov/2024 02:29:06] "GET /static/images/logo.png HTTP/1.1" 200 -
+2024-11-08 02:29:06,323 127.0.0.1 - - [08/Nov/2024 02:29:06] "GET /static/js/bootstrap.bundle.min.js HTTP/1.1" 200 -
+2024-11-08 02:29:06,461 127.0.0.1 - - [08/Nov/2024 02:29:06] "GET /static/css/style.css HTTP/1.1" 200 -
+2024-11-08 02:29:06,517 127.0.0.1 - - [08/Nov/2024 02:29:06] "GET /static/js/serviceWorker.js HTTP/1.1" 200 -
+2024-11-08 02:29:06,537 127.0.0.1 - - [08/Nov/2024 02:29:06] "GET /static/js/app.js HTTP/1.1" 200 -
+2024-11-08 02:29:06,561 127.0.0.1 - - [08/Nov/2024 02:29:06] "GET /static/images/favicon.png HTTP/1.1" 200 -
+2024-11-08 02:29:06,562 127.0.0.1 - - [08/Nov/2024 02:29:06] "[36mGET /static/js/serviceWorker.js HTTP/1.1[0m" 304 -
+2024-11-08 02:29:06,611 127.0.0.1 - - [08/Nov/2024 02:29:06] "[33mGET /static/js/static/css/style.css HTTP/1.1[0m" 404 -
+2024-11-08 02:29:06,612 127.0.0.1 - - [08/Nov/2024 02:29:06] "[33mGET /static/js/static/icons/icon-128x128.png HTTP/1.1[0m" 404 -
+2024-11-08 02:29:06,613 127.0.0.1 - - [08/Nov/2024 02:29:06] "[33mGET /static/js/static/css/style.css/bootstrap.min.css HTTP/1.1[0m" 404 -
+2024-11-08 02:29:06,614 127.0.0.1 - - [08/Nov/2024 02:29:06] "[33mGET /static/js/static/icons/icon-384x384.png HTTP/1.1[0m" 404 -
+2024-11-08 02:29:06,615 127.0.0.1 - - [08/Nov/2024 02:29:06] "[33mGET /static/js/static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 404 -
+2024-11-08 02:29:06,616 127.0.0.1 - - [08/Nov/2024 02:29:06] "[33mGET /static/js/static/icons/icon-512x512.png HTTP/1.1[0m" 404 -
+2024-11-08 02:29:06,616 127.0.0.1 - - [08/Nov/2024 02:29:06] "[33mGET /static/js/static/images/logo.png HTTP/1.1[0m" 404 -
+2024-11-08 02:29:06,616 127.0.0.1 - - [08/Nov/2024 02:29:06] "[33mGET /static/js/static/js/app.js HTTP/1.1[0m" 404 -
+2024-11-08 02:29:06,617 127.0.0.1 - - [08/Nov/2024 02:29:06] "[33mGET /static/js/static/icons/desktop_screenshot.png HTTP/1.1[0m" 404 -
+2024-11-08 02:29:06,618 127.0.0.1 - - [08/Nov/2024 02:29:06] "[33mGET /static/js/static/icons/icon-192x192.png HTTP/1.1[0m" 404 -
+2024-11-08 02:29:06,619 127.0.0.1 - - [08/Nov/2024 02:29:06] "[33mGET /static/js/static/images/favicon.jpg HTTP/1.1[0m" 404 -
+2024-11-08 02:29:06,620 Starting new HTTP connection (1): 127.0.0.1:3000
+2024-11-08 02:29:06,622 127.0.0.1 - - [08/Nov/2024 02:29:06] "[33mGET /static/js/static/icons/mobile_screenshot.png HTTP/1.1[0m" 404 -
+2024-11-08 02:29:06,625 http://127.0.0.1:3000 "GET / HTTP/11" 200 5177
+2024-11-08 02:29:06,625 127.0.0.1 - - [08/Nov/2024 02:29:06] "GET / HTTP/1.1" 200 -
+2024-11-08 02:29:09,279 127.0.0.1 - - [08/Nov/2024 02:29:09] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2024-11-08 02:29:09,296 127.0.0.1 - - [08/Nov/2024 02:29:09] "GET /static/manifest.json HTTP/1.1" 200 -
+2024-11-08 02:29:09,418 127.0.0.1 - - [08/Nov/2024 02:29:09] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2024-11-08 02:29:09,971 {"csp-report":{"document-uri":"https://psychic-space-computing-machine-v9rwv999rpr2wq69-5000.app.github.dev/","referrer":"","violated-directive":"img-src","effective-directive":"img-src","original-policy":"script-src 'self'; img-src *; child-src 'self'; default-src 'self'; style-src 'self'; media-src 'self'; object-src 'self'; connect-src 'self'; base-uri self; report-uri /csp_report; font-src self; worker-src 'self'; frame-ancestors 'none'; form-action 'self'; frame-src 'none'","disposition":"enforce","blocked-uri":"data","status-code":200,"script-sample":""}}
+2024-11-08 02:29:09,972 127.0.0.1 - - [08/Nov/2024 02:29:09] "POST /csp_report HTTP/1.1" 200 -
+2024-11-08 02:29:10,789 127.0.0.1 - - [08/Nov/2024 02:29:10] "[33mGET /static/js/bootstrap.bundle.min.js.map HTTP/1.1[0m" 404 -
+2024-11-08 02:29:12,546 127.0.0.1 - - [08/Nov/2024 02:29:12] "[33mGET /static/css/bootstrap.min.css.map HTTP/1.1[0m" 404 -
+2024-11-08 02:29:13,140 127.0.0.1 - - [08/Nov/2024 02:29:13] "[33mGET /static/js/bootstrap.bundle.min.js.map HTTP/1.1[0m" 404 -
+2024-11-08 02:29:13,152 Starting new HTTP connection (1): 127.0.0.1:3000
+2024-11-08 02:29:13,155 http://127.0.0.1:3000 "GET / HTTP/11" 200 5177
+2024-11-08 02:29:13,155 127.0.0.1 - - [08/Nov/2024 02:29:13] "GET / HTTP/1.1" 200 -
+2024-11-08 02:29:13,192 127.0.0.1 - - [08/Nov/2024 02:29:13] "GET /static/images/logo.png HTTP/1.1" 200 -
+2024-11-08 02:29:13,193 127.0.0.1 - - [08/Nov/2024 02:29:13] "GET /static/css/bootstrap.min.css HTTP/1.1" 200 -
+2024-11-08 02:29:13,194 127.0.0.1 - - [08/Nov/2024 02:29:13] "GET /static/css/style.css HTTP/1.1" 200 -
+2024-11-08 02:29:13,199 127.0.0.1 - - [08/Nov/2024 02:29:13] "GET /static/js/bootstrap.bundle.min.js HTTP/1.1" 200 -
+2024-11-08 02:29:13,254 127.0.0.1 - - [08/Nov/2024 02:29:13] "GET /static/js/serviceWorker.js HTTP/1.1" 200 -
+2024-11-08 02:29:13,306 127.0.0.1 - - [08/Nov/2024 02:29:13] "GET /static/js/app.js HTTP/1.1" 200 -
+2024-11-08 02:29:13,327 127.0.0.1 - - [08/Nov/2024 02:29:13] "[33mGET /static/css/bootstrap.min.css.map HTTP/1.1[0m" 404 -
+2024-11-08 02:29:13,335 127.0.0.1 - - [08/Nov/2024 02:29:13] "GET /static/images/favicon.png HTTP/1.1" 200 -
+2024-11-08 02:29:13,336 127.0.0.1 - - [08/Nov/2024 02:29:13] "[33mGET /static/js/bootstrap.bundle.min.js.map HTTP/1.1[0m" 404 -
+2024-11-08 02:30:53,386 Starting new HTTP connection (1): 127.0.0.1:3000
+2024-11-08 02:30:53,389 http://127.0.0.1:3000 "GET / HTTP/11" 200 5177
+2024-11-08 02:30:53,391 127.0.0.1 - - [08/Nov/2024 02:30:53] "GET / HTTP/1.1" 200 -
+2024-11-08 02:30:53,583 127.0.0.1 - - [08/Nov/2024 02:30:53] "GET /static/js/bootstrap.bundle.min.js HTTP/1.1" 200 -
+2024-11-08 02:30:53,611 127.0.0.1 - - [08/Nov/2024 02:30:53] "GET /static/css/style.css HTTP/1.1" 200 -
+2024-11-08 02:30:53,617 127.0.0.1 - - [08/Nov/2024 02:30:53] "GET /static/images/logo.png HTTP/1.1" 200 -
+2024-11-08 02:30:53,635 127.0.0.1 - - [08/Nov/2024 02:30:53] "[33mGET /static/js/bootstrap.bundle.min.js.map HTTP/1.1[0m" 404 -
+2024-11-08 02:30:53,805 127.0.0.1 - - [08/Nov/2024 02:30:53] "GET /static/js/serviceWorker.js HTTP/1.1" 200 -
+2024-11-08 02:30:53,828 127.0.0.1 - - [08/Nov/2024 02:30:53] "GET /static/js/app.js HTTP/1.1" 200 -
+2024-11-08 02:30:53,846 127.0.0.1 - - [08/Nov/2024 02:30:53] "GET /static/css/bootstrap.min.css HTTP/1.1" 200 -
+2024-11-08 02:30:53,884 127.0.0.1 - - [08/Nov/2024 02:30:53] "[33mGET /static/css/bootstrap.min.css.map HTTP/1.1[0m" 404 -
+2024-11-08 02:30:53,884 127.0.0.1 - - [08/Nov/2024 02:30:53] "GET /static/images/favicon.png HTTP/1.1" 200 -
+2024-11-08 02:31:00,385 Starting new HTTP connection (1): 127.0.0.1:3000
+2024-11-08 02:31:00,387 http://127.0.0.1:3000 "GET / HTTP/11" 200 5177
+2024-11-08 02:31:00,388 127.0.0.1 - - [08/Nov/2024 02:31:00] "GET / HTTP/1.1" 200 -
+2024-11-08 02:31:00,421 127.0.0.1 - - [08/Nov/2024 02:31:00] "GET /static/css/style.css HTTP/1.1" 200 -
+2024-11-08 02:31:00,424 127.0.0.1 - - [08/Nov/2024 02:31:00] "GET /static/js/bootstrap.bundle.min.js HTTP/1.1" 200 -
+2024-11-08 02:31:00,424 127.0.0.1 - - [08/Nov/2024 02:31:00] "GET /static/images/logo.png HTTP/1.1" 200 -
+2024-11-08 02:31:00,455 127.0.0.1 - - [08/Nov/2024 02:31:00] "GET /static/js/serviceWorker.js HTTP/1.1" 200 -
+2024-11-08 02:31:00,474 127.0.0.1 - - [08/Nov/2024 02:31:00] "GET /static/js/app.js HTTP/1.1" 200 -
+2024-11-08 02:31:00,494 127.0.0.1 - - [08/Nov/2024 02:31:00] "GET /static/css/bootstrap.min.css HTTP/1.1" 200 -
+2024-11-08 02:31:00,526 127.0.0.1 - - [08/Nov/2024 02:31:00] "GET /static/images/favicon.png HTTP/1.1" 200 -
+2024-11-08 02:31:00,530 127.0.0.1 - - [08/Nov/2024 02:31:00] "[36mGET /static/js/serviceWorker.js HTTP/1.1[0m" 304 -
+2024-11-08 02:31:00,583 127.0.0.1 - - [08/Nov/2024 02:31:00] "[33mGET /static/js/static/css/style.css HTTP/1.1[0m" 404 -
+2024-11-08 02:31:00,583 127.0.0.1 - - [08/Nov/2024 02:31:00] "[33mGET /static/js/static/icons/icon-192x192.png HTTP/1.1[0m" 404 -
+2024-11-08 02:31:00,584 127.0.0.1 - - [08/Nov/2024 02:31:00] "[33mGET /static/js/static/icons/icon-128x128.png HTTP/1.1[0m" 404 -
+2024-11-08 02:31:00,585 127.0.0.1 - - [08/Nov/2024 02:31:00] "[33mGET /static/js/static/css/style.css/bootstrap.min.css HTTP/1.1[0m" 404 -
+2024-11-08 02:31:00,585 127.0.0.1 - - [08/Nov/2024 02:31:00] "[33mGET /static/js/static/images/logo.png HTTP/1.1[0m" 404 -
+2024-11-08 02:31:00,586 127.0.0.1 - - [08/Nov/2024 02:31:00] "[33mGET /static/js/static/icons/desktop_screenshot.png HTTP/1.1[0m" 404 -
+2024-11-08 02:31:00,589 127.0.0.1 - - [08/Nov/2024 02:31:00] "[33mGET /static/js/static/js/app.js HTTP/1.1[0m" 404 -
+2024-11-08 02:31:00,590 127.0.0.1 - - [08/Nov/2024 02:31:00] "[33mGET /static/js/static/icons/icon-512x512.png HTTP/1.1[0m" 404 -
+2024-11-08 02:31:00,592 127.0.0.1 - - [08/Nov/2024 02:31:00] "[33mGET /static/js/static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 404 -
+2024-11-08 02:31:00,596 Starting new HTTP connection (1): 127.0.0.1:3000
+2024-11-08 02:31:00,597 127.0.0.1 - - [08/Nov/2024 02:31:00] "[33mGET /static/js/static/images/favicon.jpg HTTP/1.1[0m" 404 -
+2024-11-08 02:31:00,599 http://127.0.0.1:3000 "GET / HTTP/11" 200 5177
+2024-11-08 02:31:00,599 127.0.0.1 - - [08/Nov/2024 02:31:00] "GET / HTTP/1.1" 200 -
+2024-11-08 02:31:03,208 127.0.0.1 - - [08/Nov/2024 02:31:03] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2024-11-08 02:31:03,210 127.0.0.1 - - [08/Nov/2024 02:31:03] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2024-11-08 02:31:03,380 127.0.0.1 - - [08/Nov/2024 02:31:03] "GET /static/manifest.json HTTP/1.1" 200 -
+2024-11-08 02:31:03,781 {"csp-report":{"document-uri":"https://psychic-space-computing-machine-v9rwv999rpr2wq69-5000.app.github.dev/","referrer":"","violated-directive":"img-src","effective-directive":"img-src","original-policy":"script-src 'self'; img-src *; child-src 'self'; default-src 'self'; style-src 'self'; media-src 'self'; object-src 'self'; connect-src 'self'; base-uri self; report-uri /csp_report; font-src self; worker-src 'self'; frame-ancestors 'none'; form-action 'self'; frame-src 'none'","disposition":"enforce","blocked-uri":"data","status-code":200,"script-sample":""}}
+2024-11-08 02:31:03,781 127.0.0.1 - - [08/Nov/2024 02:31:03] "POST /csp_report HTTP/1.1" 200 -
+2024-11-08 02:31:04,543 127.0.0.1 - - [08/Nov/2024 02:31:04] "[33mGET /static/js/bootstrap.bundle.min.js.map HTTP/1.1[0m" 404 -
+2024-11-08 02:31:06,223 127.0.0.1 - - [08/Nov/2024 02:31:06] "[33mGET /static/css/bootstrap.min.css.map HTTP/1.1[0m" 404 -
+2024-11-08 02:31:06,624 127.0.0.1 - - [08/Nov/2024 02:31:06] "[33mGET /static/js/bootstrap.bundle.min.js.map HTTP/1.1[0m" 404 -
+2024-11-08 02:31:06,629 Starting new HTTP connection (1): 127.0.0.1:3000
+2024-11-08 02:31:06,631 http://127.0.0.1:3000 "GET / HTTP/11" 200 5177
+2024-11-08 02:31:06,632 127.0.0.1 - - [08/Nov/2024 02:31:06] "GET / HTTP/1.1" 200 -
+2024-11-08 02:31:06,662 127.0.0.1 - - [08/Nov/2024 02:31:06] "GET /static/images/logo.png HTTP/1.1" 200 -
+2024-11-08 02:31:06,664 127.0.0.1 - - [08/Nov/2024 02:31:06] "GET /static/js/bootstrap.bundle.min.js HTTP/1.1" 200 -
+2024-11-08 02:31:06,667 127.0.0.1 - - [08/Nov/2024 02:31:06] "GET /static/css/style.css HTTP/1.1" 200 -
+2024-11-08 02:31:06,709 127.0.0.1 - - [08/Nov/2024 02:31:06] "GET /static/js/serviceWorker.js HTTP/1.1" 200 -
+2024-11-08 02:31:06,731 127.0.0.1 - - [08/Nov/2024 02:31:06] "[33mGET /static/js/bootstrap.bundle.min.js.map HTTP/1.1[0m" 404 -
+2024-11-08 02:31:06,741 127.0.0.1 - - [08/Nov/2024 02:31:06] "GET /static/js/app.js HTTP/1.1" 200 -
+2024-11-08 02:31:06,764 127.0.0.1 - - [08/Nov/2024 02:31:06] "GET /static/css/bootstrap.min.css HTTP/1.1" 200 -
+2024-11-08 02:31:06,805 127.0.0.1 - - [08/Nov/2024 02:31:06] "GET /static/images/favicon.png HTTP/1.1" 200 -
+2024-11-08 02:31:06,839 127.0.0.1 - - [08/Nov/2024 02:31:06] "[33mGET /static/css/bootstrap.min.css.map HTTP/1.1[0m" 404 -
+2024-11-08 02:31:24,022 Starting new HTTP connection (1): 127.0.0.1:3000
+2024-11-08 02:31:24,025 http://127.0.0.1:3000 "GET / HTTP/11" 200 5177
+2024-11-08 02:31:24,026 127.0.0.1 - - [08/Nov/2024 02:31:24] "GET / HTTP/1.1" 200 -
+2024-11-08 02:31:24,065 127.0.0.1 - - [08/Nov/2024 02:31:24] "GET /static/images/logo.png HTTP/1.1" 200 -
+2024-11-08 02:31:24,065 127.0.0.1 - - [08/Nov/2024 02:31:24] "GET /static/css/style.css HTTP/1.1" 200 -
+2024-11-08 02:31:24,070 127.0.0.1 - - [08/Nov/2024 02:31:24] "GET /static/js/bootstrap.bundle.min.js HTTP/1.1" 200 -
+2024-11-08 02:31:24,115 127.0.0.1 - - [08/Nov/2024 02:31:24] "GET /static/js/serviceWorker.js HTTP/1.1" 200 -
+2024-11-08 02:31:24,156 127.0.0.1 - - [08/Nov/2024 02:31:24] "GET /static/js/app.js HTTP/1.1" 200 -
+2024-11-08 02:31:24,182 127.0.0.1 - - [08/Nov/2024 02:31:24] "GET /static/css/bootstrap.min.css HTTP/1.1" 200 -
+2024-11-08 02:31:24,232 127.0.0.1 - - [08/Nov/2024 02:31:24] "GET /static/images/favicon.png HTTP/1.1" 200 -
+2024-11-08 02:31:24,234 127.0.0.1 - - [08/Nov/2024 02:31:24] "[36mGET /static/js/serviceWorker.js HTTP/1.1[0m" 304 -
+2024-11-08 02:31:24,265 Starting new HTTP connection (1): 127.0.0.1:3000
+2024-11-08 02:31:24,268 http://127.0.0.1:3000 "GET / HTTP/11" 200 5177
+2024-11-08 02:31:24,269 127.0.0.1 - - [08/Nov/2024 02:31:24] "GET / HTTP/1.1" 200 -
+2024-11-08 02:31:24,287 127.0.0.1 - - [08/Nov/2024 02:31:24] "[33mGET /static/js/static/images/logo.png HTTP/1.1[0m" 404 -
+2024-11-08 02:31:24,287 127.0.0.1 - - [08/Nov/2024 02:31:24] "[33mGET /static/js/static/icons/desktop_screenshot.png HTTP/1.1[0m" 404 -
+2024-11-08 02:31:24,290 127.0.0.1 - - [08/Nov/2024 02:31:24] "[33mGET /static/js/static/icons/icon-128x128.png HTTP/1.1[0m" 404 -
+2024-11-08 02:31:24,290 127.0.0.1 - - [08/Nov/2024 02:31:24] "[33mGET /static/js/static/css/style.css HTTP/1.1[0m" 404 -
+2024-11-08 02:31:24,291 127.0.0.1 - - [08/Nov/2024 02:31:24] "[33mGET /static/js/static/icons/icon-192x192.png HTTP/1.1[0m" 404 -
+2024-11-08 02:31:24,292 127.0.0.1 - - [08/Nov/2024 02:31:24] "[33mGET /static/js/static/css/style.css/bootstrap.min.css HTTP/1.1[0m" 404 -
+2024-11-08 02:31:24,292 127.0.0.1 - - [08/Nov/2024 02:31:24] "[33mGET /static/js/static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 404 -
+2024-11-08 02:31:24,293 127.0.0.1 - - [08/Nov/2024 02:31:24] "[33mGET /static/js/static/icons/icon-384x384.png HTTP/1.1[0m" 404 -
+2024-11-08 02:31:24,295 127.0.0.1 - - [08/Nov/2024 02:31:24] "[33mGET /static/js/static/js/app.js HTTP/1.1[0m" 404 -
+2024-11-08 02:31:24,297 127.0.0.1 - - [08/Nov/2024 02:31:24] "[33mGET /static/js/static/icons/icon-512x512.png HTTP/1.1[0m" 404 -
+2024-11-08 02:31:24,309 127.0.0.1 - - [08/Nov/2024 02:31:24] "[33mGET /static/js/static/images/favicon.jpg HTTP/1.1[0m" 404 -
+2024-11-08 02:31:27,104 127.0.0.1 - - [08/Nov/2024 02:31:27] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2024-11-08 02:31:27,114 127.0.0.1 - - [08/Nov/2024 02:31:27] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2024-11-08 02:31:27,114 127.0.0.1 - - [08/Nov/2024 02:31:27] "GET /static/manifest.json HTTP/1.1" 200 -
+2024-11-08 02:31:27,678 {"csp-report":{"document-uri":"https://psychic-space-computing-machine-v9rwv999rpr2wq69-5000.app.github.dev/","referrer":"","violated-directive":"img-src","effective-directive":"img-src","original-policy":"script-src 'self'; img-src *; child-src 'self'; default-src 'self'; style-src 'self'; media-src 'self'; object-src 'self'; connect-src 'self'; base-uri self; report-uri /csp_report; font-src self; worker-src 'self'; frame-ancestors 'none'; form-action 'self'; frame-src 'none'","disposition":"enforce","blocked-uri":"data","status-code":200,"script-sample":""}}
+2024-11-08 02:31:27,678 127.0.0.1 - - [08/Nov/2024 02:31:27] "POST /csp_report HTTP/1.1" 200 -
+2024-11-08 02:31:28,401 127.0.0.1 - - [08/Nov/2024 02:31:28] "[33mGET /static/js/bootstrap.bundle.min.js.map HTTP/1.1[0m" 404 -
+2024-11-08 02:31:29,992 Starting new HTTP connection (1): 127.0.0.1:3000
+2024-11-08 02:31:29,994 http://127.0.0.1:3000 "GET / HTTP/11" 200 5177
+2024-11-08 02:31:29,995 127.0.0.1 - - [08/Nov/2024 02:31:29] "GET / HTTP/1.1" 200 -
+2024-11-08 02:31:30,032 127.0.0.1 - - [08/Nov/2024 02:31:30] "GET /static/css/style.css HTTP/1.1" 200 -
+2024-11-08 02:31:30,035 127.0.0.1 - - [08/Nov/2024 02:31:30] "GET /static/images/logo.png HTTP/1.1" 200 -
+2024-11-08 02:31:30,041 127.0.0.1 - - [08/Nov/2024 02:31:30] "GET /static/js/bootstrap.bundle.min.js HTTP/1.1" 200 -
+2024-11-08 02:31:30,071 127.0.0.1 - - [08/Nov/2024 02:31:30] "GET /static/js/serviceWorker.js HTTP/1.1" 200 -
+2024-11-08 02:31:30,093 127.0.0.1 - - [08/Nov/2024 02:31:30] "GET /static/js/app.js HTTP/1.1" 200 -
+2024-11-08 02:31:30,113 127.0.0.1 - - [08/Nov/2024 02:31:30] "GET /static/css/bootstrap.min.css HTTP/1.1" 200 -
+2024-11-08 02:31:30,157 127.0.0.1 - - [08/Nov/2024 02:31:30] "GET /static/images/favicon.png HTTP/1.1" 200 -
+2024-11-08 02:31:30,576 127.0.0.1 - - [08/Nov/2024 02:31:30] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2024-11-08 02:31:30,577 127.0.0.1 - - [08/Nov/2024 02:31:30] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2024-11-08 02:31:30,588 127.0.0.1 - - [08/Nov/2024 02:31:30] "GET /static/manifest.json HTTP/1.1" 200 -
+2024-11-08 02:31:30,666 127.0.0.1 - - [08/Nov/2024 02:31:30] "[33mGET /static/js/bootstrap.bundle.min.js.map HTTP/1.1[0m" 404 -
+2024-11-08 02:31:30,672 127.0.0.1 - - [08/Nov/2024 02:31:30] "[33mGET /static/css/bootstrap.min.css.map HTTP/1.1[0m" 404 -
+2024-11-08 02:31:30,677 Starting new HTTP connection (1): 127.0.0.1:3000
+2024-11-08 02:31:30,680 http://127.0.0.1:3000 "GET / HTTP/11" 200 5177
+2024-11-08 02:31:30,681 127.0.0.1 - - [08/Nov/2024 02:31:30] "GET / HTTP/1.1" 200 -
+2024-11-08 02:31:30,709 127.0.0.1 - - [08/Nov/2024 02:31:30] "GET /static/css/style.css HTTP/1.1" 200 -
+2024-11-08 02:31:30,710 127.0.0.1 - - [08/Nov/2024 02:31:30] "GET /static/images/logo.png HTTP/1.1" 200 -
+2024-11-08 02:31:30,713 127.0.0.1 - - [08/Nov/2024 02:31:30] "GET /static/js/bootstrap.bundle.min.js HTTP/1.1" 200 -
+2024-11-08 02:31:30,750 127.0.0.1 - - [08/Nov/2024 02:31:30] "GET /static/js/serviceWorker.js HTTP/1.1" 200 -
+2024-11-08 02:31:30,791 127.0.0.1 - - [08/Nov/2024 02:31:30] "[33mGET /static/js/bootstrap.bundle.min.js.map HTTP/1.1[0m" 404 -
+2024-11-08 02:31:30,809 127.0.0.1 - - [08/Nov/2024 02:31:30] "GET /static/js/app.js HTTP/1.1" 200 -
+2024-11-08 02:31:30,827 127.0.0.1 - - [08/Nov/2024 02:31:30] "GET /static/css/bootstrap.min.css HTTP/1.1" 200 -
+2024-11-08 02:31:30,866 127.0.0.1 - - [08/Nov/2024 02:31:30] "GET /static/images/favicon.png HTTP/1.1" 200 -
+2024-11-08 02:31:30,898 127.0.0.1 - - [08/Nov/2024 02:31:30] "[33mGET /static/css/bootstrap.min.css.map HTTP/1.1[0m" 404 -
+2024-11-08 02:31:53,721 Starting new HTTP connection (1): 127.0.0.1:3000
+2024-11-08 02:31:53,723 http://127.0.0.1:3000 "GET / HTTP/11" 200 5177
+2024-11-08 02:31:53,726 127.0.0.1 - - [08/Nov/2024 02:31:53] "GET / HTTP/1.1" 200 -
+2024-11-08 02:31:53,763 127.0.0.1 - - [08/Nov/2024 02:31:53] "GET /static/images/logo.png HTTP/1.1" 200 -
+2024-11-08 02:31:53,764 127.0.0.1 - - [08/Nov/2024 02:31:53] "GET /static/css/style.css HTTP/1.1" 200 -
+2024-11-08 02:31:53,767 127.0.0.1 - - [08/Nov/2024 02:31:53] "GET /static/css/bootstrap.min.css HTTP/1.1" 200 -
+2024-11-08 02:31:53,769 127.0.0.1 - - [08/Nov/2024 02:31:53] "GET /static/js/bootstrap.bundle.min.js HTTP/1.1" 200 -
+2024-11-08 02:31:53,838 127.0.0.1 - - [08/Nov/2024 02:31:53] "GET /static/js/serviceWorker.js HTTP/1.1" 200 -
+2024-11-08 02:31:53,863 127.0.0.1 - - [08/Nov/2024 02:31:53] "GET /static/js/app.js HTTP/1.1" 200 -
+2024-11-08 02:31:53,884 127.0.0.1 - - [08/Nov/2024 02:31:53] "GET /static/images/favicon.png HTTP/1.1" 200 -
+2024-11-08 02:31:53,893 127.0.0.1 - - [08/Nov/2024 02:31:53] "[36mGET /static/js/serviceWorker.js HTTP/1.1[0m" 304 -
+2024-11-08 02:31:53,922 Starting new HTTP connection (1): 127.0.0.1:3000
+2024-11-08 02:31:53,924 http://127.0.0.1:3000 "GET / HTTP/11" 200 5177
+2024-11-08 02:31:53,925 127.0.0.1 - - [08/Nov/2024 02:31:53] "GET / HTTP/1.1" 200 -
+2024-11-08 02:31:53,928 127.0.0.1 - - [08/Nov/2024 02:31:53] "[33mGET /static/js/static/css/style.css HTTP/1.1[0m" 404 -
+2024-11-08 02:31:53,941 127.0.0.1 - - [08/Nov/2024 02:31:53] "[33mGET /static/js/static/icons/icon-128x128.png HTTP/1.1[0m" 404 -
+2024-11-08 02:31:53,945 127.0.0.1 - - [08/Nov/2024 02:31:53] "[33mGET /static/js/static/icons/desktop_screenshot.png HTTP/1.1[0m" 404 -
+2024-11-08 02:31:53,946 127.0.0.1 - - [08/Nov/2024 02:31:53] "[33mGET /static/js/static/images/logo.png HTTP/1.1[0m" 404 -
+2024-11-08 02:31:53,946 127.0.0.1 - - [08/Nov/2024 02:31:53] "[33mGET /static/js/static/js/app.js HTTP/1.1[0m" 404 -
+2024-11-08 02:31:53,947 127.0.0.1 - - [08/Nov/2024 02:31:53] "[33mGET /static/js/static/icons/icon-512x512.png HTTP/1.1[0m" 404 -
+2024-11-08 02:31:53,948 127.0.0.1 - - [08/Nov/2024 02:31:53] "[33mGET /static/js/static/css/style.css/bootstrap.min.css HTTP/1.1[0m" 404 -
+2024-11-08 02:31:53,949 127.0.0.1 - - [08/Nov/2024 02:31:53] "[33mGET /static/js/static/icons/icon-192x192.png HTTP/1.1[0m" 404 -
+2024-11-08 02:31:53,951 127.0.0.1 - - [08/Nov/2024 02:31:53] "[33mGET /static/js/static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 404 -
+2024-11-08 02:31:53,955 127.0.0.1 - - [08/Nov/2024 02:31:53] "[33mGET /static/js/static/icons/icon-384x384.png HTTP/1.1[0m" 404 -
+2024-11-08 02:31:53,956 127.0.0.1 - - [08/Nov/2024 02:31:53] "[33mGET /static/js/static/images/favicon.jpg HTTP/1.1[0m" 404 -
+2024-11-08 02:31:53,957 127.0.0.1 - - [08/Nov/2024 02:31:53] "[33mGET /static/js/static/icons/mobile_screenshot.png HTTP/1.1[0m" 404 -
+2024-11-08 02:31:56,566 127.0.0.1 - - [08/Nov/2024 02:31:56] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2024-11-08 02:31:56,567 127.0.0.1 - - [08/Nov/2024 02:31:56] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2024-11-08 02:31:56,618 127.0.0.1 - - [08/Nov/2024 02:31:56] "GET /static/manifest.json HTTP/1.1" 200 -
+2024-11-08 02:31:56,874 127.0.0.1 - - [08/Nov/2024 02:31:56] "GET /static/images/logo.png HTTP/1.1" 200 -
+2024-11-08 02:31:57,011 {"csp-report":{"document-uri":"https://psychic-space-computing-machine-v9rwv999rpr2wq69-5000.app.github.dev/","referrer":"","violated-directive":"img-src","effective-directive":"img-src","original-policy":"script-src 'self'; img-src *; child-src 'self'; default-src 'self'; style-src 'self'; media-src 'self'; object-src 'self'; connect-src 'self'; base-uri self; report-uri /csp_report; font-src self; worker-src 'self'; frame-ancestors 'none'; form-action 'self'; frame-src 'none'","disposition":"enforce","blocked-uri":"data","status-code":200,"script-sample":""}}
+2024-11-08 02:31:57,011 127.0.0.1 - - [08/Nov/2024 02:31:57] "POST /csp_report HTTP/1.1" 200 -
+2024-11-08 02:31:57,805 127.0.0.1 - - [08/Nov/2024 02:31:57] "[33mGET /static/js/bootstrap.bundle.min.js.map HTTP/1.1[0m" 404 -
+2024-11-08 02:31:59,326 127.0.0.1 - - [08/Nov/2024 02:31:59] "[33mGET /static/css/bootstrap.min.css.map HTTP/1.1[0m" 404 -
+2024-11-08 02:31:59,886 127.0.0.1 - - [08/Nov/2024 02:31:59] "[33mGET /static/js/bootstrap.bundle.min.js.map HTTP/1.1[0m" 404 -
+2024-11-08 02:31:59,895 Starting new HTTP connection (1): 127.0.0.1:3000
+2024-11-08 02:31:59,897 http://127.0.0.1:3000 "GET / HTTP/11" 200 5177
+2024-11-08 02:31:59,898 127.0.0.1 - - [08/Nov/2024 02:31:59] "GET / HTTP/1.1" 200 -
+2024-11-08 02:31:59,936 127.0.0.1 - - [08/Nov/2024 02:31:59] "GET /static/css/bootstrap.min.css HTTP/1.1" 200 -
+2024-11-08 02:31:59,939 127.0.0.1 - - [08/Nov/2024 02:31:59] "GET /static/images/logo.png HTTP/1.1" 200 -
+2024-11-08 02:31:59,944 127.0.0.1 - - [08/Nov/2024 02:31:59] "GET /static/js/bootstrap.bundle.min.js HTTP/1.1" 200 -
+2024-11-08 02:32:00,095 127.0.0.1 - - [08/Nov/2024 02:32:00] "GET /static/css/style.css HTTP/1.1" 200 -
+2024-11-08 02:32:00,135 127.0.0.1 - - [08/Nov/2024 02:32:00] "[33mGET /static/css/bootstrap.min.css.map HTTP/1.1[0m" 404 -
+2024-11-08 02:32:00,136 127.0.0.1 - - [08/Nov/2024 02:32:00] "[33mGET /static/js/bootstrap.bundle.min.js.map HTTP/1.1[0m" 404 -
+2024-11-08 02:32:00,137 127.0.0.1 - - [08/Nov/2024 02:32:00] "GET /static/js/serviceWorker.js HTTP/1.1" 200 -
+2024-11-08 02:32:00,159 127.0.0.1 - - [08/Nov/2024 02:32:00] "GET /static/js/app.js HTTP/1.1" 200 -
+2024-11-08 02:32:00,184 127.0.0.1 - - [08/Nov/2024 02:32:00] "GET /static/images/favicon.png HTTP/1.1" 200 -
+2024-11-08 02:32:33,295 127.0.0.1 - - [08/Nov/2024 02:32:33] "GET /add.html HTTP/1.1" 200 -
+2024-11-08 02:32:33,332 127.0.0.1 - - [08/Nov/2024 02:32:33] "GET /static/css/style.css HTTP/1.1" 200 -
+2024-11-08 02:32:33,332 127.0.0.1 - - [08/Nov/2024 02:32:33] "GET /static/js/bootstrap.bundle.min.js HTTP/1.1" 200 -
+2024-11-08 02:32:33,333 127.0.0.1 - - [08/Nov/2024 02:32:33] "GET /static/css/bootstrap.min.css HTTP/1.1" 200 -
+2024-11-08 02:32:33,335 127.0.0.1 - - [08/Nov/2024 02:32:33] "GET /static/images/logo.png HTTP/1.1" 200 -
+2024-11-08 02:32:33,366 127.0.0.1 - - [08/Nov/2024 02:32:33] "[33mGET /static/js/bootstrap.bundle.min.js.map HTTP/1.1[0m" 404 -
+2024-11-08 02:32:33,376 127.0.0.1 - - [08/Nov/2024 02:32:33] "[33mGET /static/css/bootstrap.min.css.map HTTP/1.1[0m" 404 -
+2024-11-08 02:32:33,381 127.0.0.1 - - [08/Nov/2024 02:32:33] "GET /static/js/serviceWorker.js HTTP/1.1" 200 -
+2024-11-08 02:32:33,429 127.0.0.1 - - [08/Nov/2024 02:32:33] "GET /static/js/app.js HTTP/1.1" 200 -
+2024-11-08 02:32:33,449 127.0.0.1 - - [08/Nov/2024 02:32:33] "GET /static/images/favicon.png HTTP/1.1" 200 -
+2024-11-08 02:32:47,805 127.0.0.1 - - [08/Nov/2024 02:32:47] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2024-11-08 02:32:47,808 127.0.0.1 - - [08/Nov/2024 02:32:47] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2024-11-08 02:32:47,822 127.0.0.1 - - [08/Nov/2024 02:32:47] "GET /static/manifest.json HTTP/1.1" 200 -
+2024-11-08 02:32:47,841 127.0.0.1 - - [08/Nov/2024 02:32:47] "[33mGET /static/js/bootstrap.bundle.min.js.map HTTP/1.1[0m" 404 -
+2024-11-08 02:32:47,872 127.0.0.1 - - [08/Nov/2024 02:32:47] "[33mGET /static/css/bootstrap.min.css.map HTTP/1.1[0m" 404 -
+2024-11-08 02:34:20,563 127.0.0.1 - - [08/Nov/2024 02:34:20] "GET /add.html HTTP/1.1" 200 -
+2024-11-08 02:34:20,598 127.0.0.1 - - [08/Nov/2024 02:34:20] "GET /static/css/style.css HTTP/1.1" 200 -
+2024-11-08 02:34:20,598 127.0.0.1 - - [08/Nov/2024 02:34:20] "GET /static/css/bootstrap.min.css HTTP/1.1" 200 -
+2024-11-08 02:34:20,600 127.0.0.1 - - [08/Nov/2024 02:34:20] "GET /static/js/bootstrap.bundle.min.js HTTP/1.1" 200 -
+2024-11-08 02:34:20,651 127.0.0.1 - - [08/Nov/2024 02:34:20] "[33mGET /static/css/bootstrap.min.css.map HTTP/1.1[0m" 404 -
+2024-11-08 02:34:20,676 127.0.0.1 - - [08/Nov/2024 02:34:20] "[33mGET /static/js/bootstrap.bundle.min.js.map HTTP/1.1[0m" 404 -
+2024-11-08 02:34:20,754 127.0.0.1 - - [08/Nov/2024 02:34:20] "GET /static/images/logo.png HTTP/1.1" 200 -
+2024-11-08 02:34:20,806 127.0.0.1 - - [08/Nov/2024 02:34:20] "GET /static/js/serviceWorker.js HTTP/1.1" 200 -
+2024-11-08 02:34:20,846 127.0.0.1 - - [08/Nov/2024 02:34:20] "GET /static/js/app.js HTTP/1.1" 200 -
+2024-11-08 02:34:20,892 127.0.0.1 - - [08/Nov/2024 02:34:20] "GET /static/images/favicon.png HTTP/1.1" 200 -
+2024-11-08 02:34:23,847 Starting new HTTP connection (1): 127.0.0.1:3000
+2024-11-08 02:34:23,849 http://127.0.0.1:3000 "GET / HTTP/11" 200 5177
+2024-11-08 02:34:23,850 127.0.0.1 - - [08/Nov/2024 02:34:23] "GET / HTTP/1.1" 200 -
+2024-11-08 02:34:23,881 127.0.0.1 - - [08/Nov/2024 02:34:23] "GET /static/css/style.css HTTP/1.1" 200 -
+2024-11-08 02:34:23,883 127.0.0.1 - - [08/Nov/2024 02:34:23] "GET /static/css/bootstrap.min.css HTTP/1.1" 200 -
+2024-11-08 02:34:23,884 127.0.0.1 - - [08/Nov/2024 02:34:23] "GET /static/images/logo.png HTTP/1.1" 200 -
+2024-11-08 02:34:23,886 127.0.0.1 - - [08/Nov/2024 02:34:23] "GET /static/js/bootstrap.bundle.min.js HTTP/1.1" 200 -
+2024-11-08 02:34:23,943 127.0.0.1 - - [08/Nov/2024 02:34:23] "[33mGET /static/js/bootstrap.bundle.min.js.map HTTP/1.1[0m" 404 -
+2024-11-08 02:34:23,944 127.0.0.1 - - [08/Nov/2024 02:34:23] "GET /static/js/serviceWorker.js HTTP/1.1" 200 -
+2024-11-08 02:34:23,952 127.0.0.1 - - [08/Nov/2024 02:34:23] "[33mGET /static/css/bootstrap.min.css.map HTTP/1.1[0m" 404 -
+2024-11-08 02:34:23,961 127.0.0.1 - - [08/Nov/2024 02:34:23] "GET /static/js/app.js HTTP/1.1" 200 -
+2024-11-08 02:34:23,982 127.0.0.1 - - [08/Nov/2024 02:34:23] "GET /static/images/favicon.png HTTP/1.1" 200 -
+2024-11-08 02:34:34,460 127.0.0.1 - - [08/Nov/2024 02:34:34] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2024-11-08 02:34:34,461 127.0.0.1 - - [08/Nov/2024 02:34:34] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2024-11-08 02:34:34,481 127.0.0.1 - - [08/Nov/2024 02:34:34] "GET /static/manifest.json HTTP/1.1" 200 -
+2024-11-08 02:34:34,506 127.0.0.1 - - [08/Nov/2024 02:34:34] "[33mGET /static/css/bootstrap.min.css.map HTTP/1.1[0m" 404 -
+2024-11-08 02:34:35,874 Starting new HTTP connection (1): 127.0.0.1:3000
+2024-11-08 02:34:35,876 http://127.0.0.1:3000 "GET / HTTP/11" 200 5177
+2024-11-08 02:34:35,877 127.0.0.1 - - [08/Nov/2024 02:34:35] "GET / HTTP/1.1" 200 -
+2024-11-08 02:34:35,913 127.0.0.1 - - [08/Nov/2024 02:34:35] "GET /static/css/style.css HTTP/1.1" 200 -
+2024-11-08 02:34:35,915 127.0.0.1 - - [08/Nov/2024 02:34:35] "GET /static/css/bootstrap.min.css HTTP/1.1" 200 -
+2024-11-08 02:34:35,918 127.0.0.1 - - [08/Nov/2024 02:34:35] "GET /static/js/bootstrap.bundle.min.js HTTP/1.1" 200 -
+2024-11-08 02:34:35,918 127.0.0.1 - - [08/Nov/2024 02:34:35] "GET /static/images/logo.png HTTP/1.1" 200 -
+2024-11-08 02:34:35,992 127.0.0.1 - - [08/Nov/2024 02:34:35] "[33mGET /static/css/bootstrap.min.css.map HTTP/1.1[0m" 404 -
+2024-11-08 02:34:35,993 127.0.0.1 - - [08/Nov/2024 02:34:35] "GET /static/js/serviceWorker.js HTTP/1.1" 200 -
+2024-11-08 02:34:36,012 127.0.0.1 - - [08/Nov/2024 02:34:36] "GET /static/js/app.js HTTP/1.1" 200 -
+2024-11-08 02:34:36,038 127.0.0.1 - - [08/Nov/2024 02:34:36] "GET /static/images/favicon.png HTTP/1.1" 200 -
+2024-11-08 02:34:36,041 127.0.0.1 - - [08/Nov/2024 02:34:36] "[36mGET /static/js/serviceWorker.js HTTP/1.1[0m" 304 -
+2024-11-08 02:34:36,070 Starting new HTTP connection (1): 127.0.0.1:3000
+2024-11-08 02:34:36,073 http://127.0.0.1:3000 "GET / HTTP/11" 200 5177
+2024-11-08 02:34:36,074 127.0.0.1 - - [08/Nov/2024 02:34:36] "GET / HTTP/1.1" 200 -
+2024-11-08 02:34:36,076 127.0.0.1 - - [08/Nov/2024 02:34:36] "[33mGET /static/js/static/css/style.css HTTP/1.1[0m" 404 -
+2024-11-08 02:34:36,082 127.0.0.1 - - [08/Nov/2024 02:34:36] "[33mGET /static/js/static/images/logo.png HTTP/1.1[0m" 404 -
+2024-11-08 02:34:36,098 127.0.0.1 - - [08/Nov/2024 02:34:36] "[33mGET /static/js/static/js/app.js HTTP/1.1[0m" 404 -
+2024-11-08 02:34:36,099 127.0.0.1 - - [08/Nov/2024 02:34:36] "[33mGET /static/js/static/css/style.css/bootstrap.min.css HTTP/1.1[0m" 404 -
+2024-11-08 02:34:38,882 127.0.0.1 - - [08/Nov/2024 02:34:38] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2024-11-08 02:34:38,883 127.0.0.1 - - [08/Nov/2024 02:34:38] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2024-11-08 02:34:38,885 127.0.0.1 - - [08/Nov/2024 02:34:38] "GET /static/manifest.json HTTP/1.1" 200 -
+2024-11-08 02:34:39,398 {"csp-report":{"document-uri":"https://psychic-space-computing-machine-v9rwv999rpr2wq69-5000.app.github.dev/","referrer":"","violated-directive":"img-src","effective-directive":"img-src","original-policy":"script-src 'self'; img-src *; child-src 'self'; default-src 'self'; style-src 'self'; media-src 'self'; object-src 'self'; connect-src 'self'; base-uri self; report-uri /csp_report; font-src self; worker-src 'self'; frame-ancestors 'none'; form-action 'self'; frame-src 'none'","disposition":"enforce","blocked-uri":"data","status-code":200,"script-sample":""}}
+2024-11-08 02:34:39,398 127.0.0.1 - - [08/Nov/2024 02:34:39] "POST /csp_report HTTP/1.1" 200 -
+2024-11-08 02:34:40,124 127.0.0.1 - - [08/Nov/2024 02:34:40] "[33mGET /static/js/bootstrap.bundle.min.js.map HTTP/1.1[0m" 404 -
+2024-11-08 02:34:41,649 127.0.0.1 - - [08/Nov/2024 02:34:41] "[33mGET /static/css/bootstrap.min.css.map HTTP/1.1[0m" 404 -
+2024-11-08 02:34:41,733 127.0.0.1 - - [08/Nov/2024 02:34:41] "[33mGET /static/css/bootstrap.min.css.map HTTP/1.1[0m" 404 -
+2024-11-08 02:34:42,188 127.0.0.1 - - [08/Nov/2024 02:34:42] "[33mGET /static/js/bootstrap.bundle.min.js.map HTTP/1.1[0m" 404 -
+2024-11-08 02:34:42,341 Starting new HTTP connection (1): 127.0.0.1:3000
+2024-11-08 02:34:42,344 http://127.0.0.1:3000 "GET / HTTP/11" 200 5177
+2024-11-08 02:34:42,344 127.0.0.1 - - [08/Nov/2024 02:34:42] "GET / HTTP/1.1" 200 -
+2024-11-08 02:34:42,377 127.0.0.1 - - [08/Nov/2024 02:34:42] "GET /static/css/bootstrap.min.css HTTP/1.1" 200 -
+2024-11-08 02:34:42,378 127.0.0.1 - - [08/Nov/2024 02:34:42] "GET /static/css/style.css HTTP/1.1" 200 -
+2024-11-08 02:34:42,380 127.0.0.1 - - [08/Nov/2024 02:34:42] "GET /static/images/logo.png HTTP/1.1" 200 -
+2024-11-08 02:34:42,381 127.0.0.1 - - [08/Nov/2024 02:34:42] "GET /static/js/bootstrap.bundle.min.js HTTP/1.1" 200 -
+2024-11-08 02:34:42,384 127.0.0.1 - - [08/Nov/2024 02:34:42] "GET /static/js/serviceWorker.js HTTP/1.1" 200 -
+2024-11-08 02:34:42,388 127.0.0.1 - - [08/Nov/2024 02:34:42] "GET /static/js/app.js HTTP/1.1" 200 -
+2024-11-08 02:34:42,468 127.0.0.1 - - [08/Nov/2024 02:34:42] "[33mGET /static/css/bootstrap.min.css.map HTTP/1.1[0m" 404 -
+2024-11-08 02:34:42,469 127.0.0.1 - - [08/Nov/2024 02:34:42] "[33mGET /static/js/bootstrap.bundle.min.js.map HTTP/1.1[0m" 404 -
+2024-11-08 02:34:42,498 127.0.0.1 - - [08/Nov/2024 02:34:42] "GET /static/images/favicon.png HTTP/1.1" 200 -
+2024-11-08 02:35:00,470 127.0.0.1 - - [08/Nov/2024 02:35:00] "GET /static/manifest.json HTTP/1.1" 200 -
+2024-11-08 02:35:00,471 127.0.0.1 - - [08/Nov/2024 02:35:00] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2024-11-08 02:35:00,472 127.0.0.1 - - [08/Nov/2024 02:35:00] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2024-11-08 02:35:00,492 127.0.0.1 - - [08/Nov/2024 02:35:00] "[33mGET /static/js/bootstrap.bundle.min.js.map HTTP/1.1[0m" 404 -
+2024-11-08 02:35:00,500 127.0.0.1 - - [08/Nov/2024 02:35:00] "[33mGET /static/css/bootstrap.min.css.map HTTP/1.1[0m" 404 -
+2024-11-08 02:35:03,065 Starting new HTTP connection (1): 127.0.0.1:3000
+2024-11-08 02:35:03,067 http://127.0.0.1:3000 "GET / HTTP/11" 200 5177
+2024-11-08 02:35:03,068 127.0.0.1 - - [08/Nov/2024 02:35:03] "GET / HTTP/1.1" 200 -
+2024-11-08 02:35:03,100 127.0.0.1 - - [08/Nov/2024 02:35:03] "GET /static/css/bootstrap.min.css HTTP/1.1" 200 -
+2024-11-08 02:35:03,101 127.0.0.1 - - [08/Nov/2024 02:35:03] "GET /static/css/style.css HTTP/1.1" 200 -
+2024-11-08 02:35:03,104 127.0.0.1 - - [08/Nov/2024 02:35:03] "GET /static/images/logo.png HTTP/1.1" 200 -
+2024-11-08 02:35:03,104 127.0.0.1 - - [08/Nov/2024 02:35:03] "GET /static/js/bootstrap.bundle.min.js HTTP/1.1" 200 -
+2024-11-08 02:35:03,163 127.0.0.1 - - [08/Nov/2024 02:35:03] "GET /static/js/serviceWorker.js HTTP/1.1" 200 -
+2024-11-08 02:35:03,186 127.0.0.1 - - [08/Nov/2024 02:35:03] "GET /static/js/app.js HTTP/1.1" 200 -
+2024-11-08 02:35:03,210 127.0.0.1 - - [08/Nov/2024 02:35:03] "GET /static/images/favicon.png HTTP/1.1" 200 -
+2024-11-08 02:35:03,212 127.0.0.1 - - [08/Nov/2024 02:35:03] "[36mGET /static/js/serviceWorker.js HTTP/1.1[0m" 304 -
+2024-11-08 02:35:03,243 Starting new HTTP connection (1): 127.0.0.1:3000
+2024-11-08 02:35:03,248 http://127.0.0.1:3000 "GET / HTTP/11" 200 5177
+2024-11-08 02:35:03,249 127.0.0.1 - - [08/Nov/2024 02:35:03] "GET / HTTP/1.1" 200 -
+2024-11-08 02:35:03,265 127.0.0.1 - - [08/Nov/2024 02:35:03] "[33mGET /static/js/static/icons/icon-128x128.png HTTP/1.1[0m" 404 -
+2024-11-08 02:35:03,266 127.0.0.1 - - [08/Nov/2024 02:35:03] "[33mGET /static/js/static/css/style.css HTTP/1.1[0m" 404 -
+2024-11-08 02:35:03,267 127.0.0.1 - - [08/Nov/2024 02:35:03] "[33mGET /static/js/static/icons/icon-192x192.png HTTP/1.1[0m" 404 -
+2024-11-08 02:35:03,268 127.0.0.1 - - [08/Nov/2024 02:35:03] "[33mGET /static/js/static/css/style.css/bootstrap.min.css HTTP/1.1[0m" 404 -
+2024-11-08 02:35:03,268 127.0.0.1 - - [08/Nov/2024 02:35:03] "[33mGET /static/js/static/icons/desktop_screenshot.png HTTP/1.1[0m" 404 -
+2024-11-08 02:35:03,269 127.0.0.1 - - [08/Nov/2024 02:35:03] "[33mGET /static/js/static/images/logo.png HTTP/1.1[0m" 404 -
+2024-11-08 02:35:03,270 127.0.0.1 - - [08/Nov/2024 02:35:03] "[33mGET /static/js/static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 404 -
+2024-11-08 02:35:03,271 127.0.0.1 - - [08/Nov/2024 02:35:03] "[33mGET /static/js/static/js/app.js HTTP/1.1[0m" 404 -
+2024-11-08 02:35:03,272 127.0.0.1 - - [08/Nov/2024 02:35:03] "[33mGET /static/js/static/icons/icon-384x384.png HTTP/1.1[0m" 404 -
+2024-11-08 02:35:03,275 127.0.0.1 - - [08/Nov/2024 02:35:03] "[33mGET /static/js/static/icons/mobile_screenshot.png HTTP/1.1[0m" 404 -
+2024-11-08 02:35:03,276 127.0.0.1 - - [08/Nov/2024 02:35:03] "[33mGET /static/js/static/images/favicon.jpg HTTP/1.1[0m" 404 -
+2024-11-08 02:35:03,276 127.0.0.1 - - [08/Nov/2024 02:35:03] "[33mGET /static/js/static/icons/icon-512x512.png HTTP/1.1[0m" 404 -
+2024-11-08 02:35:05,892 127.0.0.1 - - [08/Nov/2024 02:35:05] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2024-11-08 02:35:05,892 127.0.0.1 - - [08/Nov/2024 02:35:05] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2024-11-08 02:35:05,904 127.0.0.1 - - [08/Nov/2024 02:35:05] "GET /static/manifest.json HTTP/1.1" 200 -
+2024-11-08 02:35:06,412 {"csp-report":{"document-uri":"https://psychic-space-computing-machine-v9rwv999rpr2wq69-5000.app.github.dev/","referrer":"","violated-directive":"img-src","effective-directive":"img-src","original-policy":"script-src 'self'; img-src *; child-src 'self'; default-src 'self'; style-src 'self'; media-src 'self'; object-src 'self'; connect-src 'self'; base-uri self; report-uri /csp_report; font-src self; worker-src 'self'; frame-ancestors 'none'; form-action 'self'; frame-src 'none'","disposition":"enforce","blocked-uri":"data","status-code":200,"script-sample":""}}
+2024-11-08 02:35:06,412 127.0.0.1 - - [08/Nov/2024 02:35:06] "POST /csp_report HTTP/1.1" 200 -
+2024-11-08 02:35:07,012 127.0.0.1 - - [08/Nov/2024 02:35:07] "[33mGET /static/js/bootstrap.bundle.min.js.map HTTP/1.1[0m" 404 -
+2024-11-08 02:35:08,688 127.0.0.1 - - [08/Nov/2024 02:35:08] "[33mGET /static/css/bootstrap.min.css.map HTTP/1.1[0m" 404 -
+2024-11-08 02:35:09,067 Starting new HTTP connection (1): 127.0.0.1:3000
+2024-11-08 02:35:09,070 http://127.0.0.1:3000 "GET / HTTP/11" 200 5177
+2024-11-08 02:35:09,071 127.0.0.1 - - [08/Nov/2024 02:35:09] "GET / HTTP/1.1" 200 -
+2024-11-08 02:35:09,100 127.0.0.1 - - [08/Nov/2024 02:35:09] "GET /static/css/bootstrap.min.css HTTP/1.1" 200 -
+2024-11-08 02:35:09,104 127.0.0.1 - - [08/Nov/2024 02:35:09] "GET /static/css/style.css HTTP/1.1" 200 -
+2024-11-08 02:35:09,112 127.0.0.1 - - [08/Nov/2024 02:35:09] "GET /static/js/bootstrap.bundle.min.js HTTP/1.1" 200 -
+2024-11-08 02:35:09,113 127.0.0.1 - - [08/Nov/2024 02:35:09] "GET /static/images/logo.png HTTP/1.1" 200 -
+2024-11-08 02:35:09,123 127.0.0.1 - - [08/Nov/2024 02:35:09] "GET /static/js/app.js HTTP/1.1" 200 -
+2024-11-08 02:35:09,186 127.0.0.1 - - [08/Nov/2024 02:35:09] "[33mGET /static/css/bootstrap.min.css.map HTTP/1.1[0m" 404 -
+2024-11-08 02:35:09,188 127.0.0.1 - - [08/Nov/2024 02:35:09] "[33mGET /static/js/bootstrap.bundle.min.js.map HTTP/1.1[0m" 404 -
+2024-11-08 02:35:09,208 127.0.0.1 - - [08/Nov/2024 02:35:09] "[33mGET /static/js/bootstrap.bundle.min.js.map HTTP/1.1[0m" 404 -
+2024-11-08 02:35:09,209 127.0.0.1 - - [08/Nov/2024 02:35:09] "GET /static/js/serviceWorker.js HTTP/1.1" 200 -
+2024-11-08 02:35:09,232 127.0.0.1 - - [08/Nov/2024 02:35:09] "GET /static/images/favicon.png HTTP/1.1" 200 -
+2024-11-08 02:36:39,650 {"csp-report":{"document-uri":"https://psychic-space-computing-machine-v9rwv999rpr2wq69-5000.app.github.dev/","referrer":"","violated-directive":"img-src","effective-directive":"img-src","original-policy":"script-src 'self'; img-src *; child-src 'self'; default-src 'self'; style-src 'self'; media-src 'self'; object-src 'self'; connect-src 'self'; base-uri self; report-uri /csp_report; font-src self; worker-src 'self'; frame-ancestors 'none'; form-action 'self'; frame-src 'none'","disposition":"enforce","blocked-uri":"data","status-code":200,"script-sample":""}}
+2024-11-08 02:36:39,651 127.0.0.1 - - [08/Nov/2024 02:36:39] "POST /csp_report HTTP/1.1" 200 -
+2024-11-08 02:36:49,181 127.0.0.1 - - [08/Nov/2024 02:36:49] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2024-11-08 02:36:49,210 127.0.0.1 - - [08/Nov/2024 02:36:49] "GET /static/manifest.json HTTP/1.1" 200 -
+2024-11-08 02:36:49,332 127.0.0.1 - - [08/Nov/2024 02:36:49] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2024-11-08 02:36:49,510 127.0.0.1 - - [08/Nov/2024 02:36:49] "[33mGET /static/css/bootstrap.min.css.map HTTP/1.1[0m" 404 -
+2024-11-08 02:36:50,638 Starting new HTTP connection (1): 127.0.0.1:3000
+2024-11-08 02:36:50,640 http://127.0.0.1:3000 "GET / HTTP/11" 200 5177
+2024-11-08 02:36:50,641 127.0.0.1 - - [08/Nov/2024 02:36:50] "GET / HTTP/1.1" 200 -
+2024-11-08 02:36:50,671 127.0.0.1 - - [08/Nov/2024 02:36:50] "GET /static/images/logo.png HTTP/1.1" 200 -
+2024-11-08 02:36:50,673 127.0.0.1 - - [08/Nov/2024 02:36:50] "GET /static/css/bootstrap.min.css HTTP/1.1" 200 -
+2024-11-08 02:36:50,677 127.0.0.1 - - [08/Nov/2024 02:36:50] "GET /static/js/bootstrap.bundle.min.js HTTP/1.1" 200 -
+2024-11-08 02:36:50,813 127.0.0.1 - - [08/Nov/2024 02:36:50] "GET /static/css/style.css HTTP/1.1" 200 -
+2024-11-08 02:36:50,844 127.0.0.1 - - [08/Nov/2024 02:36:50] "[33mGET /static/css/bootstrap.min.css.map HTTP/1.1[0m" 404 -
+2024-11-08 02:36:50,845 {"csp-report":{"document-uri":"https://psychic-space-computing-machine-v9rwv999rpr2wq69-5000.app.github.dev/","referrer":"","violated-directive":"img-src","effective-directive":"img-src","original-policy":"script-src 'self'; img-src *; child-src 'self'; default-src 'self'; style-src 'self'; media-src 'self'; object-src 'self'; connect-src 'self'; base-uri self; report-uri /csp_report; font-src self; worker-src 'self'; frame-ancestors 'none'; form-action 'self'; frame-src 'none'","disposition":"enforce","blocked-uri":"data","status-code":200,"script-sample":""}}
+2024-11-08 02:36:50,846 127.0.0.1 - - [08/Nov/2024 02:36:50] "POST /csp_report HTTP/1.1" 200 -
+2024-11-08 02:36:50,869 127.0.0.1 - - [08/Nov/2024 02:36:50] "GET /static/js/serviceWorker.js HTTP/1.1" 200 -
+2024-11-08 02:36:50,890 127.0.0.1 - - [08/Nov/2024 02:36:50] "GET /static/js/app.js HTTP/1.1" 200 -
+2024-11-08 02:36:50,911 127.0.0.1 - - [08/Nov/2024 02:36:50] "GET /static/images/favicon.png HTTP/1.1" 200 -
+2024-11-08 02:36:50,919 127.0.0.1 - - [08/Nov/2024 02:36:50] "[36mGET /static/js/serviceWorker.js HTTP/1.1[0m" 304 -
+2024-11-08 02:36:50,965 127.0.0.1 - - [08/Nov/2024 02:36:50] "[33mGET /static/js/static/css/style.css HTTP/1.1[0m" 404 -
+2024-11-08 02:36:50,966 127.0.0.1 - - [08/Nov/2024 02:36:50] "[33mGET /static/js/static/js/app.js HTTP/1.1[0m" 404 -
+2024-11-08 02:36:50,967 127.0.0.1 - - [08/Nov/2024 02:36:50] "[33mGET /static/js/static/css/style.css/bootstrap.min.css HTTP/1.1[0m" 404 -
+2024-11-08 02:36:50,968 127.0.0.1 - - [08/Nov/2024 02:36:50] "[33mGET /static/js/static/icons/icon-512x512.png HTTP/1.1[0m" 404 -
+2024-11-08 02:36:50,969 127.0.0.1 - - [08/Nov/2024 02:36:50] "[33mGET /static/js/static/icons/icon-128x128.png HTTP/1.1[0m" 404 -
+2024-11-08 02:36:50,970 127.0.0.1 - - [08/Nov/2024 02:36:50] "[33mGET /static/js/static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 404 -
+2024-11-08 02:36:50,972 127.0.0.1 - - [08/Nov/2024 02:36:50] "[33mGET /static/js/static/icons/icon-384x384.png HTTP/1.1[0m" 404 -
+2024-11-08 02:36:50,972 127.0.0.1 - - [08/Nov/2024 02:36:50] "[33mGET /static/js/static/icons/icon-192x192.png HTTP/1.1[0m" 404 -
+2024-11-08 02:36:50,977 127.0.0.1 - - [08/Nov/2024 02:36:50] "[33mGET /static/js/static/images/logo.png HTTP/1.1[0m" 404 -
+2024-11-08 02:36:50,980 127.0.0.1 - - [08/Nov/2024 02:36:50] "[33mGET /static/js/static/images/favicon.jpg HTTP/1.1[0m" 404 -
+2024-11-08 02:36:50,981 Starting new HTTP connection (1): 127.0.0.1:3000
+2024-11-08 02:36:50,984 http://127.0.0.1:3000 "GET / HTTP/11" 200 5177
+2024-11-08 02:36:50,985 127.0.0.1 - - [08/Nov/2024 02:36:50] "GET / HTTP/1.1" 200 -
+2024-11-08 02:36:53,705 127.0.0.1 - - [08/Nov/2024 02:36:53] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2024-11-08 02:36:53,706 127.0.0.1 - - [08/Nov/2024 02:36:53] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2024-11-08 02:36:53,718 127.0.0.1 - - [08/Nov/2024 02:36:53] "GET /static/manifest.json HTTP/1.1" 200 -
+2024-11-08 02:36:54,797 127.0.0.1 - - [08/Nov/2024 02:36:54] "[33mGET /static/js/bootstrap.bundle.min.js.map HTTP/1.1[0m" 404 -
+2024-11-08 02:36:56,226 127.0.0.1 - - [08/Nov/2024 02:36:56] "[33mGET /static/css/bootstrap.min.css.map HTTP/1.1[0m" 404 -
+2024-11-08 02:36:56,394 127.0.0.1 - - [08/Nov/2024 02:36:56] "[33mGET /static/css/bootstrap.min.css.map HTTP/1.1[0m" 404 -
+2024-11-08 02:36:56,778 127.0.0.1 - - [08/Nov/2024 02:36:56] "[33mGET /static/js/bootstrap.bundle.min.js.map HTTP/1.1[0m" 404 -
+2024-11-08 02:36:56,792 Starting new HTTP connection (1): 127.0.0.1:3000
+2024-11-08 02:36:56,794 http://127.0.0.1:3000 "GET / HTTP/11" 200 5177
+2024-11-08 02:36:56,795 127.0.0.1 - - [08/Nov/2024 02:36:56] "GET / HTTP/1.1" 200 -
+2024-11-08 02:36:56,831 127.0.0.1 - - [08/Nov/2024 02:36:56] "GET /static/css/bootstrap.min.css HTTP/1.1" 200 -
+2024-11-08 02:36:56,834 127.0.0.1 - - [08/Nov/2024 02:36:56] "GET /static/images/logo.png HTTP/1.1" 200 -
+2024-11-08 02:36:56,837 127.0.0.1 - - [08/Nov/2024 02:36:56] "GET /static/js/bootstrap.bundle.min.js HTTP/1.1" 200 -
+2024-11-08 02:36:56,839 127.0.0.1 - - [08/Nov/2024 02:36:56] "GET /static/css/style.css HTTP/1.1" 200 -
+2024-11-08 02:36:56,868 {"csp-report":{"document-uri":"https://psychic-space-computing-machine-v9rwv999rpr2wq69-5000.app.github.dev/","referrer":"","violated-directive":"img-src","effective-directive":"img-src","original-policy":"script-src 'self'; img-src *; child-src 'self'; default-src 'self'; style-src 'self'; media-src 'self'; object-src 'self'; connect-src 'self'; base-uri self; report-uri /csp_report; font-src self; worker-src 'self'; frame-ancestors 'none'; form-action 'self'; frame-src 'none'","disposition":"enforce","blocked-uri":"data","line-number":240,"source-file":"https://psychic-space-computing-machine-v9rwv999rpr2wq69-5000.app.github.dev/","status-code":200,"script-sample":""}}
+2024-11-08 02:36:56,868 127.0.0.1 - - [08/Nov/2024 02:36:56] "POST /csp_report HTTP/1.1" 200 -
+2024-11-08 02:36:56,872 127.0.0.1 - - [08/Nov/2024 02:36:56] "GET /static/js/serviceWorker.js HTTP/1.1" 200 -
+2024-11-08 02:36:56,887 127.0.0.1 - - [08/Nov/2024 02:36:56] "[33mGET /static/css/bootstrap.min.css.map HTTP/1.1[0m" 404 -
+2024-11-08 02:36:56,888 127.0.0.1 - - [08/Nov/2024 02:36:56] "[33mGET /static/js/bootstrap.bundle.min.js.map HTTP/1.1[0m" 404 -
+2024-11-08 02:36:56,925 127.0.0.1 - - [08/Nov/2024 02:36:56] "GET /static/js/app.js HTTP/1.1" 200 -
+2024-11-08 02:36:56,946 127.0.0.1 - - [08/Nov/2024 02:36:56] "GET /static/images/favicon.png HTTP/1.1" 200 -
+2024-11-08 02:37:14,633 127.0.0.1 - - [08/Nov/2024 02:37:14] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2024-11-08 02:43:12,236 127.0.0.1 - - [08/Nov/2024 02:43:12] "GET /static/css/bootstrap.min.css HTTP/1.1" 200 -
+2024-11-08 02:43:12,259 {"csp-report":{"document-uri":"https://psychic-space-computing-machine-v9rwv999rpr2wq69-5000.app.github.dev/","referrer":"","violated-directive":"img-src","effective-directive":"img-src","original-policy":"script-src 'self'; img-src *; child-src 'self'; default-src 'self'; style-src 'self'; media-src 'self'; object-src 'self'; connect-src 'self'; base-uri self; report-uri /csp_report; font-src self; worker-src 'self'; frame-ancestors 'none'; form-action 'self'; frame-src 'none'","disposition":"enforce","blocked-uri":"data","status-code":200,"script-sample":""}}
+2024-11-08 02:43:12,259 127.0.0.1 - - [08/Nov/2024 02:43:12] "POST /csp_report HTTP/1.1" 200 -
+2024-11-08 02:43:12,261 127.0.0.1 - - [08/Nov/2024 02:43:12] "GET /static/css/style.css HTTP/1.1" 200 -
+2024-11-08 02:43:12,267 127.0.0.1 - - [08/Nov/2024 02:43:12] "GET /static/manifest.json HTTP/1.1" 200 -
+2024-11-08 02:43:12,298 127.0.0.1 - - [08/Nov/2024 02:43:12] "[33mGET /static/css/bootstrap.min.css.map HTTP/1.1[0m" 404 -
+2024-11-08 02:43:13,616 Starting new HTTP connection (1): 127.0.0.1:3000
+2024-11-08 02:43:13,618 http://127.0.0.1:3000 "GET / HTTP/11" 200 5177
+2024-11-08 02:43:13,619 127.0.0.1 - - [08/Nov/2024 02:43:13] "GET / HTTP/1.1" 200 -
+2024-11-08 02:43:13,658 127.0.0.1 - - [08/Nov/2024 02:43:13] "GET /static/css/bootstrap.min.css HTTP/1.1" 200 -
+2024-11-08 02:43:13,659 127.0.0.1 - - [08/Nov/2024 02:43:13] "GET /static/images/logo.png HTTP/1.1" 200 -
+2024-11-08 02:43:13,666 127.0.0.1 - - [08/Nov/2024 02:43:13] "GET /static/js/bootstrap.bundle.min.js HTTP/1.1" 200 -
+2024-11-08 02:43:13,810 127.0.0.1 - - [08/Nov/2024 02:43:13] "GET /static/css/style.css HTTP/1.1" 200 -
+2024-11-08 02:43:13,842 127.0.0.1 - - [08/Nov/2024 02:43:13] "[33mGET /static/css/bootstrap.min.css.map HTTP/1.1[0m" 404 -
+2024-11-08 02:43:13,842 {"csp-report":{"document-uri":"https://psychic-space-computing-machine-v9rwv999rpr2wq69-5000.app.github.dev/","referrer":"","violated-directive":"img-src","effective-directive":"img-src","original-policy":"script-src 'self'; img-src *; child-src 'self'; default-src 'self'; style-src 'self'; media-src 'self'; object-src 'self'; connect-src 'self'; base-uri self; report-uri /csp_report; font-src self; worker-src 'self'; frame-ancestors 'none'; form-action 'self'; frame-src 'none'","disposition":"enforce","blocked-uri":"data","line-number":240,"source-file":"https://psychic-space-computing-machine-v9rwv999rpr2wq69-5000.app.github.dev/","status-code":200,"script-sample":""}}
+2024-11-08 02:43:13,843 127.0.0.1 - - [08/Nov/2024 02:43:13] "POST /csp_report HTTP/1.1" 200 -
+2024-11-08 02:43:13,864 127.0.0.1 - - [08/Nov/2024 02:43:13] "GET /static/js/serviceWorker.js HTTP/1.1" 200 -
+2024-11-08 02:43:13,886 127.0.0.1 - - [08/Nov/2024 02:43:13] "GET /static/js/app.js HTTP/1.1" 200 -
+2024-11-08 02:43:13,916 127.0.0.1 - - [08/Nov/2024 02:43:13] "GET /static/images/favicon.png HTTP/1.1" 200 -
+2024-11-08 02:43:13,939 127.0.0.1 - - [08/Nov/2024 02:43:13] "[36mGET /static/js/serviceWorker.js HTTP/1.1[0m" 304 -
+2024-11-08 02:43:13,985 127.0.0.1 - - [08/Nov/2024 02:43:13] "[33mGET /static/js/static/css/style.css HTTP/1.1[0m" 404 -
+2024-11-08 02:43:13,988 127.0.0.1 - - [08/Nov/2024 02:43:13] "[33mGET /static/js/static/css/style.css/bootstrap.min.css HTTP/1.1[0m" 404 -
+2024-11-08 02:43:13,988 127.0.0.1 - - [08/Nov/2024 02:43:13] "[33mGET /static/js/static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 404 -
+2024-11-08 02:43:13,989 127.0.0.1 - - [08/Nov/2024 02:43:13] "[33mGET /static/js/static/images/logo.png HTTP/1.1[0m" 404 -
+2024-11-08 02:43:13,990 127.0.0.1 - - [08/Nov/2024 02:43:13] "[33mGET /static/js/static/icons/icon-128x128.png HTTP/1.1[0m" 404 -
+2024-11-08 02:43:13,991 127.0.0.1 - - [08/Nov/2024 02:43:13] "[33mGET /static/js/static/icons/icon-512x512.png HTTP/1.1[0m" 404 -
+2024-11-08 02:43:13,992 127.0.0.1 - - [08/Nov/2024 02:43:13] "[33mGET /static/js/static/icons/icon-384x384.png HTTP/1.1[0m" 404 -
+2024-11-08 02:43:13,993 Starting new HTTP connection (1): 127.0.0.1:3000
+2024-11-08 02:43:13,994 127.0.0.1 - - [08/Nov/2024 02:43:13] "[33mGET /static/js/static/icons/desktop_screenshot.png HTTP/1.1[0m" 404 -
+2024-11-08 02:43:13,994 127.0.0.1 - - [08/Nov/2024 02:43:13] "[33mGET /static/js/static/js/app.js HTTP/1.1[0m" 404 -
+2024-11-08 02:43:13,995 127.0.0.1 - - [08/Nov/2024 02:43:13] "[33mGET /static/js/static/images/favicon.jpg HTTP/1.1[0m" 404 -
+2024-11-08 02:43:13,997 127.0.0.1 - - [08/Nov/2024 02:43:13] "[33mGET /static/js/static/icons/mobile_screenshot.png HTTP/1.1[0m" 404 -
+2024-11-08 02:43:13,997 127.0.0.1 - - [08/Nov/2024 02:43:13] "[33mGET /static/js/static/icons/icon-192x192.png HTTP/1.1[0m" 404 -
+2024-11-08 02:43:14,001 http://127.0.0.1:3000 "GET / HTTP/11" 200 5177
+2024-11-08 02:43:14,002 127.0.0.1 - - [08/Nov/2024 02:43:14] "GET / HTTP/1.1" 200 -
+2024-11-08 02:43:16,760 127.0.0.1 - - [08/Nov/2024 02:43:16] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2024-11-08 02:43:16,769 127.0.0.1 - - [08/Nov/2024 02:43:16] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2024-11-08 02:43:16,774 127.0.0.1 - - [08/Nov/2024 02:43:16] "GET /static/manifest.json HTTP/1.1" 200 -
+2024-11-08 02:43:17,123 {"csp-report":{"document-uri":"https://psychic-space-computing-machine-v9rwv999rpr2wq69-5000.app.github.dev/","referrer":"","violated-directive":"img-src","effective-directive":"img-src","original-policy":"script-src 'self'; img-src *; child-src 'self'; default-src 'self'; style-src 'self'; media-src 'self'; object-src 'self'; connect-src 'self'; base-uri self; report-uri /csp_report; font-src self; worker-src 'self'; frame-ancestors 'none'; form-action 'self'; frame-src 'none'","disposition":"enforce","blocked-uri":"data","status-code":200,"script-sample":""}}
+2024-11-08 02:43:17,123 127.0.0.1 - - [08/Nov/2024 02:43:17] "POST /csp_report HTTP/1.1" 200 -
+2024-11-08 02:43:17,990 127.0.0.1 - - [08/Nov/2024 02:43:17] "[33mGET /static/js/bootstrap.bundle.min.js.map HTTP/1.1[0m" 404 -
+2024-11-08 02:43:19,432 127.0.0.1 - - [08/Nov/2024 02:43:19] "[33mGET /static/css/bootstrap.min.css.map HTTP/1.1[0m" 404 -
+2024-11-08 02:43:19,556 127.0.0.1 - - [08/Nov/2024 02:43:19] "[33mGET /static/css/bootstrap.min.css.map HTTP/1.1[0m" 404 -
+2024-11-08 02:43:19,973 127.0.0.1 - - [08/Nov/2024 02:43:19] "[33mGET /static/js/bootstrap.bundle.min.js.map HTTP/1.1[0m" 404 -
+2024-11-08 02:43:19,988 Starting new HTTP connection (1): 127.0.0.1:3000
+2024-11-08 02:43:19,990 http://127.0.0.1:3000 "GET / HTTP/11" 200 5177
+2024-11-08 02:43:19,991 127.0.0.1 - - [08/Nov/2024 02:43:19] "GET / HTTP/1.1" 200 -
+2024-11-08 02:43:20,017 127.0.0.1 - - [08/Nov/2024 02:43:20] "GET /static/css/style.css HTTP/1.1" 200 -
+2024-11-08 02:43:20,018 127.0.0.1 - - [08/Nov/2024 02:43:20] "GET /static/css/bootstrap.min.css HTTP/1.1" 200 -
+2024-11-08 02:43:20,021 127.0.0.1 - - [08/Nov/2024 02:43:20] "GET /static/images/logo.png HTTP/1.1" 200 -
+2024-11-08 02:43:20,022 127.0.0.1 - - [08/Nov/2024 02:43:20] "GET /static/js/bootstrap.bundle.min.js HTTP/1.1" 200 -
+2024-11-08 02:43:20,054 {"csp-report":{"document-uri":"https://psychic-space-computing-machine-v9rwv999rpr2wq69-5000.app.github.dev/","referrer":"","violated-directive":"img-src","effective-directive":"img-src","original-policy":"script-src 'self'; img-src *; child-src 'self'; default-src 'self'; style-src 'self'; media-src 'self'; object-src 'self'; connect-src 'self'; base-uri self; report-uri /csp_report; font-src self; worker-src 'self'; frame-ancestors 'none'; form-action 'self'; frame-src 'none'","disposition":"enforce","blocked-uri":"data","status-code":200,"script-sample":""}}
+2024-11-08 02:43:20,054 127.0.0.1 - - [08/Nov/2024 02:43:20] "POST /csp_report HTTP/1.1" 200 -
+2024-11-08 02:43:20,064 127.0.0.1 - - [08/Nov/2024 02:43:20] "GET /static/js/serviceWorker.js HTTP/1.1" 200 -
+2024-11-08 02:43:20,082 127.0.0.1 - - [08/Nov/2024 02:43:20] "[33mGET /static/css/bootstrap.min.css.map HTTP/1.1[0m" 404 -
+2024-11-08 02:43:20,086 127.0.0.1 - - [08/Nov/2024 02:43:20] "[33mGET /static/js/bootstrap.bundle.min.js.map HTTP/1.1[0m" 404 -
+2024-11-08 02:43:20,119 127.0.0.1 - - [08/Nov/2024 02:43:20] "GET /static/js/app.js HTTP/1.1" 200 -
+2024-11-08 02:43:20,140 127.0.0.1 - - [08/Nov/2024 02:43:20] "GET /static/images/favicon.png HTTP/1.1" 200 -
+2024-11-08 02:43:27,204 127.0.0.1 - - [08/Nov/2024 02:43:27] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2024-11-08 02:43:27,205 127.0.0.1 - - [08/Nov/2024 02:43:27] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2024-11-08 02:43:27,222 127.0.0.1 - - [08/Nov/2024 02:43:27] "GET /static/manifest.json HTTP/1.1" 200 -
+2024-11-08 02:43:27,248 127.0.0.1 - - [08/Nov/2024 02:43:27] "[33mGET /static/css/bootstrap.min.css.map HTTP/1.1[0m" 404 -
+2024-11-08 02:43:28,606 Starting new HTTP connection (1): 127.0.0.1:3000
+2024-11-08 02:43:28,608 http://127.0.0.1:3000 "GET / HTTP/11" 200 5177
+2024-11-08 02:43:28,609 127.0.0.1 - - [08/Nov/2024 02:43:28] "GET / HTTP/1.1" 200 -
+2024-11-08 02:43:28,637 127.0.0.1 - - [08/Nov/2024 02:43:28] "GET /static/css/style.css HTTP/1.1" 200 -
+2024-11-08 02:43:28,639 127.0.0.1 - - [08/Nov/2024 02:43:28] "GET /static/css/bootstrap.min.css HTTP/1.1" 200 -
+2024-11-08 02:43:28,640 127.0.0.1 - - [08/Nov/2024 02:43:28] "GET /static/images/logo.png HTTP/1.1" 200 -
+2024-11-08 02:43:28,641 127.0.0.1 - - [08/Nov/2024 02:43:28] "GET /static/js/bootstrap.bundle.min.js HTTP/1.1" 200 -
+2024-11-08 02:43:28,678 {"csp-report":{"document-uri":"https://psychic-space-computing-machine-v9rwv999rpr2wq69-5000.app.github.dev/","referrer":"","violated-directive":"img-src","effective-directive":"img-src","original-policy":"script-src 'self'; img-src *; child-src 'self'; default-src 'self'; style-src 'self'; media-src 'self'; object-src 'self'; connect-src 'self'; base-uri self; report-uri /csp_report; font-src self; worker-src 'self'; frame-ancestors 'none'; form-action 'self'; frame-src 'none'","disposition":"enforce","blocked-uri":"data","status-code":200,"script-sample":""}}
+2024-11-08 02:43:28,678 127.0.0.1 - - [08/Nov/2024 02:43:28] "POST /csp_report HTTP/1.1" 200 -
+2024-11-08 02:43:28,679 127.0.0.1 - - [08/Nov/2024 02:43:28] "[33mGET /static/css/bootstrap.min.css.map HTTP/1.1[0m" 404 -
+2024-11-08 02:43:28,702 127.0.0.1 - - [08/Nov/2024 02:43:28] "GET /static/js/serviceWorker.js HTTP/1.1" 200 -
+2024-11-08 02:43:28,722 127.0.0.1 - - [08/Nov/2024 02:43:28] "GET /static/js/app.js HTTP/1.1" 200 -
+2024-11-08 02:43:28,747 127.0.0.1 - - [08/Nov/2024 02:43:28] "GET /static/images/favicon.png HTTP/1.1" 200 -
+2024-11-08 02:43:28,748 127.0.0.1 - - [08/Nov/2024 02:43:28] "[36mGET /static/js/serviceWorker.js HTTP/1.1[0m" 304 -
+2024-11-08 02:43:28,809 127.0.0.1 - - [08/Nov/2024 02:43:28] "[33mGET /static/js/static/icons/icon-128x128.png HTTP/1.1[0m" 404 -
+2024-11-08 02:43:28,810 127.0.0.1 - - [08/Nov/2024 02:43:28] "[33mGET /static/js/static/css/style.css HTTP/1.1[0m" 404 -
+2024-11-08 02:43:28,811 127.0.0.1 - - [08/Nov/2024 02:43:28] "[33mGET /static/js/static/images/logo.png HTTP/1.1[0m" 404 -
+2024-11-08 02:43:28,812 127.0.0.1 - - [08/Nov/2024 02:43:28] "[33mGET /static/js/static/icons/icon-192x192.png HTTP/1.1[0m" 404 -
+2024-11-08 02:43:28,812 127.0.0.1 - - [08/Nov/2024 02:43:28] "[33mGET /static/js/static/css/style.css/bootstrap.min.css HTTP/1.1[0m" 404 -
+2024-11-08 02:43:28,813 127.0.0.1 - - [08/Nov/2024 02:43:28] "[33mGET /static/js/static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 404 -
+2024-11-08 02:43:28,814 127.0.0.1 - - [08/Nov/2024 02:43:28] "[33mGET /static/js/static/icons/desktop_screenshot.png HTTP/1.1[0m" 404 -
+2024-11-08 02:43:28,815 127.0.0.1 - - [08/Nov/2024 02:43:28] "[33mGET /static/js/static/js/app.js HTTP/1.1[0m" 404 -
+2024-11-08 02:43:28,824 Starting new HTTP connection (1): 127.0.0.1:3000
+2024-11-08 02:43:28,825 127.0.0.1 - - [08/Nov/2024 02:43:28] "[33mGET /static/js/static/icons/icon-512x512.png HTTP/1.1[0m" 404 -
+2024-11-08 02:43:28,825 127.0.0.1 - - [08/Nov/2024 02:43:28] "[33mGET /static/js/static/icons/icon-384x384.png HTTP/1.1[0m" 404 -
+2024-11-08 02:43:28,826 127.0.0.1 - - [08/Nov/2024 02:43:28] "[33mGET /static/js/static/images/favicon.jpg HTTP/1.1[0m" 404 -
+2024-11-08 02:43:28,827 127.0.0.1 - - [08/Nov/2024 02:43:28] "[33mGET /static/js/static/icons/mobile_screenshot.png HTTP/1.1[0m" 404 -
+2024-11-08 02:43:28,831 http://127.0.0.1:3000 "GET / HTTP/11" 200 5177
+2024-11-08 02:43:28,832 127.0.0.1 - - [08/Nov/2024 02:43:28] "GET / HTTP/1.1" 200 -
+2024-11-08 02:43:31,377 127.0.0.1 - - [08/Nov/2024 02:43:31] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2024-11-08 02:43:31,516 127.0.0.1 - - [08/Nov/2024 02:43:31] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2024-11-08 02:43:31,533 127.0.0.1 - - [08/Nov/2024 02:43:31] "GET /static/manifest.json HTTP/1.1" 200 -
+2024-11-08 02:43:32,633 127.0.0.1 - - [08/Nov/2024 02:43:32] "[33mGET /static/js/bootstrap.bundle.min.js.map HTTP/1.1[0m" 404 -
+2024-11-08 02:43:34,599 127.0.0.1 - - [08/Nov/2024 02:43:34] "[33mGET /static/css/bootstrap.min.css.map HTTP/1.1[0m" 404 -
+2024-11-08 02:43:34,660 127.0.0.1 - - [08/Nov/2024 02:43:34] "[33mGET /static/css/bootstrap.min.css.map HTTP/1.1[0m" 404 -
+2024-11-08 02:43:34,972 127.0.0.1 - - [08/Nov/2024 02:43:34] "[33mGET /static/js/bootstrap.bundle.min.js.map HTTP/1.1[0m" 404 -
+2024-11-08 02:43:34,977 Starting new HTTP connection (1): 127.0.0.1:3000
+2024-11-08 02:43:34,980 http://127.0.0.1:3000 "GET / HTTP/11" 200 5177
+2024-11-08 02:43:34,981 127.0.0.1 - - [08/Nov/2024 02:43:34] "GET / HTTP/1.1" 200 -
+2024-11-08 02:43:35,019 127.0.0.1 - - [08/Nov/2024 02:43:35] "GET /static/images/logo.png HTTP/1.1" 200 -
+2024-11-08 02:43:35,019 127.0.0.1 - - [08/Nov/2024 02:43:35] "GET /static/css/bootstrap.min.css HTTP/1.1" 200 -
+2024-11-08 02:43:35,019 127.0.0.1 - - [08/Nov/2024 02:43:35] "GET /static/js/bootstrap.bundle.min.js HTTP/1.1" 200 -
+2024-11-08 02:43:35,021 127.0.0.1 - - [08/Nov/2024 02:43:35] "GET /static/css/style.css HTTP/1.1" 200 -
+2024-11-08 02:43:35,073 {"csp-report":{"document-uri":"https://psychic-space-computing-machine-v9rwv999rpr2wq69-5000.app.github.dev/","referrer":"","violated-directive":"img-src","effective-directive":"img-src","original-policy":"script-src 'self'; img-src *; child-src 'self'; default-src 'self'; style-src 'self'; media-src 'self'; object-src 'self'; connect-src 'self'; base-uri self; report-uri /csp_report; font-src self; worker-src 'self'; frame-ancestors 'none'; form-action 'self'; frame-src 'none'","disposition":"enforce","blocked-uri":"data","line-number":240,"source-file":"https://psychic-space-computing-machine-v9rwv999rpr2wq69-5000.app.github.dev/","status-code":200,"script-sample":""}}
+2024-11-08 02:43:35,073 127.0.0.1 - - [08/Nov/2024 02:43:35] "POST /csp_report HTTP/1.1" 200 -
+2024-11-08 02:43:35,076 127.0.0.1 - - [08/Nov/2024 02:43:35] "GET /static/js/serviceWorker.js HTTP/1.1" 200 -
+2024-11-08 02:43:35,082 127.0.0.1 - - [08/Nov/2024 02:43:35] "[33mGET /static/js/bootstrap.bundle.min.js.map HTTP/1.1[0m" 404 -
+2024-11-08 02:43:35,086 127.0.0.1 - - [08/Nov/2024 02:43:35] "[33mGET /static/css/bootstrap.min.css.map HTTP/1.1[0m" 404 -
+2024-11-08 02:43:35,100 127.0.0.1 - - [08/Nov/2024 02:43:35] "GET /static/js/app.js HTTP/1.1" 200 -
+2024-11-08 02:43:35,119 127.0.0.1 - - [08/Nov/2024 02:43:35] "GET /static/images/favicon.png HTTP/1.1" 200 -
+2024-11-08 02:44:50,017 127.0.0.1 - - [08/Nov/2024 02:44:50] "GET /add.html HTTP/1.1" 200 -
+2024-11-08 02:44:50,052 127.0.0.1 - - [08/Nov/2024 02:44:50] "GET /static/images/logo.png HTTP/1.1" 200 -
+2024-11-08 02:44:50,055 127.0.0.1 - - [08/Nov/2024 02:44:50] "GET /static/js/bootstrap.bundle.min.js HTTP/1.1" 200 -
+2024-11-08 02:44:50,055 127.0.0.1 - - [08/Nov/2024 02:44:50] "GET /static/css/style.css HTTP/1.1" 200 -
+2024-11-08 02:44:50,055 127.0.0.1 - - [08/Nov/2024 02:44:50] "GET /static/css/bootstrap.min.css HTTP/1.1" 200 -
+2024-11-08 02:44:50,089 127.0.0.1 - - [08/Nov/2024 02:44:50] "[33mGET /static/js/bootstrap.bundle.min.js.map HTTP/1.1[0m" 404 -
+2024-11-08 02:44:50,097 127.0.0.1 - - [08/Nov/2024 02:44:50] "[33mGET /static/css/bootstrap.min.css.map HTTP/1.1[0m" 404 -
+2024-11-08 02:44:50,101 127.0.0.1 - - [08/Nov/2024 02:44:50] "GET /static/js/serviceWorker.js HTTP/1.1" 200 -
+2024-11-08 02:44:50,118 127.0.0.1 - - [08/Nov/2024 02:44:50] "GET /static/js/app.js HTTP/1.1" 200 -
+2024-11-08 02:44:50,138 127.0.0.1 - - [08/Nov/2024 02:44:50] "GET /static/images/favicon.png HTTP/1.1" 200 -
+2024-11-08 02:45:52,560 {'name': 'Better C++ Syntax', 'hyperlink': 'https://marketplace.visualstudio.com/items?itemName=jeff-hykin.better-cpp-syntax', 'about': 'This will get you the bleeding-edge syntax highlighting for C++. Which means your theme will be able to color your code better. This used to be a fix, but then VS Code starting using it as the official source for C and C++ highlighting.', 'image': 'https://jeff-hykin.gallerycdn.vsassets.io/extensions/jeff-hykin/better-cpp-syntax/1.27.1/1720820193197/Microsoft.VisualStudio.Services.Icons.Default', 'language': 'CPP'}
+2024-11-08 02:45:52,561 Starting new HTTP connection (1): 127.0.0.1:3000
+2024-11-08 02:45:52,568 http://127.0.0.1:3000 "POST /add_extension HTTP/11" 201 48
+2024-11-08 02:45:52,569 127.0.0.1 - - [08/Nov/2024 02:45:52] "POST /add.html HTTP/1.1" 200 -
+2024-11-08 02:45:52,602 127.0.0.1 - - [08/Nov/2024 02:45:52] "GET /static/css/style.css HTTP/1.1" 200 -
+2024-11-08 02:45:52,603 127.0.0.1 - - [08/Nov/2024 02:45:52] "GET /static/css/bootstrap.min.css HTTP/1.1" 200 -
+2024-11-08 02:45:52,605 127.0.0.1 - - [08/Nov/2024 02:45:52] "GET /static/js/bootstrap.bundle.min.js HTTP/1.1" 200 -
+2024-11-08 02:45:52,606 127.0.0.1 - - [08/Nov/2024 02:45:52] "GET /static/images/logo.png HTTP/1.1" 200 -
+2024-11-08 02:45:52,643 127.0.0.1 - - [08/Nov/2024 02:45:52] "[33mGET /static/css/bootstrap.min.css.map HTTP/1.1[0m" 404 -
+2024-11-08 02:45:52,647 127.0.0.1 - - [08/Nov/2024 02:45:52] "GET /static/js/serviceWorker.js HTTP/1.1" 200 -
+2024-11-08 02:45:52,652 127.0.0.1 - - [08/Nov/2024 02:45:52] "[33mGET /static/js/bootstrap.bundle.min.js.map HTTP/1.1[0m" 404 -
+2024-11-08 02:45:52,665 127.0.0.1 - - [08/Nov/2024 02:45:52] "GET /static/js/app.js HTTP/1.1" 200 -
+2024-11-08 02:45:52,689 127.0.0.1 - - [08/Nov/2024 02:45:52] "GET /static/images/favicon.png HTTP/1.1" 200 -
+2024-11-08 02:48:55,086 {'name': 'Better C++ Syntax', 'hyperlink': 'https://marketplace.visualstudio.com/items?itemName=jeff-hykin.better-cpp-syntax', 'about': 'This will get you the bleeding-edge syntax highlighting for C++. Which means your theme will be able to color your code better. This used to be a fix, but then VS Code starting using it as the official source for C and C++ highlighting.', 'image': 'https://jeff-hykin.gallerycdn.vsassets.io/extensions/jeff-hykin/better-cpp-syntax/1.27.1/1720820193197/Microsoft.VisualStudio.Services.Icons.Default', 'language': 'CPP'}
+2024-11-08 02:48:55,087 Starting new HTTP connection (1): 127.0.0.1:3000
+2024-11-08 02:48:55,094 http://127.0.0.1:3000 "POST /add_extension HTTP/11" 201 48
+2024-11-08 02:48:55,096 127.0.0.1 - - [08/Nov/2024 02:48:55] "POST /add.html HTTP/1.1" 200 -
+2024-11-08 02:48:55,263 127.0.0.1 - - [08/Nov/2024 02:48:55] "GET /static/js/bootstrap.bundle.min.js HTTP/1.1" 200 -
+2024-11-08 02:48:55,296 127.0.0.1 - - [08/Nov/2024 02:48:55] "GET /static/css/bootstrap.min.css HTTP/1.1" 200 -
+2024-11-08 02:48:55,298 127.0.0.1 - - [08/Nov/2024 02:48:55] "GET /static/css/style.css HTTP/1.1" 200 -
+2024-11-08 02:48:55,303 127.0.0.1 - - [08/Nov/2024 02:48:55] "GET /static/images/logo.png HTTP/1.1" 200 -
+2024-11-08 02:48:55,339 127.0.0.1 - - [08/Nov/2024 02:48:55] "GET /static/js/serviceWorker.js HTTP/1.1" 200 -
+2024-11-08 02:48:55,341 127.0.0.1 - - [08/Nov/2024 02:48:55] "[33mGET /static/js/bootstrap.bundle.min.js.map HTTP/1.1[0m" 404 -
+2024-11-08 02:48:55,360 127.0.0.1 - - [08/Nov/2024 02:48:55] "GET /static/js/app.js HTTP/1.1" 200 -
+2024-11-08 02:48:55,383 127.0.0.1 - - [08/Nov/2024 02:48:55] "GET /static/images/favicon.png HTTP/1.1" 200 -
+2024-11-08 02:48:55,473 127.0.0.1 - - [08/Nov/2024 02:48:55] "[33mGET /static/css/bootstrap.min.css.map HTTP/1.1[0m" 404 -
+2024-11-08 02:50:07,016 {'name': 'Better C++ Syntax', 'hyperlink': 'https://marketplace.visualstudio.com/items?itemName=jeff-hykin.better-cpp-syntax', 'about': 'This will get you the bleeding-edge syntax highlighting for C++. Which means your theme will be able to color your code better. This used to be a fix, but then VS Code starting using it as the official source for C and C++ highlighting.', 'image': 'https://jeff-hykin.gallerycdn.vsassets.io/extensions/jeff-hykin/better-cpp-syntax/1.27.1/1720820193197/Microsoft.VisualStudio.Services.Icons.Default', 'language': 'CPP'}
+2024-11-08 02:50:07,017 Starting new HTTP connection (1): 127.0.0.1:3000
+2024-11-08 02:50:07,025 http://127.0.0.1:3000 "POST /add_extension HTTP/11" 201 48
+2024-11-08 02:50:07,027 127.0.0.1 - - [08/Nov/2024 02:50:07] "POST /add.html HTTP/1.1" 200 -
+2024-11-08 02:50:07,063 127.0.0.1 - - [08/Nov/2024 02:50:07] "GET /static/css/style.css HTTP/1.1" 200 -
+2024-11-08 02:50:07,066 127.0.0.1 - - [08/Nov/2024 02:50:07] "GET /static/js/bootstrap.bundle.min.js HTTP/1.1" 200 -
+2024-11-08 02:50:07,067 127.0.0.1 - - [08/Nov/2024 02:50:07] "GET /static/images/logo.png HTTP/1.1" 200 -
+2024-11-08 02:50:07,067 127.0.0.1 - - [08/Nov/2024 02:50:07] "GET /static/css/bootstrap.min.css HTTP/1.1" 200 -
+2024-11-08 02:50:07,112 127.0.0.1 - - [08/Nov/2024 02:50:07] "[33mGET /static/css/bootstrap.min.css.map HTTP/1.1[0m" 404 -
+2024-11-08 02:50:07,112 127.0.0.1 - - [08/Nov/2024 02:50:07] "GET /static/js/serviceWorker.js HTTP/1.1" 200 -
+2024-11-08 02:50:07,130 127.0.0.1 - - [08/Nov/2024 02:50:07] "GET /static/js/app.js HTTP/1.1" 200 -
+2024-11-08 02:50:07,153 127.0.0.1 - - [08/Nov/2024 02:50:07] "GET /static/images/favicon.png HTTP/1.1" 200 -
+2024-11-08 02:50:07,248 127.0.0.1 - - [08/Nov/2024 02:50:07] "[33mGET /static/js/bootstrap.bundle.min.js.map HTTP/1.1[0m" 404 -
+2024-11-08 02:50:11,989 {'name': 'Better C++ Syntax', 'hyperlink': 'https://marketplace.visualstudio.com/items?itemName=jeff-hykin.better-cpp-syntax', 'about': 'This will get you the bleeding-edge syntax highlighting for C++. Which means your theme will be able to color your code better. This used to be a fix, but then VS Code starting using it as the official source for C and C++ highlighting.', 'image': 'https://jeff-hykin.gallerycdn.vsassets.io/extensions/jeff-hykin/better-cpp-syntax/1.27.1/1720820193197/Microsoft.VisualStudio.Services.Icons.Default', 'language': 'CPP'}
+2024-11-08 02:50:11,990 Starting new HTTP connection (1): 127.0.0.1:3000
+2024-11-08 02:50:11,998 http://127.0.0.1:3000 "POST /add_extension HTTP/11" 201 48
+2024-11-08 02:50:11,998 127.0.0.1 - - [08/Nov/2024 02:50:11] "POST /add.html HTTP/1.1" 200 -
+2024-11-08 02:50:12,029 127.0.0.1 - - [08/Nov/2024 02:50:12] "GET /static/css/style.css HTTP/1.1" 200 -
+2024-11-08 02:50:12,031 127.0.0.1 - - [08/Nov/2024 02:50:12] "GET /static/css/bootstrap.min.css HTTP/1.1" 200 -
+2024-11-08 02:50:12,031 127.0.0.1 - - [08/Nov/2024 02:50:12] "GET /static/images/logo.png HTTP/1.1" 200 -
+2024-11-08 02:50:12,033 127.0.0.1 - - [08/Nov/2024 02:50:12] "GET /static/js/bootstrap.bundle.min.js HTTP/1.1" 200 -
+2024-11-08 02:50:12,067 127.0.0.1 - - [08/Nov/2024 02:50:12] "[33mGET /static/css/bootstrap.min.css.map HTTP/1.1[0m" 404 -
+2024-11-08 02:50:12,072 127.0.0.1 - - [08/Nov/2024 02:50:12] "GET /static/js/serviceWorker.js HTTP/1.1" 200 -
+2024-11-08 02:50:12,073 127.0.0.1 - - [08/Nov/2024 02:50:12] "[33mGET /static/js/bootstrap.bundle.min.js.map HTTP/1.1[0m" 404 -
+2024-11-08 02:50:12,089 127.0.0.1 - - [08/Nov/2024 02:50:12] "GET /static/js/app.js HTTP/1.1" 200 -
+2024-11-08 02:50:12,115 127.0.0.1 - - [08/Nov/2024 02:50:12] "GET /static/images/favicon.png HTTP/1.1" 200 -
+2024-11-08 02:50:12,890 {'name': 'Better C++ Syntax', 'hyperlink': 'https://marketplace.visualstudio.com/items?itemName=jeff-hykin.better-cpp-syntax', 'about': 'This will get you the bleeding-edge syntax highlighting for C++. Which means your theme will be able to color your code better. This used to be a fix, but then VS Code starting using it as the official source for C and C++ highlighting.', 'image': 'https://jeff-hykin.gallerycdn.vsassets.io/extensions/jeff-hykin/better-cpp-syntax/1.27.1/1720820193197/Microsoft.VisualStudio.Services.Icons.Default', 'language': 'CPP'}
+2024-11-08 02:50:12,891 Starting new HTTP connection (1): 127.0.0.1:3000
+2024-11-08 02:50:12,893 http://127.0.0.1:3000 "POST /add_extension HTTP/11" 429 117
+2024-11-08 02:50:12,894 127.0.0.1 - - [08/Nov/2024 02:50:12] "POST /add.html HTTP/1.1" 200 -
+2024-11-08 02:50:12,925 127.0.0.1 - - [08/Nov/2024 02:50:12] "GET /static/images/logo.png HTTP/1.1" 200 -
+2024-11-08 02:50:12,925 127.0.0.1 - - [08/Nov/2024 02:50:12] "GET /static/css/style.css HTTP/1.1" 200 -
+2024-11-08 02:50:12,927 127.0.0.1 - - [08/Nov/2024 02:50:12] "GET /static/js/bootstrap.bundle.min.js HTTP/1.1" 200 -
+2024-11-08 02:50:12,927 127.0.0.1 - - [08/Nov/2024 02:50:12] "GET /static/css/bootstrap.min.css HTTP/1.1" 200 -
+2024-11-08 02:50:12,957 127.0.0.1 - - [08/Nov/2024 02:50:12] "[33mGET /static/js/bootstrap.bundle.min.js.map HTTP/1.1[0m" 404 -
+2024-11-08 02:50:12,965 127.0.0.1 - - [08/Nov/2024 02:50:12] "[33mGET /static/css/bootstrap.min.css.map HTTP/1.1[0m" 404 -
+2024-11-08 02:50:12,966 127.0.0.1 - - [08/Nov/2024 02:50:12] "GET /static/js/serviceWorker.js HTTP/1.1" 200 -
+2024-11-08 02:50:12,988 127.0.0.1 - - [08/Nov/2024 02:50:12] "GET /static/js/app.js HTTP/1.1" 200 -
+2024-11-08 02:50:13,013 127.0.0.1 - - [08/Nov/2024 02:50:13] "GET /static/images/favicon.png HTTP/1.1" 200 -
+2024-11-08 02:50:18,599 127.0.0.1 - - [08/Nov/2024 02:50:18] "GET /add.html HTTP/1.1" 200 -
+2024-11-08 02:50:18,632 127.0.0.1 - - [08/Nov/2024 02:50:18] "GET /static/css/style.css HTTP/1.1" 200 -
+2024-11-08 02:50:18,634 127.0.0.1 - - [08/Nov/2024 02:50:18] "GET /static/images/logo.png HTTP/1.1" 200 -
+2024-11-08 02:50:18,634 127.0.0.1 - - [08/Nov/2024 02:50:18] "GET /static/js/bootstrap.bundle.min.js HTTP/1.1" 200 -
+2024-11-08 02:50:18,635 127.0.0.1 - - [08/Nov/2024 02:50:18] "GET /static/css/bootstrap.min.css HTTP/1.1" 200 -
+2024-11-08 02:50:18,672 127.0.0.1 - - [08/Nov/2024 02:50:18] "GET /static/js/serviceWorker.js HTTP/1.1" 200 -
+2024-11-08 02:50:18,691 127.0.0.1 - - [08/Nov/2024 02:50:18] "GET /static/js/app.js HTTP/1.1" 200 -
+2024-11-08 02:50:18,712 127.0.0.1 - - [08/Nov/2024 02:50:18] "GET /static/images/favicon.png HTTP/1.1" 200 -
+2024-11-08 02:50:18,716 127.0.0.1 - - [08/Nov/2024 02:50:18] "[36mGET /static/js/serviceWorker.js HTTP/1.1[0m" 304 -
+2024-11-08 02:50:18,741 Starting new HTTP connection (1): 127.0.0.1:3000
+2024-11-08 02:50:18,744 http://127.0.0.1:3000 "GET / HTTP/11" 200 7577
+2024-11-08 02:50:18,745 127.0.0.1 - - [08/Nov/2024 02:50:18] "GET / HTTP/1.1" 200 -
+2024-11-08 02:50:18,756 127.0.0.1 - - [08/Nov/2024 02:50:18] "[33mGET /static/js/static/css/style.css/bootstrap.min.css HTTP/1.1[0m" 404 -
+2024-11-08 02:50:18,774 127.0.0.1 - - [08/Nov/2024 02:50:18] "[33mGET /static/js/static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 404 -
+2024-11-08 02:50:18,780 127.0.0.1 - - [08/Nov/2024 02:50:18] "[33mGET /static/js/static/js/app.js HTTP/1.1[0m" 404 -
+2024-11-08 02:50:18,784 127.0.0.1 - - [08/Nov/2024 02:50:18] "[33mGET /static/js/static/icons/icon-192x192.png HTTP/1.1[0m" 404 -
+2024-11-08 02:50:18,790 127.0.0.1 - - [08/Nov/2024 02:50:18] "[33mGET /static/js/static/css/style.css HTTP/1.1[0m" 404 -
+2024-11-08 02:50:18,790 127.0.0.1 - - [08/Nov/2024 02:50:18] "[33mGET /static/js/static/images/logo.png HTTP/1.1[0m" 404 -
+2024-11-08 02:50:18,795 127.0.0.1 - - [08/Nov/2024 02:50:18] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2024-11-08 02:50:18,806 127.0.0.1 - - [08/Nov/2024 02:50:18] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2024-11-08 02:50:18,981 127.0.0.1 - - [08/Nov/2024 02:50:18] "GET /static/manifest.json HTTP/1.1" 200 -
+2024-11-08 02:50:19,014 127.0.0.1 - - [08/Nov/2024 02:50:19] "[33mGET /static/css/bootstrap.min.css.map HTTP/1.1[0m" 404 -
+2024-11-08 02:50:22,100 127.0.0.1 - - [08/Nov/2024 02:50:22] "[33mGET /static/js/bootstrap.bundle.min.js.map HTTP/1.1[0m" 404 -
+2024-11-08 02:50:23,505 127.0.0.1 - - [08/Nov/2024 02:50:23] "[33mGET /static/css/bootstrap.min.css.map HTTP/1.1[0m" 404 -
+2024-11-08 02:50:23,604 127.0.0.1 - - [08/Nov/2024 02:50:23] "[33mGET /static/css/bootstrap.min.css.map HTTP/1.1[0m" 404 -
+2024-11-08 02:50:24,123 127.0.0.1 - - [08/Nov/2024 02:50:24] "[33mGET /static/js/bootstrap.bundle.min.js.map HTTP/1.1[0m" 404 -
+2024-11-08 02:50:24,140 127.0.0.1 - - [08/Nov/2024 02:50:24] "GET /add.html HTTP/1.1" 200 -
+2024-11-08 02:50:24,170 127.0.0.1 - - [08/Nov/2024 02:50:24] "GET /static/js/bootstrap.bundle.min.js HTTP/1.1" 200 -
+2024-11-08 02:50:24,170 127.0.0.1 - - [08/Nov/2024 02:50:24] "GET /static/css/bootstrap.min.css HTTP/1.1" 200 -
+2024-11-08 02:50:24,171 127.0.0.1 - - [08/Nov/2024 02:50:24] "GET /static/images/logo.png HTTP/1.1" 200 -
+2024-11-08 02:50:24,176 127.0.0.1 - - [08/Nov/2024 02:50:24] "GET /static/css/style.css HTTP/1.1" 200 -
+2024-11-08 02:50:24,219 127.0.0.1 - - [08/Nov/2024 02:50:24] "[33mGET /static/css/bootstrap.min.css.map HTTP/1.1[0m" 404 -
+2024-11-08 02:50:24,219 127.0.0.1 - - [08/Nov/2024 02:50:24] "GET /static/js/serviceWorker.js HTTP/1.1" 200 -
+2024-11-08 02:50:24,226 127.0.0.1 - - [08/Nov/2024 02:50:24] "[33mGET /static/js/bootstrap.bundle.min.js.map HTTP/1.1[0m" 404 -
+2024-11-08 02:50:24,239 127.0.0.1 - - [08/Nov/2024 02:50:24] "GET /static/js/app.js HTTP/1.1" 200 -
+2024-11-08 02:50:24,260 127.0.0.1 - - [08/Nov/2024 02:50:24] "GET /static/images/favicon.png HTTP/1.1" 200 -
+2024-11-08 02:53:03,014  * Detected change in '/workspaces/2025SE-FlaskAPI/api.py', reloading
+2024-11-08 02:53:03,055  * Restarting with stat
+2024-11-08 02:53:03,284  * Debugger is active!
+2024-11-08 02:53:03,284  * Debugger PIN: 218-689-403
